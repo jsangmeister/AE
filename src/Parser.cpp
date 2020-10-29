@@ -30,7 +30,8 @@ Parser::Parser(std::string filename) : elements() {
                 throw std::runtime_error("ERROR: Invalid entry on line " + std::to_string(line_number));
             }
 
-            LabelElement element = {x, y, width, height, label, has_solution, label_x, label_y};
+            LabelElement element = {x, y, width, height, label, has_solution, label_x, label_y, 
+            label_x + width, label_y - height};
             elements.push_back(element);
         }
     }

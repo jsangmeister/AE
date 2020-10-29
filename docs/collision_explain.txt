@@ -1,0 +1,26 @@
+So, why does the math in collision work?
+
+First, let's look how a collision can appear in just one dimension.
+We define two intervals, a and b, with coordinates a1, a2 and b1, b2, it is always a1<=a2 and b1<=b2.
+
+Now consider each possible case:
+
+Case    Relation        (a1-b2)(a2-b1)  result  Should be a collision
+1       a1<=b1<a2<=b2   (-)*(+)         (-)     Yes
+2       b1<=a1<b2<=a2   (+)*(-)         (-)     Yes
+3       a1<=a2<b1<=b2   (-)*(-)         (+)     No
+4       b1<=b2<a1<=a2   (+)*(+)         (+)     No
+5       a1<=a2=b1<=b2   (-|0)*(0)       (0)     No
+6       b1<=b2=a1<=a2   (0)*(+|0)       (0)     No
+7       a1<=b1<b2<=a2   (-)*(+)         (-)     Yes
+8       b1<=a1<a2<=b2   (-)*(+)         (-)     Yes
+9       a1<b1=b2<a2     (-)*(+)         (-)     Yes
+10      b1<a1=a2<b2     (-)*(+)         (-)     Yes
+11      a1=b1=b2<a2     (0)*(+)         (0)     No
+12      b1=a1=a2<b2     (-)*(0)         (0)     No
+13      a1<b1=b2=a2     (-)*(0)         (0)     No
+14      b1<a1=a2=b2     (0)*(+)         (0)     No
+15      a1=a2=b1=b2     (0)*(0)         (0)     No
+
+So for one dimension (a1-b2)(a2-b1)<0 indicates a collision. (If we would want to rule out "touching" labels we could just make >= .)
+If two labels overlap, they overlap in both dimensions, so the formula for collision simply checks both.

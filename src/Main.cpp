@@ -2,6 +2,7 @@
 #include <iostream>
 
 #include "Parser.hpp"
+#include "Solver.hpp"
 
 using namespace labeler;
 
