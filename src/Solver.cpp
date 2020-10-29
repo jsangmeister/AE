@@ -1,29 +1,53 @@
 #include "Solver.hpp"
+#include <iostream>
 
 namespace labeler
 {
-    inline bool collision(LabelElement* l1, LabelElement* l2)
+
+int simple_eval(std::vector<LabelElement>* elements, bool print_col)
+{
+    int labels_set = 0;
+    int collisions = 0;
+    for(auto i=(*elements).begin(); i!=(*elements).end(); ++i)
     {
-        // both labels must be active
-        if (!(l1->has_solution && l2->has_solution)) return false;
-
-        // This statement is explained in docs/collision_explain.txt
-        return ((l1->label_x1-l2->label_x2)*(l1->label_x2-l2->label_x1) < 0)
-            && ((l1->label_y1-l2->label_y2)*(l1->label_y2-l2->label_y1) < 0);
+        if (!i->has_solution) continue;
+        ++labels_set;
+        for(auto j=i+1; j!=(*elements).end(); ++j)
+        {
+            if (j->has_solution && collision(&*i, &*j)) {
+                --collisions;
+                if(print_col) std::cout << "Collision between " << i->label << " and " 
+                << j->label << std::endl;
+            }        
+        }
     }
+    return collisions !=0 ? collisions :labels_set;
+}
 
-    // evals in O(n^2)
-    int simple_eval(std::vector<LabelElement> elements)
+int simple_solution(std::vector<LabelElement>* elements)
+{
+    for(auto i=(*elements).begin(); i!=(*elements).end(); ++i)
     {
-        bool has_errors = false;
-        int labels_set = 0;
+        i->has_solution=true;
+        i->label_x1 = i->x;
+        i->label_y1 = i->y + i->height;
+        i->label_x2 = i->x + i->width;
+        i->label_y2 = i->y;
     }
+    auto labels_set = (*elements).size();
 
-    // Generates a very simple Solution by just setting every label to the right top
-    // of it's point, then deactivates every colliding label. The lower element in the 
-    // vector always prevails. Might generate very bad (but always valid) solutions.
-    int simple_solution(std::vector<LabelElement> elements)
+    for(auto i=(*elements).begin(); i!=(*elements).end(); ++i)
     {
-
+        if (!i->has_solution) continue;
+        for(auto j=i+1; j!=(*elements).end(); ++j)
+        {
+            if (j->has_solution && collision(&*i, &*j)) {
+                j->has_solution = false;
+                --labels_set;
+            }
+        }
     }
+    return labels_set;
+}
+
 }

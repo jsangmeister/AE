@@ -1,5 +1,6 @@
 #include "Parser.hpp"
 
+#include <iostream>
 #include <sstream>
 #include <string>
 #include <fstream>
@@ -24,7 +25,8 @@ Parser::Parser(std::string filename) : elements() {
             if (line_number - 1 > count) {
                 throw std::runtime_error("ERROR: More entries than stated in first line.");
             }
-            int x, y, width, height, has_solution, label_x, label_y;
+            int x, y, width, height, label_x, label_y;
+            bool has_solution;
             std::string label;
             if (!(iss >> x >> y >> width >> height >> label >> has_solution >> label_x >> label_y)) {
                 throw std::runtime_error("ERROR: Invalid entry on line " + std::to_string(line_number));
@@ -38,6 +40,27 @@ Parser::Parser(std::string filename) : elements() {
     if (line_number - 1 < count) {
         throw std::runtime_error("ERROR: Less entries than stated in first line.");
     }
+}
+
+void Parser::write(std::string file)
+{
+    std::ofstream os;
+    os.open(file);
+    os << elements.size();
+    for(auto e : elements)
+    {
+        os << "\n" << e.toString();
+    }
+    os.close();
+}
+
+//Maybe just overload <<?
+std::string LabelElement::toString(){
+    auto w = " ";
+    std::stringstream out;
+    out << x << w << y << w << width << w << height << w << label << w
+    << has_solution << w << label_x1 << w << label_y1;
+    return out.str();
 }
 
 }

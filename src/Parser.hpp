@@ -24,6 +24,8 @@ struct LabelElement
     */
     int label_x2;
     int label_y2;
+
+    std::string toString();
 };
 
 class Parser
@@ -34,8 +36,15 @@ public:
     int count;
 
     std::vector<LabelElement> elements;
+
+    void write(std::string file);
 };
 
+//checks, if the label aligns with its node
+inline bool aligned(LabelElement* l)
+{
+    return !((l->x!=l->label_x1 && l->x!=l->label_x2) || (l->y!=l->label_y1 && l->y!=l->label_y2));
 }
 
+}
 #endif

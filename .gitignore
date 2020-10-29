@@ -1,3 +1,4 @@
 labeler.o
 labeler
 src/*.o
+.vscode
