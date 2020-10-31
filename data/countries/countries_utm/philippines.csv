@@ -1,0 +1,156 @@
+city,utm easting,utm northing,zone number,zone letter,country,iso2,admin,capital,population,population_proper
+Barilan,284584.59801127145,1618718.096444486,51,P,Philippines,PH,Quezon,,11100000,3077575
+Quezon City,290083.555980079,1620385.516864022,51,P,Philippines,PH,Quezon,admin,2761720,2761720
+Davao,788636.5713538494,782635.7571897621,51,N,Philippines,PH,Davao,admin,1402000,1212504
+Cagayan de Oro,680868.6939705354,937868.6033038589,51,P,Philippines,PH,Cagayan de Oro,admin,1121561,602088
+General Santos,740343.9317855155,676156.5207420398,51,N,Philippines,PH,General Santos,admin,950530,538086
+Bacolod,494892.68308144895,1179237.6493468904,51,P,Philippines,PH,Bacolod,admin,949354,511820
+Cebu City,597632.0237684272,1139946.3324112478,51,P,Philippines,PH,Cebu,admin,815000,798634
+Zamboanga City,397446.1181291363,763927.8462984855,51,N,Philippines,PH,Zamboanga,admin,773000,457623
+Dinaga,518025.42746681353,1509024.784390735,51,P,Philippines,PH,Camarines Sur,,741635,174931
+Iligan,636150.9049062447,910027.2222784323,51,P,Philippines,PH,Iligan,admin,464599,464599
+Baguio City,242734.5230536597,1816608.845878042,51,Q,Philippines,PH,Baguio,admin,447824,272714
+Bulagang,283306.102393668,1527849.8203290722,51,P,Philippines,PH,Batangas,,424508,237370
+Pasay City,284048.44778186345,1609016.0866795995,51,P,Philippines,PH,Pasay,admin,403064,403064
+Bulilao,452613.3905949994,1182841.8879389677,51,P,Philippines,PH,Iloilo,,387681,387681
+Legazpi City,579694.3959369033,1452590.3597736221,51,P,Philippines,PH,Albay,admin,320081,320081
+Angeles City,240895.62043798182,1676004.9111267459,51,P,Philippines,PH,Angeles,admin,314493,314493
+Olongapo,207816.9012944845,1642282.423851376,51,P,Philippines,PH,Olongapo,admin,304388,227270
+Cadiz,531468.0103681453,1210078.9419845808,51,P,Philippines,PH,Negros Occidental,,283157,129053
+Tacloban,718863.4871583286,1243631.8653238707,51,P,Philippines,PH,Tacloban,admin,280006,189090
+Cotabato,637608.9514429404,798656.6309644119,51,N,Philippines,PH,Cotabato,admin,279519,179433
+San Ignacio,321245.90326254896,1553484.7969878498,51,P,Philippines,PH,Laguna,,240830,207577
+Cabanatuan City,281842.8987837966,1713099.7286166332,51,P,Philippines,PH,Nueva Ecija,,220250,220250
+Lagui,249627.30034424935,2013851.5773025642,51,Q,Philippines,PH,Ilocos Norte,,207048,102105
+Butuan,779705.3790154892,990198.5156054732,51,P,Philippines,PH,Butuan,admin,190557,190557
+Tarlac City,242280.71296453467,1712878.4545463643,51,P,Philippines,PH,Tarlac,admin,183930,183930
+Dagupan City,215344.73498670053,1775574.4092535602,51,Q,Philippines,PH,Dagupan,admin,163676,163676
+Pagadian,548177.7301337443,865053.8137981377,51,N,Philippines,PH,Zamboanga del Sur,admin,159590,159590
+Puerto Princesa,690356.0042226572,1077061.839339158,50,P,Philippines,PH,Puerto Princesa,admin,157144,138620
+Tuguegarao,364498.4380817119,1948133.9736855542,51,Q,Philippines,PH,Cagayan,admin,115105,115105
+Roxas City,472865.3792306696,1280706.9959231121,51,P,Philippines,PH,Capiz,admin,102688,81073
+Misamis,593358.39028832,903005.5086481872,51,P,Philippines,PH,Misamis Occidental,,97806,93082
+Surigao,773697.414514771,1083097.399795517,51,P,Philippines,PH,Surigao del Norte,admin,87832,42134
+Cagbanayacao,672337.8716941894,1334423.4475270468,51,P,Philippines,PH,Samar,,67921,42109
+Vigan,222532.48614597268,1944685.929344514,51,Q,Philippines,PH,Ilocos Sur,admin,48545,48545
+Tagum,810112.4996544876,824204.1966447649,51,N,Philippines,PH,Davao del Norte,admin,6726,6726
+San Carlos,545993.5814577272,1158956.7207884204,51,P,Philippines,PH,Negros Occidental,,6353,6353
+Gingoog,730946.5321820898,976461.5253778567,51,P,Philippines,PH,Misamis Oriental,,218,218
+Mamburao,239473.0958687818,1463080.6088321544,51,P,Philippines,PH,Occidental Mindoro,admin,,
+Roseller Lim,441229.94386624516,846310.8099499014,51,N,Philippines,PH,Zamboanga Sibugay,minor,,
+Agdangan,382551.46770019806,1534401.5721574489,51,P,Philippines,PH,Quezon,minor,,
+Bongao,807510.7010597676,556541.1121864422,50,N,Philippines,PH,Tawi-Tawi,admin,,
+San Jose,781410.4312487498,1126429.3381063584,51,P,Philippines,PH,Dinagat Islands,admin,,
+Alabel,753504.9369358012,674995.7231806355,51,N,Philippines,PH,Sarangani,admin,,
+Siquijor,556572.7394443619,1018574.3835726917,51,P,Philippines,PH,Siquijor,admin,,
+Marikina City,296637.2795225787,1619508.8858444947,51,P,Philippines,PH,Marikina,admin,,
+Antipolo,303474.990217483,1613612.3786425486,51,P,Philippines,PH,Rizal,admin,,
+Naga City,519913.09815427713,1506062.273312776,51,P,Philippines,PH,Naga,admin,,
+Bontoc,284837.4536537469,1890616.3128989781,51,Q,Philippines,PH,Mountain,admin,,
+Argao,565858.2314571767,1092363.4839376942,51,P,Philippines,PH,Cebu,minor,,
+Sikatuna,606738.8324861599,1071334.4613948823,51,P,Philippines,PH,Bohol,minor,,
+Candelaria,329664.7714406325,1540671.89553259,51,P,Philippines,PH,Quezon,minor,,
+Lapu-Lapu City,603959.0503348038,1139872.4156144415,51,P,Philippines,PH,Lapu-Lapu,admin,,
+Hinatuan,206506.9060008097,926076.7027940588,52,P,Philippines,PH,Surigao del Sur,minor,,
+Iloilo,452369.8158556231,1182504.3242850583,51,P,Philippines,PH,Iloilo,admin,,
+Virac,633873.531915111,1502147.6158569222,51,P,Philippines,PH,Catanduanes,admin,,
+Dauis,595001.5446029791,1064102.395085334,51,P,Philippines,PH,Bohol,minor,,
+Baler,345809.80865698576,1742792.5953830767,51,P,Philippines,PH,Aurora,admin,,
+Ipil,454365.74696663895,860490.250081875,51,N,Philippines,PH,Zamboanga Sibugay,admin,,
+Kalibo,430778.0136544399,1294409.396846254,51,P,Philippines,PH,Aklan,admin,,
+Tiaong,318654.97756048106,1544367.541536156,51,P,Philippines,PH,Quezon,minor,,
+Mandaue City,603310.1439152166,1141350.6201409514,51,P,Philippines,PH,Mandaue,admin,,
+Bayombong,302485.23730769765,1823069.258034269,51,Q,Philippines,PH,Nueva Vizcaya,admin,,
+Navotas,280189.15279592306,1620348.284547095,51,P,Philippines,PH,Navotas,admin,,
+Monkayo,174898.4658331031,865203.354092614,52,N,Philippines,PH,Compostela Valley,minor,,
+Catarman,677966.0787414553,1382272.5754361213,51,P,Philippines,PH,Northern Samar,admin,,
+Batangas,290070.5162429432,1521664.8859699857,51,P,Philippines,PH,Batangas,admin,,
+Ilagan,381854.9142232073,1896324.9736388223,51,Q,Philippines,PH,Isabela,admin,,
+Cabarroguis,342171.9333338425,1826045.6267152955,51,Q,Philippines,PH,Quirino,admin,,
+Madridejos,537966.1608764332,1082341.7233655234,51,P,Philippines,PH,Cebu,minor,,
+Kabugao,307752.65919698833,1993685.8705147319,51,Q,Philippines,PH,Apayao,admin,,
+Tagbilaran City,593495.8212153118,1067447.338446578,51,P,Philippines,PH,Bohol,minor,,
+Naval,652135.3484235023,1278404.026105247,51,P,Philippines,PH,Biliran,admin,,
+Santa Cruz,314685.1069891661,1561306.4042718,51,P,Philippines,PH,Laguna,admin,,
+Digos,760565.8092687648,746711.8895151453,51,N,Philippines,PH,Davao del Sur,admin,,
+San Juan,288140.5808426729,1615001.7947004705,51,P,Philippines,PH,San Juan,admin,,
+Mandaluyong City,288943.5386319746,1613135.6755428112,51,P,Philippines,PH,Mandaluyong,admin,,
+Maasin,702123.0897411281,1120757.6927739284,51,P,Philippines,PH,Southern Leyte,admin,,
+Malaybalay,734440.6057420848,902327.6930821821,51,P,Philippines,PH,Bukidnon,admin,,
+Manila,282638.07306903106,1615514.8548683366,51,P,Philippines,PH,,primary,,
+Badian,543273.6605792097,1090969.8627822027,51,P,Philippines,PH,Cebu,minor,,
+Muntinlupa City,287210.47113591427,1594370.023392901,51,P,Philippines,PH,Muntinlupa,admin,,
+Taguig City,292271.97109207435,1607098.1122642248,51,P,Philippines,PH,Taguig,admin,,
+City of Parañaque,283454.2018780521,1603727.165205235,51,P,Philippines,PH,Parañaque,admin,,
+Daet,495175.1629904562,1560135.5860633338,51,P,Philippines,PH,Camarines Norte,admin,,
+San Fernando,214014.27149796975,1839278.9655863428,51,Q,Philippines,PH,La Union,admin,,
+Kidapawan,730827.1186493887,775183.7610258841,51,N,Philippines,PH,Cotabato,admin,,
+Bangued,246944.96893043086,1947325.566323081,51,Q,Philippines,PH,Abra,admin,,
+Padre Burgos,371615.6445304997,1539486.5532473945,51,P,Philippines,PH,Quezon,minor,,
+Padre Burgos,721309.9115287393,1110176.999720341,51,P,Philippines,PH,Southern Leyte,minor,,
+San Jose,384260.9736437949,1187983.5364115755,51,P,Philippines,PH,Antique,admin,,
+Balanga,234647.25494217395,1623949.0971913193,51,P,Philippines,PH,Bataan,admin,,
+Tabuk,317136.73701087973,1925557.2605503376,51,Q,Philippines,PH,Kalinga,admin,,
+Lucena,350129.2179743122,1540952.5332944458,51,P,Philippines,PH,Lucena,admin,,
+Tandag,192037.29311304074,1004701.0936402543,52,P,Philippines,PH,Surigao del Sur,admin,,
+Laoag,245699.29756239709,2013736.586189366,51,Q,Philippines,PH,Ilocos Norte,admin,,
+Makati City,288385.721593479,1609478.1157388545,51,P,Philippines,PH,Makati,admin,,
+Magalang,248803.03952957137,1683499.2336416754,51,P,Philippines,PH,Pampanga,minor,,
+Barobo,182880.68723840528,944789.1072760555,52,P,Philippines,PH,Surigao del Sur,minor,,
+Prosperidad,818843.011028771,949621.7609261897,51,P,Philippines,PH,Agusan del Sur,admin,,
+Dalaguete,558477.4232428789,1079125.5668118559,51,P,Philippines,PH,Cebu,minor,,
+Jordan,455848.23970994225,1178232.8845635068,51,P,Philippines,PH,Guimaras,admin,,
+Catbalogan,705523.0897328227,1302395.0384342559,51,P,Philippines,PH,Samar,admin,,
+Pili,580530.7701673344,1516629.8161846714,51,P,Philippines,PH,Camarines Sur,admin,,
+Talipao,291465.106046845,660951.6065465651,51,N,Philippines,PH,Sulu,minor,,
+Borongan,765189.2051496739,1284346.7881322757,51,P,Philippines,PH,Eastern Samar,admin,,
+Malolos,264380.7257953151,1642259.0645621323,51,P,Philippines,PH,Bulacan,admin,,
+Lagawe,299564.5784179672,1858377.4506923996,51,Q,Philippines,PH,Ifugao,admin,,
+City of Isabela,386288.71288376197,741154.3372363135,51,N,Philippines,PH,Basilan,admin,,
+Panay,477213.18071326474,1277499.5830667177,51,P,Philippines,PH,Capiz,minor,,
+Ormoc,675627.1999570297,1217156.3282316383,51,P,Philippines,PH,Ormoc,admin,,
+Malita,788903.8211255441,709815.9824124246,51,N,Philippines,PH,Davao Occidental,admin,,
+San Fernando,251041.26906142297,1663419.7776000418,51,P,Philippines,PH,Pampanga,admin,,
+Sorsogon,609033.8971337269,1434121.3243336573,51,P,Philippines,PH,Sorsogon,admin,,
+Palayan City,294596.01077363,1719139.799345136,51,P,Philippines,PH,Nueva Ecija,admin,,
+Buguey,376663.7293881638,2022468.266318796,51,Q,Philippines,PH,Cagayan,minor,,
+Oroquieta,588582.9321809302,938107.3016577878,51,P,Philippines,PH,Misamis Occidental,admin,,
+Masbate,567672.5108878643,1367403.0477892908,51,P,Philippines,PH,Masbate,admin,,
+Maribojoc,592451.3949881268,1077182.190043788,51,P,Philippines,PH,Bohol,minor,,
+Mambajao,688463.8628985048,1022989.5607780464,51,P,Philippines,PH,Camiguin,admin,,
+Shariff Aguak,659295.4568323332,759033.9718530221,51,N,Philippines,PH,Maguindanao,admin,,
+Cabadbaran,778562.5032244958,1009495.7103284112,51,P,Philippines,PH,Agusan del Norte,admin,,
+Tubod,587092.2891044028,890517.6549486367,51,P,Philippines,PH,Lanao del Norte,admin,,
+Malabon,281598.63978232956,1622706.4153482716,51,P,Philippines,PH,Malabon,admin,,
+Kabasalan,473934.7484133265,861980.2549665719,51,N,Philippines,PH,Zamboanga Sibugay,minor,,
+Isulan,677432.7987868076,733072.4649029366,51,N,Philippines,PH,Sultan Kudarat,admin,,
+San Antonio,315246.85649195843,1536946.417745469,51,P,Philippines,PH,Quezon,minor,,
+Mati,192417.75428633392,769688.4671734158,52,N,Philippines,PH,Davao Oriental,admin,,
+Trece Martires City,269965.1359132043,1580107.3758407757,51,P,Philippines,PH,Cavite,admin,,
+Boac,374428.8877768579,1486786.8277530381,51,P,Philippines,PH,Marinduque,admin,,
+Lianga,180222.7267603841,955563.4584866312,52,P,Philippines,PH,Surigao del Sur,minor,,
+Pasig City,293266.3240370629,1610570.7355228483,51,P,Philippines,PH,Pasig,admin,,
+Claveria,526654.3734471377,1426476.9524121243,51,P,Philippines,PH,Masbate,minor,,
+Santiago,345091.48993430316,1845617.0106736843,51,Q,Philippines,PH,Santiago,admin,,
+Iba,819789.3198913287,1696758.7897936983,50,P,Philippines,PH,Zambales,admin,,
+Banaybanay,170371.70830137702,770625.3608080597,52,N,Philippines,PH,Davao Oriental,minor,,
+Dipolog,537511.2940489688,949352.9375025831,51,P,Philippines,PH,Zamboanga del Norte,admin,,
+Baclayon,599947.3340107738,1064081.0503122492,51,P,Philippines,PH,Bohol,minor,,
+Calapan,302906.5197415507,1483295.2355133898,51,P,Philippines,PH,Oriental Mindoro,admin,,
+La Trinidad,242707.49217268435,1820863.1516620598,51,Q,Philippines,PH,Benguet,admin,,
+Alcantara,544145.1739747329,1102310.3038333268,51,P,Philippines,PH,Cebu,minor,,
+Dumaguete City,533758.7457088345,1028808.1727987685,51,P,Philippines,PH,Negros Oriental,admin,,
+Caloocan City,282724.3152066832,1620497.3306893976,51,P,Philippines,PH,Caloocan,admin,,
+Marawi City,641500.3132251881,884894.9415605096,51,P,Philippines,PH,Lanao del Sur,admin,,
+Nabunturan,826958.9220356154,841517.5047915529,51,N,Philippines,PH,Compostela Valley,admin,,
+Tingloy,269717.6149643973,1511235.6866151367,51,P,Philippines,PH,Batangas,minor,,
+San Juan,326318.14837770595,1529340.5357386821,51,P,Philippines,PH,Batangas,minor,,
+Valenzuela,280936.314255656,1625429.0179428966,51,P,Philippines,PH,Valenzuela,admin,,
+Koronadal,719890.5697763218,690703.6079121096,51,N,Philippines,PH,South Cotabato,admin,,
+Lingayen,203774.293224865,1773324.8448154044,51,Q,Philippines,PH,Pangasinan,admin,,
+Corella,600895.2761126406,1071226.877981288,51,P,Philippines,PH,Bohol,minor,,
+Basco,392578.6982200519,2261467.373554546,51,Q,Philippines,PH,Batanes,admin,,
+Romblon,420791.6704862721,1390261.118255433,51,P,Philippines,PH,Romblon,admin,,
+Lupon,169490.9571759302,763525.5619669517,52,N,Philippines,PH,Davao Oriental,minor,,
+Jolo,278884.0618120711,669383.8732136685,51,N,Philippines,PH,Sulu,admin,,
+Perez,384148.8130047041,1569519.6636712095,51,P,Philippines,PH,Quezon,minor,,

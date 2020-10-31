@@ -1,0 +1,1739 @@
+"city, province_name",lat,lng,population,density
+"Toronto, Ontario",43.7417,-79.3733,5429524,4334.4
+"Montréal, Quebec",45.5089,-73.5617,3519595,3889.0
+"Vancouver, British Columbia",49.2500,-123.1000,2264823,5492.6
+"Calgary, Alberta",51.0500,-114.0667,1239220,1501.1
+"Edmonton, Alberta",53.5344,-113.4903,1062643,1360.9
+"Ottawa, Ontario",45.4247,-75.6950,989567,334.0
+"Mississauga, Ontario",43.6000,-79.6500,721599,2467.6
+"Winnipeg, Manitoba",49.8844,-97.1464,705244,1430.0
+"Quebec City, Quebec",46.8139,-71.2081,705103,1173.2
+"Hamilton, Ontario",43.2567,-79.8692,693645,480.6
+"Brampton, Ontario",43.6833,-79.7667,593638,2228.7
+"Surrey, British Columbia",49.1900,-122.8489,517887,1636.8
+"Kitchener, Ontario",43.4186,-80.4728,470015,3433.5
+"Laval, Quebec",45.5833,-73.7500,422993,1710.9
+"Halifax, Nova Scotia",44.6475,-63.5906,403131,73.4
+"London, Ontario",42.9836,-81.2497,383822,913.1
+"Victoria, British Columbia",48.4283,-123.3647,335696,4406.3
+"Markham, Ontario",43.8767,-79.2633,328966,1549.2
+"St. Catharines, Ontario",43.1833,-79.2333,309319,1384.8
+"Niagara Falls, Ontario",43.0600,-79.1067,308596,419.9
+"Vaughan, Ontario",43.8333,-79.5000,306233,1119.4
+"Gatineau, Quebec",45.4833,-75.6500,276245,773.7
+"Windsor, Ontario",42.2833,-83.0000,276165,1484.3
+"Saskatoon, Saskatchewan",52.1333,-106.6833,246376,1080.0
+"Longueuil, Quebec",45.5333,-73.5167,239700,2002.0
+"Burnaby, British Columbia",49.2667,-122.9667,232755,2568.7
+"Regina, Saskatchewan",50.4547,-104.6067,215106,1195.2
+"Richmond, British Columbia",49.1667,-123.1333,198309,1534.1
+"Richmond Hill, Ontario",43.8667,-79.4333,195022,1928.8
+"Oakville, Ontario",43.4500,-79.6833,193832,1314.2
+"Burlington, Ontario",43.3167,-79.8000,183314,946.8
+"Barrie, Ontario",44.3711,-79.6769,172657,1428.0
+"Oshawa, Ontario",43.9000,-78.8500,166000,1027.0
+"Sherbrooke, Quebec",45.4000,-71.9000,161323,456.0
+"Saguenay, Quebec",48.4167,-71.0667,144746,128.5
+"Lévis, Quebec",46.8000,-71.1833,143414,319.4
+"Kelowna, British Columbia",49.8881,-119.4956,142146,601.3
+"Abbotsford, British Columbia",49.0500,-122.3167,141397,376.5
+"Coquitlam, British Columbia",49.2839,-122.7919,139284,1138.9
+"Trois-Rivières, Quebec",46.3500,-72.5500,134413,1581.2
+"Guelph, Ontario",43.5500,-80.2500,131794,1511.1
+"Cambridge, Ontario",43.3972,-80.3114,129920,1149.6
+"Whitby, Ontario",43.8833,-78.9417,128377,876.1
+"Ajax, Ontario",43.8583,-79.0364,119677,1634.2
+"Langley, British Columbia",49.1044,-122.5827,117285,380.8
+"Saanich, British Columbia",48.4840,-123.3810,114148,1099.9
+"Terrebonne, Quebec",45.7000,-73.6333,111575,687.1
+"Milton, Ontario",43.5083,-79.8833,110128,230.11
+"St. John's, Newfoundland and Labrador",47.4817,-52.7971,108860.00,244.10
+"Moncton, New Brunswick",46.1328,-64.7714,108620,506.0
+"Thunder Bay, Ontario",48.3822,-89.2461,107909,330.1
+"Dieppe, New Brunswick",46.0989,-64.7242,107068,469.6
+"Waterloo, Ontario",43.4667,-80.5167,104986,1520.7
+"Delta, British Columbia",49.0847,-123.0586,102238,567.4
+"Chatham, Ontario",42.4229,-82.1324,101647.00,41.40
+"Red Deer, Alberta",52.2681,-113.8111,100418,958.8
+"Kamloops, British Columbia",50.6761,-120.3408,100046,301.7
+"Brantford, Ontario",43.1667,-80.2500,97496,1345.9
+"Cape Breton, Nova Scotia",46.1389,-60.1931,94285,38.8
+"Lethbridge, Alberta",49.6942,-112.8328,92729,759.5
+"Saint-Jean-sur-Richelieu, Quebec",45.3167,-73.2667,92394,419.7
+"Clarington, Ontario",43.9350,-78.6083,92013,138.3
+"Pickering, Ontario",43.8354,-79.0890,91771,383.1
+"Nanaimo, British Columbia",49.1642,-123.9364,90504,918.0
+"Sudbury, Ontario",46.4900,-81.0100,88054,49.7
+"North Vancouver, British Columbia",49.3641,-123.0066,85935.00,534.60
+"Brossard, Quebec",45.4667,-73.4500,85721,1896.0
+"Repentigny, Quebec",45.7333,-73.4667,84965,1395.4
+"Newmarket, Ontario",44.0500,-79.4667,84224,2190.5
+"Chilliwack, British Columbia",49.1577,-121.9509,83788,320.2
+"White Rock, British Columbia",49.0250,-122.8028,82368,3893.1
+"Maple Ridge, British Columbia",49.2167,-122.6000,82256,308.3
+"Peterborough, Ontario",44.3000,-78.3167,82094,1261.2
+"Kawartha Lakes, Ontario",44.3500,-78.7500,75423,24.5
+"Prince George, British Columbia",53.9169,-122.7494,74003,232.5
+"Sault Ste. Marie, Ontario",46.5333,-84.3500,73368,328.6
+"Sarnia, Ontario",42.9994,-82.3089,71594,434.3
+"Wood Buffalo, Alberta",57.6042,-111.3284,71589.00,1.20
+"New Westminster, British Columbia",49.2069,-122.9111,70996,4543.4
+"Châteauguay, Quebec",45.3800,-73.7500,70812,1278.9
+"Saint-Jérôme, Quebec",45.7833,-74.0000,69598,756.3
+"Drummondville, Quebec",45.8833,-72.4833,68601,1315.4
+"Saint John, New Brunswick",45.2806,-66.0761,67575,213.8
+"Caledon, Ontario",43.8667,-79.8667,66502,96.6
+"St. Albert, Alberta",53.6303,-113.6258,65589,1353.9
+"Granby, Quebec",45.4000,-72.7333,63433,415.3
+"Medicine Hat, Alberta",50.0417,-110.6775,63260,564.6
+"Grande Prairie, Alberta",55.1708,-118.7947,63166,475.9
+"St. Thomas, Ontario",42.7750,-81.1833,61707,1067.3
+"Airdrie, Alberta",51.2917,-114.0144,61581,728.2
+"Halton Hills, Ontario",43.6300,-79.9500,61161,221.4
+"Saint-Hyacinthe, Quebec",45.6167,-72.9500,59614,294.5
+"Lac-Brome, Quebec",45.2167,-72.5167,58889,27.3
+"Port Coquitlam, British Columbia",49.2625,-122.7811,58612,2009.4
+"Fredericton, New Brunswick",45.9636,-66.6431,58220,439.2
+"Blainville, Quebec",45.6700,-73.8800,56363,1030.9
+"Aurora, Ontario",44.0000,-79.4667,55445,1112.3
+"Welland, Ontario",42.9833,-79.2333,52293,645.3
+"North Bay, Ontario",46.3000,-79.4500,51553,161.6
+"Beloeil, Quebec",45.5667,-73.2000,50796,862.8
+"Belleville, Ontario",44.1667,-77.3833,50716,205.1
+"Mirabel, Quebec",45.6500,-74.0833,50513,104.1
+"Shawinigan, Quebec",46.5667,-72.7500,50060,68.2
+"Dollard-des-Ormeaux, Quebec",45.4833,-73.8167,49637,3286.7
+"Brandon, Manitoba",49.8483,-99.9500,48859,599.1
+"Rimouski, Quebec",48.4500,-68.5300,48664,143.3
+"Cornwall, Ontario",45.0275,-74.7400,46589,756.8
+"Stouffville, Ontario",43.9667,-79.2500,45837,222.3
+"Georgina, Ontario",44.3000,-79.4333,45418,157.8
+"Victoriaville, Quebec",46.0500,-71.9667,45309,516.2
+"Vernon, British Columbia",50.2670,-119.2720,44600,417.7
+"Duncan, British Columbia",48.7787,-123.7079,44451,2387.1
+"Saint-Eustache, Quebec",45.5700,-73.9000,44154,634.3
+"Quinte West, Ontario",44.1833,-77.5667,43577,88.2
+"Charlottetown, Prince Edward Island",46.2403,-63.1347,42602,779.7
+"Mascouche, Quebec",45.7500,-73.6000,42491,398.4
+"West Vancouver, British Columbia",49.3667,-123.1667,42473,486.8
+"Salaberry-de-Valleyfield, Quebec",45.2500,-74.1300,42410,395.5
+"Rouyn-Noranda, Quebec",48.2333,-79.0167,42334,7.0
+"Timmins, Ontario",48.4667,-81.3333,41788,14.0
+"Sorel-Tracy, Quebec",46.0333,-73.1167,41629,241.1
+"New Tecumseth, Ontario",44.0833,-79.7500,41439,151.1
+"Woodstock, Ontario",43.1306,-80.7467,40902,835.3
+"Boucherville, Quebec",45.6000,-73.4500,40753,575.5
+"Mission, British Columbia",49.1337,-122.3112,38833,170.6
+"Vaudreuil-Dorion, Quebec",45.4000,-74.0333,38117,524.1
+"Brant, Ontario",43.1167,-80.3667,36707,43.5
+"Lakeshore, Ontario",42.2399,-82.6511,36611.00,69.00
+"Innisfil, Ontario",44.3000,-79.5833,36566,139.2
+"Prince Albert, Saskatchewan",53.2000,-105.7500,35926,534.4
+"Langford Station, British Columbia",48.4506,-123.5058,35342,885.0
+"Bradford West Gwillimbury, Ontario",44.1333,-79.6333,35325,175.7
+"Campbell River, British Columbia",50.0244,-125.2475,35138,1143.9
+"Spruce Grove, Alberta",53.5450,-113.9008,34066,1057.9
+"Moose Jaw, Saskatchewan",50.3933,-105.5519,33890,710.7
+"Penticton, British Columbia",49.4911,-119.5886,33761,801.8
+"Port Moody, British Columbia",49.2831,-122.8317,33551,1295.9
+"Leamington, Ontario",42.0667,-82.5833,32991,105.3
+"East Kelowna, British Columbia",49.8625,-119.5833,32655,264.4
+"Côte-Saint-Luc, Quebec",45.4687,-73.6673,32448.00,4662.50
+"Val-d’Or, Quebec",48.1000,-77.7833,31862,9.0
+"Owen Sound, Ontario",44.5667,-80.9333,31820,1311.1
+"Stratford, Ontario",43.3708,-80.9819,31465,1167.5
+"Lloydminster, Saskatchewan",53.2783,-110.0050,31410,742.2
+"Pointe-Claire, Quebec",45.4500,-73.8167,31380,1662.0
+"Orillia, Ontario",44.6000,-79.4167,31166,1090.3
+"Alma, Quebec",48.5500,-71.6500,30904,158.0
+"Orangeville, Ontario",43.9167,-80.1167,30734,69.3
+"Fort Erie, Ontario",42.9167,-79.0167,30710,184.7
+"LaSalle, Ontario",42.2167,-83.0667,30180,461.8
+"Sainte-Julie, Quebec",45.5833,-73.3333,30104,607.8
+"Leduc, Alberta",53.2594,-113.5492,29993,706.7
+"North Cowichan, British Columbia",48.8236,-123.7192,29676,147.3
+"Chambly, Quebec",45.4311,-73.2873,29120.00,1158.70
+"Okotoks, Alberta",50.7250,-113.9750,28881,1471.0
+"Sept-Îles, Quebec",50.2167,-66.3833,28534,16.1
+"Centre Wellington, Ontario",43.7000,-80.3667,28191,69.2
+"Saint-Constant, Quebec",45.3700,-73.5700,27359,478.9
+"Grimsby, Ontario",43.2000,-79.5500,27314,396.3
+"Boisbriand, Quebec",45.6200,-73.8300,26884,966.5
+"Conception Bay South, Newfoundland and Labrador",47.5167,-52.9833,26199,443.3
+"Saint-Bruno-de-Montarville, Quebec",45.5333,-73.3500,26107,603.3
+"Sainte-Thérèse, Quebec",45.6333,-73.8500,26025,2716.1
+"Cochrane, Alberta",51.1890,-114.4670,25853,866.7
+"Thetford Mines, Quebec",46.1000,-71.3000,25709,113.3
+"Courtenay, British Columbia",49.6878,-124.9944,25599,789.9
+"Magog, Quebec",45.2667,-72.1500,25358,175.9
+"Whitehorse, Yukon",60.7029,-135.0691,25085.00,60.20
+"Woolwich, Ontario",43.5667,-80.4833,25006,76.7
+"Clarence-Rockland, Ontario",45.4833,-75.2000,24512,82.3
+"Fort Saskatchewan, Alberta",53.7128,-113.2133,24149,501.3
+"East Gwillimbury, Ontario",44.1333,-79.4167,23991,97.9
+"Lincoln, Ontario",43.1300,-79.4300,23787,146.1
+"La Prairie, Quebec",45.4200,-73.5000,23357,539.7
+"Tecumseh, Ontario",42.2431,-82.9256,23229,245.4
+"Mount Pearl Park, Newfoundland and Labrador",47.5189,-52.8058,22957,1456.8
+"Amherstburg, Ontario",42.1000,-83.0833,21936,118.2
+"Saint-Lambert, Quebec",45.5000,-73.5167,21861,2880.6
+"Brockville, Ontario",44.5833,-75.6833,21854,1167.8
+"Collingwood, Ontario",44.5000,-80.2167,21793,645.1
+"Scugog, Ontario",44.0900,-78.9360,21617,45.4
+"Kingsville, Ontario",42.1000,-82.7167,21552,87.3
+"Baie-Comeau, Quebec",49.2167,-68.1500,21536,64.0
+"Paradise, Newfoundland and Labrador",47.5333,-52.8667,21389,731.5
+"Uxbridge, Ontario",44.1167,-79.1333,21176,45.6
+"Essa, Ontario",44.2500,-79.7833,21083,75.3
+"Candiac, Quebec",45.3800,-73.5200,21047,1215.8
+"Oro-Medonte, Ontario",44.5667,-79.5833,21036,35.8
+"Varennes, Quebec",45.6833,-73.4333,20994,226.9
+"Strathroy-Caradoc, Ontario",42.9575,-81.6167,20867,77.1
+"Wasaga Beach, Ontario",44.5206,-80.0167,20675,352.6
+"New Glasgow, Nova Scotia",45.5926,-62.6455,20609,911.6
+"Wilmot, Ontario",43.4000,-80.6500,20545,77.9
+"Essex, Ontario",42.0833,-82.9000,20427,73.5
+"Fort St. John, British Columbia",56.2465,-120.8476,20155,820.2
+"Kirkland, Quebec",45.4500,-73.8667,20151,2204.4
+"L’Assomption, Quebec",45.8333,-73.4167,20065,202.9
+"Westmount, Quebec",45.4833,-73.6000,19931,4952.8
+"Saint-Lazare, Quebec",45.4000,-74.1333,19889,289.6
+"Chestermere, Alberta",51.0500,-113.8225,19887,603.8
+"Huntsville, Ontario",45.3333,-79.2167,19816,27.9
+"Corner Brook, Newfoundland and Labrador",48.9287,-57.9260,19806.00,133.60
+"Riverview, New Brunswick",46.0613,-64.8052,19667,554.8
+"Lloydminster, Alberta",53.2807,-110.0350,19645.00,817.30
+"Joliette, Quebec",46.0167,-73.4500,19621,860.3
+"Yellowknife, Northwest Territories",62.4709,-114.4053,19569.00,185.50
+"Squamish, British Columbia",49.7017,-123.1589,19512,186.1
+"Mont-Royal, Quebec",45.5161,-73.6431,19503,2545.3
+"Rivière-du-Loup, Quebec",47.8333,-69.5333,19447,230.9
+"Cobourg, Ontario",43.9667,-78.1667,19440,869.3
+"Cranbrook, British Columbia",49.5097,-115.7667,19259,604.7
+"Beaconsfield, Quebec",45.4333,-73.8667,19115,1752.6
+"Springwater, Ontario",44.4333,-79.7333,19059,35.5
+"Dorval, Quebec",45.4500,-73.7500,18980,839.2
+"Thorold, Ontario",43.1167,-79.2000,18801,226.5
+"Camrose, Alberta",53.0167,-112.8333,18742,439.8
+"South Frontenac, Ontario",44.5081,-76.4939,18646,19.2
+"Pitt Meadows, British Columbia",49.2333,-122.6833,18573,214.7
+"Port Colborne, Ontario",42.8833,-79.2500,18306,150.1
+"Quispamsis, New Brunswick",45.4322,-65.9462,18245,318.9
+"Mont-Saint-Hilaire, Quebec",45.5622,-73.1917,18200,410.9
+"Bathurst, New Brunswick",47.6200,-65.6500,18154,129.3
+"Saint-Augustin-de-Desmaures, Quebec",46.7333,-71.4667,18141,211.5
+"Oak Bay, British Columbia",48.4264,-123.3228,18094,1717.7
+"Sainte-Marthe-sur-le-Lac, Quebec",45.5300,-73.9300,18074,2066.7
+"Salmon Arm, British Columbia",50.7022,-119.2722,17706,144.0
+"Port Alberni, British Columbia",49.2339,-124.8050,17678,894.6
+"Esquimalt, British Columbia",48.4306,-123.4147,17655,2494.7
+"Deux-Montagnes, Quebec",45.5333,-73.8833,17553,2850.1
+"Miramichi, New Brunswick",47.0196,-65.5072,17537.00,97.70
+"Niagara-on-the-Lake, Ontario",43.2553,-79.0717,17511,131.8
+"Saint-Lin--Laurentides, Quebec",45.8500,-73.7667,17463,147.3
+"Beaumont, Alberta",53.3572,-113.4147,17396,1661.1
+"Middlesex Centre, Ontario",43.0500,-81.4500,17262,29.4
+"Inverness, Nova Scotia",46.2000,-61.1000,17235,4.5
+"Stony Plain, Alberta",53.5264,-114.0069,17189,481.2
+"Petawawa, Ontario",45.9000,-77.2833,17187,103.1
+"Pelham, Ontario",43.0333,-79.3333,17110,135.3
+"Selwyn, Ontario",44.4167,-78.3333,17060,54.0
+"Loyalist, Ontario",44.2500,-76.7500,16971,49.8
+"Midland, Ontario",44.7500,-79.8833,16864,477.3
+"Colwood, British Columbia",48.4236,-123.4958,16859,954.2
+"Central Saanich, British Columbia",48.5142,-123.3839,16814,406.8
+"Sainte-Catherine, Quebec",45.4000,-73.5800,16762,1764.1
+"Port Hope, Ontario",43.9500,-78.3000,16753,60.1
+"L’Ancienne-Lorette, Quebec",46.8000,-71.3500,16745,2193.6
+"Saint-Basile-le-Grand, Quebec",45.5333,-73.2833,16736,463.6
+"Swift Current, Saskatchewan",50.2881,-107.7939,16604,566.5
+"Edmundston, New Brunswick",47.3765,-68.3253,16580,155.2
+"Russell, Ontario",45.2569,-75.3583,16520,83.0
+"North Grenville, Ontario",44.9667,-75.6500,16451,46.7
+"Yorkton, Saskatchewan",51.2139,-102.4628,16343,449.9
+"Tracadie, New Brunswick",47.5124,-64.9101,16114.00,31.20
+"Bracebridge, Ontario",45.0333,-79.3000,16010,25.5
+"Greater Napanee, Ontario",44.2500,-76.9500,15892,34.5
+"Tillsonburg, Ontario",42.8667,-80.7333,15872,710.8
+"Steinbach, Manitoba",49.5258,-96.6839,15829,618.6
+"Hanover, Manitoba",49.4433,-96.8492,15733,21.2
+"Terrace, British Columbia",54.5164,-128.5997,15723,212.7
+"Springfield, Manitoba",49.9292,-96.6939,15342,13.9
+"Gaspé, Quebec",48.8333,-64.4833,15163,13.5
+"Kenora, Ontario",49.7667,-94.4833,15096,71.3
+"Cold Lake, Alberta",54.4642,-110.1825,14961,249.7
+"Summerside, Prince Edward Island",46.4000,-63.7833,14829,520.5
+"Comox, British Columbia",49.6733,-124.9022,14828,838.2
+"Sylvan Lake, Alberta",52.3083,-114.0964,14816,634.2
+"Pincourt, Quebec",45.3833,-73.9833,14558,2048.1
+"West Lincoln, Ontario",43.0667,-79.5667,14500,37.4
+"Matane, Quebec",48.8500,-67.5333,14462,74.0
+"Brooks, Alberta",50.5642,-111.8989,14451,777.3
+"Sainte-Anne-des-Plaines, Quebec",45.7617,-73.8204,14421.00,154.10
+"West Nipissing / Nipissing Ouest, Ontario",46.3667,-79.9167,14364,7.2
+"Rosemère, Quebec",45.6369,-73.8000,14294,1326.9
+"Mistassini, Quebec",48.8229,-72.2154,14250.00,48.20
+"Grand Falls, Newfoundland and Labrador",48.9578,-55.6633,14171.00,259.20
+"Clearview, Ontario",44.3981,-80.0742,14151,25.4
+"St. Clair, Ontario",42.7833,-82.3500,14086,22.8
+"Canmore, Alberta",51.0890,-115.3590,13992,201.5
+"North Battleford, Saskatchewan",52.7575,-108.2861,13888,414.0
+"Pembroke, Ontario",45.8167,-77.1000,13882,953.3
+"Mont-Laurier, Quebec",46.5500,-75.5000,13779,23.3
+"Strathmore, Alberta",51.0378,-113.4003,13756,502.0
+"Saugeen Shores, Ontario",44.4333,-81.3667,13715,80.2
+"Thompson, Manitoba",55.7433,-97.8553,13678,657.91
+"Lavaltrie, Quebec",45.8833,-73.2833,13657,199.7
+"High River, Alberta",50.5808,-113.8744,13584,635.1
+"Severn, Ontario",44.7500,-79.5167,13477,24.5
+"Sainte-Sophie, Quebec",45.8200,-73.9000,13375,120.2
+"Saint-Charles-Borromée, Quebec",46.0500,-73.4667,13321,715.0
+"Portage La Prairie, Manitoba",49.9728,-98.2919,13304,539.1
+"Thames Centre, Ontario",43.0300,-81.0800,13191,30.4
+"Mississippi Mills, Ontario",45.2167,-76.2000,13163,25.3
+"Powell River, British Columbia",49.8353,-124.5247,13157,444.1
+"South Glengarry, Ontario",45.2000,-74.5833,13150,21.7
+"North Perth, Ontario",43.7300,-80.9500,13130,26.6
+"Mercier, Quebec",45.3200,-73.7500,13115,284.6
+"South Stormont, Ontario",45.0833,-74.9667,13110,28.2
+"Saint-Colomban, Quebec",45.7300,-74.1300,13080,139.8
+"Lacombe, Alberta",52.4683,-113.7369,13057,627.5
+"Sooke, British Columbia",48.3761,-123.7378,13001,229.6
+"Dawson Creek, British Columbia",55.7606,-120.2356,12978,475.4
+"Lake Country, British Columbia",50.0833,-119.4142,12922,105.8
+"Trent Hills, Ontario",44.3142,-77.8514,12900,25.2
+"Sainte-Marie, Quebec",46.4500,-71.0333,12889,120.3
+"Guelph/Eramosa, Ontario",43.6300,-80.2200,12854,44.1
+"Truro, Nova Scotia",45.3647,-63.2800,12826,355.5
+"Amos, Quebec",48.5667,-78.1167,12823,29.8
+"The Nation / La Nation, Ontario",45.3500,-75.0333,12808,19.5
+"Ingersoll, Ontario",43.0392,-80.8836,12757,1000.7
+"Winkler, Manitoba",49.1817,-97.9397,12660,740.5
+"Wetaskiwin, Alberta",52.9694,-113.3769,12655,691.1
+"Central Elgin, Ontario",42.7667,-81.1000,12607,45.0
+"Lachute, Quebec",45.6500,-74.3333,12551,114.9
+"West Grey, Ontario",44.1833,-80.8167,12518,14.3
+"Parksville, British Columbia",49.3150,-124.3120,12514,854.6
+"Cowansville, Quebec",45.2000,-72.7500,12489,271.0
+"Bécancour, Quebec",46.3333,-72.4333,12438,28.2
+"Gravenhurst, Ontario",44.9167,-79.3667,12311,23.8
+"Perth East, Ontario",43.4700,-80.9500,12261,17.2
+"Prince Rupert, British Columbia",54.3122,-130.3271,12220,227.7
+"Prévost, Quebec",45.8700,-74.0800,12171,347.2
+"Sainte-Adèle, Quebec",45.9500,-74.1300,12137,100.4
+"Kentville, Nova Scotia",45.0775,-64.4958,12088,363.3
+"Beauharnois, Quebec",45.3200,-73.8700,12011,173.9
+"Les Îles-de-la-Madeleine, Quebec",47.3833,-61.8667,12010,69.5
+"Wellington North, Ontario",43.9000,-80.5700,11914,22.6
+"St. Andrews, Manitoba",50.2700,-96.9747,11913,15.8
+"Carleton Place, Ontario",45.1333,-76.1333,11901,1176.2
+"Whistler, British Columbia",50.1208,-122.9544,11854,49.3
+"Brighton, Ontario",44.1222,-77.7642,11844,43.2
+"Tiny, Ontario",44.6833,-79.9500,11787,35.0
+"Gander, Newfoundland and Labrador",48.9569,-54.6089,11688,112.1
+"Sidney, British Columbia",48.6506,-123.3986,11672,2290.7
+"Rothesay, New Brunswick",45.3831,-65.9969,11659,335.8
+"Brock, Ontario",44.3167,-79.0833,11642,27.5
+"Summerland, British Columbia",49.6006,-119.6778,11615,156.8
+"Val-des-Monts, Quebec",45.6500,-75.6667,11582,26.2
+"Taché, Manitoba",49.7081,-96.6736,11568,19.9
+"Montmagny, Quebec",46.9833,-70.5500,11491,91.1
+"Erin, Ontario",43.7667,-80.0667,11439,38.4
+"Kincardine, Ontario",44.1667,-81.6333,11389,21.2
+"North Dundas, Ontario",45.0833,-75.3500,11278,22.4
+"Wellesley, Ontario",43.5500,-80.7167,11260,40.5
+"Estevan, Saskatchewan",49.1392,-102.9861,11258,586.6
+"North Saanich, British Columbia",48.6142,-123.4200,11249,301.8
+"Warman, Saskatchewan",52.3219,-106.5842,11020,844.6
+"La Tuque, Quebec",48.0652,-74.0528,11001.00,0.40
+"Norwich, Ontario",42.9833,-80.6000,11001,25.5
+"Meaford, Ontario",44.5800,-80.7300,10991,18.7
+"Adjala-Tosorontio, Ontario",44.1333,-79.9333,10975,29.5
+"Hamilton Township, Ontario",44.0540,-78.2164,10942.00,42.70
+"St. Clements, Manitoba",50.2689,-96.6742,10876,14.9
+"Saint-Amable, Quebec",45.6500,-73.3000,10870,296.3
+"Weyburn, Saskatchewan",49.6611,-103.8525,10870,688.8
+"South Dundas, Ontario",44.9167,-75.2667,10833,20.8
+"L’Île-Perrot, Quebec",45.3833,-73.9500,10756,1955.6
+"Notre-Dame-de-l'Île-Perrot, Quebec",45.3667,-73.9333,10756,386.9
+"Williams Lake, British Columbia",52.1294,-122.1383,10753,327.0
+"Elliot Lake, Ontario",46.3833,-82.6500,10741,15.9
+"Cantley, Quebec",45.5667,-75.7833,10699,83.4
+"Nelson, British Columbia",49.5000,-117.2833,10664,1552.3
+"Lambton Shores, Ontario",43.1833,-81.9000,10631,32.1
+"Mapleton, Ontario",43.7358,-80.6681,10527.00,19.70
+"Georgian Bluffs, Ontario",44.6500,-81.0333,10479,17.3
+"Rawdon, Quebec",46.0500,-73.7167,10416,55.7
+"Campbellton, New Brunswick",48.0050,-66.6731,10411,370.5
+"View Royal, British Columbia",48.4517,-123.4339,10408,724.8
+"Coldstream, British Columbia",50.2200,-119.2481,10314,155.6
+"Chester, Nova Scotia",44.6500,-64.3000,10310,9.2
+"Queens, Nova Scotia",44.0333,-64.7167,10307,4.3
+"Selkirk, Manitoba",50.1436,-96.8839,10278,413.4
+"Saint-Félicien, Quebec",48.6500,-72.4500,10278,28.3
+"Hawkesbury, Ontario",45.6000,-74.6000,10263,1067.3
+"Roberval, Quebec",48.5200,-72.2300,10227,66.8
+"Sainte-Agathe-des-Monts, Quebec",46.0500,-74.2800,10223,78.6
+"North Dumfries, Ontario",43.3200,-80.3800,10215,54.5
+"Rideau Lakes, Ontario",44.6667,-76.2167,10207,14.0
+"Sechelt, British Columbia",49.4742,-123.7542,10200,212.9
+"North Glengarry, Ontario",45.3333,-74.7333,10109,15.7
+"South Huron, Ontario",43.3200,-81.5000,10096,23.4
+"Marieville, Quebec",45.4333,-73.1667,10094,160.8
+"Tay, Ontario",44.7167,-79.7667,10033,72.1
+"Temiskaming Shores, Ontario",47.5167,-79.6833,9920,55.7
+"Hinton, Alberta",53.4114,-117.5639,9882,294.8
+"Saint-Sauveur, Quebec",45.9000,-74.1700,9881,206.8
+"Quesnel, British Columbia",52.9784,-122.4927,9879,279.2
+"Elizabethtown-Kitley, Ontario",44.7000,-75.8833,9854,17.7
+"Morinville, Alberta",53.8022,-113.6497,9848,882.8
+"Grey Highlands, Ontario",44.3333,-80.5000,9804,11.1
+"Stratford, Prince Edward Island",46.2167,-63.0893,9706,430.8
+"Alfred and Plantagenet, Ontario",45.5667,-74.9167,9680,24.7
+"Mont-Tremblant, Quebec",46.1167,-74.6000,9646,40.5
+"Martensville, Saskatchewan",52.2897,-106.6667,9645,1421.2
+"Saint-Raymond, Quebec",46.9000,-71.8333,9615,14.3
+"Amherst, Nova Scotia",45.8167,-64.2167,9550,779.7
+"Ramara, Ontario",44.6333,-79.2167,9488,22.7
+"Bois-des-Filion, Quebec",45.6667,-73.7500,9485,2216.2
+"Leeds and the Thousand Islands, Ontario",44.4500,-76.0800,9465,15.1
+"Carignan, Quebec",45.4500,-73.3000,9462,151.9
+"Brockton, Ontario",44.1667,-81.2167,9461,16.7
+"Laurentian Valley, Ontario",45.7681,-77.2239,9387,17.0
+"East St. Paul, Manitoba",49.9772,-97.0103,9372,222.6
+"Lorraine, Quebec",45.6833,-73.7833,9352,1570.0
+"Sainte-Julienne, Quebec",45.9700,-73.7200,9331,94.0
+"Blackfalds, Alberta",52.3833,-113.8000,9328,567.3
+"Malahide, Ontario",42.7928,-80.9361,9292,23.5
+"Oromocto, New Brunswick",45.8488,-66.4788,9223,411.0
+"Olds, Alberta",51.7928,-114.1067,9184,615.3
+"Huron East, Ontario",43.6300,-81.2800,9138,13.8
+"Stanley, Manitoba",49.1331,-98.0656,9038.00,10.80
+"Penetanguishene, Ontario",44.7667,-79.9333,8962,350.3
+"Qualicum Beach, British Columbia",49.3500,-124.4333,8943,497.4
+"Notre-Dame-des-Prairies, Quebec",46.0500,-73.4333,8868,487.3
+"West Perth, Ontario",43.4700,-81.2000,8865,15.3
+"Cavan Monaghan, Ontario",44.2000,-78.4667,8829,28.8
+"Arnprior, Ontario",45.4333,-76.3500,8795,672.7
+"Smiths Falls, Ontario",44.9000,-76.0167,8780,909.1
+"Pont-Rouge, Quebec",46.7500,-71.7000,8723,72.0
+"Champlain, Ontario",45.5333,-74.6500,8706,42.0
+"Coaticook, Quebec",45.1333,-71.8000,8698,39.6
+"Minto, Ontario",43.9167,-80.8667,8671,28.8
+"Morden, Manitoba",49.1919,-98.1006,8668,401.0
+"Mono, Ontario",44.0167,-80.0667,8609,31.0
+"Corman Park No. 344, Saskatchewan",52.2291,-106.8002,8568.00,4.50
+"Ladysmith, British Columbia",48.9975,-123.8203,8537,711.9
+"Bridgewater, Nova Scotia",44.3700,-64.5200,8532,625.9
+"Dauphin, Manitoba",51.1992,-100.0633,8457.00,670.70
+"Otterburn Park, Quebec",45.5333,-73.2167,8450,1580.6
+"Taber, Alberta",49.7847,-112.1508,8428,537.9
+"South Bruce Peninsula, Ontario",44.7333,-81.2000,8416,15.8
+"Edson, Alberta",53.5817,-116.4344,8414,283.1
+"Farnham, Quebec",45.2833,-72.9833,8330,90.5
+"Kapuskasing, Ontario",49.4167,-82.4333,8292,98.3
+"La Malbaie, Quebec",47.6500,-70.1500,8271,18.0
+"Renfrew, Ontario",45.4717,-76.6831,8223,643.4
+"Coaldale, Alberta",49.7333,-112.6167,8215,1028.5
+"Portugal Cove-St. Philip's, Newfoundland and Labrador",47.6272,-52.8506,8147,128.4
+"Zorra, Ontario",43.1500,-80.9500,8138,15.4
+"Kitimat, British Columbia",54.0000,-128.7000,8131,34.7
+"Shelburne, Ontario",44.0833,-80.2000,8126,907.1
+"Happy Valley, Newfoundland and Labrador",53.3396,-60.4467,8109.00,26.50
+"Saint-Hippolyte, Quebec",45.9300,-74.0200,8083,67.0
+"Castlegar, British Columbia",49.3256,-117.6661,8039,408.6
+"Church Point, Nova Scotia",44.3333,-66.1167,8018,9.4
+"Drumheller, Alberta",51.4636,-112.7194,7982,73.9
+"Kirkland Lake, Ontario",48.1500,-80.0333,7981,30.4
+"Argyle, Nova Scotia",43.8000,-65.8500,7899,5.2
+"Torbay, Newfoundland and Labrador",47.6500,-52.7333,7899,212.1
+"La Pêche, Quebec",45.6833,-75.9833,7863,13.4
+"Banff, Alberta",51.1781,-115.5719,7847,1646.0
+"Innisfail, Alberta",52.0333,-113.9500,7847,404.6
+"Nicolet, Quebec",46.2167,-72.6167,7828,81.5
+"Rockwood, Manitoba",50.2856,-97.2869,7823,6.5
+"Drummond/North Elmsley, Ontario",44.9667,-76.2000,7773,21.2
+"Dryden, Ontario",49.7833,-92.8333,7749,117.1
+"Iqaluit, Nunavut",63.7598,-68.5107,7740.00,147.40
+"Fort Frances, Ontario",48.6167,-93.4000,7739,303.4
+"La Sarre, Quebec",48.8000,-79.2000,7719,51.9
+"Trail, British Columbia",49.0950,-117.7100,7709,220.7
+"Chandler, Quebec",48.3500,-64.6833,7703,18.4
+"Stone Mills, Ontario",44.4500,-76.9167,7702,10.9
+"Hanover, Ontario",44.1500,-81.0333,7688,763.8
+"South-West Oxford, Ontario",42.9500,-80.8000,7664,20.7
+"Acton Vale, Quebec",45.6500,-72.5667,7664,84.2
+"Bromont, Quebec",45.3167,-72.6500,7649,66.9
+"Beckwith, Ontario",45.0833,-76.0667,7644,31.8
+"Goderich, Ontario",43.7333,-81.7000,7628,882.8
+"Plympton-Wyoming, Ontario",43.0167,-82.0833,7576,23.8
+"Central Huron, Ontario",43.6300,-81.5700,7576,16.9
+"Rigaud, Quebec",45.4833,-74.3000,7566,74.1
+"Louiseville, Quebec",46.2500,-72.9500,7517,120.1
+"Chibougamau, Quebec",49.9167,-74.3667,7504,10.7
+"Aylmer, Ontario",42.7667,-80.9833,7492,1197.6
+"Delson, Quebec",45.3700,-73.5500,7462,982.6
+"Kimberley, British Columbia",49.6697,-115.9775,7425,122.5
+"Blandford-Blenheim, Ontario",43.2333,-80.6000,7399,19.4
+"Bayham, Ontario",42.7333,-80.7833,7396,30.2
+"Augusta, Ontario",44.7511,-75.6003,7353,23.4
+"Puslinch, Ontario",43.4500,-80.1667,7336,34.2
+"Beauport, Quebec",46.9667,-71.3000,7281,118.8
+"Saint-Rémi, Quebec",45.2667,-73.6167,7265,92.2
+"St. Marys, Ontario",43.2583,-81.1333,7265,583.5
+"Drayton Valley, Alberta",53.2222,-114.9769,7235,235.5
+"Ponoka, Alberta",52.6833,-113.5667,7229,417.1
+"Labrador City, Newfoundland and Labrador",52.9500,-66.9167,7220,186.0
+"Donnacona, Quebec",46.6747,-71.7294,7200,357.6
+"Southgate, Ontario",44.1000,-80.5833,7190,11.4
+"McNab/Braeside, Ontario",45.4500,-76.5000,7178,28.1
+"Macdonald, Manitoba",49.6725,-97.4472,7162,6.2
+"Hampstead, Quebec",45.4833,-73.6333,7153,3996.5
+"Baie-Saint-Paul, Quebec",47.4500,-70.5000,7146,13.1
+"Merritt, British Columbia",50.1128,-120.7897,7139,273.9
+"Bluewater, Ontario",43.4500,-81.6000,7136,17.1
+"East Zorra-Tavistock, Ontario",43.2333,-80.7833,7129,29.4
+"Brownsburg, Quebec",45.6703,-74.4467,7122.00,28.80
+"Stoneham-et-Tewkesbury, Quebec",47.1667,-71.4333,7106,10.6
+"Asbestos, Quebec",45.7667,-71.9333,7096,239.1
+"Huron-Kinloss, Ontario",44.0500,-81.5333,7069,16.0
+"Coteau-du-Lac, Quebec",45.3000,-74.1800,7044,150.2
+"The Blue Mountains, Ontario",44.4833,-80.3833,7025,24.5
+"Whitewater Region, Ontario",45.7167,-76.8333,7009,13.0
+"Edwardsburgh/Cardinal, Ontario",44.8333,-75.5000,6959,22.3
+"Sainte-Anne-des-Monts, Quebec",49.1333,-66.5000,6933,26.3
+"Old Chelsea, Quebec",45.5000,-75.7833,6909,60.7
+"North Stormont, Ontario",45.2167,-75.0000,6873,13.3
+"Alnwick/Haldimand, Ontario",44.0833,-78.0333,6869,17.25
+"Peace River, Alberta",56.2339,-117.2897,6842,260.6
+"Arran-Elderslie, Ontario",44.4000,-81.2000,6803,14.8
+"Saint-Zotique, Quebec",45.2500,-74.2500,6773,268.8
+"Val-Shefford, Quebec",45.3500,-72.5667,6711,56.7
+"Douro-Dummer, Ontario",44.4500,-78.1000,6709,14.6
+"Plessisville, Quebec",46.2167,-71.7833,6688,1546.0
+"Ritchot, Manitoba",49.6647,-97.1167,6679,20.0
+"Otonabee-South Monaghan, Ontario",44.2333,-78.2333,6670,19.2
+"Shediac, New Brunswick",46.2167,-64.5333,6664,123.5
+"Slave Lake, Alberta",55.2853,-114.7706,6651,460.5
+"Port-Cartier, Quebec",50.0333,-66.8667,6651,6.0
+"Saint-Lambert-de-Lauzon, Quebec",46.5865,-71.2271,6647.00,62.20
+"Barrington, Nova Scotia",43.5646,-65.5639,6646,10.5
+"Rocky Mountain House, Alberta",52.3753,-114.9217,6635,521.8
+"Chatsworth, Ontario",44.3800,-80.8700,6630,11.1
+"Stephenville, Newfoundland and Labrador",48.5500,-58.5667,6623,185.6
+"Muskoka Falls, Ontario",45.1264,-79.5580,6588.00,8.30
+"Devon, Alberta",53.3633,-113.7322,6578,460.2
+"Yarmouth, Nova Scotia",43.8361,-66.1175,6518,616.9
+"Boischatel, Quebec",46.9000,-71.1500,6465,308.8
+"Parry Sound, Ontario",45.3333,-80.0333,6408,478.2
+"Pointe-Calumet, Quebec",45.5000,-73.9700,6396,1382.4
+"Beaubassin East / Beaubassin-est, New Brunswick",46.1726,-64.3122,6376.00,21.90
+"Wainfleet, Ontario",42.9250,-79.3750,6372,29.3
+"Cramahe, Ontario",44.0833,-77.8833,6355,31.4
+"Beauceville, Quebec",46.2000,-70.7833,6354,37.9
+"North Middlesex, Ontario",43.1500,-81.6333,6352,10.6
+"Amqui, Quebec",48.4667,-67.4333,6322,52.3
+"Sainte-Catherine-de-la-Jacques-Cartier, Quebec",46.8500,-71.6167,6319,52.1
+"Clarenville, Newfoundland and Labrador",48.1566,-53.9650,6291,44.7
+"Mont-Joli, Quebec",48.5800,-68.1800,6281,272.6
+"Dysart et al, Ontario",45.2042,-78.4047,6280.00,4.20
+"Wainwright, Alberta",52.8333,-110.8667,6270,688.7
+"Contrecoeur, Quebec",45.8500,-73.2333,6252,102.2
+"Beresford, New Brunswick",47.7181,-65.8794,6248.00,13.70
+"Saint-Joseph-du-Lac, Quebec",45.5333,-74.0000,6195,149.7
+"Hope, British Columbia",49.3858,-121.4419,6181,151.0
+"Gimli, Manitoba",50.6619,-97.0297,6181,19.5
+"Douglas, New Brunswick",46.2819,-66.9420,6154.00,4.30
+"Saint-Apollinaire, Quebec",46.6167,-71.5167,6110,63.0
+"Hindon Hill, Ontario",44.9333,-78.7333,6088,6.9
+"Les Cèdres, Quebec",45.3000,-74.0500,6079,78.1
+"La Broquerie, Manitoba",49.3994,-96.5103,6076,10.5
+"Kent, British Columbia",49.2833,-121.7500,6067,35.9
+"Tweed, Ontario",44.6000,-77.3333,6044,6.3
+"Saint-Félix-de-Valois, Quebec",46.1700,-73.4300,6029,68.6
+"Bay Roberts, Newfoundland and Labrador",47.5847,-53.2783,6012,249.9
+"Melfort, Saskatchewan",52.8564,-104.6100,5992,405.4
+"Bonnyville, Alberta",54.2667,-110.7500,5975,421.4
+"Stettler, Alberta",52.3236,-112.7192,5952,453.0
+"Saint-Calixte, Quebec",45.9500,-73.8500,5934,41.4
+"Lac-Mégantic, Quebec",45.5833,-70.8833,5932,272.5
+"Perth, Ontario",44.9000,-76.2500,5930,484.1
+"Oliver Paipoonge, Ontario",48.3900,-89.5200,5922,16.9
+"Humboldt, Saskatchewan",52.2019,-105.1231,5869,1783.4
+"Charlemagne, Quebec",45.7167,-73.4833,5853,2704.0
+"Pontiac, Quebec",45.5833,-76.1333,5850,13.1
+"St. Paul, Alberta",53.9928,-111.2972,5827,674.2
+"Petrolia, Ontario",42.8833,-82.1417,5742,452.8
+"Southwest Middlesex, Ontario",42.7500,-81.7000,5723,13.4
+"Front of Yonge, Ontario",44.5333,-75.8667,5710,20.3
+"Vegreville, Alberta",53.4928,-112.0522,5708,405.4
+"Sainte-Brigitte-de-Laval, Quebec",47.0000,-71.2000,5696,52.4
+"Princeville, Quebec",46.1667,-71.8833,5693,29.3
+"Verchères, Quebec",45.7833,-73.3500,5692,77.7
+"The Pas, Manitoba",53.8250,-101.2533,5689,115.3
+"Saint-Césaire, Quebec",45.4167,-73.0000,5686,68.1
+"La Ronge, Saskatchewan",55.1000,-105.3000,5671,163.9
+"Tay Valley, Ontario",44.8667,-76.3833,5665,10.3
+"South Bruce, Ontario",44.0333,-81.2000,5639,11.6
+"McMasterville, Quebec",45.5500,-73.2333,5615,1810.3
+"Redcliff, Alberta",50.0792,-110.7783,5600,344.6
+"Crowsnest Pass, Alberta",49.5955,-114.5136,5589.00,15.00
+"Saint-Philippe, Quebec",45.3500,-73.4700,5495,88.5
+"Richelieu, Quebec",45.4500,-73.2500,5467,176.2
+"Notre-Dame-du-Mont-Carmel, Quebec",46.4833,-72.6500,5467,42.6
+"L'Ange-Gardien, Quebec",45.5833,-75.4500,5464,25.0
+"Sainte-Martine, Quebec",45.2500,-73.8000,5461,86.4
+"Saint-Pie, Quebec",45.5000,-72.9000,5438,49.9
+"Peachland, British Columbia",49.7736,-119.7369,5428,340.1
+"Ashfield-Colborne-Wawanosh, Ontario",43.8667,-81.6000,5422,9.2
+"Trent Lakes, Ontario",44.6667,-78.4333,5397,6.3
+"Northern Rockies, British Columbia",59.0000,-123.7500,5393,0.063
+"Cookshire, Quebec",45.3729,-71.6720,5393.00,18.20
+"West St. Paul, Manitoba",50.0119,-97.1150,5368,61.1
+"Windsor, Quebec",45.5667,-72.0000,5367,375.5
+"L’Epiphanie, Quebec",45.8500,-73.4833,5353,2367.9
+"Creston, British Columbia",49.0900,-116.5100,5351,626.8
+"Smithers, British Columbia",54.7819,-127.1681,5351,514.9
+"Cornwall, Prince Edward Island",46.2407,-63.2009,5348,189.7
+"Meadow Lake, Saskatchewan",54.1242,-108.4358,5344,433.6
+"Lanark Highlands, Ontario",45.0880,-76.5170,5338,5.1
+"Sackville, New Brunswick",45.9000,-64.3667,5331,71.9
+"Grand Falls, New Brunswick",47.0344,-67.7394,5326,294.4
+"Cochrane, Ontario",49.0667,-81.0167,5321,9.9
+"Marystown, Newfoundland and Labrador",47.1667,-55.1667,5316,85.8
+"Sioux Lookout, Ontario",50.1000,-91.9167,5272,13.9
+"Didsbury, Alberta",51.6658,-114.1311,5268,321.7
+"Saint-Honoré, Quebec",48.5333,-71.0833,5257,27.8
+"Fernie, British Columbia",49.5042,-115.0628,5249,388.8
+"Deer Lake, Newfoundland and Labrador",49.1744,-57.4269,5249,71.7
+"Woodstock, New Brunswick",46.1522,-67.5983,5228,356.7
+"Val-David, Quebec",46.0300,-74.2200,5209,103.9
+"Flin Flon, Saskatchewan",54.7667,-101.8778,5185,448.9
+"Hudson, Quebec",45.4500,-74.1500,5165,234.5
+"Gananoque, Ontario",44.3300,-76.1700,5159,733.6
+"Brokenhead, Manitoba",50.1428,-96.5319,5122.00,6.80
+"Saint-Paul, Quebec",45.9833,-73.4500,5122,103.7
+"Burton, New Brunswick",45.8009,-66.4066,5119.00,19.80
+"Spallumcheen, British Columbia",50.4462,-119.2121,5106.00,20.00
+"Westlock, Alberta",54.1522,-113.8511,5101,381.4
+"Témiscouata-sur-le-Lac, Quebec",47.6800,-68.8800,5096,23.3
+"Shannon, Quebec",46.8833,-71.5167,5086,79.8
+"Osoyoos, British Columbia",49.0325,-119.4661,5085,598.2
+"Montréal-Ouest, Quebec",45.4536,-73.6472,5085,3614.6
+"Hearst, Ontario",49.6869,-83.6544,5070,51.5
+"Saint-Henri, Quebec",46.7000,-71.0667,5023,41.1
+"Ste. Anne, Manitoba",49.6186,-96.5708,5003.00,10.50
+"Antigonish, Nova Scotia",45.6167,-61.9833,5002,871.7
+"Espanola, Ontario",46.2500,-81.7667,4996,60.3
+"West Elgin, Ontario",42.5833,-81.6667,4995,15.5
+"Flin Flon (Part), Manitoba",54.7712,-101.8419,4982.00,359.20
+"Grand Bay-Westfield, New Brunswick",45.3608,-66.2415,4964,83.0
+"Sainte-Anne-de-Bellevue, Quebec",45.4039,-73.9525,4958,473.0
+"North Huron, Ontario",43.8300,-81.4200,4932,27.6
+"Oliver, British Columbia",49.1844,-119.5500,4928.00,896.00
+"Saint-Roch-de-l'Achigan, Quebec",45.8500,-73.6000,4892,60.6
+"Stirling-Rawdon, Ontario",44.3667,-77.5917,4882,17.3
+"Chisasibi, Quebec",53.6645,-78.7938,4872.00,5.90
+"Carbonear, Newfoundland and Labrador",47.7375,-53.2294,4838,411.5
+"Saint Marys, New Brunswick",46.1748,-66.4897,4837.00,6.40
+"Chertsey, Quebec",46.1700,-73.9200,4836,16.8
+"Armstrong, British Columbia",50.4483,-119.1961,4830,927.7
+"Stonewall, Manitoba",50.1344,-97.3261,4809,802.8
+"Shippagan, New Brunswick",47.8557,-64.6012,4800.00,23.10
+"Lanoraie, Quebec",45.9667,-73.2167,4787,46.4
+"Memramcook, New Brunswick",46.0000,-64.5500,4778,25.5
+"Centre Hastings, Ontario",44.4167,-77.4417,4774,20.4
+"Warwick, Quebec",45.9500,-71.9833,4766,43.3
+"East Ferris, Ontario",46.2667,-79.3000,4750,30.6
+"Hanwell, New Brunswick",45.8681,-66.7947,4750.00,31.40
+"Saint-Joseph-de-Beauce, Quebec",46.3000,-70.8833,4722,42.6
+"Metchosin, British Columbia",48.3819,-123.5378,4708,66.2
+"Lucan Biddulph, Ontario",43.2000,-81.3833,4700,27.8
+"Rivière-Rouge, Quebec",46.4167,-74.8667,4645,10.2
+"Greenstone, Ontario",50.0000,-86.7333,4636,1.7
+"Saint-Mathias-sur-Richelieu, Quebec",45.4667,-73.2667,4618,97.8
+"Neepawa, Manitoba",50.2289,-99.4656,4609,206.5
+"Gibsons, British Columbia",49.4028,-123.5036,4605,1066.0
+"Kindersley, Saskatchewan",51.4678,-109.1567,4597,347.5
+"Jasper, Alberta",52.9013,-118.1312,4590.00,5.00
+"Barrhead, Alberta",54.1167,-114.4000,4579,560.4
+"Les Coteaux, Quebec",45.2800,-74.2300,4568,393.2
+"Melville, Saskatchewan",50.9306,-102.8078,4562,307.8
+"Saint-Germain-de-Grantham, Quebec",45.8333,-72.5667,4551,51.9
+"Iroquois Falls, Ontario",48.7667,-80.6667,4537,7.6
+"Havelock-Belmont-Methuen, Ontario",44.5667,-77.9000,4530,8.3
+"Cornwallis, Manitoba",49.7981,-99.8481,4520.00,9.00
+"Saint-Boniface, Quebec",46.5000,-72.8167,4511,41.4
+"Edenwold No. 158, Saskatchewan",50.5166,-104.3451,4490.00,5.30
+"Coverdale, New Brunswick",46.0003,-64.8859,4466.00,18.90
+"Vanderhoof, British Columbia",54.0143,-124.0089,4439,81.0
+"Southwold, Ontario",42.7500,-81.3167,4421,14.7
+"Goulds, Newfoundland and Labrador",47.4517,-52.7647,4418.00,721.30
+"Saint Stephen, New Brunswick",45.2000,-67.2833,4415,326.6
+"Waterloo, Quebec",45.3500,-72.5167,4410,360.2
+"Nipawin, Saskatchewan",53.3572,-104.0192,4401,505.0
+"Neuville, Quebec",46.7000,-71.5833,4392,61.0
+"Saint-Cyrille-de-Wendover, Quebec",45.9333,-72.4333,4389,39.8
+"Central Frontenac, Ontario",44.7167,-76.8000,4373,4.3
+"Mont-Orford, Quebec",45.3661,-72.1838,4337.00,31.80
+"Saint-Jean-de-Matha, Quebec",46.2300,-73.5300,4335,39.6
+"Seguin, Ontario",45.2882,-79.8116,4304,7.2
+"Tyendinaga, Ontario",44.3000,-77.2000,4297,13.7
+"Hampton, New Brunswick",45.5330,-65.8330,4289,203.4
+"Sussex, New Brunswick",45.7167,-65.5167,4282,478.3
+"Grand Forks, British Columbia",49.0333,-118.4400,4274,388.1
+"La Pocatière, Quebec",47.3667,-70.0333,4266,196.3
+"Caraquet, New Brunswick",47.7853,-64.9592,4248,62.1
+"Saint-Étienne-des-Grès, Quebec",46.4333,-72.7667,4217,40.2
+"Altona, Manitoba",49.1044,-97.5625,4212,445.2
+"Stellarton, Nova Scotia",45.5567,-62.6600,4208,468.1
+"Wolfville, Nova Scotia",45.0833,-64.3667,4195,649.8
+"New Maryland, New Brunswick",45.8911,-66.6847,4174,195.7
+"Port Hardy, British Columbia",50.7225,-127.4928,4132,106.7
+"Saint-Donat, Quebec",46.3167,-74.2167,4130,11.7
+"Château-Richer, Quebec",46.9667,-71.0167,4126,18.0
+"Madawaska Valley, Ontario",45.5000,-77.6667,4123,6.1
+"Deep River, Ontario",46.1000,-77.4917,4109,82.0
+"Asphodel-Norwood, Ontario",44.3531,-78.0183,4109,25.5
+"Red Lake, Ontario",51.0333,-93.8333,4107,6.7
+"Métabetchouan-Lac-à-la-Croix, Quebec",48.4333,-71.8667,4097,21.9
+"Berthierville, Quebec",46.0833,-73.1833,4091,596.8
+"Vermilion, Alberta",53.3542,-110.8528,4084,315.8
+"Niverville, Manitoba",49.6056,-97.0417,4083,1767.5
+"Hastings Highlands, Ontario",45.2333,-77.9333,4078,4.2
+"Carstairs, Alberta",51.5619,-114.0953,4077,342.1
+"Danville, Quebec",45.7833,-72.0167,4070,26.7
+"Channel-Port aux Basques, Newfoundland and Labrador",47.5694,-59.1361,4067,104.9
+"Battleford, Saskatchewan",52.7383,-108.3153,4065,174.2
+"Lac-Etchemin, Quebec",46.4000,-70.5000,4061,25.8
+"Saint-Antonin, Quebec",47.7667,-69.4833,4027,22.9
+"Saint-Jacques, Quebec",45.9500,-73.5667,4021,59.7
+"Swan River, Manitoba",52.1058,-101.2667,4014,560.4
+"Sutton, Quebec",45.0910,-72.5792,4012.00,16.30
+"Northern Bruce Peninsula, Ontario",45.0800,-81.3800,3999,5.1
+"L’Islet-sur-Mer, Quebec",47.1000,-70.3500,3999,33.3
+"Carleton-sur-Mer, Quebec",48.1000,-66.1333,3991,18.0
+"Oka, Quebec",45.4700,-74.0800,3969,69.3
+"Prescott, Ontario",44.7167,-75.5167,3965,1273.5
+"Amaranth, Ontario",43.9833,-80.2333,3963,15.0
+"Marmora and Lake, Ontario",44.6425,-77.7372,3953,7.1
+"Maniwaki, Quebec",46.3750,-75.9667,3930,677.7
+"Morin-Heights, Quebec",45.9000,-74.2500,3925,69.5
+"Dundas, New Brunswick",46.3155,-64.6947,3914.00,22.40
+"Napierville, Quebec",45.1833,-73.4000,3899,796.6
+"Crabtree, Quebec",45.9667,-73.4667,3887,155.0
+"Bancroft, Ontario",45.0500,-77.8500,3881,16.9
+"Saint-Tite, Quebec",46.7333,-72.5667,3880,41.9
+"Howick, Ontario",43.9000,-81.0700,3873,13.4
+"Dutton/Dunwich, Ontario",42.6667,-81.5000,3866,13.1
+"Callander, Ontario",46.1781,-79.4125,3863.00,36.40
+"Simonds, New Brunswick",45.3145,-65.8030,3843.00,13.70
+"Baie-d’Urfé, Quebec",45.4167,-73.9167,3823,633.9
+"New Richmond, Quebec",48.1667,-65.8667,3810,22.6
+"Perth South, Ontario",43.3000,-81.1500,3810,9.7
+"Roxton Pond, Quebec",45.4833,-72.6667,3786,38.8
+"Sparwood, British Columbia",49.7331,-114.8853,3784,19.4
+"Claresholm, Alberta",50.0194,-113.5783,3780,465.9
+"Breslau, Ontario",43.4816,-80.4080,3778.00,691.90
+"Montague, Ontario",44.9667,-75.9667,3761,13.4
+"Cumberland, British Columbia",49.6206,-125.0261,3753,128.9
+"Beaupré, Quebec",47.0500,-70.9000,3752,163.4
+"Saint-André-Avellin, Quebec",45.7167,-75.0667,3749,27.2
+"Saint-Ambroise-de-Kildare, Quebec",46.0833,-73.5500,3747,55.3
+"East Angus, Quebec",45.4833,-71.6667,3741,472.7
+"Rossland, British Columbia",49.0786,-117.7992,3729,62.4
+"Mackenzie, British Columbia",55.3381,-123.0944,3714,22.6
+"Golden, British Columbia",51.3019,-116.9667,3708,325.0
+"Raymond, Alberta",49.4658,-112.6508,3708,557.1
+"Saint-Adolphe-d'Howard, Quebec",45.9700,-74.3300,3702,26.6
+"Warwick, Ontario",43.0000,-81.8917,3692,12.7
+"Bowen Island, British Columbia",49.3833,-123.3833,3680,73.4
+"Bonnechere Valley, Ontario",45.5333,-77.1000,3674,6.2
+"Windsor, Nova Scotia",44.9803,-64.1292,3648,400.6
+"Pincher Creek, Alberta",49.4861,-113.9500,3642,361.1
+"Alnwick, New Brunswick",47.2656,-65.2292,3640.00,5.40
+"Westville, Nova Scotia",45.5500,-62.7000,3628,254.9
+"Fruitvale, British Columbia",49.1161,-117.5414,3627,1363.5
+"Pasadena, Newfoundland and Labrador",49.0161,-57.6050,3620,73.6
+"Saint-Prosper, Quebec",46.2167,-70.4833,3605,27.0
+"Ormstown, Quebec",45.1300,-74.0000,3595,25.2
+"Cardston, Alberta",49.2025,-113.3019,3585,417.5
+"Westbank, British Columbia",49.8423,-119.6743,3581.00,80.60
+"De Salaberry, Manitoba",49.4403,-96.9844,3580,5.3
+"Headingley, Manitoba",49.8681,-97.3908,3579,33.4
+"Grande Cache, Alberta",53.8773,-119.1199,3571.00,102.10
+"Atholville, New Brunswick",47.9894,-66.7125,3570,29.8
+"Saint-Agapit, Quebec",46.5667,-71.4333,3567,54.5
+"Prince Albert No. 461, Saskatchewan",53.1089,-105.6574,3562.00,3.50
+"Casselman, Ontario",45.3000,-75.0833,3548,693.4
+"Saint-Ambroise, Quebec",48.5500,-71.3333,3546,23.5
+"Hay River, Northwest Territories",60.7531,-115.9004,3528.00,26.50
+"Mistissini, Quebec",50.5707,-73.6829,3523.00,4.10
+"Studholm, New Brunswick",45.8133,-65.5747,3522.00,7.80
+"Lumby, British Columbia",50.2494,-118.9656,3500,379.5
+"Saint-Faustin--Lac-Carré, Quebec",46.0813,-74.4668,3499.00,28.80
+"Morris-Turnberry, Ontario",43.8500,-81.2500,3496,9.1
+"Placentia, Newfoundland and Labrador",47.2458,-53.9611,3496,60.20
+"Saint-Pascal, Quebec",47.5333,-69.8000,3490,58.8
+"Mulmur, Ontario",44.1917,-80.1083,3478,12.1
+"Blind River, Ontario",46.1833,-82.9500,3472,6.6
+"Dunham, Quebec",45.1333,-72.8000,3471,17.8
+"Havre-Saint-Pierre, Quebec",50.2333,-63.6000,3460,1.2
+"Saint-Anselme, Quebec",46.6333,-70.9667,3458,46.9
+"Trois-Pistoles, Quebec",48.1200,-69.1800,3456,450.9
+"Grande-Rivière, Quebec",48.4000,-64.5000,3456,39.5
+"Powassan, Ontario",46.0825,-79.3619,3455,15.4
+"Malartic, Quebec",48.1333,-78.1333,3449,23.2
+"Bonavista, Newfoundland and Labrador",48.6597,-53.1208,3448,109.4
+"Killarney - Turtle Mountain, Manitoba",49.1775,-99.6906,3429.00,3.70
+"Woodlands, Manitoba",50.2408,-97.7358,3416.00,2.90
+"Lewisporte, Newfoundland and Labrador",49.2300,-55.0700,3409,92.4
+"Saint-Denis-de-Brompton, Quebec",45.4500,-72.0833,3402,48.1
+"Invermere, British Columbia",50.5083,-116.0303,3391,315.9
+"Salisbury, New Brunswick",46.0776,-65.1996,3388.00,3.90
+"Bifrost-Riverton, Manitoba",51.0603,-97.1436,3378,2.1
+"Buckland No. 491, Saskatchewan",53.3276,-105.7804,3375.00,4.30
+"Cartier, Manitoba",49.9161,-97.7000,3368,6.1
+"Sainte-Anne-des-Lacs, Quebec",45.8500,-74.1333,3363,135.8
+"Highlands East, Ontario",44.9667,-78.2500,3343,4.7
+"Alexander, Manitoba",50.4222,-96.0750,3333.00,2.10
+"Sainte-Claire, Quebec",46.6000,-70.8667,3325,37.8
+"Percé, Quebec",48.5333,-64.2167,3312,7.7
+"Saint-Jean-Port-Joli, Quebec",47.2167,-70.2667,3304,47.9
+"East Hawkesbury, Ontario",45.5167,-74.4667,3296,14.0
+"Bright, New Brunswick",46.1205,-67.0545,3289.00,8.10
+"Penhold, Alberta",52.1333,-113.8667,3277,619.9
+"Saint-André-d'Argenteuil, Quebec",45.5667,-74.3333,3275,33.5
+"Saint-Côme--Linière, Quebec",46.0667,-70.5167,3274,21.8
+"Saint-Sulpice, Quebec",45.8333,-73.3500,3273,90.0
+"Marathon, Ontario",48.7500,-86.3667,3273,19.2
+"Forestville, Quebec",48.7333,-69.0833,3270,16.8
+"Inuvik, Northwest Territories",68.3407,-133.6096,3243.00,51.90
+"Richmond, Quebec",45.6667,-72.1500,3232,460.2
+"Lake Cowichan, British Columbia",48.8258,-124.0542,3226,369.6
+"Sables-Spanish Rivers, Ontario",46.2333,-82.0000,3214,3.9
+"Hillsburg-Roblin-Shell River, Manitoba",51.3343,-101.2929,3214.00,1.90
+"Port Hawkesbury, Nova Scotia",45.6153,-61.3642,3214,396.6
+"Three Hills, Alberta",51.7072,-113.2647,3212,475.7
+"Lorette, Manitoba",49.7414,-96.8761,3208.00,685.00
+"Paspebiac, Quebec",48.0333,-65.2500,3198,33.8
+"Saint-Thomas, Quebec",46.0167,-73.3500,3193,33.6
+"Saint-Jean-Baptiste, Quebec",45.5167,-73.1167,3191,44.3
+"Portneuf, Quebec",46.7000,-71.8833,3187,29.1
+"Pictou, Nova Scotia",45.6814,-62.7119,3186,397.6
+"Tisdale, Saskatchewan",52.8500,-104.0500,3180,491.5
+"Lake of Bays, Ontario",45.3043,-79.0180,3167.00,4.70
+"High Level, Alberta",58.5169,-117.1361,3159,108.2
+"Gibbons, Alberta",53.8278,-113.3228,3159,421.3
+"Bishops Falls, Newfoundland and Labrador",49.0167,-55.5167,3156,112.2
+"WestLake-Gladstone, Manitoba",50.2862,-98.8415,3154.00,1.70
+"Normandin, Quebec",48.8333,-72.5333,3137,14.8
+"Saint-Alphonse-Rodriguez, Quebec",46.1833,-73.7000,3134,32.0
+"Beauséjour, Manitoba",50.0622,-96.5161,3126,584.4
+"Dalhousie, New Brunswick",48.1000,-66.6167,3126,205.3
+"Saint-Alphonse-de-Granby, Quebec",45.3333,-72.8167,3125,62.6
+"Lac du Bonnet, Manitoba",50.2577,-96.1209,3121.00,2.80
+"Clermont, Quebec",47.6833,-70.2333,3118,62.8
+"Virden, Manitoba",49.8508,-100.9317,3114,370.20
+"Compton, Quebec",45.2333,-71.8167,3112,15.1
+"White City, Saskatchewan",50.4353,-104.3572,3099,7.5
+"Ellison, British Columbia",49.9646,-119.3178,3094.00,37.60
+"Mont-Saint-Grégoire, Quebec",45.3333,-73.1667,3086,38.8
+"Wellington, New Brunswick",46.4768,-64.7478,3079.00,16.70
+"Merrickville, Ontario",44.8539,-75.8269,3067.00,14.30
+"Saint-Liboire, Quebec",45.6500,-72.7667,3051,41.9
+"Dégelis, Quebec",47.5500,-68.6500,3051,5.5
+"Morris, Manitoba",49.3986,-97.4592,3047.00,2.90
+"Saint-Alexis-des-Monts, Quebec",46.4667,-73.1333,3046,2.9
+"Cap-Saint-Ignace, Quebec",47.0333,-70.4667,3045,14.6
+"Saint-Anaclet-de-Lessard, Quebec",48.4800,-68.4200,3035,23.9
+"Carman, Manitoba",49.4992,-98.0008,3027,702.4
+"Athens, Ontario",44.6250,-75.9500,3013,23.6
+"Melancthon, Ontario",44.1500,-80.2667,3008,9.7
+"Cap Santé, Quebec",46.6667,-71.7833,2996,54.7
+"Harbour Grace, Newfoundland and Labrador",47.6917,-53.2167,2995,88.8
+"Houston, British Columbia",54.3975,-126.6419,2993,41.0
+"Adelaide-Metcalfe, Ontario",42.9500,-81.7000,2990,9.0
+"Crossfield, Alberta",51.4333,-114.0333,2983,249.3
+"Springdale, Newfoundland and Labrador",49.4974,-56.0727,2971,168.80
+"Fort Macleod, Alberta",49.7256,-113.3975,2967,126.8
+"Athabasca, Alberta",54.7197,-113.2856,2965,168.0
+"Enderby, British Columbia",50.5508,-119.1397,2964,695.8
+"Saint-Ferréol-les-Neiges, Quebec",47.1167,-70.8500,2964,35.6
+"Laurentian Hills, Ontario",46.1333,-77.5500,2961,4.6
+"Grand Valley, Ontario",43.9500,-80.3667,2956,18.7
+"Senneterre, Quebec",48.3833,-77.2333,2953,0.2
+"Sainte-Marie-Madeleine, Quebec",45.6000,-73.1000,2935,57.7
+"Admaston/Bromley, Ontario",45.5292,-76.8969,2935,5.6
+"Saint-Gabriel-de-Valcartier, Quebec",46.9333,-71.4667,2933,6.7
+"North Algona Wilberforce, Ontario",45.6167,-77.2000,2915,7.7
+"Kingston, New Brunswick",45.4663,-66.0217,2913.00,14.50
+"Wawa, Ontario",47.9931,-84.7736,2905,7.0
+"Saint-Christophe-d'Arthabaska, Quebec",46.0333,-71.8833,2892,41.9
+"Sainte-Mélanie, Quebec",46.1333,-73.5167,2892,38.1
+"Ascot Corner, Quebec",45.4500,-71.7667,2891,35.1
+"Horton, Ontario",45.5000,-76.6667,2887,18.2
+"Saint-Michel, Quebec",45.2333,-73.5667,2884,48.2
+"Botwood, Newfoundland and Labrador",49.1500,-55.3667,2875,191.0
+"Saint-Paul-d'Abbotsford, Quebec",45.4333,-72.8833,2870,36.1
+"Saint-Marc-des-Carrières, Quebec",46.6833,-72.0500,2862,172.0
+"Stanstead, Quebec",45.0167,-72.1000,2857,125.8
+"Sainte-Anne-de-Beaupré, Quebec",47.0167,-70.9333,2854,45.6
+"Sainte-Luce, Quebec",48.5500,-68.3800,2851,39.0
+"Saint-Gabriel, Quebec",46.3000,-73.3833,2844,1012.3
+"Rankin Inlet, Nunavut",62.8300,-92.1321,2842.00,140.40
+"Vanscoy No. 345, Saskatchewan",52.0073,-107.0552,2840.00,3.30
+"Cedar, British Columbia",49.0853,-123.8259,2836.00,83.80
+"Princeton, British Columbia",49.4589,-120.5060,2828,47.4
+"La Loche, Saskatchewan",56.4833,-109.4333,2827,181.3
+"Kingsclear, New Brunswick",45.8796,-66.8695,2822.00,18.60
+"Ferme-Neuve, Quebec",46.7000,-75.4500,2822,3.6
+"Thurso, Quebec",45.5969,-75.2433,2818,449.0
+"Adstock, Quebec",46.0500,-71.0800,2806,9.7
+"Shuniah, Ontario",48.5833,-88.8333,2798,4.9
+"Enniskillen, Ontario",42.8167,-82.1250,2796,8.3
+"Yamachiche, Quebec",46.2667,-72.8333,2787,26.2
+"Saint-Maurice, Quebec",46.4667,-72.5333,2775,30.3
+"Bonaventure, Quebec",48.0500,-65.4833,2775,26.6
+"Val-Morin, Quebec",46.0000,-74.1800,2772,70.3
+"Pohénégamook, Quebec",47.4667,-69.2167,2770,8.1
+"Wakefield, New Brunswick",46.2406,-67.6248,2767.00,14.10
+"Stoke, Quebec",45.5333,-71.8000,2765,10.8
+"Sainte-Marguerite-du-Lac-Masson, Quebec",46.0560,-74.0723,2763.00,30.00
+"Saint-Prime, Quebec",48.5800,-72.3300,2758,18.7
+"Kuujjuaq, Quebec",58.1429,-68.3742,2754.00,9.40
+"Atikokan, Ontario",48.7500,-91.6167,2753,8.6
+"Grenville-sur-la-Rouge, Quebec",45.6500,-74.6333,2746,8.7
+"North Cypress-Langford, Manitoba",49.9969,-99.3982,2745.00,1.60
+"Sainte-Anne-de-Sorel, Quebec",46.0500,-73.0667,2742,71.4
+"Macamic, Quebec",48.7500,-79.0000,2734,13.5
+"Sundre, Alberta",51.7972,-114.6406,2729,245.6
+"Rougemont, Quebec",45.4333,-73.0500,2723,62.0
+"Piedmont, Quebec",45.9000,-74.1300,2721,111.7
+"Grimshaw, Alberta",56.1908,-117.6117,2718,383.4
+"Lac-des-Écorces, Quebec",46.5500,-75.3500,2713,18.8
+"Northeastern Manitoulin and the Islands, Ontario",45.9667,-81.9333,2706,5.5
+"Pelican Narrows, Saskatchewan",55.1883,-102.9342,2703,295.0
+"McDougall, Ontario",45.4500,-80.0167,2702,10.1
+"Black Diamond, Alberta",50.6881,-114.2333,2700,702.7
+"Saint-Pamphile, Quebec",46.9667,-69.7833,2685,19.6
+"Bedford, Quebec",45.1167,-72.9833,2684,639.4
+"Weedon-Centre, Quebec",45.7000,-71.4667,2683,12.4
+"Lacolle, Quebec",45.0833,-73.3667,2680,54.0
+"Saint-Gabriel-de-Brandon, Quebec",46.2667,-73.3833,2679,26.8
+"Errington, British Columbia",49.2874,-124.3433,2677.00,97.40
+"Coalhurst, Alberta",49.7457,-112.9319,2668,857.5
+"French River / Rivière des Français, Ontario",46.1667,-80.5000,2662,3.6
+"Arviat, Nunavut",61.0996,-94.1688,2657.00,20.10
+"Saint-David-de-Falardeau, Quebec",48.6167,-71.1167,2657,6.6
+"Markstay, Ontario",46.4912,-80.4717,2656.00,5.20
+"Spaniards Bay, Newfoundland and Labrador",47.6181,-53.3369,2653,40.40
+"Cocagne, New Brunswick",46.3406,-64.6200,2649,66.78
+"Saint-Bruno, Quebec",48.4667,-71.6500,2636,33.8
+"Chetwynd, British Columbia",55.6972,-121.6333,2635,43.1
+"Laurier-Station, Quebec",46.5333,-71.6333,2634,219.3
+"Saint-Anicet, Quebec",45.1200,-74.3500,2626,19.4
+"Saint-Mathieu-de-Beloeil, Quebec",45.5667,-73.2000,2624,65.8
+"Cap-Chat, Quebec",49.1000,-66.6833,2623,14.4
+"Sexsmith, Alberta",55.3508,-118.7825,2620,197.9
+"Notre-Dame-de-Lourdes, Quebec",46.1000,-73.4333,2595,72.6
+"Ville-Marie, Quebec",47.3333,-79.4333,2595,424.8
+"Saint-Isidore, Quebec",45.3000,-73.6800,2581,49.7
+"Shippegan, New Brunswick",47.7439,-64.7178,2580,257.6
+"East Garafraxa, Ontario",43.8500,-80.2500,2579,15.5
+"Pemberton, British Columbia",50.3203,-122.8053,2574,217.5
+"Unity, Saskatchewan",52.4333,-109.1667,2573,244.6
+"Rimbey, Alberta",52.6333,-114.2167,2567,225.1
+"High Prairie, Alberta",55.4325,-116.4861,2564,355.3
+"Turner Valley, Alberta",50.6739,-114.2786,2559,442.1
+"Hanna, Alberta",51.6383,-111.9419,2559,290.6
+"Fort Smith, Northwest Territories",60.0260,-112.0821,2542.00,27.40
+"Maria, Quebec",48.1667,-65.9833,2536,26.7
+"Saint-Chrysostome, Quebec",45.1000,-73.7667,2522,25.2
+"Greater Madawaska, Ontario",45.2722,-76.8589,2518,2.4
+"Berwick, Nova Scotia",45.0475,-64.7360,2509,381.3
+"Saint-Damase, Quebec",45.5333,-73.0000,2506,31.7
+"Lincoln, New Brunswick",45.8716,-66.5437,2504.00,98.20
+"Disraeli, Quebec",45.9000,-71.3500,2502,362.1
+"Sainte-Victoire-de-Sorel, Quebec",45.9500,-73.0833,2501,33.5
+"Meadow Lake No. 588, Saskatchewan",54.1213,-108.2837,2501.00,0.40
+"Elkford, British Columbia",50.0214,-114.9158,2499,24.6
+"Georgian Bay, Ontario",44.9833,-79.8167,2499,4.6
+"Saint-Alexandre, Quebec",45.2333,-73.1167,2495,32.8
+"Hérbertville, Quebec",48.3473,-71.6784,2491.00,9.50
+"Moosomin, Saskatchewan",50.1420,-101.6700,2485,327.5
+"North Kawartha, Ontario",44.7500,-78.1000,2479,3.2
+"Sainte-Thècle, Quebec",46.8167,-72.5000,2478,11.6
+"Trenton, Nova Scotia",45.6193,-62.6332,2474,407.8
+"Fermont, Quebec",52.7833,-67.0833,2474,5.2
+"Esterhazy, Saskatchewan",50.6500,-102.0667,2472,520.9
+"Wickham, Quebec",45.7500,-72.5000,2470,25.0
+"La Présentation, Quebec",45.6667,-73.0500,2466,26.1
+"Beaverlodge, Alberta",55.2094,-119.4292,2465,430.5
+"Sainte-Catherine-de-Hatley, Quebec",45.2500,-72.0500,2464,28.5
+"Saint-Basile, Quebec",46.7500,-71.8167,2463,25.1
+"Saint-Raphaël, Quebec",46.8000,-70.7500,2463,20.3
+"Holyrood, Newfoundland and Labrador",47.3833,-53.1333,2463,19.6
+"Gracefield, Quebec",46.0926,-75.9574,2462.00,6.40
+"Saint-Martin, Quebec",45.9667,-70.6500,2462,20.8
+"Causapscal, Quebec",48.3667,-67.2333,2458,15.2
+"Brigham, Quebec",45.2500,-72.8500,2457,28.2
+"Perry, Ontario",45.5000,-79.2833,2454,13.1
+"Port-Daniel--Gascons, Quebec",48.1833,-64.9667,2453,8.1
+"Rosetown, Saskatchewan",51.5500,-107.9833,2451,201.9
+"Minnedosa, Manitoba",50.2453,-99.8428,2449,161.1
+"Labelle, Quebec",46.2833,-74.7333,2445,12.3
+"Huntingdon, Quebec",45.0800,-74.1700,2444,879.2
+"Hébertville, Quebec",48.4000,-71.6833,2441,9.3
+"Black River-Matheson, Ontario",48.5333,-80.4667,2438,2.1
+"Saint-Michel-des-Saints, Quebec",46.6833,-73.9167,2436,4.9
+"Dufferin, Manitoba",49.5319,-98.0700,2435.00,2.70
+"Saint-Victor, Quebec",46.1500,-70.9000,2430,20.2
+"Sicamous, British Columbia",50.8378,-118.9703,2429,192.0
+"Cap Pele, New Brunswick",46.2172,-64.2822,2425.00,103.80
+"Kelsey, Manitoba",53.7356,-101.3950,2424,2.8
+"Killaloe, Hagarty and Richards, Ontario",45.6000,-77.5000,2420,6.1
+"Alvinston, Ontario",42.8489,-81.9049,2411.00,7.70
+"Dundurn No. 314, Saskatchewan",51.8261,-106.5416,2404.00,3.00
+"Saint-Éphrem-de-Beauce, Quebec",46.0516,-70.9374,2400.00,20.20
+"Assiniboia, Saskatchewan",49.6167,-105.9833,2389,630.3
+"Témiscaming, Quebec",46.7167,-79.1000,2385,3.3
+"Magrath, Alberta",49.4239,-112.8683,2374,396.4
+"Sainte-Geneviève-de-Berthier, Quebec",46.0833,-73.2167,2365,35.5
+"Buctouche, New Brunswick",46.4719,-64.7249,2361,130.5
+"Grand Manan, New Brunswick",44.6900,-66.8200,2360,15.8
+"Sainte-Madeleine, Quebec",45.6000,-73.1000,2356,439.8
+"Boissevain, Manitoba",49.1779,-100.0955,2353.00,2.20
+"Scott, Quebec",46.5120,-71.0770,2352.00,75.10
+"Sainte-Croix, Quebec",46.6200,-71.7300,2352,33.8
+"Algonquin Highlands, Ontario",45.4000,-78.7500,2351,2.3
+"Valcourt, Quebec",45.5000,-72.3167,2349,467.3
+"Saint George, New Brunswick",45.2916,-66.8501,2341.00,4.70
+"Paquetville, New Brunswick",47.6334,-65.1803,2329.00,10.60
+"Saint-Dominique, Quebec",45.5667,-72.8500,2327,33.7
+"Clearwater, British Columbia",51.6500,-120.0333,2324,41.7
+"Addington Highlands, Ontario",45.0000,-77.2500,2323,1.7
+"Lillooet, British Columbia",50.6864,-121.9364,2321,84.4
+"Burin, Newfoundland and Labrador",47.0500,-55.1800,2315,67.8
+"Grand Bank, Newfoundland and Labrador",47.1000,-55.7833,2310,136.1
+"Léry, Quebec",45.3500,-73.8000,2307,218.2
+"Minto, New Brunswick",46.1497,-66.1067,2305,72.8
+"Rosthern No. 403, Saskatchewan",52.6206,-106.3967,2300.00,2.40
+"Chase, British Columbia",50.8189,-119.6844,2286,607.0
+"Mansfield-et-Pontefract, Quebec",45.8611,-76.7392,2285,4.8
+"Saint-Denis, Quebec",45.7833,-73.1500,2285,26.9
+"Outlook, Saskatchewan",51.5000,-107.0500,2279,291.0
+"Mitchell, Manitoba",49.5363,-96.7634,2279.00,704.70
+"Saint-Gédéon-de-Beauce, Quebec",45.8500,-70.6333,2277,11.6
+"Saint-Léonard-d'Aston, Quebec",46.1000,-72.3667,2271,27.5
+"Lunenburg, Nova Scotia",44.3833,-64.3167,2263,560.1
+"Northesk, New Brunswick",47.2569,-66.2613,2263.00,0.70
+"Albanel, Quebec",48.8833,-72.4500,2262,11.4
+"St. Anthony, Newfoundland and Labrador",51.3725,-55.5947,2258,61.0
+"Pessamit, Quebec",49.0485,-68.6814,2256.00,8.80
+"Maskinongé, Quebec",46.2333,-73.0167,2253,30.2
+"Saint-Charles-de-Bellechasse, Quebec",46.7667,-70.9500,2246,24.1
+"Fogo Island, Newfoundland and Labrador",49.6667,-54.1833,2244,9.40
+"East Broughton, Quebec",46.2167,-71.0667,2229,255.3
+"Lantz, Nova Scotia",44.9894,-63.4736,2229.00,749.90
+"Calmar, Alberta",53.2500,-113.7833,2228,476.2
+"Highlands, British Columbia",48.5200,-123.5000,2225,58.5
+"Saint-Polycarpe, Quebec",45.3000,-74.3000,2224,31.8
+"Logy Bay-Middle Cove-Outer Cove, Newfoundland and Labrador",47.6300,-52.6800,2221,130.9
+"Deschambault, Quebec",46.6436,-72.0236,2220.00,17.80
+"Canora, Saskatchewan",51.6339,-102.4369,2219,303.7
+"Upper Miramichi, New Brunswick",46.5254,-66.2085,2218.00,1.20
+"Anmore, British Columbia",49.3144,-122.8564,2210,80.2
+"Hardwicke, New Brunswick",47.0208,-65.0302,2201.00,7.90
+"Saint-Côme, Quebec",46.2700,-73.7800,2198,13.5
+"Waskaganish, Quebec",51.3674,-78.7069,2196.00,4.40
+"Twillingate, Newfoundland and Labrador",49.6444,-54.7436,2196,85.3
+"Saint-Quentin, New Brunswick",47.5135,-67.3921,2194,517.2
+"Lebel-sur-Quévillon, Quebec",49.0500,-76.9833,2187,53.8
+"Pilot Butte, Saskatchewan",50.4667,-104.4167,2183,377.7
+"Nanton, Alberta",50.3494,-113.7717,2181,447.8
+"Pierreville, Quebec",46.0667,-72.8167,2176,27.8
+"New-Wes-Valley, Newfoundland and Labrador",49.1500,-53.5833,2172,16.3
+"Pennfield Ridge, New Brunswick",45.1924,-66.6858,2170.00,6.00
+"West Interlake, Manitoba",50.9837,-98.3572,2162.00,1.30
+"Biggar, Saskatchewan",52.0590,-107.9790,2161,137.2
+"Britannia No. 502, Saskatchewan",53.4236,-109.7772,2153.00,2.30
+"Kent, New Brunswick",46.6221,-67.2953,2153.00,2.60
+"Wabana, Newfoundland and Labrador",47.6500,-52.9333,2146,148.00
+"Saint-Gilles, Quebec",46.5167,-71.3667,2138,12.1
+"Wendake, Quebec",46.8693,-71.3628,2134.00,1253.90
+"Saint-Bernard, Quebec",46.5000,-71.1333,2131,23.7
+"Sainte-Cécile-de-Milton, Quebec",45.4833,-72.7500,2128,29.1
+"Saint-Roch-de-Richelieu, Quebec",45.8833,-73.1667,2122,60.9
+"Saint-Nazaire, Quebec",48.5833,-71.5333,2114,14.6
+"Saint-Elzéar, Quebec",46.4000,-71.0667,2107,24.1
+"Hinchinbrooke, Quebec",45.0500,-74.1000,2103,14.1
+"Saint-François-Xavier-de-Brompton, Quebec",45.5333,-72.0500,2101,21.5
+"Papineauville, Quebec",45.6167,-75.0167,2101,34.3
+"Prairie View, Manitoba",50.3304,-100.9803,2088.00,1.20
+"Cowichan Bay, British Columbia",48.7666,-123.6743,2086.00,89.50
+"Saint-Ignace-de-Loyola, Quebec",46.0667,-73.1333,2086,57.7
+"Central Manitoulin, Ontario",45.7167,-82.2000,2084,4.8
+"Maple Creek, Saskatchewan",49.9167,-109.4667,2084,471.3
+"Glovertown, Newfoundland and Labrador",48.6667,-54.0500,2083,29.6
+"Tofield, Alberta",53.3703,-112.6667,2081,253.4
+"Madoc, Ontario",44.5833,-77.5167,2078,7.9
+"Upton, Quebec",45.6500,-72.6833,2075,37.3
+"Sainte-Anne-de-Sabrevois, Quebec",45.2000,-73.2167,2074,46.3
+"Logan Lake, British Columbia",50.4911,-120.8153,2073,6.4
+"Sainte-Anne-de-la-Pérade, Quebec",46.5833,-72.2000,2072,18.8
+"Saint-Damien-de-Buckland, Quebec",46.6333,-70.6667,2071,25.2
+"Baker Lake, Nunavut",64.3287,-96.0308,2069.00,11.40
+"Saltair, British Columbia",48.9504,-123.7637,2069.00,305.10
+"Pouch Cove, Newfoundland and Labrador",47.7670,-52.7670,2069,35.5
+"Saint-Ferdinand, Quebec",46.1000,-71.5667,2067,15.1
+"Port McNeill, British Columbia",50.5903,-127.0847,2064,149.9
+"Digby, Nova Scotia",44.6222,-65.7606,2060,654.6
+"Manouane, Quebec",47.2091,-74.3833,2060.00,258.40
+"Saint-Gervais, Quebec",46.7167,-70.8833,2058,23.1
+"Neebing, Ontario",48.1833,-89.4667,2055,2.3
+"Redwater, Alberta",53.9489,-113.1067,2053,102.5
+"Saint-Alexandre-de-Kamouraska, Quebec",47.6817,-69.6250,2050,18.4
+"Saint-Marc-sur-Richelieu, Quebec",45.6833,-73.2000,2050,33.8
+"Mandeville, Quebec",46.3667,-73.3500,2043,6.3
+"Caplan, Quebec",48.1000,-65.6833,2039,23.7
+"Point Edward, Ontario",42.9931,-82.4083,2037,620.6
+"Allardville, New Brunswick",47.4321,-65.4383,2032.00,3.10
+"Waterville, Quebec",45.2667,-71.9000,2028,45.7
+"Saint-Damien, Quebec",46.3300,-73.4800,2020,7.9
+"Lac-Nominingue, Quebec",46.4000,-75.0333,2019,6.6
+"Obedjiwan, Quebec",48.6686,-74.9289,2019.00,234.40
+"Rama, Saskatchewan",51.7578,-103.0008,2016,3087.3
+"McCreary, Manitoba",50.7494,-99.4850,2011,274.70
+"Deloraine-Winchester, Manitoba",49.1775,-100.4322,2011,2.00
+"Oakland-Wawanesa, Manitoba",49.6208,-99.8481,2011,2.90
+"Brenda-Waskada, Manitoba",49.1775,-100.7019,2011,0.90
+"Russell-Binscarth, Manitoba",50.7272,-101.3689,2011,4.30
+"Ellice-Archie, Manitoba",50.3239,-101.2729,2011,0.80
+"Souris-Glenwood, Manitoba",49.6208,-100.2581,2011,4.40
+"Riverdale, Manitoba",49.9750,-100.2789,2011,3.70
+"Pembina, Manitoba",49.1775,-98.5408,2011,2.10
+"Wallace-Woodworth, Manitoba",49.9156,-100.9389,2011,1.50
+"Lorne, Manitoba",49.4436,-98.7494,2011,3.30
+"Ethelbert, Manitoba",51.5364,-100.4981,2011,104.30
+"Yellowhead, Manitoba",50.4847,-100.4828,2011,1.80
+"Swan Valley West, Manitoba",51.9978,-101.3944,2011,1.60
+"Grey, Manitoba",49.7094,-98.0736,2011,2.80
+"Gilbert Plains, Manitoba",51.1547,-100.4381,2011,1.40
+"Norfolk-Treherne, Manitoba",49.6653,-98.5967,2011,2.40
+"Hamiota, Manitoba",50.1964,-100.6342,2011,248.30
+"Emerson-Franklin, Manitoba",49.1333,-97.0331,2011,2.60
+"Sifton, Manitoba",49.6653,-100.6678,2011,2.6
+"Rossburn, Manitoba",50.7272,-100.7408,2011,150.40
+"Grand View, Manitoba",51.1550,-100.7892,2011,310.30
+"Grassland, Manitoba",49.4306,-100.3103,2011,1.20
+"Louise, Manitoba",49.1772,-98.8794,2011,2.00
+"Ste. Rose, Manitoba",51.0222,-99.4306,2011,2.70
+"Cartwright-Roblin, Manitoba",49.1331,-99.2797,2011,1.80
+"Mossey River, Manitoba",51.7550,-99.9664,2011,1.00
+"Lakeshore, Manitoba",51.2440,-99.6562,2011,1.10
+"Riding Mountain West, Manitoba",50.8347,-101.0961,2011,0.90
+"Clanwilliam-Erickson, Manitoba",50.5061,-99.8156,2011,2.50
+"Glenboro-South Cypress, Manitoba",49.6650,-99.3708,2011,1.40
+"North Norfolk, Manitoba",49.9308,-98.8356,2011,3.30
+"Reinland, Manitoba",49.1331,-97.5942,2011,6.20
+"Minitonas-Bowsman, Manitoba",52.1433,-100.9772,2011,1.40
+"Kippens, Newfoundland and Labrador",48.5492,-58.6236,2008,140.3
+"Blucher, Saskatchewan",52.0134,-106.2176,2006.00,2.50
+"Hatley, Quebec",45.2700,-71.9500,2003,28.0
+"Saint-Gédéon, Quebec",48.5000,-71.7667,2001,31.5
+"Kingsey Falls, Quebec",45.8500,-72.0667,2000,28.7
+"Provost, Alberta",52.3539,-110.2686,1998,423.0
+"Saint-Charles, New Brunswick",46.6692,-65.0184,1997.00,11.40
+"Mattawa, Ontario",46.3167,-78.7000,1993,544.8
+"Tumbler Ridge, British Columbia",55.1333,-121.0000,1987,1.3
+"Terrasse-Vaudreuil, Quebec",45.4000,-73.9833,1986,1865.2
+"L'Ascension-de-Notre-Seigneur, Quebec",48.7000,-71.6833,1983,15.0
+"Bow Island, Alberta",49.8667,-111.3667,1983,341.6
+"Barraute, Quebec",48.4333,-77.6333,1980,4.0
+"One Hundred Mile House, British Columbia",51.6413,-121.3127,1980.00,37.20
+"Kedgwick, New Brunswick",47.6456,-67.3431,1979,3.0
+"Gambo, Newfoundland and Labrador",48.7833,-54.2167,1978,21.5
+"Saint-Liguori, Quebec",46.0167,-73.5667,1976,39.1
+"Bonfield, Ontario",46.2167,-79.1333,1975,9.5
+"Pointe-Lebel, Quebec",49.1667,-68.2000,1973,23.3
+"Saint Mary, New Brunswick",46.3987,-64.8681,1972.00,8.30
+"Saint-Patrice-de-Sherrington, Quebec",45.1667,-73.5167,1971,21.3
+"Fox Creek, Alberta",54.3950,-116.8092,1971,159.4
+"Dawn-Euphemia, Ontario",42.7000,-82.0167,1967,4.4
+"Chapleau, Ontario",47.8333,-83.4000,1964,138.2
+"Saint-Esprit, Quebec",45.9000,-73.6667,1963,36.4
+"Westfield Beach, New Brunswick",45.3432,-66.2868,1962.00,6.60
+"Montague, Prince Edward Island",46.1652,-62.6500,1961.00,620.80
+"Mashteuiatsh, Quebec",48.5690,-72.2495,1957.00,134.90
+"Saint-François-du-Lac, Quebec",46.0667,-72.8333,1957,30.4
+"Eel River Crossing, New Brunswick",48.0125,-66.4208,1953,29.8
+"Saint-Fulgence, Quebec",48.4500,-70.9000,1949,5.5
+"Millet, Alberta",53.0978,-113.4728,1945,522.9
+"Vallée-Jonction, Quebec",46.3667,-70.9167,1940,76.6
+"Saint-Georges-de-Cacouna, Quebec",47.9167,-69.5000,1939,30.6
+"Lumsden No. 189, Saskatchewan",50.6734,-104.7686,1938.00,2.40
+"Manitouwadge, Ontario",49.1333,-85.8333,1937,5.5
+"Wellington, Ontario",43.9579,-77.3534,1932.00,275.40
+"Swift Current No. 137, Saskatchewan",50.2211,-107.8559,1932.00,1.80
+"Tofino, British Columbia",49.1275,-125.8852,1932.00,183.10
+"Fort Qu’Appelle, Saskatchewan",50.7667,-103.7833,1919,363.2
+"Vulcan, Alberta",50.4000,-113.2500,1917,302.3
+"Indian Head, Saskatchewan",50.5333,-103.6667,1910,602.0
+"Petit Rocher, New Brunswick",47.7839,-65.7159,1908,425.2
+"Wabush, Newfoundland and Labrador",52.9081,-66.8690,1906,41.2
+"Saint-Fabien, Quebec",48.3000,-68.8700,1906,15.9
+"Watrous, Saskatchewan",51.6841,-105.4661,1900.00,170.10
+"North Frontenac, Ontario",44.9500,-76.9000,1898,1.6
+"Lac-Supérieur, Quebec",46.2000,-74.4667,1892,5.1
+"Les Escoumins, Quebec",48.3500,-69.4000,1891,7.0
+"Richibucto, New Brunswick",46.6189,-64.8385,1887.00,7.60
+"Rivière-Beaudette, Quebec",45.2333,-74.3333,1885,101.9
+"Saint-Barthélemy, Quebec",46.1833,-73.1333,1883,17.9
+"Nisga'a, British Columbia",55.1078,-129.4293,1880.00,0.90
+"Austin, Quebec",45.1833,-72.2833,1880,25.5
+"Saint-Mathieu, Quebec",45.3167,-73.5164,1879,59.5
+"Saint-Paul-de-l'Île-aux-Noix, Quebec",45.1333,-73.2833,1877,63.4
+"Orkney No. 244, Saskatchewan",51.2557,-102.6469,1875.00,2.30
+"Behchokò, Northwest Territories",62.8184,-115.9933,1874.00,24.90
+"Saint-Joseph-de-Coleraine, Quebec",45.9700,-71.3700,1870,14.7
+"Saint-Cyprien-de-Napierville, Quebec",45.1833,-73.4167,1869,19.2
+"Sayabec, Quebec",48.5667,-67.6833,1864,14.3
+"Valleyview, Alberta",55.0686,-117.2683,1863,199.9
+"Déléage, Quebec",46.3833,-75.9167,1856,7.5
+"Potton, Quebec",45.0833,-72.3667,1849,7.1
+"Sainte-Béatrix, Quebec",46.2000,-73.6167,1849,22.0
+"Sainte-Justine, Quebec",46.4000,-70.3500,1845,14.6
+"Eastman, Quebec",45.3341,-72.3041,1843.00,25.00
+"Saint-Valérien-de-Milton, Quebec",45.5667,-72.7167,1840,17.1
+"Saint-Cuthbert, Quebec",46.1500,-73.2333,1839,13.9
+"Saint-Blaise-sur-Richelieu, Quebec",45.2167,-73.2833,1837,26.3
+"Middleton, Nova Scotia",44.9418,-65.0686,1832,329.1
+"Maugerville, New Brunswick",46.1301,-66.2859,1831.00,2.00
+"Dalmeny, Saskatchewan",52.3411,-106.7733,1826,805.7
+"Kamsack, Saskatchewan",51.5650,-101.8947,1825,311.8
+"Lumsden, Saskatchewan",50.6463,-104.8676,1824,402.0
+"Trinity Bay North, Newfoundland and Labrador",48.4978,-53.0860,1819,71.5
+"Saint-Michel-de-Bellechasse, Quebec",46.8667,-70.9167,1816,41.0
+"Sainte-Angèle-de-Monnoir, Quebec",45.3833,-73.1000,1812,39.9
+"Picture Butte, Alberta",49.8731,-112.7800,1810,635.1
+"Sacré-Coeur-Saguenay, Quebec",48.2479,-69.8540,1803.00,5.90
+"Saint-Louis, New Brunswick",46.7048,-65.1046,1802.00,7.00
+"Victoria, Newfoundland and Labrador",47.7675,-53.2411,1800,102.0
+"Saint-Robert, Quebec",45.9667,-73.0000,1794,27.7
+"Armstrong, Manitoba",50.6400,-97.4950,1792,1.0
+"Saint-Pierre-de-l'Île-d'Orléans, Quebec",46.8833,-71.0667,1789,57.1
+"La Guadeloupe, Quebec",45.9500,-70.9300,1787,54.8
+"Saint Andrews, New Brunswick",45.0740,-67.0521,1786,213.9
+"Burns Lake, British Columbia",54.2292,-125.7625,1779,269.8
+"Povungnituk, Quebec",60.0477,-77.2751,1779.00,20.60
+"Manners Sutton, New Brunswick",45.6417,-67.0609,1777.00,3.40
+"Gore, Quebec",45.7700,-74.2500,1775,19.1
+"Deseronto, Ontario",44.2000,-77.0500,1774,705.7
+"Lamont, Alberta",53.7603,-112.7778,1774,192.8
+"Chambord, Quebec",48.4333,-72.0667,1773,14.6
+"Dudswell, Quebec",45.5833,-71.5833,1771,8.1
+"Wynyard, Saskatchewan",51.7667,-104.1833,1767,334.1
+"Cambridge Bay, Nunavut",69.1528,-105.1707,1766.00,8.70
+"Saint-Narcisse, Quebec",46.5667,-72.4667,1762,16.8
+"Frontenac Islands, Ontario",44.2000,-76.3833,1760,10.1
+"Waswanipi, Quebec",49.7883,-75.9544,1759.00,4.20
+"Inukjuak, Quebec",58.4824,-78.1309,1757.00,31.60
+"Piney, Manitoba",49.2069,-95.8333,1755,0.0
+"Komoka, Ontario",42.9580,-81.4001,1754.00,1576.60
+"Saint-Zacharie, Quebec",46.1333,-70.3667,1751,9.4
+"Hemmingford, Quebec",45.0833,-73.5833,1747,11.1
+"Shelburne, Nova Scotia",43.7633,-65.3236,1743,197.2
+"Saint-Clet, Quebec",45.3500,-74.2200,1738,44.3
+"Carberry, Manitoba",49.8689,-99.3594,1738,350.7
+"Brighton, New Brunswick",46.3316,-67.3585,1735.00,3.40
+"Saint-Antoine, New Brunswick",46.3629,-64.7530,1733,274.3
+"Warfield, British Columbia",49.0953,-117.7344,1729,910.0
+"Northampton, New Brunswick",46.1313,-67.4713,1724.00,7.10
+"Saint-Ours, Quebec",45.8833,-73.1500,1721,29.0
+"Stephenville Crossing, Newfoundland and Labrador",48.5167,-58.4167,1719,55.1
+"Sainte-Anne-de-la-Pocatière, Quebec",47.3500,-70.0000,1717,31.1
+"Ucluelet, British Columbia",48.9358,-125.5433,1717,264.5
+"Saint-Placide, Quebec",45.5333,-74.2000,1715,39.8
+"Barrière, British Columbia",51.1803,-120.1261,1713,164.7
+"Fisher, Manitoba",51.0825,-97.6611,1708.00,1.20
+"Nipissing, Ontario",46.0500,-79.5500,1707,4.3
+"Sainte-Clotilde, Quebec",45.1500,-73.6833,1704,21.6
+"Shaunavon, Saskatchewan",49.6510,-108.4120,1699,344.2
+"Wicklow, New Brunswick",46.5017,-67.7067,1697.00,8.70
+"Southesk, New Brunswick",46.9901,-66.4336,1694.00,0.70
+"Nouvelle, Quebec",48.1333,-66.3167,1689,7.3
+"Rosthern, Saskatchewan",52.6500,-106.3333,1688,392.0
+"Yamaska, Quebec",46.0236,-72.9391,1687.00,23.20
+"Neguac, New Brunswick",47.2333,-65.0500,1684,62.9
+"Flat Rock, Newfoundland and Labrador",47.7086,-52.7144,1683,92.90
+"Igloolik, Nunavut",69.3817,-81.6811,1682.00,16.30
+"Grunthal, Manitoba",49.4065,-96.8603,1680.00,593.70
+"Naramata, British Columbia",49.5886,-119.5838,1676.00,207.80
+"Saint-Élie-de-Caxton, Quebec",46.4833,-72.9667,1676,14.2
+"Blumenort, Manitoba",49.6033,-96.7006,1675.00,526.30
+"Balmoral, New Brunswick",47.9667,-66.4500,1674,38.6
+"Price, Quebec",48.6017,-68.1227,1673,646.0
+"Rosedale, Manitoba",50.4397,-99.5389,1672.00,1.90
+"Saint-Jacques-le-Mineur, Quebec",45.2833,-73.4167,1672,24.9
+"Huron Shores, Ontario",46.2833,-83.2000,1664,3.8
+"Champlain, Quebec",46.4500,-72.3500,1664,28.4
+"Whitehead, Manitoba",49.7981,-100.2575,1661.00,2.90
+"Saint-Antoine-sur-Richelieu, Quebec",45.7833,-73.1833,1659,25.2
+"Saint-Pacôme, Quebec",47.4000,-69.9500,1658,57.5
+"Saint-Stanislas-de-Kostka, Quebec",45.1800,-74.1300,1654,28.7
+"Frontenac, Quebec",45.5800,-70.8300,1650,7.4
+"Stuartburn, Manitoba",49.1331,-96.5158,1648.00,1.40
+"Yamaska-Est, Quebec",46.0000,-72.9200,1644,22.5
+"Sainte-Émélie-de-l'Énergie, Quebec",46.3167,-73.6500,1644,10.7
+"Saint-Charles-sur-Richelieu, Quebec",45.6833,-73.1833,1643,25.2
+"Saint-Joseph-de-Sorel, Quebec",46.0446,-73.1308,1642.00,1192.70
+"Nipigon, Ontario",49.0153,-88.2683,1642,15.0
+"Rivière-Blanche, Quebec",48.7833,-67.7000,1642,13.6
+"Sainte-Hélène-de-Bagot, Quebec",45.7333,-72.7333,1637,22.3
+"Franklin Centre, Quebec",45.0467,-73.9005,1636.00,14.50
+"Harbour Breton, Newfoundland and Labrador",47.4833,-55.8333,1634,118.9
+"Massey Drive, Newfoundland and Labrador",48.9372,-57.9000,1632,658.70
+"Mille-Isles, Quebec",45.8200,-74.2200,1629,26.8
+"Wilton No. 472, Saskatchewan",53.1240,-109.7885,1629.00,1.60
+"Lyster, Quebec",46.3667,-71.6167,1628,9.7
+"Oakview, Manitoba",50.1964,-100.2167,1626.00,1.40
+"Balgonie, Saskatchewan",50.4880,-104.2690,1625,515.8
+"Harrison Park, Manitoba",50.5563,-100.1674,1622.00,1.70
+"Kensington, Prince Edward Island",46.4333,-63.6500,1619,537.9
+"Witless Bay, Newfoundland and Labrador",47.2800,-52.8300,1619,92.6
+"Pond Inlet, Nunavut",72.6808,-77.7503,1617.00,9.30
+"Royston, British Columbia",49.6405,-124.9406,1616.00,361.30
+"Sainte-Clotilde-de-Horton, Quebec",45.9833,-72.2333,1616,14.2
+"Burford, Ontario",43.1036,-80.4240,1615.00,208.20
+"Fossambault-sur-le-Lac, Quebec",46.8667,-71.6167,1613,141.7
+"Saint-Benoît-Labre, Quebec",46.0667,-70.8000,1612,19.0
+"Coombs, British Columbia",49.3008,-124.4049,1612.00,102.80
+"Terrace Bay, Ontario",48.8000,-87.1000,1611,10.5
+"Chapais, Quebec",49.7819,-74.8544,1610,25.3
+"Saint-Honoré-de-Shenley, Quebec",45.9667,-70.8333,1610,12.1
+"Cleveland, Quebec",45.6700,-72.0800,1609,12.9
+"Macdonald, Meredith and Aberdeen Additional, Ontario",46.4833,-84.0667,1609,9.8
+"Messines, Quebec",46.2333,-76.0167,1608,14.1
+"Saint-Jean-de-Dieu, Quebec",48.0000,-69.0500,1606,10.6
+"Nakusp, British Columbia",50.2434,-117.8002,1605,195.2
+"Florenceville, New Brunswick",46.4435,-67.6152,1604,102.7
+"Saint-Antoine-de-Tilly, Quebec",46.6667,-71.5833,1604,26.6
+"Lakeview, British Columbia",49.9026,-119.5699,1600.00,63.50
+"Humbermouth, Newfoundland and Labrador",49.0156,-58.1678,1599,24.60
+"Fort St. James, British Columbia",54.4431,-124.2542,1598,72.0
+"Saint-François-de-la-Rivière-du-Sud, Quebec",46.8833,-70.7167,1596,17.0
+"Saint-Jacques, New Brunswick",47.5634,-68.3693,1596.00,5.30
+"Uashat, Quebec",50.2330,-66.3947,1592.00,681.80
+"Perth, New Brunswick",46.7393,-67.6984,1590,177.3
+"Eeyou Istchee Baie-James, Quebec",52.3382,-75.1977,1589.00,0.00
+"Shellbrook No. 493, Saskatchewan",53.3545,-106.2553,1587.00,1.30
+"Shawville, Quebec",45.6000,-76.4833,1587,294.5
+"Saint-Lucien, Quebec",45.8667,-72.2667,1584,14.2
+"Lambton, Quebec",45.8300,-71.0800,1584,14.6
+"Saint-Laurent-de-l'Île-d'Orléans, Quebec",46.8667,-71.0167,1580,44.2
+"Saint-Flavien, Quebec",46.5167,-71.6000,1578,23.4
+"Grenville, Quebec",45.6333,-74.6000,1577,560.4
+"Chute-aux-Outardes, Quebec",49.1167,-68.4000,1577,216.0
+"Sainte-Marcelline-de-Kildare, Quebec",46.1167,-73.6000,1567,45.2
+"Saint-Félix-de-Kingsey, Quebec",45.8000,-72.1833,1563,12.3
+"Upper Island Cove, Newfoundland and Labrador",47.6472,-53.2233,1561,199.00
+"Glenelg, New Brunswick",46.9455,-65.2893,1560.00,3.10
+"Sainte-Élisabeth, Quebec",46.0833,-73.3500,1559,18.8
+"Ashcroft, British Columbia",50.7256,-121.2806,1558,32.3
+"Clarkes Beach, Newfoundland and Labrador",47.5447,-53.2824,1558,122.6
+"Saint-Bernard-de-Lacolle, Quebec",45.0833,-73.4167,1549,13.0
+"Belledune, New Brunswick",47.9000,-65.8167,1548,8.2
+"Saint-Guillaume, Quebec",45.8833,-72.7667,1547,17.6
+"Venise-en-Québec, Quebec",45.0833,-73.1333,1547,116.9
+"Maliotenam, Quebec",50.2114,-66.1911,1542.00,288.70
+"Ripon, Quebec",45.7833,-75.1000,1542,11.7
+"Hilliers, British Columbia",49.3022,-124.4727,1540.00,53.00
+"Saint-Joseph, New Brunswick",47.5580,-68.3082,1538.00,4.80
+"Saint-Paulin, Quebec",46.4167,-73.0333,1534,16.0
+"Bon Accord, Alberta",53.8328,-113.4189,1529,718.7
+"Saint David, New Brunswick",45.2918,-67.1983,1529.00,8.00
+"Saint-Albert, Quebec",46.0000,-72.0833,1526,21.8
+"Matagami, Quebec",49.7500,-77.6333,1526,22.8
+"Springfield, New Brunswick",45.7005,-65.8079,1525.00,6.10
+"Amherst, Quebec",46.0500,-74.7667,1524,6.6
+"Notre-Dame-du-Laus, Quebec",46.0833,-75.6167,1518,1.8
+"St. George, New Brunswick",45.1333,-66.8167,1517,93.8
+"Wembley, Alberta",55.1572,-119.1392,1516,318.9
+"Victoria, Manitoba",49.6644,-98.9153,1514.00,2.20
+"Springbrook, Alberta",52.1796,-113.8850,1507.00,286.30
+"Saint-Tite-des-Caps, Quebec",47.1333,-70.7667,1506,11.7
+"Hudson Bay, Saskatchewan",52.8510,-102.3920,1504,86.7
+"Pinawa, Manitoba",50.1707,-95.9547,1504.00,11.70
+"Brudenell, Lyndoch and Raglan, Ontario",45.3167,-77.4000,1503,2.1
+"Carlyle, Saskatchewan",49.6333,-102.2667,1503,451.1
+"Keremeos, British Columbia",49.2025,-119.8294,1502,717.5
+"Val-Joli, Quebec",45.6000,-71.9700,1501,16.5
+"Gold River, British Columbia",49.7769,-126.0514,1500,15.0
+"Saint-Casimir, Quebec",46.6500,-72.1333,1500,22.5
+"Bay Bulls, Newfoundland and Labrador",47.3158,-52.8103,1500,48.8
+"Langham, Saskatchewan",52.3667,-106.9667,1496,374.9
+"Frenchman Butte, Saskatchewan",53.6052,-109.4298,1494.00,0.80
+"Gordon, New Brunswick",46.8363,-67.1913,1493.00,1.00
+"Kugluktuk, Nunavut",67.8055,-115.3223,1491.00,2.70
+"Saint-Malachie, Quebec",46.5333,-70.7667,1489,14.8
+"Southampton, New Brunswick",46.0789,-67.3124,1484.00,3.30
+"Salluit, Quebec",62.2013,-75.6337,1483.00,101.10
+"Pangnirtung, Nunavut",66.1436,-65.6829,1481.00,190.60
+"Saint-Louis-de-Gonzague, Quebec",45.2000,-73.9800,1481,18.6
+"Moosonee, Ontario",51.2722,-80.6431,1481,2.7
+"Englehart, Ontario",47.8167,-79.8667,1479,489.7
+"Saint-Urbain, Quebec",47.5500,-70.5333,1474,4.4
+"Tring-Jonction, Quebec",46.2667,-70.9833,1473,57.5
+"Nauwigewauk, New Brunswick",45.4812,-65.8738,1472.00,48.20
+"Pointe-à-la-Croix, Quebec",48.0167,-66.6833,1472,3.7
+"Denmark, New Brunswick",47.1155,-67.4771,1471.00,2.00
+"Saint-Joachim, Quebec",47.0500,-70.8500,1471,34.5
+"Torch River No. 488, Saskatchewan",53.5445,-104.4619,1471.00,0.30
+"Saint-Théodore-d'Acton, Quebec",45.6833,-72.5833,1471,17.7
+"Grindrod, British Columbia",50.6300,-119.1314,1470.00,34.00
+"L’ Îsle-Verte, Quebec",48.0167,-69.3333,1469,12.5
+"Harrison Hot Springs, British Columbia",49.3000,-121.7819,1468,263.4
+"Palmarolle, Quebec",48.6667,-79.2000,1465,12.5
+"Henryville, Quebec",45.1333,-73.1833,1464,22.6
+"Sussex Corner, New Brunswick",45.7122,-65.4719,1461.00,156.40
+"Saint-Odilon-de-Cranbourne, Quebec",46.3667,-70.6833,1459,11.2
+"Pipestone, Manitoba",49.6653,-101.1444,1458.00,1.30
+"Laurierville, Quebec",46.3000,-71.6500,1454,13.6
+"La Doré, Quebec",48.7200,-72.6500,1453,5.0
+"Lac-au-Saumon, Quebec",48.4167,-67.3500,1453,17.7
+"Wotton, Quebec",45.7333,-71.8000,1453,10.1
+"Prairie Lakes, Manitoba",49.4034,-99.6298,1453.00,1.40
+"Elk Point, Alberta",53.8967,-110.8972,1452,295.5
+"Shellbrook, Saskatchewan",53.2167,-106.4000,1444,390.3
+"Wemindji, Quebec",53.0440,-78.7384,1444.00,3.70
+"Cape Dorset, Nunavut",64.2237,-76.5405,1441.00,147.90
+"Strong, Ontario",45.7500,-79.4000,1439,9.0
+"Lappe, Ontario",48.5693,-89.3573,1436.00,9.80
+"Rivière-Héva, Quebec",48.2333,-78.2167,1433,3.4
+"Fort-Coulonge, Quebec",45.8500,-76.7333,1433,462.4
+"Irishtown-Summerside, Newfoundland and Labrador",48.9833,-57.9500,1418,119.20
+"Godmanchester, Quebec",45.0800,-74.2500,1417,10.2
+"Macklin, Saskatchewan",52.3300,-109.9400,1415,450.7
+"Armour, Ontario",45.6289,-79.3436,1414,8.6
+"Saint-Simon, Quebec",45.7190,-72.8463,1413.00,20.50
+"St. François Xavier, Manitoba",49.9903,-97.6722,1411,6.9
+"Tingwick, Quebec",45.8873,-71.9244,1410.00,8.30
+"Saint-Aubert, Quebec",47.1833,-70.2167,1409,14.0
+"Saint-Mathieu-du-Parc, Quebec",46.5667,-72.9167,1407,6.3
+"Wabasca, Alberta",55.9855,-113.8566,1406.00,65.80
+"Ragueneau, Quebec",49.0667,-68.5333,1405,7.6
+"Notre-Dame-du-Bon-Conseil, Quebec",46.0000,-72.3500,1404,331.4
+"Wasagamack, Manitoba",53.9056,-94.9412,1403.00,17.30
+"Saint-Ubalde, Quebec",46.7500,-72.2667,1403,10.0
+"Creighton, Saskatchewan",54.7561,-101.8973,1402,97.40
+"Fortune, Newfoundland and Labrador",47.0733,-55.8217,1401,25.5
+"Faraday, Ontario",45.0000,-77.9167,1401,6.4
+"Berthier-sur-Mer, Quebec",46.9167,-70.7333,1398,52.2
+"Frampton, Quebec",46.4667,-70.8000,1393,9.2
+"Magnetawan, Ontario",45.6667,-79.6333,1390,2.6
+"New Carlisle, Quebec",48.0167,-65.3333,1388,20.5
+"Laird No. 404, Saskatchewan",52.5696,-106.7312,1387.00,1.90
+"Petitcodiac, New Brunswick",45.9333,-65.1667,1383,80.4
+"Popkum, British Columbia",49.1911,-121.7553,1382.00,216.70
+"Norton, New Brunswick",45.6387,-65.6955,1382,18.3
+"Canwood No. 494, Saskatchewan",53.4574,-106.7768,1381.00,0.70
+"Wentworth-Nord, Quebec",45.8500,-74.4500,1381,8.8
+"Bas Caraquet, New Brunswick",47.8000,-64.8333,1380,44.5
+"Sainte-Ursule, Quebec",46.2833,-73.0333,1375,20.2
+"Dawson, Yukon",64.0464,-139.3893,1375.00,42.40
+"Nantes, Quebec",45.6333,-71.0333,1374,11.4
+"Lac-aux-Sables, Quebec",46.8667,-72.4000,1373,5.1
+"Stewiacke, Nova Scotia",45.1422,-63.3483,1373,77.9
+"Taylor, British Columbia",56.1590,-120.6878,1373,80.3
+"Rosser, Manitoba",49.9900,-97.4592,1372,3.1
+"Estevan No. 5, Saskatchewan",49.1308,-103.0126,1370.00,1.80
+"Falmouth, Nova Scotia",44.9967,-64.1634,1368.00,262.30
+"Vaudreuil-sur-le-Lac, Quebec",45.4000,-74.0333,1359,989.2
+"Grahamdale, Manitoba",51.4200,-98.3733,1359.00,0.60
+"Cardwell, New Brunswick",45.7848,-65.3037,1353.00,4.30
+"Two Hills, Alberta",53.7150,-111.7461,1352,400.0
+"Spiritwood No. 496, Saskatchewan",53.4435,-107.4495,1347.00,0.60
+"Legal, Alberta",53.9492,-113.5950,1345,423.4
+"Amulet, Quebec",48.2938,-79.0274,1340.00,724.30
+"Hérouxville, Quebec",46.6667,-72.6167,1340,25.3
+"Pointe-des-Cascades, Quebec",45.3333,-73.9667,1340,502.2
+"Weldford, New Brunswick",46.5221,-65.1114,1338.00,2.20
+"Reynolds, Manitoba",49.7678,-95.8842,1338.00,0.40
+"St. Laurent, Manitoba",50.4300,-97.7933,1338.00,2.90
+"Lions Bay, British Columbia",49.4581,-123.2369,1334,526.5
+"L'Isle-aux-Allumettes, Quebec",45.8667,-77.0667,1334,7.2
+"Emo, Ontario",48.6333,-93.8333,1333,6.6
+"Sainte-Brigide-d'Iberville, Quebec",45.3167,-73.0667,1331,18.7
+"Les Éboulements, Quebec",47.4833,-70.3167,1331,8.5
+"Dunsmuir, British Columbia",49.3696,-124.5772,1330.00,62.30
+"Pointe-aux-Outardes, Quebec",49.0500,-68.4333,1330,17.8
+"Smooth Rock Falls, Ontario",49.2833,-81.6333,1330,6.6
+"Oxbow, Saskatchewan",49.2333,-102.1667,1328,412.6
+"Telkwa, British Columbia",54.6972,-127.0500,1327,191.9
+"Gjoa Haven, Nunavut",68.6448,-95.8912,1324.00,46.50
+"Sainte-Barbe, Quebec",45.1667,-74.2000,1324,33.0
+"Mayerthorpe, Alberta",53.9503,-115.1336,1320,302.2
+"Saint-Louis-du-Ha! Ha!, Quebec",47.6700,-68.9800,1318,11.7
+"Powerview-Pine Falls, Manitoba",50.5661,-96.1981,1316.00,262.00
+"Baie Verte, Newfoundland and Labrador",49.9167,-56.1833,1313,3.5
+"Saint-Édouard, Quebec",45.2333,-73.5167,1312,24.8
+"Charlo, New Brunswick",48.0000,-66.3200,1310,41.9
+"Hillsborough, New Brunswick",45.9052,-64.7652,1308.00,4.30
+"Bruederheim, Alberta",53.8042,-112.9278,1308,183.8
+"Burgeo, Newfoundland and Labrador",47.6000,-57.6333,1307,41.70
+"Wadena, Saskatchewan",51.9458,-103.8014,1306,449.5
+"Richmond, New Brunswick",46.0776,-67.7248,1303.00,5.00
+"Swan Hills, Alberta",54.7106,-115.4133,1301,49.8
+"Wilkie, Saskatchewan",52.4167,-108.7000,1301,137.3
+"Saint-Léonard, New Brunswick",47.1625,-67.9250,1300,249.2
+"Rivière-Bleue, Quebec",47.4333,-69.0500,1299,7.5
+"Noyan, Quebec",45.0667,-73.3000,1297,29.0
+"Ile-à-la-Crosse, Saskatchewan",55.4500,-107.8833,1296,54.4
+"Landmark, Manitoba",49.6711,-96.8179,1292.00,433.40
+"Saint-Hugues, Quebec",45.8000,-72.8667,1292,15.4
+"Chisholm, Ontario",46.1000,-79.2333,1291,6.2
+"Sainte-Anne-du-Sault, Quebec",46.1733,-72.1415,1290.00,21.60
+"La Conception, Quebec",46.1500,-74.7000,1287,9.9
+"Saint-Valère, Quebec",46.0667,-72.1000,1286,11.9
+"Sorrento, British Columbia",50.8832,-119.4782,1285.00,108.30
+"Lamèque, New Brunswick",47.7925,-64.6532,1285,102.8
+"Thessalon, Ontario",46.2500,-83.5500,1279,284.6
+"L'Isle-aux-Coudres, Quebec",47.4000,-70.3833,1279,42.5
+"Nobleford, Alberta",49.8822,-113.0531,1278,802.6
+"Larouche, Quebec",48.4500,-71.5167,1277,15.1
+"South Qu'Appelle No. 157, Saskatchewan",50.5389,-104.0141,1275.00,1.40
+"Elton, Manitoba",49.9750,-99.8658,1273.00,2.20
+"Lorrainville, Quebec",47.3613,-79.3382,1272.00,14.50
+"Conestogo, Ontario",43.5441,-80.4997,1270.00,595.50
+"Upham, New Brunswick",45.5083,-65.6618,1269.00,6.70
+"St.-Charles, Ontario",46.3422,-80.4497,1269.00,3.90
+"Sainte-Lucie-des-Laurentides, Quebec",46.1300,-74.1800,1269,11.1
+"Saint-Alexis, Quebec",45.9333,-73.6167,1267,29.2
+"Gillam, Manitoba",56.3472,-94.7078,1265,0.6
+"Roxton Falls, Quebec",45.5667,-72.5167,1265,259.1
+"Montcalm, Manitoba",49.1775,-97.3247,1260.00,2.70
+"Clarendon, Quebec",45.6500,-76.5167,1256,3.8
+"Mervin No. 499, Saskatchewan",53.5455,-108.8762,1256.00,0.80
+"Saint-Ludger, Quebec",45.7500,-70.7000,1255,9.8
+"Coldwell, Manitoba",50.6389,-98.0417,1254.00,1.40
+"Saint-Arsène, Quebec",47.9167,-69.4333,1253,17.7
+"Racine, Quebec",45.5000,-72.2500,1252,11.8
+"Saint-Majorique-de-Grantham, Quebec",45.9333,-72.5833,1251,21.6
+"Saint-Zénon, Quebec",46.5500,-73.8167,1250,2.7
+"Saint-Armand, Quebec",45.0333,-73.0500,1248,15.1
+"Saint-Édouard-de-Lotbinière, Quebec",46.5667,-71.8333,1248,12.7
+"Alonsa, Manitoba",50.9794,-99.0796,1247.00,0.40
+"Listuguj, Quebec",48.0609,-66.7491,1241.00,28.00
+"Bowden, Alberta",51.9306,-114.0256,1240,442.8
+"St. Joseph, Ontario",46.2667,-84.0000,1240,9.3
+"Osler, Saskatchewan",52.3700,-106.5400,1237,796.5
+"Saint-Hubert-de-Rivière-du-Loup, Quebec",47.8167,-69.1500,1235,6.4
+"Saint-Jude, Quebec",45.7667,-72.9833,1235,16.0
+"Dildo, Newfoundland and Labrador",47.5685,-53.5471,1234.00,152.00
+"La Minerve, Quebec",46.2500,-74.9333,1234,4.4
+"Lanigan, Saskatchewan",51.8500,-105.0333,1233,165.20
+"Lajord No. 128, Saskatchewan",50.1965,-104.2507,1232.00,1.30
+"Moonbeam, Ontario",49.3500,-82.1500,1231,5.2
+"Notre-Dame-des-Pins, Quebec",46.1833,-70.7167,1227,51.2
+"Saint-Alban, Quebec",46.7167,-72.0833,1225,8.2
+"Saint-Pierre-les-Becquets, Quebec",46.5000,-72.2000,1223,25.6
+"Arborg, Manitoba",50.9075,-97.2182,1222,611.0
+"Vauxhall, Alberta",50.0689,-112.0975,1222,449.4
+"Bayfield, Ontario",43.5615,-81.6983,1218.00,439.90
+"Beaver River, Saskatchewan",54.3531,-109.5575,1216.00,0.50
+"Irricana, Alberta",51.3189,-113.6106,1216,376.1
+"Labrecque, Quebec",48.6667,-71.5333,1215,7.9
+"New Bandon, New Brunswick",47.6912,-65.2900,1214.00,3.40
+"Wemotaci, Quebec",47.9219,-73.7872,1213.00,38.50
+"Sainte-Hénédine, Quebec",46.5500,-70.9833,1212,23.6
+"L'Anse-Saint-Jean, Quebec",48.2333,-70.2000,1208,2.4
+"Bassano, Alberta",50.7833,-112.4667,1206,231.2
+"Parrsboro, Nova Scotia",45.3998,-64.3312,1205.00,81.40
+"Kaleden, British Columbia",49.3926,-119.5955,1203.00,278.70
+"St. George's, Newfoundland and Labrador",48.4275,-58.4778,1203,46.60
+"Fort Simpson, Northwest Territories",61.8082,-121.3199,1202.00,15.30
+"Akwesasne, Quebec",45.0155,-74.5769,1202.00,48.40
+"L’Avenir, Quebec",45.7667,-72.3000,1202,12.4
+"Ignace, Ontario",49.4167,-91.6667,1202,16.5
+"Claremont, Ontario",43.9741,-79.1316,1202.00,567.50
+"Teulon, Manitoba",50.3858,-97.2611,1201,372.3
+"Peel, New Brunswick",46.4058,-67.5278,1196.00,10.60
+"Musquash, New Brunswick",45.1836,-66.3514,1194.00,5.10
+"Notre-Dame-du-Portage, Quebec",47.7667,-69.6167,1193,29.9
+"St. Lawrence, Newfoundland and Labrador",46.9244,-55.3928,1192,33.6
+"Oxford, Nova Scotia",45.7306,-63.8733,1190,110.6
+"Minto-Odanah, Manitoba",50.2406,-99.8056,1189.00,1.60
+"St. Alban's, Newfoundland and Labrador",47.8753,-55.8414,1186,56.90
+"Saint James, New Brunswick",45.3822,-67.3427,1186.00,2.10
+"Saint-Norbert-d'Arthabaska, Quebec",46.1000,-71.8167,1185,11.4
+"Manning, Alberta",56.9142,-117.6272,1183,291.9
+"Glenella-Lansdowne, Manitoba",50.4163,-99.2097,1181.00,0.90
+"Saint-Hilarion, Quebec",47.5667,-70.4000,1181,11.9
+"Saint-Siméon, Quebec",48.0667,-65.5667,1179,20.9
+"Saint-Barnabé, Quebec",46.4000,-72.8833,1179,20.0
+"Sainte-Félicité, Quebec",48.9000,-67.3333,1175,12.9
+"Two Borders, Manitoba",49.2668,-101.1124,1175.00,0.50
+"Queensbury, New Brunswick",45.9918,-67.0632,1174.00,3.90
+"Bury, Quebec",45.4667,-71.5000,1174,4.9
+"Lac-Bouchette, Quebec",48.2500,-72.1800,1174,1.3
+"Saint-Lazare-de-Bellechasse, Quebec",46.6500,-70.8000,1172,13.6
+"Saint-Michel-du-Squatec, Quebec",47.8800,-68.7200,1171,3.2
+"Saint-Joachim-de-Shefford, Quebec",45.4500,-72.5333,1171,9.2
+"St-Pierre-Jolys, Manitoba",49.4403,-96.9844,1170,440.5
+"Grand-Remous, Quebec",46.6167,-75.9000,1168,3.3
+"Saint-Gabriel-de-Rimouski, Quebec",48.4209,-68.1791,1167.00,9.20
+"Armstrong, Ontario",47.7083,-79.8250,1166,12.9
+"Rogersville, New Brunswick",46.7167,-65.4167,1166,161.9
+"Langenburg, Saskatchewan",50.8333,-101.7000,1165,337.10
+"Sainte-Marie-Salomé, Quebec",45.9333,-73.5000,1164,34.5
+"Moose Jaw No. 161, Saskatchewan",50.4433,-105.5091,1163.00,1.50
+"Saint-Cyprien, Quebec",47.9000,-69.0167,1163,8.4
+"Maidstone, Saskatchewan",53.0920,-109.2940,1156,233.5
+"Très-Saint-Sacrement, Quebec",45.1833,-73.8500,1155,11.7
+"Battle River No. 438, Saskatchewan",52.7343,-108.4452,1154.00,1.10
+"Miltonvale Park, Prince Edward Island",46.3180,-63.2370,1153,32.40
+"McAdam, New Brunswick",45.5944,-67.3258,1151,80.6
+"Saints-Anges, Quebec",46.4167,-70.8833,1149,16.6
+"Saint-Urbain-Premier, Quebec",45.2200,-73.7300,1148,21.6
+"Centreville-Wareham-Trinity, Newfoundland and Labrador",48.9879,-53.9069,1147,30.8
+"Alberton, Prince Edward Island",46.8167,-64.0667,1145,253.5
+"Winnipeg Beach, Manitoba",50.5058,-96.9742,1145,295.9
+"Sainte-Agathe-de-Lotbinière, Quebec",46.3833,-71.4167,1145,6.9
+"Salmo, British Columbia",49.1942,-117.2778,1141,466.2
+"Kipling, Saskatchewan",50.1015,-102.6324,1140,396.50
+"Sagamok, Ontario",46.1529,-82.2072,1140.00,11.60
+"Trécesson, Quebec",48.6500,-78.3167,1138,5.8
+"Tara, Ontario",44.4793,-81.1445,1138.00,470.30
+"Grande-Vallée, Quebec",49.2167,-65.1333,1137,7.9
+"Bertrand, New Brunswick",47.7622,-65.0686,1137,24.5
+"Newcastle, New Brunswick",47.1725,-65.5551,1136.00,2.00
+"Mont-Carmel, Quebec",47.4397,-69.8586,1136,2.7
+"Saint Martins, New Brunswick",45.4563,-65.4395,1132.00,1.80
+"Saint-Eugène, Quebec",45.8000,-72.7000,1131,14.9
+"Notre-Dame-des-Neiges, Quebec",48.1167,-69.1667,1129,12.0
+"Saint-André, New Brunswick",47.1392,-67.7444,1129.00,8.80
+"Centreville, Nova Scotia",45.1300,-64.5224,1129.00,477.50
+"Roland, Manitoba",49.3547,-97.8997,1129.00,2.30
+"Saint-Léon-de-Standon, Quebec",46.4833,-70.6167,1128,8.2
+"Saint-Modeste, Quebec",47.8333,-69.4000,1128,10.3
+"Carnduff, Saskatchewan",49.1670,-101.7830,1126,498.2
+"Carling, Ontario",45.4333,-80.2167,1125,4.5
+"Eckville, Alberta",52.3622,-114.3614,1125,703.3
+"Nain, Newfoundland and Labrador",56.5422,-61.6928,1125,11.9
+"Hillsburgh, Ontario",43.7914,-80.1354,1124.00,384.90
+"Foam Lake, Saskatchewan",51.6500,-103.5333,1123,189.4
+"Sainte-Sabine, Quebec",45.2333,-73.0167,1120,20.3
+"Saint-Maxime-du-Mont-Louis, Quebec",49.2333,-65.7333,1118,4.8
+"Blanc-Sablon, Quebec",51.4167,-57.1333,1118,4.5
+"Cobalt, Ontario",47.4000,-79.6833,1118,776.0
+"Gravelbourg, Saskatchewan",49.8740,-106.5550,1116,346.0
+"South River, Ontario",45.8417,-79.3750,1114,268.3
+"Hudson Bay No. 394, Saskatchewan",53.0295,-102.3122,1114.00,0.10
+"McKellar, Ontario",45.4833,-79.8500,1111,6.1
+"Frelighsburg, Quebec",45.0461,-72.8106,1111.00,9.00
+"Buffalo Narrows, Saskatchewan",55.8769,-108.5244,1110,16.2
+"Ayer’s Cliff, Quebec",45.1667,-72.0500,1109,197.9
+"Les Méchins, Quebec",49.0000,-66.9833,1107,2.5
+"Sainte-Marguerite, Quebec",46.5167,-70.9333,1107,12.9
+"Saint-Claude, Quebec",45.6667,-71.9833,1106,9.3
+"Air Ronge, Saskatchewan",55.0872,-105.3318,1106,184.3
+"Chipman, New Brunswick",46.1710,-65.8840,1104,58.0
+"Girardville, Quebec",49.0000,-72.5500,1100,8.9
+"Saint-Bruno-de-Guigues, Quebec",47.4667,-79.4333,1100,8.8
+"Grenfell, Saskatchewan",50.4167,-102.9167,1099,347.0
+"Dorchester, New Brunswick",45.9016,-64.5161,1096,189.3
+"South Algonquin, Ontario",45.4967,-78.0239,1096,1.3
+"Windermere, British Columbia",50.4856,-115.9948,1092.00,104.00
+"Saint-Narcisse-de-Beaurivage, Quebec",46.4833,-71.2333,1091,17.6
+"Saint-René-de-Matane, Quebec",48.7000,-67.3833,1089,4.3
+"Sainte-Jeanne-d'Arc, Quebec",48.8575,-72.0939,1089,4.0
+"Plaisance, Quebec",45.6167,-75.1167,1088,30.1
+"Roxton-Sud, Quebec",45.5521,-72.5265,1086.00,7.30
+"St. Louis No. 431, Saskatchewan",52.8277,-105.7873,1086.00,1.40
+"Youbou, British Columbia",48.8562,-124.1731,1086.00,122.80
+"Duchess, Alberta",50.7333,-111.9000,1085,553.4
+"Saint-Frédéric, Quebec",46.3000,-70.9667,1085,14.9
+"Viking, Alberta",53.0953,-111.7769,1083,292.5
+"Sioux Narrows-Nestor Falls, Ontario",49.4000,-94.0800,1082,0.5
+"Whitecourt, Alberta",54.1417,-115.6833,1082,386.0
+"Repulse Bay, Nunavut",66.5628,-86.3186,1082.00,2.60
+"Montréal-Est, Quebec",45.6300,-73.5200,1082,299.4
+"King, Ontario",44.0463,-79.6044,1082,73.6
+"Regina Beach, Saskatchewan",50.7900,-104.9900,1081,462.4
+"Saint-Patrice-de-Beaurivage, Quebec",46.4167,-71.2333,1080,12.6
+"Ootischenia, British Columbia",49.2916,-117.6323,1080.00,135.40
+"Hensall, Ontario",43.4345,-81.5040,1078.00,569.00
+"Bentley, Alberta",52.4667,-114.0500,1078,482.2
+"Durham, New Brunswick",47.7631,-66.0849,1076.00,2.60
+"Sainte-Marthe, Quebec",45.4000,-74.3000,1075,13.5
+"Notre-Dame-du-Nord, Quebec",47.6000,-79.4833,1075,14.3
+"Pinehouse, Saskatchewan",55.5136,-106.5986,1074,142.9
+"Saint-Aimé-des-Lacs, Quebec",47.6833,-70.3000,1073,11.6
+"Lac-Drolet, Quebec",45.7200,-70.8500,1071,8.6
+"Preeceville, Saskatchewan",51.9580,-102.6673,1070,0.7
+"Maple Creek No. 111, Saskatchewan",49.8044,-109.6508,1068.00,0.30
+"Harbour Main-Chapel's Cove-Lakeview, Newfoundland and Labrador",47.4337,-53.1458,1067,50.6
+"Saint-Wenceslas, Quebec",46.1667,-72.3333,1064,13.3
+"Weyburn No. 67, Saskatchewan",49.6535,-103.8348,1064.00,1.30
+"Birch Hills, Saskatchewan",52.9833,-105.4333,1064,468.4
+"Wedgeport, Nova Scotia",43.7323,-65.9797,1061.00,109.30
+"Kerrobert, Saskatchewan",51.9200,-109.1272,1061,141.7
+"Havelock, New Brunswick",45.9523,-65.3885,1061.00,3.00
+"Eston, Saskatchewan",51.1500,-108.7500,1061,390.3
+"Sainte-Geneviève-de-Batiscan, Quebec",46.5333,-72.3333,1060,10.8
+"Saint-Justin, Quebec",46.2500,-73.0833,1060,13.5
+"Saint-Norbert, Quebec",46.1667,-73.3167,1059,14.1
+"Schreiber, Ontario",48.8167,-87.2667,1059,28.8
+"Trochu, Alberta",51.8236,-113.2328,1058,381.1
+"Botsford, New Brunswick",46.1145,-63.9804,1058.00,3.50
+"Riviere-Ouelle, Quebec",47.4333,-70.0167,1058,18.6
+"Greenwich, New Brunswick",45.5112,-66.1229,1058.00,9.20
+"Stukely-Sud, Quebec",45.3167,-72.4167,1058,15.8
+"Saint-Georges-de-Clarenceville, Quebec",45.0667,-73.2500,1056,16.6
+"Sainte-Thérèse-de-Gaspé, Quebec",48.4167,-64.4167,1055,31.5
+"Beachburg, Ontario",45.7303,-76.8559,1054.00,242.80
+"Desbiens, Quebec",48.4167,-71.9500,1053,101.1
+"Clyde River, Nunavut",70.4632,-68.4822,1053.00,9.90
+"La Macaza, Quebec",46.3667,-74.7667,1053,6.5
+"Souris, Prince Edward Island",46.3554,-62.2542,1053,303.7
+"Kindersley No. 290, Saskatchewan",51.4894,-109.0979,1049.00,0.50
+"Laird, Ontario",46.3833,-84.0667,1047,10.2
+"Falher, Alberta",55.7372,-117.2014,1047,376.4
+"Saint-Vallier, Quebec",46.8833,-70.8167,1046,23.4
+"Coleraine, Quebec",45.9649,-71.3734,1043.00,249.90
+"Melita, Manitoba",49.2681,-100.9958,1042,342.7
+"Noonan, New Brunswick",45.9544,-66.4868,1042.00,13.70
+"Sainte-Pétronille, Quebec",46.8500,-71.1333,1041,227.2
+"Delisle, Saskatchewan",51.9254,-107.1333,1038,310.2
+"Bristol, Quebec",45.5333,-76.4667,1036,5.0
+"Mahone Bay, Nova Scotia",44.4489,-64.3819,1036,332.1
+"Waldheim, Saskatchewan",52.6500,-106.6167,1035,525.5
+"Saint-Sylvestre, Quebec",46.3667,-71.2333,1035,7.1
+"Taloyoak, Nunavut",69.5554,-93.4972,1029.00,27.30
+"Onoway, Alberta",53.7011,-114.1981,1029,310.3
+"Saint-Stanislas, Quebec",46.6167,-72.4000,1029,11.5
+"Malpeque, Prince Edward Island",46.5000,-63.6667,1029,8.1
+"Plantagenet, Ontario",45.5321,-74.9956,1027.00,260.50
+"Longue-Rive, Quebec",48.5500,-69.2500,1026,3.3
+"Argyle, Manitoba",49.3697,-99.1506,1025,1.3
+"Davidson, Saskatchewan",51.2667,-105.9667,1025,228.4
+"Plaster Rock, New Brunswick",46.8833,-67.3833,1023,336.1
+"Wilmot, New Brunswick",46.3463,-67.7099,1022.00,5.30
+"Valemount, British Columbia",52.8284,-119.2659,1021.00,197.60
+"Saint-Léonard-de-Portneuf, Quebec",46.8833,-71.9167,1019,7.2
+"Alberta Beach, Alberta",53.6767,-114.3500,1018,507.1
+"Saint-Narcisse-de-Rimouski, Quebec",48.2800,-68.4300,1017,6.2
+"Saint-Bonaventure, Quebec",45.9667,-72.6833,1017,12.9
+"Longlaketon No. 219, Saskatchewan",50.9386,-104.6913,1016.00,1.00
+"Papineau-Cameron, Ontario",46.3000,-78.7333,1016,1.8
+"Assiginack, Ontario",45.7333,-81.8000,1013,4.5
+"Brébeuf, Quebec",46.0667,-74.6667,1012,27.9
+"Hudson Hope, British Columbia",56.0316,-121.9057,1012,1.1
+"Prince, Ontario",46.5333,-84.5000,1010,11.8
+"Baie-du-Febvre, Quebec",46.1300,-72.7200,1010,10.4
+"Durham-Sud, Quebec",45.6667,-72.3333,1008,10.8
+"Melbourne, Quebec",45.5800,-72.1700,1004,5.8
+"Nipawin No. 487, Saskatchewan",53.2881,-104.0544,1004.00,1.10
+"Duck Lake No. 463, Saskatchewan",52.9596,-106.2089,1004.00,1.00
+"Oyen, Alberta",51.3522,-110.4739,1001,189.6

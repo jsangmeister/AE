@@ -2,4 +2,3 @@ labeler.o
 labeler
 src/*.o
 .vscode
-data/countries/countries_raw/*.csv

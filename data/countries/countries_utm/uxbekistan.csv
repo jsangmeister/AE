@@ -1,0 +1,103 @@
+city,utm easting,utm northing,zone number,zone letter,country,iso2,admin,capital,population,population_proper
+Tashkent,520924.4402364204,4573941.21152204,42,T,Uzbekistan,UZ,Toshkent,primary,2184000,1978028
+Namangan,722880.2671385258,4542139.848770172,42,T,Uzbekistan,UZ,Namangan,admin,750000,449200
+Farg‘ona,735900.6134529428,4475124.324629331,42,T,Uzbekistan,UZ,Farg‘ona,admin,750000,214000
+Samarqand,324960.14185994933,4391363.580414679,42,S,Uzbekistan,UZ,Samarqand,admin,708000,596300
+Andijon,275900.325002984,4517957.429190287,43,T,Uzbekistan,UZ,Andijon,admin,650000,323900
+Shahrisabz,312600.05337244575,4325420.685672691,42,S,Uzbekistan,UZ,Qashqadaryo,,498545,57051
+Qarshi,742960.4376536409,4304782.121149986,41,S,Uzbekistan,UZ,Qashqadaryo,admin,386361,222898
+Qatog‘on,666274.1711878767,4486166.71935726,42,T,Uzbekistan,UZ,Farg‘ona,,350000,192500
+Kattaqo‘rg‘on,265421.30438754876,4420139.418987794,42,S,Uzbekistan,UZ,Samarqand,,247113,59382
+Jizzax,401338.4550891834,4441256.017196395,42,T,Uzbekistan,UZ,Jizzax,admin,235352,152642
+Nukus,714643.5295835412,4703381.956066914,40,T,Uzbekistan,UZ,Qoraqalpog‘iston,admin,230006,226416
+Denov,403673.3643095183,4236063.920236869,42,S,Uzbekistan,UZ,Surxondaryo,,217274,68994
+Navoiy,702844.6700945301,4439842.444110498,41,T,Uzbekistan,UZ,Navoiy,,214828,129725
+Angren,596156.1024994098,4541237.087606474,42,T,Uzbekistan,UZ,Toshkent,,202070,126957
+Iskandar,558445.1253087112,4600484.070801217,42,T,Uzbekistan,UZ,Toshkent,,195633,27636
+Termiz,347719.55881792563,4122137.8188623986,42,S,Uzbekistan,UZ,Surxondaryo,admin,177687,140385
+Chirchiq,548617.2148229728,4590973.895405339,42,T,Uzbekistan,UZ,Toshkent,,167842,142345
+Urganch,302616.57422188245,4602519.907934208,41,T,Uzbekistan,UZ,Xorazm,admin,150110,102843
+Khiwa,279561.6324841663,4584110.373875026,41,T,Uzbekistan,UZ,Xorazm,,149751,55567
+Olmaliq,550438.7655393089,4521692.2096511135,42,T,Uzbekistan,UZ,Toshkent,,121207,118329
+Kogon,632986.9027355507,4398139.9962914195,41,S,Uzbekistan,UZ,Buxoro,,107566,62620
+Urgut,348723.59384315147,4362885.656915593,42,S,Uzbekistan,UZ,Samarqand,,99675,47373
+Guliston,481404.6065536738,4478490.531093338,42,T,Uzbekistan,UZ,Sirdaryo,,95520,53373
+Zarafshon Shahri,600659.3654881499,4603757.324338604,41,T,Uzbekistan,UZ,Navoiy,,63543,47042
+Khŭjayli,702458.8457610558,4697169.147063088,40,T,Uzbekistan,UZ,Qoraqalpog‘iston,,60401,50000
+Qŭnghirot,649826.4464010899,4767268.727655897,40,T,Uzbekistan,UZ,Qoraqalpog‘iston,,57758,57758
+Chimboy Shahri,727021.083237708,4756743.678716208,40,T,Uzbekistan,UZ,Qoraqalpog‘iston,minor,36917,31638
+Mŭynoq,662693.8323869947,4848128.288517896,40,T,Uzbekistan,UZ,Qoraqalpog‘iston,,13000,13000
+Qo‘rg‘ontepa,310993.5079715419,4511408.476256676,43,T,Uzbekistan,UZ,Andijon,minor,,
+Uchqŭrghon Shahri,254760.22507226985,4555492.350591771,43,T,Uzbekistan,UZ,Namangan,minor,,
+Uchko‘prik,674518.712060441,4489981.959817495,42,T,Uzbekistan,UZ,Farg‘ona,minor,,
+Beshrabot,698771.8589297694,4452305.8715649685,41,T,Uzbekistan,UZ,Navoiy,minor,,
+Tomdibuloq,634448.2589078908,4623372.361078329,41,T,Uzbekistan,UZ,Navoiy,minor,,
+Mug‘lon Shahar,709125.7795952789,4310529.650559915,41,S,Uzbekistan,UZ,Qashqadaryo,minor,,
+Beruniy Shahri,313195.93151390535,4618797.149994316,41,T,Uzbekistan,UZ,Qoraqalpog‘iston,minor,,
+Yangi-Nishon Shahri,734068.8506691918,4280816.250857829,41,S,Uzbekistan,UZ,Qashqadaryo,minor,,
+Guliston,481708.8399159767,4482136.246341052,42,T,Uzbekistan,UZ,Sirdaryo,admin,,
+Oltinko‘l,261521.80974484494,4520517.410831921,43,T,Uzbekistan,UZ,Andijon,minor,,
+Beshariq,636577.8740667375,4477377.232601078,42,T,Uzbekistan,UZ,Farg‘ona,minor,,
+Tŭragŭrghon Shahri,711140.8776570666,4542164.351328007,42,T,Uzbekistan,UZ,Namangan,minor,,
+Baliqchi,739826.2217729015,4532113.777217298,42,T,Uzbekistan,UZ,Andijon,minor,,
+Xo‘jaobod,293761.0427765249,4504861.531462944,43,T,Uzbekistan,UZ,Andijon,minor,,
+Yangiqo‘rg‘on,681756.4042097258,4491450.719036976,42,T,Uzbekistan,UZ,Farg‘ona,minor,,
+Marhamat,273455.57905494317,4486951.212250877,43,T,Uzbekistan,UZ,Andijon,minor,,
+Ravon,682282.5526725488,4427413.065112159,42,S,Uzbekistan,UZ,Farg‘ona,minor,,
+Langar,725348.8363767763,4488929.987777132,42,T,Uzbekistan,UZ,Farg‘ona,minor,,
+Poytug‘,267920.7918004674,4531055.256392593,43,T,Uzbekistan,UZ,Andijon,minor,,
+Oqoltin,727980.7457056775,4514123.96890263,42,T,Uzbekistan,UZ,Andijon,minor,,
+Muborak Shahri,686085.1217809953,4347599.897007627,41,S,Uzbekistan,UZ,Qashqadaryo,minor,,
+Kitob Shahri,316362.1870254062,4332520.2625518385,42,S,Uzbekistan,UZ,Qashqadaryo,minor,,
+Koson Shahri,724217.9359076645,4324934.217485166,41,S,Uzbekistan,UZ,Qashqadaryo,minor,,
+Bo‘ston Shahri,329598.97199034493,4634722.251767312,41,T,Uzbekistan,UZ,Qoraqalpog‘iston,minor,,
+Shahrisabz Shahri,311430.5550502756,4324813.5317369625,42,S,Uzbekistan,UZ,Qashqadaryo,minor,,
+Beshkent Shahri,729439.7707970835,4299128.632827374,41,S,Uzbekistan,UZ,Qashqadaryo,minor,,
+Konimex,682373.537558444,4460591.172842863,41,T,Uzbekistan,UZ,Navoiy,minor,,
+Kuyganyor,273033.910192063,4526088.446626893,43,T,Uzbekistan,UZ,Andijon,minor,,
+Yozyovon,731932.2481224872,4504788.927136953,42,T,Uzbekistan,UZ,Farg‘ona,minor,,
+Nurota Shahri,726826.9435741197,4494211.284746278,41,T,Uzbekistan,UZ,Navoiy,minor,,
+Karmana Shahri,702369.1102523396,4445759.389173974,41,T,Uzbekistan,UZ,Navoiy,minor,,
+Uchquduq Shahri,545625.058726263,4666579.095946622,41,T,Uzbekistan,UZ,Navoiy,minor,,
+Kegeyli Shahar,713329.7245754183,4739312.808486648,40,T,Uzbekistan,UZ,Qoraqalpog‘iston,minor,,
+Rishton,694013.1253306058,4469850.558506296,42,T,Uzbekistan,UZ,Farg‘ona,minor,,
+Buloqboshi,288741.0303672035,4500580.955616743,43,T,Uzbekistan,UZ,Andijon,minor,,
+Buxoro,622347.9258076092,4403730.010980823,41,S,Uzbekistan,UZ,Buxoro,admin,,
+Mo‘ynoq Shahri,663390.1930880626,4849305.224374947,40,T,Uzbekistan,UZ,Qoraqalpog‘iston,minor,,
+Quva,252041.08356155924,4489818.646668553,43,T,Uzbekistan,UZ,Farg‘ona,minor,,
+Navoiy,701732.7824704974,4441540.847157211,41,T,Uzbekistan,UZ,Navoiy,admin,,
+Oltiariq,709992.2945435188,4474199.717819889,42,T,Uzbekistan,UZ,Farg‘ona,minor,,
+Qiziltepa Shahri,656056.6880014727,4432178.792385477,41,T,Uzbekistan,UZ,Navoiy,minor,,
+Paxtaobod,289248.87274963816,4533932.068623762,43,T,Uzbekistan,UZ,Andijon,minor,,
+Kosonsoy,713438.47968096,4569577.602585108,42,T,Uzbekistan,UZ,Namangan,minor,,
+Navbahor,650103.7778764251,4482656.076489439,42,T,Uzbekistan,UZ,Farg‘ona,minor,,
+Vodil,732464.6713522243,4450671.074743566,42,T,Uzbekistan,UZ,Farg‘ona,minor,,
+Bag‘dod,687560.3368837518,4481504.415320817,42,T,Uzbekistan,UZ,Farg‘ona,minor,,
+To‘rtko‘l Shahri,333375.85680120566,4602914.665366801,41,T,Uzbekistan,UZ,Qoraqalpog‘iston,minor,,
+Xo‘jayli Shahri,701229.5340329483,4698064.201634386,40,T,Uzbekistan,UZ,Qoraqalpog‘iston,minor,,
+Yakkabog‘ Shahri,299780.8144750616,4316725.603072624,42,S,Uzbekistan,UZ,Qashqadaryo,minor,,
+Qamashi Shahri,279868.2604324914,4299854.435216269,42,S,Uzbekistan,UZ,Qashqadaryo,minor,,
+Chiroqchi Shahri,290587.6744561375,4322587.406452685,42,S,Uzbekistan,UZ,Qashqadaryo,minor,,
+Qorao‘zak,256940.9316223708,4767584.247397669,41,T,Uzbekistan,UZ,Qoraqalpog‘iston,minor,,
+Oqmang‘it,707922.7962178513,4719387.396130236,40,T,Uzbekistan,UZ,Qoraqalpog‘iston,minor,,
+Dang‘ara,662020.6751445081,4494327.775828069,42,T,Uzbekistan,UZ,Farg‘ona,minor,,
+Taxtako‘pir,280053.6005807144,4765650.003249107,41,T,Uzbekistan,UZ,Qoraqalpog‘iston,minor,,
+Yangirabot,752672.0013769399,4434775.851865837,41,T,Uzbekistan,UZ,Navoiy,minor,,
+Mang‘it Shahri,257199.44914910127,4667514.5735356575,41,T,Uzbekistan,UZ,Qoraqalpog‘iston,minor,,
+Shumanay Shahri,658292.218605089,4722016.17144224,40,T,Uzbekistan,UZ,Qoraqalpog‘iston,minor,,
+Qorashina,287056.2842527088,4246555.029771236,42,S,Uzbekistan,UZ,Qashqadaryo,minor,,
+Oxunboboyev,300911.7866670941,4510329.612619763,43,T,Uzbekistan,UZ,Andijon,minor,,
+Yaypan,654126.5337824338,4471054.535008186,42,T,Uzbekistan,UZ,Farg‘ona,minor,,
+G‘uzor Shahri,260181.42755900207,4278870.347037972,42,S,Uzbekistan,UZ,Qashqadaryo,minor,,
+Yangi Mirishkor,697669.7804363635,4302755.884514129,41,S,Uzbekistan,UZ,Qashqadaryo,minor,,
+Toshloq,734618.3302340193,4484406.539323754,42,T,Uzbekistan,UZ,Farg‘ona,minor,,
+Chortoq,737243.9494123112,4550286.2232319135,42,T,Uzbekistan,UZ,Namangan,minor,,
+Qo‘ng‘irot Shahri,650335.5264841254,4768250.7587699685,40,T,Uzbekistan,UZ,Qoraqalpog‘iston,minor,,
+Quvasoy,753306.3760503365,4465008.08711308,42,T,Uzbekistan,UZ,Farg‘ona,minor,,
+Qanliko‘l,663519.0872384819,4744933.754985126,40,T,Uzbekistan,UZ,Qoraqalpog‘iston,minor,,
+Qozonketkan,692650.213038691,4765645.255485518,40,T,Uzbekistan,UZ,Qoraqalpog‘iston,minor,,
+Pop Shahri,677133.6437371277,4527166.323873638,42,T,Uzbekistan,UZ,Namangan,minor,,
+Haqqulobod,257515.99304954938,4533462.573433907,43,T,Uzbekistan,UZ,Namangan,minor,,
+Shahrixon,251408.84100995937,4511098.960261834,43,T,Uzbekistan,UZ,Andijon,minor,,
+Asaka,266501.5896331419,4502630.6902193455,43,T,Uzbekistan,UZ,Andijon,minor,,
+Qorovulbozor Shahri,655742.2260424937,4374173.243641612,41,S,Uzbekistan,UZ,Buxoro,minor,,

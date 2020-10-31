@@ -1,0 +1,37 @@
+city,lat,lng,country,iso2,admin,capital,population,population_proper
+P’yŏngch’ŏn,38.993056,125.715278,"Korea, North",KP,P’yŏngyang,,3300000,2498797
+Namp’o,38.7375,125.407778,"Korea, North",KP,P’yŏngnam,minor,1127000,455000
+Hasu-dong,39.923611,127.575556,"Korea, North",KP,Hamnam,,773000,418341
+Hŭngnam,39.831667,127.618611,"Korea, North",KP,Hamnam,,751322,346082
+Ch’ŏngjin,41.795556,129.775833,"Korea, North",KP,Hambuk,admin,672614,327000
+Sunch’ŏn,39.431667,125.932778,"Korea, North",KP,P’yŏngnam,,400629,400629
+Kaesŏng,37.970833,126.554444,"Korea, North",KP,Hwangnam,minor,338155,272512
+Wŏnsan,39.152778,127.443611,"Korea, North",KP,Kangwŏn,admin,329207,315643
+Kanggye,40.969465,126.585231,"Korea, North",KP,Chagang,admin,299514,209530
+Sinŭiju,40.100556,124.398056,"Korea, North",KP,P’yŏngbuk,admin,288112,46356
+Hyesan,41.401667,128.177778,"Korea, North",KP,Yanggang,admin,227461,227461
+Haeju,38.040556,125.714722,"Korea, North",KP,Hwangnam,admin,224231,222396
+Kimch’aek-si,40.668889,129.189722,"Korea, North",KP,Hambuk,minor,187270,187270
+Manp’o,41.154722,126.289444,"Korea, North",KP,Chagang,,186827,186827
+Sa-ri,38.536944,125.756944,"Korea, North",KP,Hwangbuk,,154942,154942
+Chŏngju,39.693333,125.210278,"Korea, North",KP,P’yŏngbuk,,141769,29065
+Kilju,40.964167,129.327778,"Korea, North",KP,Hambuk,,101165,63652
+Musan-ŭp,42.226086,129.207756,"Korea, North",KP,Hambuk,,80146,21739
+Tunjŏn,39.370278,127.224167,"Korea, North",KP,Kangwŏn,,73619,73619
+Ongjin,37.934722,125.361944,"Korea, North",KP,Hwangnam,,69195,64247
+P’yŏnghwa-ri,38.316111,126.426389,"Korea, North",KP,Hwangbuk,,66260,66260
+Sŏnbong,42.342222,130.396667,"Korea, North",KP,Nasŏn,,60864,27331
+Changyŏn,38.250833,125.096111,"Korea, North",KP,Hwangnam,,48984,39368
+Sinhŭng-ni,39.448333,125.458889,"Korea, North",KP,P’yŏngnam,,19463,19463
+Ch’osan-ŭp,40.8325,125.803333,"Korea, North",KP,Chagang,,7786,7786
+Kŭmbanhyŏng,40.855,128.111111,"Korea, North",KP,Yanggang,,3839,3839
+Taep’yŏng-ni,40.591667,125.429167,"Korea, North",KP,P’yŏngbuk,,1884,1884
+Yongsŏng il-tong,39.125465,125.788983,"Korea, North",KP,P’yŏngyang,minor,,
+Rajin,42.248889,130.300278,"Korea, North",KP,Nasŏn,admin,,
+Pyongyang,39.019444,125.754722,"Korea, North",KP,P’yŏngyang,primary,,
+Sariwŏn,38.507222,125.755833,"Korea, North",KP,Hwangbuk,admin,,
+Chaeryŏng-ŭp,38.399167,125.615556,"Korea, North",KP,Hwangnam,minor,,
+Ŭijin-dong,40.975181,126.495837,"Korea, North",KP,Chagang,minor,,
+Hamhŭng,39.918333,127.536389,"Korea, North",KP,Hamnam,admin,,
+P’yŏngsŏng,39.246389,125.871944,"Korea, North",KP,P’yŏngnam,admin,,
+Hŭngju-dong,40.99629,126.547555,"Korea, North",KP,Chagang,minor,,
