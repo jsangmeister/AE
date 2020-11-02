@@ -3,8 +3,12 @@
 #include <cstring>
 #include <random>
 #include <limits>
+#include <chrono>
+#include <thread>
 
-#define Q_t int
+#ifndef Q_t
+    #define Q_t uint32_t
+#endif
 
 int usage();
 uint64_t parse(char* arg);
@@ -24,7 +28,19 @@ int main(int argc, char** argv) {
     uint64_t M = parse(argv[2]);
     uint64_t B = parse(argv[3]);
 
-    std::cout << N << std::endl << M << std::endl << B << std::endl;
+    Q_t* data = generate_data(N);
+
+    auto start = std::chrono::high_resolution_clock::now();
+
+    // Call it here!
+    // mergesort(data, N, M, B)
+    std::this_thread::sleep_for(std::chrono::milliseconds(42));
+
+    auto end = std::chrono::high_resolution_clock::now();
+    auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
+    std::cout << N << std::endl << M << std::endl << B << std::endl << duration << std::endl;
+
+    return 0;
 }
 
 int usage() {
@@ -32,7 +48,7 @@ int usage() {
     return 1;
 }
 
-uint64_t parse(char* arg){
+uint64_t parse(char* arg) {
     int n = strlen(arg);
     unsigned int factor = 1;
     if (arg[n - 1] == 'k') {
@@ -47,8 +63,7 @@ uint64_t parse(char* arg){
     return i * factor;
 }
 
-Q_t* generate_data(uint64_t N)
-{
+Q_t* generate_data(uint64_t N) {
     std::seed_seq ssq{42};
     std::mt19937 gen(ssq);
     Q_t min = std::numeric_limits<Q_t>::min();
