@@ -1,4 +1,4 @@
-appname=labeler
+appname=mergesort
 
 CXXFLAGS=-Wall -std=c++20
 
@@ -10,7 +10,7 @@ all: $(appname)
 $(appname): $(OBJS)
 	$(CXX) $(CXXFLAGS) $(LDFLAGS) -o $(appname) $(OBJS) $(LDLIBS)
 
-$(appname).o: src/Main.cpp src/Parser.hpp
+$(appname).o: src/main.cpp
 
 clean:
 	rm -f $(appname).o $(appname) src/*.o
