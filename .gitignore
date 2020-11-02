@@ -1,4 +1,4 @@
-proj/labeler.o
+*.o
 proj/labeler
-proj/src/*.o
+ue/ue1/mergesort
 .vscode
