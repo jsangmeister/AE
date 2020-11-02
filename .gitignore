@@ -1,4 +1,5 @@
 *.o
 proj/labeler
 ue/ue1/mergesort
+*.o
 .vscode

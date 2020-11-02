@@ -1,6 +1,6 @@
 appname=mergesort
 
-CXXFLAGS=-Wall -std=c++20
+CXXFLAGS=-Wall -std=c++2a
 
 SRCS=$(shell find . -name "*.cpp")
 OBJS=$(subst .cpp,.o,$(SRCS))
