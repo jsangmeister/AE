@@ -1,4 +1,4 @@
-labeler.o
-labeler
-src/*.o
+proj/labeler.o
+proj/labeler
+proj/src/*.o
 .vscode
