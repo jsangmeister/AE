@@ -8,7 +8,5 @@
 proj/labeler
 
 # uebung
-ue/ue1/mergesort-8
-ue/ue1/mergesort-16
-ue/ue1/mergesort-32
-ue/ue1/mergesort-64
+ue/ue1/mergesort*
+ue/ue1/results.txt
