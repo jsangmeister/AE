@@ -1,5 +1,14 @@
-*.o
-proj/labeler
-ue/ue1/mergesort
-*.o
+# IDE's
 .vscode
+
+# generel cpp
+*.o
+
+# project
+proj/labeler
+
+# uebung
+ue/ue1/mergesort-8
+ue/ue1/mergesort-16
+ue/ue1/mergesort-32
+ue/ue1/mergesort-64
