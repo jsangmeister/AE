@@ -6,7 +6,6 @@ python3 generate_parameters.py | while read line ; do
     cmd="./mergesort$q"
 
     output=$(eval $cmd ${args[@]})
-    time=$(echo $output | sed '4q;d')
-
+    time=$(echo $output | cut -d " " -f4)
     echo "$q ${args[@]} $time" | tee -a results.txt
 done
