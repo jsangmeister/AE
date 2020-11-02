@@ -1,9 +1,14 @@
 #include <iostream>
 #include <cstdint>
 #include <cstring>
+#include <random>
+#include <limits>
+
+#define Q_t int
 
 int usage();
 uint64_t parse(char* arg);
+Q_t* generate_data(uint64_t N);
 
 int main(int argc, char** argv) {
     // Arguments: N M B
@@ -40,4 +45,19 @@ uint64_t parse(char* arg){
     }
     int i = std::stoull(arg);
     return i * factor;
+}
+
+Q_t* generate_data(uint64_t N)
+{
+    std::seed_seq ssq{42};
+    std::mt19937 gen(ssq);
+    Q_t min = std::numeric_limits<Q_t>::min();
+    Q_t max = std::numeric_limits<Q_t>::max();
+    std::uniform_int_distribution<Q_t> dist(min, max);
+
+    Q_t* arr = new Q_t[N];
+    for (uint64_t i = 0; i < N; ++i) {
+        arr[i] = dist(gen);
+    }
+    return arr;
 }
