@@ -11,10 +11,10 @@ random.seed(seed)
 # map would require smaller labels relatively to kilometers
 
 #example values
-minx = 50
-maxx = 150
-miny = 50
-maxy = 150
+minx = 25
+maxx = 50
+miny = 15
+maxy = 30
 
 infolder = "countries_utm"
 outfolder = "labels"
