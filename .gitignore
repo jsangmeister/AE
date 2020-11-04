@@ -1,5 +1,6 @@
 # IDE's
 .vscode
+*.code-workspace
 
 # generel cpp
 *.o
