@@ -1,10 +1,11 @@
 #include <iostream>
 #include <cstdint>
 #include <cstring>
-#include <random>
-#include <limits>
 #include <chrono>
 #include <thread>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
 #include "extern-mergesort.h"
 #include "mergesort.h"
 
@@ -79,16 +80,8 @@ uint64_t parse(char* arg) {
 }
 
 Q_t* generate_data(uint64_t N) {
-    int ms = 42; //std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch()).count();
-    std::seed_seq ssq{ms};
-    std::mt19937 gen(ssq);
-    Q_t min = std::numeric_limits<Q_t>::min();
-    Q_t max = std::numeric_limits<Q_t>::max();
-    std::uniform_int_distribution<Q_t> dist(min, max);
-
     Q_t* arr = new Q_t[N];
-    for (uint64_t i = 0; i < N; ++i) {
-        arr[i] = dist(gen);
-    }
+    int fd = open("/dev/random", O_RDONLY);
+    read(fd, arr, N * sizeof(Q_t));
     return arr;
 }
