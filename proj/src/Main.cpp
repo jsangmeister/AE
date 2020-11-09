@@ -1,5 +1,6 @@
 #include <getopt.h>
 #include <iostream>
+#include <chrono>
 
 #include "Parser.hpp"
 #include "Solver.hpp"
@@ -90,9 +91,12 @@ int main(int argc, char** argv)
         return 0;
     }
 
+    auto start = std::chrono::high_resolution_clock::now();
     int labels_set = simple_solution(&parser.elements);
+    auto end = std::chrono::high_resolution_clock::now();
+    auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
 
-    std::cout << "Solution with " << labels_set << " labels found." << std::endl;
+    std::cout << "Solution with " << labels_set << " labels found. (" << duration << "ms)" << std::endl;
 
     parser.write(out_arg);
 

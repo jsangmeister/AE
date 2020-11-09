@@ -10,6 +10,10 @@ namespace labeler
 
 Parser::Parser(std::string filename) : elements() {
     std::ifstream infile(filename);
+    if (!infile.is_open()) {
+        throw std::runtime_error("ERROR: File " + filename + " could not be opened");
+    }
+
     std::string line;
     int line_number = 0;
     while (std::getline(infile, line))
