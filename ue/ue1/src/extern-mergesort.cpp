@@ -57,6 +57,7 @@ void k_merge(Q_t* from, Q_t* into, uint64_t start, uint64_t k, uint64_t run_size
 // m: amount of elements in the memory
 // b: amount of elements in one block
 void extern_mergesort(Q_t* data, uint64_t n, uint64_t m, uint64_t b) {
+    Q_t* start_pt = data;
     sort_chunks(data, n, m);
 
     /*for(uint64_t i = 0; i < n; i++) {
@@ -95,11 +96,25 @@ void extern_mergesort(Q_t* data, uint64_t n, uint64_t m, uint64_t b) {
             }*/
             // copy buffer -> data
             // TODO: Swapping indices in every recursion layer removes the need to do this copying...
-            for (uint64_t i = start; i < start + current_run_size*_k; i++) {
-                data[i] = buffer[i];
-            }
+            //for (uint64_t i = start; i < start + current_run_size*_k; i++) {
+            //    data[i] = buffer[i];
+            //}
         }
+        // We switch the pointers between data and buffer, because buffer is the array 
+        // after one sort iteration
+        auto tmp_pt = data;
+        data = buffer;
+        buffer = tmp_pt;
 
         current_run_size *= k;
+    }
+
+    // data might point to the location of buffer. Because we got the data pointer 
+    // by value, we might need this copy step. (Or I'm just missing a c++ feature)
+    if (data != start_pt)
+    {
+        for (uint64_t i = 0; i < n; i++) {
+            start_pt[i]=data[i];
+        }
     }
 }
