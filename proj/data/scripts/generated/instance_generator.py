@@ -17,7 +17,7 @@ def main():
         area_needed = total_avg_area / d
         max_abs_coords = math.ceil(math.sqrt(area_needed) / 2)
         d_str = str(d).replace(".", "_")
-        with open(f"generated_n{n}_d{d_str}", 'w') as labelfile:
+        with open(f"instances/generated_n{n}_d{d_str}", 'w') as labelfile:
             labelfile.write(f"{n}")
             for i in range(n):
                 w = random.randint(LABEL_WIDTH_INTERVAL[0], LABEL_WIDTH_INTERVAL[1])
