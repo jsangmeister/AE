@@ -1,0 +1,529 @@
+city,x,y,country,iso2,admin,capital,population,population_proper
+Buenos Aires,-6504985.391323381,-4110518.8037262587,Argentina,AR,"Buenos Aires, Ciudad Autónoma de",primary,12795000,10929146
+Córdoba,-7144602.027216611,-3686566.707753745,Argentina,AR,Córdoba,admin,1452000,1296935
+Rosario,-6750337.890491898,-3888247.06803783,Argentina,AR,Santa Fe,minor,1203000,986569
+Mendoza,-7661805.628461566,-3880824.4092234117,Argentina,AR,Mendoza,admin,893000,762630
+San Miguel de Tucumán,-7260546.620213365,-3101517.9932683664,Argentina,AR,Tucumán,admin,830000,527607
+La Plata,-6451469.102721969,-4153212.172848151,Argentina,AR,Buenos Aires,admin,694253,186524
+Mar del Plata,-6407275.932793984,-4579747.62286769,Argentina,AR,Buenos Aires,minor,555897,553935
+Salta,-7281593.128420705,-2849469.596576643,Argentina,AR,Salta,admin,512686,456606
+Santa Fe,-6757208.418144167,-3714772.308886753,Argentina,AR,Santa Fe,admin,489505,297503
+San Juan,-7629435.9242897155,-3702752.2596003725,Argentina,AR,San Juan,admin,447048,420736
+San Luis,-7384448.21909253,-3934527.6594749913,Argentina,AR,San Luis,admin,432310,183982
+Resistencia,-6566056.154528499,-3181131.4159890227,Argentina,AR,Chaco,admin,387158,349753
+Posadas,-6222322.940301102,-3169408.5022631106,Argentina,AR,Misiones,admin,357119,312060
+Santiago del Estero,-7153556.23309755,-3223166.572298225,Argentina,AR,Santiago del Estero,admin,354692,280407
+Corrientes,-6549381.941961046,-3183645.25401925,Argentina,AR,Corrientes,admin,340823,339067
+San Salvador de Jujuy,-7268841.703389317,-2777134.68791798,Argentina,AR,Jujuy,admin,305891,211587
+Bahía Blanca,-6932135.4206987545,-4681585.182771248,Argentina,AR,Buenos Aires,minor,281536,276546
+Paraná,-6737478.819512913,-3728178.32672655,Argentina,AR,Entre Ríos,admin,262295,191409
+Neuquén,-7576304.578487467,-4714741.916068049,Argentina,AR,Neuquén,admin,242092,185555
+Formosa,-6476360.80878029,-3021085.9565986977,Argentina,AR,Formosa,admin,221383,183161
+La Rioja,-7441782.320950188,-3428067.98712595,Argentina,AR,La Rioja,admin,162620,131640
+Río Cuarto,-7163400.104348909,-3912661.2249577097,Argentina,AR,Córdoba,minor,153757,118162
+Concordia,-6458855.930172538,-3683888.1946228617,Argentina,AR,Entre Ríos,minor,145210,120311
+Comodoro Rivadavia,-7513682.466858654,-5758603.426370514,Argentina,AR,Chubut,minor,140850,105732
+San Martín,-7621838.257723584,-3906064.4190736744,Argentina,AR,Mendoza,minor,117399,82549
+Santa Rosa,-7155987.896054438,-4385808.953888032,Argentina,AR,La Pampa,admin,111424,83963
+San Rafael,-7606468.152990776,-4112051.004585847,Argentina,AR,Mendoza,minor,109163,49884
+Tandil,-6582673.705475137,-4484039.345061256,Argentina,AR,Buenos Aires,minor,104325,65274
+San Carlos de Bariloche,-7937232.089943301,-5033056.924217183,Argentina,AR,Río Negro,minor,95394,88512
+Trelew,-7270642.74143086,-5350113.605980865,Argentina,AR,Chubut,,93442,92815
+Villa María,-7039862.520204638,-3816922.8491176865,Argentina,AR,Córdoba,minor,92453,60949
+Reconquista,-6640207.6258187685,-3394751.5617592,Argentina,AR,Santa Fe,minor,90184,83097
+Zárate,-6571032.024447465,-4041987.7239837893,Argentina,AR,Buenos Aires,minor,88781,83603
+Rafaela,-6844667.689280812,-3665302.371059018,Argentina,AR,Santa Fe,minor,88713,50585
+Pergamino,-6743018.74529173,-4014034.4206667384,Argentina,AR,Buenos Aires,minor,87652,55244
+Olavarría,-6715074.436156875,-4424163.173415924,Argentina,AR,Buenos Aires,minor,86320,43798
+Río Gallegos,-7705326.65130414,-6732174.584267683,Argentina,AR,Santa Cruz,admin,85700,68666
+Junín,-6784179.127012543,-4107466.2515146737,Argentina,AR,Buenos Aires,minor,85007,47276
+Presidencia Roque Sáenz Peña,-6728012.098696362,-3096663.482396872,Argentina,AR,Chaco,minor,81879,70037
+Luján,-6579538.503336434,-4105635.9022779004,Argentina,AR,Buenos Aires,minor,81749,57740
+Campana,-6563301.442409326,-4051482.5216400744,Argentina,AR,Buenos Aires,minor,81612,72687
+Necochea,-6538545.434810284,-4657026.242728076,Argentina,AR,Buenos Aires,minor,80478,60646
+Gualeguaychú,-6514107.133037964,-3896548.4039665326,Argentina,AR,Entre Ríos,minor,78676,33045
+San Ramón de la Nueva Orán,-7160586.726858091,-2648229.313559525,Argentina,AR,Salta,minor,74059,64864
+General Roca,-7523342.215672241,-4726447.364137138,Argentina,AR,Río Negro,,73212,3944
+Venado Tuerto,-6898340.270447297,-3994688.4408257236,Argentina,AR,Santa Fe,,72340,31818
+Goya,-6597078.447583786,-3393480.8172985977,Argentina,AR,Corrientes,minor,72304,70245
+Villa Carlos Paz,-7179859.804257602,-3687954.908228312,Argentina,AR,Córdoba,,69451,51061
+Concepción del Uruguay,-6482937.341657375,-3826813.307669267,Argentina,AR,Entre Ríos,minor,67895,28655
+Las Heras,-7661939.434489499,-3875772.6089077666,Argentina,AR,Mendoza,minor,66663,66663
+Puerto Madryn,-7240054.149111703,-5276907.606807904,Argentina,AR,Chubut,minor,64555,57763
+Tartagal,-7102329.786421755,-2573635.004772333,Argentina,AR,Salta,minor,60819,59174
+Viedma,-7012757.8939888375,-4984864.6935103135,Argentina,AR,Río Negro,admin,59122,48940
+San Francisco,-6911009.65301397,-3688454.944223231,Argentina,AR,Córdoba,minor,59062,27400
+San Pedro,-7220865.7858446855,-2781614.3070996283,Argentina,AR,Jujuy,minor,58430,52068
+Ushuaia,-7603121.221180585,-7323146.544576741,Argentina,AR,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",admin,58028,42939
+Punta Alta,-6910000.319190947,-4703907.294932009,Argentina,AR,Buenos Aires,minor,57209,54730
+General Pico,-7097376.180400947,-4253475.37468525,Argentina,AR,La Pampa,minor,57029,35937
+Chivilcoy,-6681024.809549465,-4149710.915354368,Argentina,AR,Buenos Aires,minor,54514,32924
+Azul,-6663422.081109307,-4408065.542511462,Argentina,AR,Buenos Aires,minor,53941,32874
+Río Tercero,-7137143.955291935,-3786042.102112651,Argentina,AR,Córdoba,,53389,22710
+Mercedes,-6615792.589820024,-4116615.573137485,Argentina,AR,Buenos Aires,minor,52949,43868
+Villa Mercedes,-7287130.271212252,-3985159.7608099356,Argentina,AR,San Luis,minor,49345,49345
+Libertador General San Martín,-7212119.74741153,-2729840.0211680327,Argentina,AR,Jujuy,minor,49267,45851
+Cutral-Có,-7704297.94788972,-4714064.7264641,Argentina,AR,Neuquén,,47814,47380
+San Lorenzo,-6541949.362199761,-3265760.118740494,Argentina,AR,Corrientes,,47626,4041
+Tres Arroyos,-6710314.526050047,-4632386.367571281,Argentina,AR,Buenos Aires,minor,47136,22411
+Empalme Villa Constitución,-6721403.394486437,-3929915.6065407298,Argentina,AR,Santa Fe,,44271,16294
+Alta Gracia,-7172120.9845771445,-3717837.370919105,Argentina,AR,Córdoba,minor,40384,20802
+Bell Ville,-6978477.502077012,-3845753.864538841,Argentina,AR,Córdoba,minor,35105,24105
+Nueve de Julio,-6777479.140820169,-4224434.976492599,Argentina,AR,Buenos Aires,minor,34718,18714
+Chacabuco,-6731922.5297689475,-4115291.1185816503,Argentina,AR,Buenos Aires,minor,34587,18703
+Gualeguay,-6602320.816363714,-3914108.6619979837,Argentina,AR,Entre Ríos,minor,33120,18706
+Río Grande,-7537382.052490071,-7130048.6657656105,Argentina,AR,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",minor,31095,31095
+Mercedes,-6465319.251127487,-3398812.908022412,Argentina,AR,Corrientes,minor,30649,15096
+Villa Ángela,-6758792.271859175,-3195348.7281092037,Argentina,AR,Chaco,minor,30051,30051
+Coronel Suárez,-6894397.779361363,-4502672.976887457,Argentina,AR,Buenos Aires,minor,27000,14426
+Rawson,-7247152.659081117,-5357771.125752781,Argentina,AR,Chubut,admin,26335,23790
+Dolores,-6420817.503571022,-4343805.302900507,Argentina,AR,Buenos Aires,minor,25190,17983
+Victoria,-6696302.296465935,-3844958.4581641615,Argentina,AR,Entre Ríos,minor,25139,14926
+Lincoln,-6849510.198449809,-4145752.980183272,Argentina,AR,Buenos Aires,minor,24798,15050
+Veinticinco de Mayo,-6698395.102892849,-4222785.692569924,Argentina,AR,Buenos Aires,minor,24668,12830
+Tunuyán,-7682756.624545804,-3972080.568189239,Argentina,AR,Mendoza,minor,22834,22834
+Chascomús,-6457431.485968348,-4242021.089338986,Argentina,AR,Buenos Aires,minor,21054,21054
+Chilecito,-7513775.863911432,-3396274.9607056137,Argentina,AR,La Rioja,minor,20343,20343
+Esquel,-7939247.418004624,-5298505.763555731,Argentina,AR,"Buenos Aires, Ciudad Autónoma de",minor,20048,20048
+General Martín Miguel de Güemes,-7241071.0526601,-2835307.320117203,Argentina,AR,Salta,minor,19828,19828
+Zapala,-7798422.696176592,-4707237.95597139,Argentina,AR,Neuquén,minor,19152,19152
+Balcarce,-6484941.649089108,-4557716.822163906,Argentina,AR,Buenos Aires,minor,18967,18967
+Charata,-6811411.770642756,-3150281.0731724324,Argentina,AR,Chaco,minor,18297,18297
+Lobos,-6577840.769782346,-4188758.8015032313,Argentina,AR,Buenos Aires,minor,18278,18278
+Añatuya,-6994729.479815885,-3307174.563537384,Argentina,AR,Santiago del Estero,minor,14133,14133
+Mar de Ajó,-6309265.13240301,-4400743.508048119,Argentina,AR,Buenos Aires,,13610,13610
+Frías,-7250351.647288044,-3329389.0591700724,Argentina,AR,Santiago del Estero,minor,13594,13594
+Joaquín V. González,-7144855.946975112,-2885983.6818913873,Argentina,AR,Salta,minor,13376,13376
+Sunchales,-6852992.606080295,-3625483.802623126,Argentina,AR,Santa Fe,,12655,12655
+Malargüe,-7746085.16966319,-4228682.772020037,Argentina,AR,Mendoza,minor,11847,11847
+Cafayate,-7344781.633618672,-3007804.264016734,Argentina,AR,Salta,minor,11785,7171
+Río Colorado,-7134794.334799763,-4720808.579768139,Argentina,AR,Río Negro,minor,11499,11499
+Cerrillos,-7289985.8387900805,-2863261.421926983,Argentina,AR,Salta,minor,11498,11498
+Monte Quemado,-6994224.8685641205,-2975029.213008216,Argentina,AR,Santiago del Estero,minor,11387,11387
+Humahuaca,-7274782.490654481,-2656882.2306749555,Argentina,AR,Jujuy,minor,11369,11369
+Belén,-7461600.195937642,-3205047.9766350877,Argentina,AR,Catamarca,minor,11359,11359
+Benito Juárez,-6656905.5494377585,-4534787.465906838,Argentina,AR,Buenos Aires,,10609,10609
+Choele Choel,-7311835.183165023,-4759941.634140226,Argentina,AR,Río Negro,minor,10000,9791
+Vera,-6702837.307172954,-3434235.018029474,Argentina,AR,Santa Fe,minor,9979,9979
+San Justo,-6745058.341002045,-3605394.0928004067,Argentina,AR,Santa Fe,minor,9607,9607
+Castelli,-6748128.087280161,-2992491.9007022534,Argentina,AR,Chaco,minor,9421,9421
+Chamical,-7382039.487950745,-3549910.9933465538,Argentina,AR,La Rioja,minor,8989,8989
+Chos Malal,-7822515.016971527,-4491939.089188836,Argentina,AR,Neuquén,minor,8556,8556
+San Antonio Oeste,-7229943.890318878,-4972882.034578695,Argentina,AR,Río Negro,minor,8492,8492
+El Calafate,-8044518.030307173,-6504840.491342408,Argentina,AR,Santa Cruz,minor,8000,4658
+Las Lomitas,-6745185.24522155,-2840111.0880778176,Argentina,AR,Formosa,,7683,7683
+Carhué,-6986180.142922962,-4463762.536740545,Argentina,AR,Buenos Aires,minor,7190,7190
+Pedro Luro,-6977693.812861829,-4793913.325337064,Argentina,AR,Buenos Aires,,7100,7100
+Rinconada,-7365765.023674732,-2564534.9767997907,Argentina,AR,Jujuy,minor,6692,5727
+Ingeniero Guillermo N. Juárez,-6885110.505563971,-2741227.3998925807,Argentina,AR,Formosa,minor,6453,6453
+Chepes,-7413878.086832019,-3678287.213154139,Argentina,AR,La Rioja,minor,6020,6020
+Ingeniero Jacobacci,-7741690.276166671,-5063020.079192439,Argentina,AR,Río Negro,,5719,5719
+Veintiocho de Noviembre,-8048399.1843536785,-6737086.695502413,Argentina,AR,Santa Cruz,,5300,5300
+Sarmiento,-7688832.442353301,-5714593.509526711,Argentina,AR,Chubut,minor,5185,5185
+Abra Pampa,-7313353.358380461,-2598251.0849183705,Argentina,AR,Jujuy,minor,4480,4480
+Victorica,-7284286.503500448,-4330252.271675534,Argentina,AR,La Pampa,minor,4458,4458
+La Paz,-7519582.511190191,-3956642.9464696753,Argentina,AR,Mendoza,minor,4400,4400
+Comandante Fontana,-6643782.8739045765,-2916890.245323743,Argentina,AR,Formosa,minor,4277,4277
+El Maitén,-7922266.074962072,-5168357.613753263,Argentina,AR,"Buenos Aires, Ciudad Autónoma de",,4269,4269
+San Antonio de los Cobres,-7382572.151714192,-2779999.8306052834,Argentina,AR,Salta,minor,4000,4000
+Perito Moreno,-7895863.318135724,-5875397.627598959,Argentina,AR,Santa Cruz,minor,3766,3766
+Darregueira,-7031023.863955143,-4535573.791798938,Argentina,AR,Buenos Aires,,3412,3412
+Puerto Deseado,-7335266.154865153,-6065419.691157251,Argentina,AR,Santa Cruz,minor,3305,3305
+General Conesa,-7172685.819673431,-4880484.665662283,Argentina,AR,Río Negro,minor,2958,2958
+Pampa del Infierno,-6809898.15952644,-3061783.892809481,Argentina,AR,Chaco,minor,2921,2921
+Villalonga,-6970583.948304351,-4853763.590727024,Argentina,AR,Buenos Aires,,2838,2838
+Chumbicha,-7373246.472692475,-3357114.2189010098,Argentina,AR,Catamarca,minor,2572,2572
+Gobernador Gregores,-7819905.910746315,-6232644.508311428,Argentina,AR,Santa Cruz,minor,2519,2519
+Uspallata,-7719864.420204287,-3841232.866804956,Argentina,AR,Mendoza,,2390,2390
+San Julián,-7539383.242976061,-6326865.22992849,Argentina,AR,Santa Cruz,minor,2347,2347
+Río Mayo,-7821081.889847055,-5730130.106142664,Argentina,AR,Chubut,,1825,1825
+Trancas,-7266964.63413556,-3027763.4579830607,Argentina,AR,Tucumán,minor,1599,1599
+Alto Río Senguer,-7883626.07783231,-5627986.127712604,Argentina,AR,Chubut,minor,1548,1548
+Sierra Colorada,-7542646.351209685,-4951301.427592268,Argentina,AR,Río Negro,minor,1522,1522
+Villa Rumipal,-7177910.599973813,-3788001.036050559,Argentina,AR,Córdoba,,1269,1269
+Las Lajas,-7833268.145823685,-4653604.509429927,Argentina,AR,Neuquén,minor,1218,1218
+Los Blancos,-6968600.123658925,-2704741.5686532683,Argentina,AR,Salta,,1145,1145
+Susques,-7387941.981311076,-2680299.2422626,Argentina,AR,Jujuy,minor,1093,1093
+Comallo,-7822179.722665257,-5016757.629993296,Argentina,AR,Río Negro,,741,741
+Rodeo,-7696252.220373146,-3530812.1587151396,Argentina,AR,San Juan,minor,701,701
+Tinogasta,-7521288.037108634,-3256943.0675314516,Argentina,AR,Catamarca,minor,587,587
+Gastre,-7705498.305958943,-5202282.999372064,Argentina,AR,Chubut,minor,557,557
+Telsen,-7451812.9863070985,-5226445.250873585,Argentina,AR,Chubut,minor,500,486
+Comandante Luis Piedra Buena,-7671546.306544958,-6443701.536492737,Argentina,AR,Santa Cruz,,410,410
+El Alto,-7276284.301904772,-3288270.2467008145,Argentina,AR,Catamarca,minor,,
+San Isidro,-6515205.18849515,-4092371.4615041655,Argentina,AR,Buenos Aires,minor,,
+Santa Catalina,-7352896.60185852,-2504883.622378759,Argentina,AR,Jujuy,minor,,
+La Merced,-7309270.0481386725,-3268144.750460778,Argentina,AR,Catamarca,minor,,
+Trenel,-7139161.287104091,-4259196.392200369,Argentina,AR,La Pampa,minor,,
+Trenque Lauquen,-6983552.335023297,-4296541.931712446,Argentina,AR,Buenos Aires,minor,,
+Tornquist,-6926596.162836881,-4593734.830101553,Argentina,AR,Buenos Aires,minor,,
+La Cocha,-7299258.195775707,-3220923.807875515,Argentina,AR,Tucumán,minor,,
+Godoy Cruz,-7662688.1693845745,-3885835.2797665563,Argentina,AR,Mendoza,minor,,
+Sastre,-6882757.768126055,-3732845.6456915364,Argentina,AR,Santa Fe,minor,,
+Oliva,-7076555.762079407,-3768769.624008544,Argentina,AR,Córdoba,minor,,
+Ramallo,-6679956.25375734,-3959833.8092759615,Argentina,AR,Buenos Aires,minor,,
+Tupungato,-7697569.797866176,-3944713.3648995566,Argentina,AR,Mendoza,minor,,
+Yerba Buena,-7271018.110753816,-3100585.325916929,Argentina,AR,Tucumán,minor,,
+La Caldera,-7278177.623804186,-2826887.2162220757,Argentina,AR,Salta,minor,,
+San Carlos,-7247171.806033534,-3655836.858018917,Argentina,AR,Córdoba,minor,,
+San Carlos,-7339228.126861976,-2984990.912272255,Argentina,AR,Salta,minor,,
+Capitán Sarmiento,-6655846.121843879,-4051972.6739008846,Argentina,AR,Buenos Aires,minor,,
+Garza,-7073167.753377115,-3268304.2122230357,Argentina,AR,Santiago del Estero,minor,,
+Metán,-7232859.013824279,-2937167.023881724,Argentina,AR,Salta,minor,,
+Algarrobo del Águila,-7474559.454458341,-4355757.146300827,Argentina,AR,La Pampa,minor,,
+Nogoyá,-6655740.145688645,-3815123.5615772745,Argentina,AR,Entre Ríos,minor,,
+Miramar,-6438351.102607399,-4617461.900797399,Argentina,AR,Buenos Aires,minor,,
+Andalgalá,-7382314.113134532,-3196369.0097064897,Argentina,AR,Catamarca,minor,,
+Andacollo,-7866851.009806198,-4464149.686952555,Argentina,AR,Neuquén,minor,,
+Olivos,-6510745.841013461,-4097147.9666755702,Argentina,AR,Buenos Aires,minor,,
+Lanús,-6500556.990660135,-4123528.4681274197,Argentina,AR,Buenos Aires,minor,,
+Puerto Rico,-6125246.333076864,-3098005.561891699,Argentina,AR,Misiones,minor,,
+Monte Caseros,-6416039.225748213,-3536188.5568653257,Argentina,AR,Corrientes,minor,,
+Brea Pozo,-7118982.403007994,-3279748.962694041,Argentina,AR,Santiago del Estero,minor,,
+Alba Posse,-6087241.5249615675,-3194840.248171797,Argentina,AR,Misiones,minor,,
+Rojas,-6760989.27332947,-4055053.3273150213,Argentina,AR,Buenos Aires,minor,,
+Rosario del Tala,-6584041.376739021,-3803131.563049418,Argentina,AR,Entre Ríos,minor,,
+Lomas de Zamora,-6501761.690189499,-4131432.9851322216,Argentina,AR,Buenos Aires,minor,,
+Fernández,-7112591.10576359,-3238938.602811196,Argentina,AR,Santiago del Estero,minor,,
+General Belgrano,-6511456.949920648,-4268953.847625425,Argentina,AR,Buenos Aires,minor,,
+Aguilares,-7304147.347811348,-3177774.907404328,Argentina,AR,Tucumán,minor,,
+Bañado de Ovanta,-7271259.451409856,-3262299.2432957334,Argentina,AR,Catamarca,minor,,
+Villa del Rosario,-7072629.968917092,-3705247.576782323,Argentina,AR,Córdoba,minor,,
+Villa del Salvador,-7613969.528197371,-3690226.1727635376,Argentina,AR,San Juan,minor,,
+Villa del Totoral,-7092906.925484579,-3608962.6816423996,Argentina,AR,Córdoba,minor,,
+Luján de Cuyo,-7667444.183309227,-3900013.092368186,Argentina,AR,Mendoza,minor,,
+San Isidro de Lules,-7273469.588580065,-3114441.220353273,Argentina,AR,Tucumán,minor,,
+Palpalá,-7259325.222760381,-2784691.993741165,Argentina,AR,Jujuy,minor,,
+Winifreda,-7150482.813276239,-4331822.963115214,Argentina,AR,La Pampa,minor,,
+Puerto Tirol,-6576985.168176109,-3170048.421317106,Argentina,AR,Chaco,minor,,
+Guachipas,-7292469.710588153,-2939789.5636414085,Argentina,AR,Salta,minor,,
+Casilda,-6809196.846734442,-3901167.862376371,Argentina,AR,Santa Fe,minor,,
+Cruz del Eje,-7213933.809833497,-3597273.546008778,Argentina,AR,Córdoba,minor,,
+Villa Gesell,-6343490.198527911,-4476735.404730962,Argentina,AR,Buenos Aires,minor,,
+Villa General Roca,-7397238.049348241,-3850968.1540882797,Argentina,AR,San Luis,minor,,
+Corzuela,-6787068.758354555,-3117693.735936986,Argentina,AR,Chaco,minor,,
+Cosquín,-7176281.439226052,-3664618.125438448,Argentina,AR,Córdoba,minor,,
+La Candelaria,-7241288.348306128,-3014829.373815577,Argentina,AR,Salta,minor,,
+Pellegrini,-7031550.9617440505,-4337262.194849797,Argentina,AR,Buenos Aires,minor,,
+Rivadavia,-7621022.508495051,-3920618.233698929,Argentina,AR,Mendoza,minor,,
+Pilar,-6558298.410534605,-4090556.6611480466,Argentina,AR,Buenos Aires,minor,,
+Marcos Juárez,-6913687.888642966,-3855260.1901931823,Argentina,AR,Córdoba,minor,,
+Marcos Paz,-6549804.733387078,-4134109.7254196126,Argentina,AR,Buenos Aires,minor,,
+Villa Santa Rosa,-7604692.050515168,-3729798.5217590774,Argentina,AR,San Juan,minor,,
+Villa Unión,-7594948.144166542,-3415920.669103694,Argentina,AR,La Rioja,minor,,
+San Agustín de Valle Fértil,-7510527.004572628,-3585247.1941972403,Argentina,AR,San Juan,minor,,
+Laguna Yema,-6817723.808409717,-2784378.3247900107,Argentina,AR,Formosa,minor,,
+Melincué,-6841093.109111949,-3983034.69982611,Argentina,AR,Santa Fe,minor,,
+La Cañada,-7099251.357223359,-3212241.0901318756,Argentina,AR,Santiago del Estero,minor,,
+Iruya,-7261741.412308048,-2603825.241546223,Argentina,AR,Salta,minor,,
+Pigüé,-6946707.364682576,-4523787.084996974,Argentina,AR,Buenos Aires,minor,,
+Buena Esperanza,-7264019.23172866,-4130835.9827047368,Argentina,AR,San Luis,minor,,
+Quitilipi,-6703307.075424101,-3107130.390519655,Argentina,AR,Chaco,minor,,
+Cañada de Gómez,-6834452.344888675,-3870953.8507432207,Argentina,AR,Santa Fe,minor,,
+Realicó,-7151686.956208151,-4168853.7396271653,Argentina,AR,La Pampa,minor,,
+Villa Constitución,-6715871.372391465,-3925576.857675713,Argentina,AR,Santa Fe,minor,,
+San Cosme,-6513541.18474677,-3169929.209869307,Argentina,AR,Corrientes,minor,,
+Presidencia de la Plaza,-6661628.501473646,-3123655.657256238,Argentina,AR,Chaco,minor,,
+Baradero,-6624407.716532007,-4003458.653941171,Argentina,AR,Buenos Aires,minor,,
+San Martín,-7625456.920410802,-3688663.809557329,Argentina,AR,San Juan,minor,,
+Las Flores,-6578964.540041904,-4302551.637305119,Argentina,AR,Buenos Aires,minor,,
+General San Martín,-6516081.829485146,-4106171.2668384216,Argentina,AR,Buenos Aires,minor,,
+Berazategui,-6478637.848964467,-4130728.9429684724,Argentina,AR,Buenos Aires,minor,,
+Apóstoles,-6206456.795917317,-3238161.68071365,Argentina,AR,Misiones,minor,,
+Itatí,-6483756.541790123,-3157299.7228489593,Argentina,AR,Corrientes,minor,,
+General Enrique Mosconi,-6935204.2764209425,-2658241.960759764,Argentina,AR,Formosa,minor,,
+Jesús María,-7134938.048262375,-3630350.4348414093,Argentina,AR,Córdoba,minor,,
+San Antonio,-7246614.874621095,-3367137.7322315867,Argentina,AR,Catamarca,minor,,
+Monte Hermoso,-6851714.658325988,-4709741.855055504,Argentina,AR,Buenos Aires,minor,,
+Sañogasta,-7471303.136713657,-3387768.705422532,Argentina,AR,La Rioja,minor,,
+Hermoso Campo,-6828828.3728943085,-3199660.447948169,Argentina,AR,Chaco,minor,,
+Famaillá,-7280660.493726837,-3130236.7065286282,Argentina,AR,Tucumán,minor,,
+Famatina,-7516574.1019515,-3365877.158961249,Argentina,AR,La Rioja,minor,,
+Selva,-6907118.2575743105,-3473731.9665144235,Argentina,AR,Santiago del Estero,minor,,
+Chimbas,-7629095.731925852,-3695679.5043469425,Argentina,AR,San Juan,minor,,
+San Justo,-6518933.94615876,-4120018.3576061893,Argentina,AR,Buenos Aires,minor,,
+Villa San Isidro,-7605951.741872986,-3696131.9481409863,Argentina,AR,San Juan,minor,,
+General Las Heras,-6561862.4153518425,-4154001.0001345337,Argentina,AR,Buenos Aires,minor,,
+General José de San Martín,-6605874.91374627,-3065798.154710365,Argentina,AR,Chaco,minor,,
+General Juan Madariaga,-6360740.7120992,-4438723.479646488,Argentina,AR,Buenos Aires,minor,,
+General La Madrid,-6819735.908205804,-4473669.164794228,Argentina,AR,Buenos Aires,minor,,
+Las Plumas,-7489930.672386058,-5422302.626678503,Argentina,AR,Chubut,minor,,
+Herrera,-7020674.379576602,-3309745.246915445,Argentina,AR,Santiago del Estero,minor,,
+Quimilí,-6948191.5874533225,-3202823.6281684437,Argentina,AR,Santiago del Estero,minor,,
+Berón de Astrada,-6404722.931592131,-3192441.390119323,Argentina,AR,Corrientes,minor,,
+Bernasconi,-7095772.066538615,-4565956.192545647,Argentina,AR,La Pampa,minor,,
+El Soberbio,-6033379.7006607335,-3160810.7505878923,Argentina,AR,Misiones,minor,,
+Coronel Pringles,-6830135.486355202,-4577017.358380431,Argentina,AR,Buenos Aires,minor,,
+Campo Grande,-6120320.445609261,-3149445.546381304,Argentina,AR,Misiones,minor,,
+Veinticinco de Mayo,-7538152.939963814,-4547562.545907911,Argentina,AR,La Pampa,minor,,
+Belén de Escobar,-6544768.194345628,-4075670.820970826,Argentina,AR,Buenos Aires,minor,,
+San Vicente,-6503592.339215595,-4167279.4712226256,Argentina,AR,Buenos Aires,minor,,
+Villa Berthet,-6725102.76380448,-3159968.3287610593,Argentina,AR,Chaco,minor,,
+Verónica,-6382716.070137719,-4216728.734592344,Argentina,AR,Buenos Aires,minor,,
+San Miguel del Monte,-6546337.242568359,-4223784.852284582,Argentina,AR,Buenos Aires,minor,,
+Carmen de Areco,-6659571.094644805,-4079594.8132764054,Argentina,AR,Buenos Aires,minor,,
+Cañuelas,-6541201.517860612,-4170928.3624530486,Argentina,AR,Buenos Aires,minor,,
+Termas de Río Hondo,-7220228.704398875,-3186059.0239515547,Argentina,AR,Santiago del Estero,minor,,
+La Puerta,-7323725.885893595,-3270469.315931132,Argentina,AR,Catamarca,minor,,
+San Carlos de Bolívar,-6801620.887469015,-4335075.737397209,Argentina,AR,Buenos Aires,minor,,
+San Cayetano,-6635703.750540763,-4628494.920365791,Argentina,AR,Buenos Aires,minor,,
+Pinamar,-6329781.648514682,-4454163.6276611425,Argentina,AR,Buenos Aires,minor,,
+San Agustín,-7166080.677687211,-3760267.489003315,Argentina,AR,Córdoba,minor,,
+Tilcara,-7274829.133521125,-2702016.7684599715,Argentina,AR,Jujuy,minor,,
+Quemú Quemú,-7075943.504880045,-4308141.119493711,Argentina,AR,La Pampa,minor,,
+Santa Rosa,-7586352.60968494,-3929076.267754103,Argentina,AR,Mendoza,minor,,
+Sumampa,-7065343.996925182,-3424701.82061297,Argentina,AR,Santiago del Estero,minor,,
+Aluminé,-7894745.225170196,-4755656.174025618,Argentina,AR,Neuquén,minor,,
+Nueva Esperanza,-7151177.001620826,-3023861.7944700117,Argentina,AR,Santiago del Estero,minor,,
+Cuchillo Có,-7196060.352391729,-4626644.76019456,Argentina,AR,La Pampa,minor,,
+Santo Tomé,-6238429.534784999,-3318417.794545792,Argentina,AR,Corrientes,minor,,
+Junín de los Andes,-7911404.854884354,-4858742.095544703,Argentina,AR,Neuquén,minor,,
+Villa Aberastain,-7634661.706465514,-3717454.8660919946,Argentina,AR,San Juan,minor,,
+Molinos,-7379508.973286033,-2929824.974766089,Argentina,AR,Salta,minor,,
+Villa Ojo de Agua,-7090358.488381847,-3439444.281469761,Argentina,AR,Santiago del Estero,minor,,
+Suncho Corral,-7060925.948974579,-3240601.443129676,Argentina,AR,Santiago del Estero,minor,,
+Picún Leufú,-7712176.918809086,-4796939.447075515,Argentina,AR,Neuquén,minor,,
+San Nicolás de los Arroyos,-6704242.270466255,-3939958.958846021,Argentina,AR,Buenos Aires,minor,,
+San José,-7313690.545118075,-3297389.8401575065,Argentina,AR,Catamarca,minor,,
+Chicoana,-7295110.876826713,-2888140.30924688,Argentina,AR,Salta,minor,,
+Ranchos,-6491855.813981769,-4234252.86344695,Argentina,AR,Buenos Aires,minor,,
+Caucete,-7601012.0507885255,-3717688.944539867,Argentina,AR,San Juan,minor,,
+José María Ezeiza,-6515383.856277873,-4143226.1835283884,Argentina,AR,Buenos Aires,minor,,
+Empedrado,-6546189.410284585,-3242828.2890209705,Argentina,AR,Corrientes,minor,,
+Loncopué,-7860946.735334014,-4589720.77826733,Argentina,AR,Neuquén,minor,,
+General Acha,-7191719.114889773,-4491783.59405346,Argentina,AR,La Pampa,minor,,
+Concepción,-7302253.024036519,-3166363.618870283,Argentina,AR,Tucumán,minor,,
+Concepción,-6444037.524836102,-3298454.5063506025,Argentina,AR,Corrientes,minor,,
+Vinchina,-7592759.269019075,-3345088.509634285,Argentina,AR,La Rioja,minor,,
+Gaimán,-7290636.83517224,-5356171.153721831,Argentina,AR,Chubut,minor,,
+Santa Rosa del Conlara,-7258390.806954661,-3808401.085533419,Argentina,AR,San Luis,minor,,
+San Antonio de Areco,-6620352.124843427,-4062461.461143839,Argentina,AR,Buenos Aires,minor,,
+Guaminí,-6948191.5874533225,-4443753.996578548,Argentina,AR,Buenos Aires,minor,,
+Florencio Varela,-6500563.558510091,-4140426.022605257,Argentina,AR,Buenos Aires,minor,,
+Milagro,-7347195.485457033,-3633172.004184433,Argentina,AR,La Rioja,minor,,
+Burruyacú,-7207053.263427057,-3061038.9163400694,Argentina,AR,Tucumán,minor,,
+San Pedro,-6642059.425548115,-3985797.5696941293,Argentina,AR,Buenos Aires,minor,,
+Diamante,-6750231.914336663,-3772031.2633092985,Argentina,AR,Entre Ríos,minor,,
+Saladas,-6526206.225853304,-3281015.696827744,Argentina,AR,Corrientes,minor,,
+Villa Media Agua,-7616917.713591539,-3761036.27273955,Argentina,AR,San Juan,minor,,
+José de San Martín,-7844647.335492064,-5473232.469396709,Argentina,AR,Chubut,minor,,
+Salliqueló,-7008734.584952587,-4404616.465840169,Argentina,AR,Buenos Aires,minor,,
+Salsacate,-7245261.674891013,-3673919.4442719207,Argentina,AR,Córdoba,minor,,
+Guatraché,-7072151.18378719,-4532596.897232927,Argentina,AR,La Pampa,minor,,
+Piedra del Águila,-7800613.463755404,-4872935.6676422395,Argentina,AR,Neuquén,minor,,
+Santa Lucía,-6579301.170182063,-3374050.1979651204,Argentina,AR,Corrientes,minor,,
+Santa Lucía,-7624832.19542847,-3703061.6809734404,Argentina,AR,San Juan,minor,,
+Curuzú Cuatiá,-6462608.955485143,-3476804.361856143,Argentina,AR,Corrientes,minor,,
+San Andrés de Giles,-6617332.138377695,-4089010.510555414,Argentina,AR,Buenos Aires,minor,,
+Malanzán,-7414888.533849951,-3607313.240542996,Argentina,AR,La Rioja,minor,,
+Tama,-7406063.903856295,-3569014.0988572016,Argentina,AR,La Rioja,minor,,
+Tapalqué,-6682108.61611183,-4349570.0165865505,Argentina,AR,Buenos Aires,minor,,
+San Fernando,-6518607.223453281,-4088550.7427656804,Argentina,AR,Buenos Aires,minor,,
+La Banda,-7151474.113341752,-3215412.954767058,Argentina,AR,Santiago del Estero,minor,,
+San Antonio,-7273026.6483261995,-2798257.255855409,Argentina,AR,Jujuy,minor,,
+Nuestra Señora del Rosario de Caa Catí,-6414310.434056194,-3217581.230821538,Argentina,AR,Corrientes,minor,,
+Villa Krause,-7629095.731925852,-3706562.385850746,Argentina,AR,San Juan,minor,,
+Villa La Angostura,-7977321.13288472,-4979907.153938651,Argentina,AR,Neuquén,minor,,
+San Javier,-6137609.809682837,-3233131.0891795917,Argentina,AR,Misiones,minor,,
+San Javier,-6671566.437694724,-3578040.263398952,Argentina,AR,Santa Fe,minor,,
+Quilmes,-6485890.091150667,-4127118.780691869,Argentina,AR,Buenos Aires,minor,,
+Catriló,-7060069.679451396,-4356627.659126483,Argentina,AR,La Pampa,minor,,
+Las Breñas,-6799574.16731129,-3134678.179079136,Argentina,AR,Chaco,minor,,
+Carlos Tejedor,-6948725.587050658,-4217370.112293104,Argentina,AR,Buenos Aires,minor,,
+San Lorenzo,-6761115.398312539,-3861295.9099150877,Argentina,AR,Santa Fe,minor,,
+Ulapes,-7373413.674567646,-3707470.4499028837,Argentina,AR,La Rioja,minor,,
+Coronel Vidal,-6426324.033502604,-4501462.861256654,Argentina,AR,Buenos Aires,minor,,
+Tamberías,-7728411.642026888,-3693477.8330327007,Argentina,AR,San Juan,minor,,
+Los Telares,-7063097.903559446,-3373710.6669079955,Argentina,AR,Santiago del Estero,minor,,
+Rosario de Lerma,-7300210.645338934,-2873541.137578015,Argentina,AR,Salta,minor,,
+Rosario de la Frontera,-7232531.845840839,-2973951.3919353737,Argentina,AR,Salta,minor,,
+Médanos,-6979014.062022636,-4697068.767710801,Argentina,AR,Buenos Aires,minor,,
+General Roca,-7522271.099531828,-4725678.827355262,Argentina,AR,Río Negro,minor,,
+Pehuajó,-6890319.923774623,-4274614.895406887,Argentina,AR,Buenos Aires,minor,,
+Los Polvorines,-6533772.500323031,-4096319.232984404,Argentina,AR,Buenos Aires,minor,,
+Valcheta,-7363784.315975048,-4968191.930188206,Argentina,AR,Río Negro,minor,,
+Arraga,-7149220.116292172,-3255251.233517536,Argentina,AR,Santiago del Estero,minor,,
+Camarones,-7314797.17217605,-5589633.667024338,Argentina,AR,Chubut,minor,,
+San Fernando del Valle de Catamarca,-7323179.307193803,-3308306.363172987,Argentina,AR,Catamarca,admin,,
+La Viña,-7298806.683921048,-2933143.9520474323,Argentina,AR,Salta,minor,,
+Eldorado,-6080803.139572557,-3049309.2517682198,Argentina,AR,Misiones,minor,,
+La Carlota,-7046266.285232013,-3951176.6192056853,Argentina,AR,Córdoba,minor,,
+Coronda,-6781563.898215338,-3759718.1628472656,Argentina,AR,Santa Fe,minor,,
+Ituzaingó,-6530353.767441279,-4117505.080586547,Argentina,AR,Buenos Aires,minor,,
+Ituzaingó,-6309845.5522280065,-3196327.187225259,Argentina,AR,Corrientes,minor,,
+Eduardo Castex,-7157228.885737803,-4288933.034553748,Argentina,AR,La Pampa,minor,,
+Colón,-6472494.905504021,-3792667.783517769,Argentina,AR,Entre Ríos,minor,,
+Colón,-6801743.561547869,-4014728.151750998,Argentina,AR,Buenos Aires,minor,,
+San José de Jáchal,-7652873.686478785,-3534510.893220656,Argentina,AR,San Juan,minor,,
+San José de Feliciano,-6540206.210293429,-3553073.19711975,Argentina,AR,Entre Ríos,minor,,
+Montecarlo,-6095521.357367281,-3069378.0527496864,Argentina,AR,Misiones,minor,,
+San Salvador,-6512773.970816223,-3714168.95886685,Argentina,AR,Entre Ríos,minor,,
+Tecka,-7882555.852247824,-5387605.407368957,Argentina,AR,Chubut,minor,,
+Mburucuyá,-6481520.133220085,-3254697.3841184936,Argentina,AR,Corrientes,minor,,
+Maquinchao,-7651359.630084506,-5049286.834623009,Argentina,AR,Río Negro,minor,,
+Libertador General San Martín,-7311003.403929814,-3817348.2205625316,Argentina,AR,San Luis,minor,,
+Dolores,-7184095.399562795,-3620546.42370881,Argentina,AR,Córdoba,minor,,
+Coronel Dorrego,-6822473.811081865,-4681452.778736304,Argentina,AR,Buenos Aires,minor,,
+Maipú,-7657068.204891877,-3892600.233203645,Argentina,AR,Mendoza,minor,,
+Maipú,-6443276.76743602,-4419991.7435647175,Argentina,AR,Buenos Aires,minor,,
+Espinillo,-6517989.51159887,-2873449.890363882,Argentina,AR,Formosa,minor,,
+El Huecú,-7856936.228039206,-4529428.383317919,Argentina,AR,Neuquén,minor,,
+Leleque,-7911250.4547506245,-5222933.783344524,Argentina,AR,Chubut,minor,,
+Esperanza,-6782888.711475267,-3691172.037691746,Argentina,AR,Santa Fe,minor,,
+Aminga,-7452334.4068019735,-3355627.8814986176,Argentina,AR,La Rioja,minor,,
+San Blas de los Sauces,-7468804.793381782,-3300828.608847567,Argentina,AR,La Rioja,minor,,
+Villa de María,-7093600.111953747,-3490952.903005491,Argentina,AR,Córdoba,minor,,
+Paso de Indios,-7686168.344299637,-5444150.204039029,Argentina,AR,Chubut,minor,,
+Las Coloradas,-7858589.0998385055,-4801534.486578455,Argentina,AR,Neuquén,minor,,
+Ayacucho,-6510732.816633038,-4460294.186899274,Argentina,AR,Buenos Aires,minor,,
+Puerto Santa Cruz,-7627968.844720553,-6449584.974854956,Argentina,AR,Santa Cruz,minor,,
+El Cuy,-7607805.100075203,-4855318.007770098,Argentina,AR,Río Negro,minor,,
+Villa Paranacito,-6529776.575881516,-3991544.260552343,Argentina,AR,Entre Ríos,minor,,
+Tigre,-6521941.0195635585,-4085394.293664424,Argentina,AR,Buenos Aires,minor,,
+Santa Victoria,-7232056.28897617,-2541567.3031267505,Argentina,AR,Salta,minor,,
+José C. Paz,-6539804.012973192,-4098668.2133213915,Argentina,AR,Buenos Aires,minor,,
+Puan,-6987216.082104285,-4515453.761953403,Argentina,AR,Buenos Aires,minor,,
+Caseros,-6519324.900210427,-4110105.221071096,Argentina,AR,Buenos Aires,minor,,
+San Luis del Palmar,-6518261.68775386,-3187071.966683853,Argentina,AR,Corrientes,minor,,
+Ñorquinco,-7892744.3686426785,-5138644.7848719675,Argentina,AR,Río Negro,minor,,
+Villaguay,-6570843.560549553,-3745642.248504378,Argentina,AR,Entre Ríos,minor,,
+Paso de los Libres,-6355219.376675344,-3466726.369414896,Argentina,AR,Corrientes,minor,,
+Limay Mahuida,-7422333.247435733,-4461375.540537005,Argentina,AR,La Pampa,minor,,
+Simoca,-7275448.73780688,-3156334.0355410506,Argentina,AR,Tucumán,minor,,
+Pilcaniyeu,-7873532.2943241205,-5029881.790120548,Argentina,AR,Río Negro,minor,,
+General Conesa,-6381430.997936,-4372427.817814519,Argentina,AR,Buenos Aires,minor,,
+Antofagasta de la Sierra,-7503641.894067065,-3006440.1214873856,Argentina,AR,Catamarca,minor,,
+Hurlingham,-6528451.428663113,-4108530.0136516453,Argentina,AR,Buenos Aires,minor,,
+Charadai,-6668037.498517087,-3202823.6281684437,Argentina,AR,Chaco,minor,,
+Villa Cura Brochero,-7237766.6448953925,-3724751.080049282,Argentina,AR,Córdoba,minor,,
+Makallé,-6599794.420520159,-3149341.2811570773,Argentina,AR,Chaco,minor,,
+Santa Clara,-7198199.467726813,-2791131.972363727,Argentina,AR,Jujuy,minor,,
+Colonia Elisa,-6625581.8032014035,-3114780.459829122,Argentina,AR,Chaco,minor,,
+San Bernardo,-6758487.14513491,-3159477.680704517,Argentina,AR,Chaco,minor,,
+Puelches,-7337541.636576459,-4600018.074349434,Argentina,AR,La Pampa,minor,,
+La Consulta,-7694605.248506859,-3993380.280167998,Argentina,AR,Mendoza,minor,,
+Ancasti,-7291588.282860051,-3351798.869898071,Argentina,AR,Catamarca,minor,,
+Henderson,-6870267.9438980315,-4341979.815756793,Argentina,AR,Buenos Aires,minor,,
+Deán Funes,-7163390.976150664,-3557698.193335213,Argentina,AR,Córdoba,minor,,
+Benito Juárez,-6657632.910990603,-4533176.315936252,Argentina,AR,Buenos Aires,minor,,
+Rivadavia,-7642361.341685214,-3704893.03113292,Argentina,AR,San Juan,minor,,
+Rivadavia,-7000906.153082042,-2776372.4474358954,Argentina,AR,Salta,minor,,
+Ameghino,-6953795.299300365,-4142707.7630715105,Argentina,AR,Buenos Aires,minor,,
+Macachín,-7087322.805867915,-4458078.051238142,Argentina,AR,La Pampa,minor,,
+Laboulaye,-7056674.657621183,-4045817.369129237,Argentina,AR,Córdoba,minor,,
+Guernica,-6499604.875055379,-4152637.626749769,Argentina,AR,Buenos Aires,minor,,
+Pila,-6472550.231290946,-4300701.454642246,Argentina,AR,Buenos Aires,minor,,
+Avellaneda,-6496215.6418386875,-4118302.4899947853,Argentina,AR,Buenos Aires,minor,,
+General Guido,-6433346.734898788,-4389147.628552529,Argentina,AR,Buenos Aires,minor,,
+Bragado,-6733677.926819267,-4180081.018322309,Argentina,AR,Buenos Aires,minor,,
+Brandsen,-6482609.505756989,-4186793.049816365,Argentina,AR,Buenos Aires,minor,,
+Parera,-7180206.2305129515,-4183739.5678862953,Argentina,AR,La Pampa,minor,,
+Saujil,-7370660.743560329,-3270982.516698669,Argentina,AR,Catamarca,minor,,
+San Cristóbal,-6816898.263065994,-3543528.2277144208,Argentina,AR,Santa Fe,minor,,
+Castelli,-6434704.276089012,-4312941.917267598,Argentina,AR,Buenos Aires,minor,,
+Berisso,-6443509.313852288,-4146703.1527479463,Argentina,AR,Buenos Aires,minor,,
+Campo Gallo,-6996429.9963572435,-3071510.464740121,Argentina,AR,Santiago del Estero,minor,,
+Junín,-7623046.742115636,-3914918.7361327116,Argentina,AR,Mendoza,minor,,
+Tafí Viejo,-7264621.915451815,-3090030.150635043,Argentina,AR,Tucumán,minor,,
+Tafí del Valle,-7314785.0383515535,-3105086.447632279,Argentina,AR,Tucumán,minor,,
+Añelo,-7657489.77180351,-4629613.32453532,Argentina,AR,Neuquén,minor,,
+Las Rosas,-6855099.4387630485,-3826037.513012007,Argentina,AR,Santa Fe,minor,,
+Olta,-7376363.084476213,-3584941.7447764776,Argentina,AR,La Rioja,minor,,
+Margarita Belén,-6564754.495722652,-3156193.151732243,Argentina,AR,Chaco,minor,,
+General Lavalle,-7635555.935935057,-3858486.195736798,Argentina,AR,Mendoza,minor,,
+General Lavalle,-6338897.935574217,-4356677.037324661,Argentina,AR,Buenos Aires,minor,,
+Villa Atamisqui,-7103974.309259246,-3311664.2105125515,Argentina,AR,Santiago del Estero,minor,,
+Tumbaya,-7286685.883805006,-2735902.2775652013,Argentina,AR,Jujuy,minor,,
+Alberti,-6709879.044202064,-4167540.066572147,Argentina,AR,Buenos Aires,minor,,
+Federación,-6445356.1042045485,-3633556.1758698793,Argentina,AR,Entre Ríos,minor,,
+Federal,-6543722.459049116,-3626860.722435549,Argentina,AR,Entre Ríos,minor,,
+La Toma,-7305213.788533147,-3902285.42603246,Argentina,AR,San Luis,minor,,
+Bernardo de Irigoyen,-5971823.918434231,-3030723.04288989,Argentina,AR,Misiones,minor,,
+Tostado,-6876112.885081622,-3405209.8736746428,Argentina,AR,Santa Fe,minor,,
+Vedia,-6850755.640912804,-4095542.5615838342,Argentina,AR,Buenos Aires,minor,,
+Gobernador Ingeniero Valentín Virasoro,-6237602.097009932,-3255279.1094778874,Argentina,AR,Corrientes,minor,,
+Mar del Tuyú,-6310572.245863904,-4380074.093465804,Argentina,AR,Buenos Aires,minor,,
+General Rodríguez,-6562566.065853148,-4110788.08695105,Argentina,AR,Buenos Aires,minor,,
+Clorinda,-6425195.365185451,-2910767.9898360893,Argentina,AR,Formosa,minor,,
+Morón,-6525499.124447785,-4116540.0636583217,Argentina,AR,Buenos Aires,minor,,
+Villa Castelli,-7593410.376720725,-3376021.254613304,Argentina,AR,La Rioja,minor,,
+Saladillo,-6654443.050981921,-4250798.636610983,Argentina,AR,Buenos Aires,minor,,
+Bandera,-6931418.968456009,-3361449.636195207,Argentina,AR,Santiago del Estero,minor,,
+Suipacha,-6644419.287433441,-4132696.1987914583,Argentina,AR,Buenos Aires,minor,,
+Banda del Río Salí,-7254320.187134826,-3102664.296681094,Argentina,AR,Tucumán,minor,,
+Santa Ana,-6187238.376387785,-3169449.491296231,Argentina,AR,Misiones,minor,,
+Machagai,-6684685.884962675,-3114247.319383689,Argentina,AR,Chaco,minor,,
+General Pinedo,-6822029.423674619,-3163091.1199518866,Argentina,AR,Chaco,minor,,
+Navarro,-6598684.676516442,-4164640.964591278,Argentina,AR,Buenos Aires,minor,,
+La Leonesa,-6534839.942920248,-3128202.5276175793,Argentina,AR,Chaco,minor,,
+Magdalena,-6402319.432466413,-4174846.293222102,Argentina,AR,Buenos Aires,minor,,
+Puerto Esperanza,-6086176.754032131,-3000959.810396765,Argentina,AR,Misiones,minor,,
+Carmen de Patagones,-7011009.732705421,-4982633.386195239,Argentina,AR,Buenos Aires,minor,,
+Santa María,-7352354.253299374,-3085475.997089396,Argentina,AR,Catamarca,minor,,
+Nueve de Julio,-7613165.801473843,-3719958.1699437923,Argentina,AR,San Juan,minor,,
+General Pinto,-6889667.03496112,-4131935.434924748,Argentina,AR,Buenos Aires,minor,,
+Patquía,-7445304.358319396,-3509568.2527343715,Argentina,AR,La Rioja,minor,,
+San Ignacio,-6182005.247125593,-3155473.977751606,Argentina,AR,Misiones,minor,,
+Villa Alberdi,-7304825.951427223,-3196868.2518324303,Argentina,AR,Tucumán,minor,,
+Bella Vista,-6572312.30991108,-3313322.231432129,Argentina,AR,Corrientes,minor,,
+Bella Vista,-7269513.850474727,-3127325.2032371024,Argentina,AR,Tucumán,minor,,
+Rauch,-6577838.877351003,-4407721.293378424,Argentina,AR,Buenos Aires,minor,,
+Valle Grande,-7229365.808203187,-2689848.9107118603,Argentina,AR,Jujuy,minor,,
+Tres Isletas,-6727266.926024991,-3041335.308293425,Argentina,AR,Chaco,minor,,
+La Poma,-7369468.734452914,-2841632.3677422376,Argentina,AR,Salta,minor,,
+Pirané,-6579960.070248068,-2965973.8742265236,Argentina,AR,Formosa,minor,,
+Intendente Alvear,-7079034.513180901,-4195703.693779496,Argentina,AR,La Pampa,minor,,
+Toay,-7166592.74734486,-4393677.431464229,Argentina,AR,La Pampa,minor,,
+Daireaux,-6873978.556484643,-4383497.640944776,Argentina,AR,Buenos Aires,minor,,
+Esquina,-6626536.813112918,-3505406.6201751963,Argentina,AR,Corrientes,minor,,
+Helvecia,-6688998.402036007,-3645527.5806556144,Argentina,AR,Santa Fe,minor,,
+El Carmen,-7264907.4499457,-2800615.398168069,Argentina,AR,Jujuy,minor,,
+Cachí,-7365475.370359687,-2890532.198064773,Argentina,AR,Salta,minor,,
+Concepción de la Sierra,-6180492.303926223,-3246844.2617937047,Argentina,AR,Misiones,minor,,
+Tres Lomas,-6997595.622745341,-4363717.75912658,Argentina,AR,Buenos Aires,minor,,
+Ensenada,-6446651.640438399,-4145124.686896536,Argentina,AR,Buenos Aires,minor,,
+Carlos Casares,-6830751.528417254,-4248692.912010729,Argentina,AR,Buenos Aires,minor,,
+San Francisco del Monte de Oro,-7361044.743306624,-3842099.243299667,Argentina,AR,San Luis,minor,,
+San Francisco de Laishí,-6526705.048491548,-3029162.129344222,Argentina,AR,Formosa,minor,,
+Graneros,-7284557.900419002,-3204835.4661262752,Argentina,AR,Tucumán,minor,,
+Villa Unión,-6989552.900855016,-3428378.1348641315,Argentina,AR,Santiago del Estero,minor,,
+González Chaves,-6690126.402436214,-4584086.8182576625,Argentina,AR,Buenos Aires,minor,,
+Villa Tulumba,-7138073.473040059,-3554492.2402406433,Argentina,AR,Córdoba,minor,,
+La Quiaca,-7301778.2464082865,-2523818.738237549,Argentina,AR,Jujuy,minor,,
+General Arenales,-6824466.207328082,-4069512.071930371,Argentina,AR,Buenos Aires,minor,,
+General Alvear,-7535345.907683971,-4160750.540732592,Argentina,AR,Mendoza,minor,,
+General Alvear,-6680783.468893426,-4303481.733015928,Argentina,AR,Buenos Aires,minor,,
+Concarán,-7262784.030658819,-3837057.7864564527,Argentina,AR,San Luis,minor,,
+Campo Largo,-6772917.156767969,-3098603.066406801,Argentina,AR,Chaco,minor,,
+San Martín de los Andes,-7942758.657383225,-4888526.169931413,Argentina,AR,Neuquén,minor,,
+Aimogasta,-7436795.986999085,-3319876.905902997,Argentina,AR,La Rioja,minor,,
+Santa Rosa de Río Primero,-7057868.113881978,-3652544.8134166845,Argentina,AR,Córdoba,minor,,
+San Isidro,-7316568.710552532,-3307429.583653257,Argentina,AR,Catamarca,minor,,
+La Paz,-6639724.165270254,-3599657.4619451747,Argentina,AR,Entre Ríos,minor,,
+Oberá,-6135923.653355791,-3184456.2387015936,Argentina,AR,Misiones,minor,,
+La Cruz,-6305498.860071001,-3397865.470799819,Argentina,AR,Corrientes,minor,,
+Esquiú,-7268159.203591264,-3424321.879961323,Argentina,AR,Catamarca,minor,,
+San Pedro,-6023321.4280701075,-3076333.5913390634,Argentina,AR,Misiones,minor,,
+San Pedro,-7254302.153377316,-3243157.8357014316,Argentina,AR,Santiago del Estero,minor,,
+San Miguel,-6410849.845045902,-3248450.2014551563,Argentina,AR,Corrientes,minor,,
+San Roque,-6535363.3671659585,-3321609.5940384623,Argentina,AR,Corrientes,minor,,
+Lobería,-6544617.245116112,-4601449.790020685,Argentina,AR,Buenos Aires,minor,,
+Merlo,-6537712.542380169,-4118620.1432411433,Argentina,AR,Buenos Aires,minor,,
+Buta Ranquil,-7778686.974973343,-4446388.780911705,Argentina,AR,Neuquén,minor,,
+Villa Huidobro,-7189776.36713645,-4141923.5317266295,Argentina,AR,Córdoba,minor,,
+Salto,-6707506.046616823,-4068201.7652560244,Argentina,AR,Buenos Aires,minor,,
+Sauce,-6544224.955230557,-3514700.2245976534,Argentina,AR,Corrientes,minor,,
+Laprida,-6768190.976466851,-4515227.85881344,Argentina,AR,Buenos Aires,minor,,
+Santa Sylvina,-6805791.806150057,-3227886.084830628,Argentina,AR,Chaco,minor,,
+Pozo Hondo,-7178993.961258212,-3144235.3662009826,Argentina,AR,Santiago del Estero,minor,,
+Arrecifes,-6690698.473299401,-4037385.8687044526,Argentina,AR,Buenos Aires,minor,,
+Santa Isabel,-7451993.435201674,-4331934.46426487,Argentina,AR,La Pampa,minor,,
+Alvear,-6295164.960421171,-3387975.7240995625,Argentina,AR,Corrientes,minor,,
+Roque Pérez,-6604886.730626498,-4218092.6457335865,Argentina,AR,Buenos Aires,minor,,
+San Francisco del Chañar,-7117613.395910218,-3476572.7041724143,Argentina,AR,Córdoba,minor,,
+Capilla del Señor,-6579180.833812516,-4068087.639389518,Argentina,AR,Buenos Aires,minor,,
+Monteros,-7291240.186812338,-3144403.6564342533,Argentina,AR,Tucumán,minor,,
+Leandro N. Alem,-6158741.365981143,-3199064.378518217,Argentina,AR,Misiones,minor,,
+Villa Nueva,-7656596.544209385,-3881669.4376214035,Argentina,AR,Mendoza,minor,,
+General Viamonte,-6794394.026126716,-4163900.0336251147,Argentina,AR,Buenos Aires,minor,,
+General Villegas,-7014521.194723004,-4168345.816570776,Argentina,AR,Buenos Aires,minor,,

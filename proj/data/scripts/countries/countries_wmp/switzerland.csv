@@ -1,0 +1,112 @@
+city,x,y,country,iso2,admin,capital,population,population_proper
+Geneva,684404.8084995056,5811750.175939048,Switzerland,CH,Genève,admin,1240000,192385
+Zürich,951781.6462824891,6002130.179221024,Switzerland,CH,Zürich,admin,1108000,341730
+Basel,843052.6713594657,6033699.4355743965,Switzerland,CH,Basel-Stadt,admin,830000,170635
+Bern,831185.5683629395,5928482.597520341,Switzerland,CH,Bern,primary,275329,121631
+Lausanne,742129.9757283208,5866232.037398939,Switzerland,CH,Vaud,admin,265702,116751
+Lucerne,920241.1609975585,5955686.762404906,Switzerland,CH,Luzern,admin,250000,77491
+Lugano,996930.1600804619,5781836.3112155,Switzerland,CH,Ticino,,105388,26365
+Sankt Fiden,1046230.6682460421,6012812.222860872,Switzerland,CH,Sankt Gallen,,70572,70572
+Chur,1060531.6605892724,5918723.7795910975,Switzerland,CH,Graubünden,admin,38293,32429
+Schaffhausen,961235.899316071,6056645.917919085,Switzerland,CH,Schaffhausen,admin,33863,33863
+Fribourg,796462.9041141925,5908793.887508596,Switzerland,CH,Fribourg,admin,32827,32827
+Neuchâtel,771449.6371719254,5940946.094277221,Switzerland,CH,Neuchâtel,admin,31270,31270
+Tripon,814612.0999346555,5823858.096829447,Switzerland,CH,Valais,,28045,28045
+Zug,948157.640259714,5970263.119584616,Switzerland,CH,Zug,admin,23435,23435
+Frauenfeld,990721.2041619762,6033952.648658708,Switzerland,CH,Thurgau,,21979,21979
+Bellinzona,1004628.236827289,5811637.6025385745,Switzerland,CH,Ticino,,16572,16572
+Aarau,896383.9469671797,6005902.822816605,Switzerland,CH,Aargau,admin,15501,15501
+Herisau,1032138.7339065215,6004767.355446395,Switzerland,CH,Appenzell Ausserrhoden,,15438,15438
+Solothurn,836744.6410941742,5975869.920885656,Switzerland,CH,Solothurn,admin,14853,14853
+Schwyz,963593.9800895449,5946622.393112069,Switzerland,CH,Schwyz,admin,14177,14177
+Liestal,861944.0342250474,6021235.016901455,Switzerland,CH,Basel-Landschaft,admin,12832,12832
+Delémont,815861.104621356,6002091.062405928,Switzerland,CH,Jura,admin,11315,11315
+Sarnen,918461.6076177373,5925523.863341986,Switzerland,CH,Obwalden,admin,9410,9410
+Altdorf,962291.2080887911,5922577.694106388,Switzerland,CH,Uri,admin,8678,8678
+Stansstad,928410.1191904412,5938371.2730077775,Switzerland,CH,Nidwalden,,7475,7475
+Glarus,1009449.1500150732,5948698.644998146,Switzerland,CH,Glarus,admin,5681,5681
+Appenzell,1047477.1125844544,5995845.319139684,Switzerland,CH,Appenzell Innerrhoden,admin,5649,5649
+Saignelégier,778636.2008585577,5983867.6880104225,Switzerland,CH,Jura,minor,,
+Affoltern am Albis,941034.8626413065,5988098.402933265,Switzerland,CH,Zürich,minor,,
+Cully,749192.3068632275,5858948.091752253,Switzerland,CH,Vaud,minor,,
+Romont,770112.3561290259,5892672.3287242185,Switzerland,CH,Fribourg,minor,,
+Aarberg,809690.1086492308,5949231.997527912,Switzerland,CH,Bern,minor,,
+Scuol,1147252.6608629746,5908962.347689952,Switzerland,CH,Graubünden,minor,,
+Fleurier,732719.9165325838,5926298.727354035,Switzerland,CH,Neuchâtel,minor,,
+Unterkulm,903214.0656442916,5992818.2901284965,Switzerland,CH,Aargau,minor,,
+Stans,931308.878730698,5935229.4507764615,Switzerland,CH,Nidwalden,admin,,
+Lichtensteig,1011234.937286379,5997346.088522223,Switzerland,CH,Sankt Gallen,minor,,
+Yverdon-les-Bains,738660.7037977484,5905898.050226383,Switzerland,CH,Vaud,minor,,
+Boudry,761310.6579504742,5934408.946128529,Switzerland,CH,Neuchâtel,minor,,
+Balsthal,856386.0746887209,5993791.934378962,Switzerland,CH,Solothurn,minor,,
+Dornach,847855.6621092324,6020454.775013747,Switzerland,CH,Solothurn,minor,,
+Lachen,985658.393720698,5974660.8799541155,Switzerland,CH,Schwyz,minor,,
+Payerne,772120.893701409,5913069.812104338,Switzerland,CH,Vaud,minor,,
+Baden,924259.4606567231,6020452.6338514,Switzerland,CH,Aargau,minor,,
+Bad Zurzach,922796.3885892273,6038777.32155272,Switzerland,CH,Aargau,minor,,
+Tafers,803561.8593615703,5911901.654271661,Switzerland,CH,Fribourg,minor,,
+Haslen,1042787.4450763152,6002564.256229786,Switzerland,CH,Appenzell Innerrhoden,minor,,
+Echallens,738863.5279099736,5883914.630181111,Switzerland,CH,Vaud,minor,,
+Rapperswil-Jona,983384.0252043006,5979523.626076378,Switzerland,CH,Sankt Gallen,minor,,
+Bulle,785553.0374189977,5880186.279778043,Switzerland,CH,Fribourg,minor,,
+Bülach,950330.8193589804,6027186.573161493,Switzerland,CH,Zürich,minor,,
+Sankt Gallen,1045135.8410540902,6013597.20715258,Switzerland,CH,Sankt Gallen,admin,,
+Wil,1006761.2295903788,6017567.157832569,Switzerland,CH,Sankt Gallen,minor,,
+Zofingen,884686.4948746224,5989529.559534051,Switzerland,CH,Aargau,minor,,
+Vevey,761555.3381912378,5855224.178426001,Switzerland,CH,Vaud,minor,,
+Renens,733383.4920172024,5867293.785967283,Switzerland,CH,Vaud,minor,,
+Brugg,913155.3414500942,6021028.790335449,Switzerland,CH,Aargau,minor,,
+Laufenburg,897284.7442866788,6033840.145252016,Switzerland,CH,Aargau,minor,,
+La Chaux-de-Fonds,760188.7801222595,5959134.269796471,Switzerland,CH,Neuchâtel,minor,,
+Andelfingen,966217.3352095791,6039711.578935201,Switzerland,CH,Zürich,minor,,
+Dietikon,934525.3440976789,6008341.637480947,Switzerland,CH,Zürich,minor,,
+Winterthur,971165.7092143218,6025001.492901227,Switzerland,CH,Zürich,minor,,
+Thun,848439.6441579338,5901553.815255889,Switzerland,CH,Bern,minor,,
+Le Locle,751660.1486546237,5951796.792768188,Switzerland,CH,Neuchâtel,minor,,
+Bremgarten,927286.3489308832,5999819.138467142,Switzerland,CH,Aargau,minor,,
+Tiefencastel,1066310.4779953328,5886775.311309327,Switzerland,CH,Graubünden,minor,,
+Saint-Maurice,779592.2126454903,5815394.308152903,Switzerland,CH,Valais,minor,,
+Cernier,767520.8383833586,5951441.061650351,Switzerland,CH,Neuchâtel,minor,,
+Ostermundigen,833469.8443140176,5934913.373661986,Switzerland,CH,Bern,minor,,
+Estavayer-le-Lac,762071.5266700463,5917482.109375977,Switzerland,CH,Fribourg,minor,,
+Frutigen,851316.9190364676,5875053.41322952,Switzerland,CH,Bern,minor,,
+Muri,928204.1781324737,5986327.055943024,Switzerland,CH,Aargau,minor,,
+Murten,791519.7621255172,5930140.66337981,Switzerland,CH,Fribourg,minor,,
+Rheinfelden,867606.1888047565,6032906.3575149,Switzerland,CH,Aargau,minor,,
+Gersau,948998.2137346939,5941125.620902368,Switzerland,CH,Schwyz,minor,,
+Schüpfheim,892474.5177700105,5934179.655698231,Switzerland,CH,Luzern,minor,,
+Saanen,808135.9772382659,5859151.168516176,Switzerland,CH,Bern,minor,,
+Olten,880437.0959525708,6000551.019162948,Switzerland,CH,Solothurn,minor,,
+Domat/Ems,1052052.9002535117,5915155.185172219,Switzerland,CH,Graubünden,minor,,
+Münchwilen,1001395.630134143,6020428.09287465,Switzerland,CH,Thurgau,minor,,
+Horgen,957199.7885383794,5983947.889851023,Switzerland,CH,Zürich,minor,,
+Willisau,889605.1465753232,5961578.798106972,Switzerland,CH,Luzern,minor,,
+Rorschach,1055913.682833204,6020310.49479744,Switzerland,CH,Sankt Gallen,minor,,
+Morges,723097.2371094315,5862660.1571673425,Switzerland,CH,Vaud,minor,,
+Interlaken,875680.9707084281,5890625.7302671205,Switzerland,CH,Bern,minor,,
+Sursee,902927.0839970266,5970010.941088069,Switzerland,CH,Luzern,minor,,
+Küssnacht,939765.4864877907,5956052.6396827055,Switzerland,CH,Schwyz,minor,,
+Weinfelden,1013787.7158492504,6034906.18208505,Switzerland,CH,Thurgau,minor,,
+Pfäffikon,978047.4801351618,6001975.849618882,Switzerland,CH,Zürich,minor,,
+Meilen,962209.499582549,5986327.22000067,Switzerland,CH,Zürich,minor,,
+Langnau,866887.1762137227,5932181.691825609,Switzerland,CH,Bern,minor,,
+Kreuzlingen,1021360.5581689352,6048908.182379853,Switzerland,CH,Thurgau,minor,,
+Nidau,805782.1266054421,5963182.958366605,Switzerland,CH,Bern,minor,,
+Igis,1065570.2033815575,5933151.510585392,Switzerland,CH,Graubünden,minor,,
+Ilanz,1024638.6945338155,5905111.8263970185,Switzerland,CH,Graubünden,minor,,
+Einsiedeln,973287.4587088417,5962995.286611589,Switzerland,CH,Schwyz,minor,,
+Wangen,852092.7045678059,5980024.116306478,Switzerland,CH,Bern,minor,,
+Hinwil,984451.6904404989,5990690.773277824,Switzerland,CH,Zürich,minor,,
+Hochdorf,923037.6179257763,5969605.997021903,Switzerland,CH,Luzern,minor,,
+Thusis,1050878.4796256428,5892841.290605479,Switzerland,CH,Graubünden,minor,,
+Lenzburg,910793.5871334242,6004987.334465224,Switzerland,CH,Aargau,minor,,
+Dielsdorf,941348.7836053434,6020817.956754402,Switzerland,CH,Zürich,minor,,
+Mörel-Filet,895466.4517240615,5837510.258710792,Switzerland,CH,Valais,minor,,
+Münster-Geschinen,920841.840969879,5859498.317761275,Switzerland,CH,Valais,minor,,
+Martigny,787472.8533572186,5796696.238906218,Switzerland,CH,Valais,minor,,
+Brig-Glis,888974.7442989609,5830892.101454914,Switzerland,CH,Valais,minor,,
+Davos,1093938.8624153151,5909124.306675134,Switzerland,CH,Graubünden,minor,,
+Uster,970337.1582443475,5999735.832209546,Switzerland,CH,Zürich,minor,,
+Altstätten,1063656.5100153303,6003735.435727325,Switzerland,CH,Sankt Gallen,minor,,
+Courtelary,787357.6376842475,5971400.96129123,Switzerland,CH,Bern,minor,,
+Porrentruy,787609.9989698759,6010131.470173138,Switzerland,CH,Jura,minor,,

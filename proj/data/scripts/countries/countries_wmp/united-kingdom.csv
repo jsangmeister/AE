@@ -1,0 +1,232 @@
+city,x,y,country,iso2,admin,capital,population,population_proper
+London,-10368.853969939468,6712767.34153468,United Kingdom,GB,,primary,8567000,7421209
+Birmingham,-213362.39446027126,6884948.685343524,United Kingdom,GB,Birmingham,admin,2285000,984333
+Manchester,-246758.24169825338,7076025.276180581,United Kingdom,GB,Manchester,admin,2230000,395515
+Leeds,-176255.82331618623,7132369.312295495,United Kingdom,GB,Leeds,admin,1529000,455123
+Sheffield,-166979.23618991036,7051111.495120166,United Kingdom,GB,Sheffield,admin,1292900,552700
+Glasgow,-473107.8358714127,7525308.262105702,United Kingdom,GB,Glasgow City,admin,1160000,610268
+Newcastle upon Tyne,-180275.68144822214,7359548.371174245,United Kingdom,GB,Newcastle upon Tyne,admin,882000,192382
+Nottingham,-129872.77636531608,6976834.596067184,United Kingdom,GB,Nottingham,admin,825600,305700
+Liverpool,-333958.4723798207,7060445.02993495,United Kingdom,GB,Liverpool,admin,811000,468945
+Southend-on-Sea,77923.64355529149,6716181.947681234,United Kingdom,GB,Southend-on-Sea,admin,618386,173600
+Bristol,-287575.3141094598,6701282.868773621,United Kingdom,GB,"Bristol, City of",admin,553528,430713
+Edinburgh,-356222.37053847546,7548468.502346693,United Kingdom,GB,"Edinburgh, City of",admin,504966,435791
+Brighton,-16697.923618991033,6591865.043604825,United Kingdom,GB,Brighton and Hove,,503008,139001
+Bradford,-194809.10888822874,7129228.47998395,United Kingdom,GB,Bradford,admin,501700,293717
+Leicester,-126162.05245921311,6915460.36606538,United Kingdom,GB,Leicester,admin,457983,339239
+Sunderland,-153991.92515753148,7344794.959906219,United Kingdom,GB,Sunderland,admin,452934,177965
+Belfast,-660495.6082669263,7284618.101554008,United Kingdom,GB,Belfast,,450406,274770
+Portsmouth,-120596.07791954944,6580123.140469525,United Kingdom,GB,Portsmouth,admin,442252,205100
+Bournemouth,-209651.6705541683,6571327.600992724,United Kingdom,GB,Bournemouth,admin,426945,163600
+Middlesbrough,-129439.85486562108,7279388.643180379,United Kingdom,GB,Redcar and Cleveland,admin,416042,142707
+Coventry,-172545.21072957403,6875817.681506911,United Kingdom,GB,Coventry,admin,388271,308313
+Southampton,-155847.28711058298,6603623.906655204,United Kingdom,GB,Southampton,admin,384417,384417
+Reading,-111319.49079327357,6698306.246038871,United Kingdom,GB,Reading,admin,369804,145700
+Sutton on Hull,-35251.20919103356,7129228.47998395,United Kingdom,GB,"Kingston upon Hull, City of",,302296,292501
+Blackpool,-339524.44691948436,7135511.393198768,United Kingdom,GB,Blackpool,admin,272792,143101
+Plymouth,-460708.06911144074,6515208.547921568,United Kingdom,GB,Plymouth,admin,247297,231575
+Luton,-46383.15827036092,6779057.99155278,United Kingdom,GB,Luton,admin,235958,193669
+Oxford,-139149.36349159197,6755047.8630344495,United Kingdom,GB,Oxfordshire,admin,192796,154566
+Norwich,144715.33803125564,6915460.36606538,United Kingdom,GB,Norfolk,admin,190756,177636
+Old Aberdeen,-233770.9306658745,7794260.532019946,United Kingdom,GB,Aberdeen City,,189364,183790
+York,-120596.07791954944,7163845.948582826,United Kingdom,GB,York,admin,158947,144202
+Dundee,-330247.85979320854,7658602.292988298,United Kingdom,GB,Dundee City,admin,151592,150435
+Ipswich,129872.77636531608,6815207.177257663,United Kingdom,GB,Suffolk,admin,143767,134257
+Peterborough,-27829.87269831839,6906294.650198962,United Kingdom,GB,Peterborough,admin,140141,140141
+Cambridge,12987.311032378848,6836369.119003472,United Kingdom,GB,Cambridgeshire,admin,128488,128488
+Exminster,-387762.85582340596,6565469.002675287,United Kingdom,GB,Devon,,113118,103366
+Bath,-263332.4893629731,6688689.430500769,United Kingdom,GB,Bath and North East Somerset,admin,93238,92120
+Chester,-324681.88525354484,7020078.532642097,United Kingdom,GB,Cheshire West and Chester,admin,89531,77040
+Greenock,-528767.5812680495,7545155.572855046,United Kingdom,GB,Inverclyde,admin,74635,43495
+Carlisle,-326537.13588710554,7339256.270754422,United Kingdom,GB,Cumbria,admin,72633,65907
+Scarborough,-46104.85954337774,7224741.461269247,United Kingdom,GB,North Yorkshire,,70571,70571
+Ayr,-513925.01960210985,7449696.34934758,United Kingdom,GB,South Ayrshire,admin,69042,45513
+Inverness,-471252.4739183612,7856105.622032028,United Kingdom,GB,Highland,admin,45158,40755
+Perth,-382196.8812837423,7638459.950994259,United Kingdom,GB,Perth and Kinross,admin,39654,39654
+River,141004.72544464347,6644912.761656353,United Kingdom,GB,Kent,,36384,28156
+Dumfries,-395184.19231612113,7374815.58357169,United Kingdom,GB,Dumfries and Galloway,admin,31044,31044
+Omagh,-811613.7094501386,7284856.393901593,United Kingdom,GB,Fermanagh and Omagh,admin,21056,16326
+Penzance,-617575.8219941257,6465974.562102542,United Kingdom,GB,Cornwall,,20812,15489
+Fort William,-569584.7649987467,7722738.948840937,United Kingdom,GB,Highland,,9652,9652
+Kirkwall,-328392.49784015707,8173185.830762997,United Kingdom,GB,Orkney Islands,admin,8500,3153
+Wick,-343235.0595060966,8058903.522402518,United Kingdom,GB,Highland,,7147,7147
+Lerwick,-128017.41441226461,8433209.721803233,United Kingdom,GB,Shetland Islands,admin,6594,4614
+Ilford,7881.976545617736,6720895.686025064,United Kingdom,GB,Redbridge,admin,,
+Chelmsford,53804.3834435853,6752051.516916597,United Kingdom,GB,Essex,admin,,
+Weston-super-Mare,-330371.5357474799,6682697.077729924,United Kingdom,GB,North Somerset,admin,,
+Llangefni,-482384.42299768847,7032477.235479334,United Kingdom,GB,Isle of Anglesey,admin,,
+Southport,-333958.4723798207,7107278.072617164,United Kingdom,GB,Sefton,admin,,
+Armagh,-740226.7463942281,7236363.686067534,United Kingdom,GB,"Armagh, Banbridge and Craigavon",admin,,
+Rochester,57515.107349688275,6689383.066639422,United Kingdom,GB,Medway,admin,,
+Rochdale,-239336.90520553815,7097889.3042647615,United Kingdom,GB,Rochdale,admin,,
+Motherwell,-445277.96317309426,7515403.740522978,United Kingdom,GB,North Lanarkshire,admin,,
+Clydach Vale,-386958.90646089695,6732901.51957801,United Kingdom,GB,Rhondda Cynon Taff,admin,,
+Kirkintilloch,-463831.24874513684,7541844.266881649,United Kingdom,GB,East Dunbartonshire,admin,,
+Stirling,-439711.9886334306,7581675.899037164,United Kingdom,GB,Stirling,admin,,
+Lambeth,-12987.311032378848,6710219.083220741,United Kingdom,GB,Lambeth,admin,,
+Dungannon,-752995.0919882166,7266063.1982942885,United Kingdom,GB,Mid Ulster,admin,,
+Huddersfield,-198519.72147484095,7104147.183689982,United Kingdom,GB,Kirklees,admin,,
+Stretford,-257890.1907775807,7066673.422379806,United Kingdom,GB,Trafford,admin,,
+Preston,-302417.98709489015,7126089.083340586,United Kingdom,GB,Lancashire,admin,,
+Newbury,-146570.69998430714,6692356.435262544,United Kingdom,GB,West Berkshire,admin,,
+Rhuthun,-367354.31961780274,7004607.38194251,United Kingdom,GB,Denbighshire,admin,,
+Blackburn,-276443.36503013247,7122950.744367013,United Kingdom,GB,Blackburn with Darwen,admin,,
+Wood Green,-12987.311032378848,6728120.968144314,United Kingdom,GB,Haringey,admin,,
+Stafford,-233770.9306658745,6946088.679401966,United Kingdom,GB,St. Helens,admin,,
+Gloucester,-250468.85428486552,6770045.842482568,United Kingdom,GB,Gloucestershire,admin,,
+Glenrothes,-354367.00858542393,7598333.4593373835,United Kingdom,GB,Fife,admin,,
+South Bank,-128017.41441226461,7278215.174978125,United Kingdom,GB,Redcar and Cleveland,admin,,
+Pont-y-pŵl,-338905.95582863694,6746261.868475504,United Kingdom,GB,Torfaen,admin,,
+Durham,-174400.57268262553,7316711.992872573,United Kingdom,GB,Durham,admin,,
+Bedford,-50093.77085697311,6824269.7680671215,United Kingdom,GB,Bedford,admin,,
+Taunton,-345616.07209467393,6625028.864117789,United Kingdom,GB,Somerset,admin,,
+Widnes,-304273.2377284508,7048002.689099367,United Kingdom,GB,Halton,admin,,
+Uxbridge,-53804.3834435853,6719165.106882159,United Kingdom,GB,Hillingdon,admin,,
+Elgin,-371064.932204415,7894150.068328124,United Kingdom,GB,Moray,admin,,
+Hove,-20408.536205603225,6591865.043604825,United Kingdom,GB,Brighton and Hove,admin,,
+Lewes,-1855.3619530514907,6597742.461338766,United Kingdom,GB,East Sussex,admin,,
+Maidstone,57515.107349688275,6668600.275883329,United Kingdom,GB,Kent,admin,,
+Llandrindod Wells,-376630.9067440787,6842425.510386318,United Kingdom,GB,Powys,admin,,
+Kingston upon Hull,-37106.45982459426,7116677.987750808,United Kingdom,GB,"Kingston upon Hull, City of",admin,,
+Kingston upon Thames,-31540.48528493058,6695330.88756873,United Kingdom,GB,Kingston upon Thames,admin,,
+Barri,-363952.8412571235,6693546.121776133,United Kingdom,GB,"Vale of Glamorgan, The",admin,,
+Giffnock,-476818.4484580249,7518703.900398299,United Kingdom,GB,East Renfrewshire,admin,,
+Hounslow,-38961.821777645746,6704260.5783216255,United Kingdom,GB,Hounslow,admin,,
+Derry,-813815.6089780295,7361670.0951129515,United Kingdom,GB,Derry and Strabane,admin,,
+Newtownabbey,-657278.6976219823,7297912.065833909,United Kingdom,GB,Antrim and Newtownabbey,admin,,
+Forfar,-320971.16134744184,7688915.632550976,United Kingdom,GB,Angus,admin,,
+Torquay,-389618.2177764575,6524575.739101142,United Kingdom,GB,Torbay,admin,,
+East Ham,5565.974539663679,6716181.947681234,United Kingdom,GB,Newham,admin,,
+Solihull,-198519.72147484095,6875817.681506911,United Kingdom,GB,Solihull,admin,,
+Poplar,-1855.3619530514907,6710219.083220741,United Kingdom,GB,Tower Hamlets,admin,,
+Mold,-348801.0340457602,7013886.504917881,United Kingdom,GB,Flintshire,admin,,
+Warwick,-176255.82331618623,6851518.721626914,United Kingdom,GB,Warwickshire,admin,,
+Knowsley,-317260.54876082967,7066673.422379806,United Kingdom,GB,Knowsley,admin,,
+Hwlffordd,-553350.5983784004,6764343.442414106,United Kingdom,GB,Pembrokeshire,admin,,
+Rotherham,-150281.31257091934,7063558.522108563,United Kingdom,GB,Rotherham,admin,,
+Caernarfon,-474963.1978244641,7010792.201710816,United Kingdom,GB,Gwynedd,admin,,
+Morpeth,-187387.77239551357,7394280.201092409,United Kingdom,GB,Northumberland,admin,,
+Irvine,-519490.9941417736,7479195.597125309,United Kingdom,GB,North Ayrshire,admin,,
+Cwmbran,-336927.02924080496,6737635.00133131,United Kingdom,GB,Monmouthshire,admin,,
+Stornoway,-708734.1284903386,8012970.896406563,United Kingdom,GB,Eilean Siar,admin,,
+Darlington,-174400.57268262553,7271817.289589465,United Kingdom,GB,Darlington,admin,,
+Hackney,-5565.974539663679,6719165.106882159,United Kingdom,GB,Hackney,admin,,
+Trowbridge,-245861.45188042274,6677896.527151156,United Kingdom,GB,Wiltshire,admin,,
+Merthyr Tudful,-376630.9067440787,6755047.8630344495,United Kingdom,GB,Merthyr Tydfil,admin,,
+Hertford,-7421.33649271517,6764043.360747746,United Kingdom,GB,Hertfordshire,admin,,
+Newry,-705550.7250121235,7203930.18784947,United Kingdom,GB,"Newry, Mourne and Down",admin,,
+Belfast,-659613.6239413712,7284007.030151538,United Kingdom,GB,Belfast,admin,,
+Camberwell,-10198.869107498138,6705502.937140874,United Kingdom,GB,Southwark,admin,,
+Caerfyrddin,-479972.5749101615,6774700.989153603,United Kingdom,GB,Carmarthenshire,admin,,
+Cookstown,-750871.1161038809,7292847.232207585,United Kingdom,GB,Mid Ulster,admin,,
+Dorchester,-270877.3904904688,6571327.600992724,United Kingdom,GB,Dorset,admin,,
+Port Talbot,-421158.703061388,6728120.968144314,United Kingdom,GB,Neath Port Talbot,admin,,
+Antrim,-691122.6058104072,7306345.980233992,United Kingdom,GB,Antrim and Newtownabbey,admin,,
+Gateshead,-180059.27635812,7351199.043090095,United Kingdom,GB,Gateshead,admin,,
+Wandsworth,-22263.898158654716,6701282.868773621,United Kingdom,GB,Wandsworth,admin,,
+Exeter,-393328.83036306966,6568397.781293055,United Kingdom,GB,Devon,admin,,
+Camden Town,-15619.015114222628,6718388.918550952,United Kingdom,GB,Camden,admin,,
+Alloa,-423014.0650144395,7581675.899037164,United Kingdom,GB,Clackmannanshire,admin,,
+Chicksands,-40817.183730697245,6806154.733720908,United Kingdom,GB,Central Bedfordshire,admin,,
+Banbridge,-697640.3619963534,7236896.562689748,United Kingdom,GB,"Armagh, Banbridge and Craigavon",admin,,
+Walthamstow,-3710.612586612188,6728120.968144314,United Kingdom,GB,Waltham Forest,admin,,
+Paisley,-493516.3720770159,7525308.262105702,United Kingdom,GB,Renfrewshire,admin,,
+Chichester,-87200.23068156737,6591865.043604825,United Kingdom,GB,West Sussex,admin,,
+Craigavon,-708500.6915181451,7255780.687396059,United Kingdom,GB,"Armagh, Banbridge and Craigavon",admin,,
+Woolwich,22263.898158654716,6704260.5783216255,United Kingdom,GB,Greenwich,admin,,
+Northallerton,-159557.8996971952,7233540.04374152,United Kingdom,GB,North Yorkshire,admin,,
+Romford,22263.898158654716,6725134.526516778,United Kingdom,GB,Havering,admin,,
+Walsall,-222638.98158654713,6909348.787339878,United Kingdom,GB,Walsall,admin,,
+Scunthorpe,-72357.66901562782,7091636.176440954,United Kingdom,GB,North Lincolnshire,admin,,
+Islington,-11131.949079327358,6716181.947681234,United Kingdom,GB,Islington,admin,,
+Oldbury,-224494.34353959863,6891041.723891583,United Kingdom,GB,Sandwell,admin,,
+Downpatrick,-635783.460547255,7232319.586817805,United Kingdom,GB,"Newry, Mourne and Down",admin,,
+Livingston,-393328.83036306966,7535225.526082756,United Kingdom,GB,West Lothian,admin,,
+Ashton-under-Lyne,-233770.9306658745,7076025.276180581,United Kingdom,GB,Tameside,admin,,
+Winchester,-146570.69998430714,6624242.4517674055,United Kingdom,GB,Hampshire,admin,,
+Sandbach,-263456.16531724436,7007699.099291904,United Kingdom,GB,Cheshire East,admin,,
+Derby,-166979.23618991036,6970675.837776936,United Kingdom,GB,Derby,admin,,
+Twickenham,-35251.20919103356,6698306.246038871,United Kingdom,GB,Richmond upon Thames,admin,,
+Saint Helens,-304273.2377284508,7066673.422379806,United Kingdom,GB,St. Helens,admin,,
+Bury,-256034.82882452922,7094762.123545771,United Kingdom,GB,Bury,admin,,
+Maidenhead,-77923.64355529149,6713200.05942485,United Kingdom,GB,Windsor and Maidenhead,admin,,
+Wembley,-31540.48528493058,6719165.106882159,United Kingdom,GB,Brent,admin,,
+Hartlepool,-134974.8825868442,7301183.436646378,United Kingdom,GB,Hartlepool,admin,,
+Hugh Town,-702901.6550897158,6431498.661481636,United Kingdom,GB,Isles of Scilly,admin,,
+Oldham,-235626.292618926,7085388.165495079,United Kingdom,GB,Oldham,admin,,
+Bexleyheath,16697.923618991033,6701282.868773621,United Kingdom,GB,Bexley,admin,,
+Ebbw Vale,-356222.37053847546,6761043.6939406255,United Kingdom,GB,Blaenau Gwent,admin,,
+Magherafelt,-735756.1556439702,7314318.317990581,United Kingdom,GB,Mid Ulster,admin,,
+Wigan,-291286.03801556275,7082265.911742517,United Kingdom,GB,Wigan,admin,,
+Ballymena,-698677.8596505467,7334976.263228622,United Kingdom,GB,Mid and East Antrim,admin,,
+Halifax,-205941.05796755612,7116677.987750808,United Kingdom,GB,Calderdale,admin,,
+Stockport,-239336.90520553815,7057332.571004393,United Kingdom,GB,Stockport,admin,,
+Stockton-on-Tees,-157702.64906363448,7281415.887420569,United Kingdom,GB,Stockton-on-Tees,admin,,
+Northampton,-98332.17976089474,6845455.502518217,United Kingdom,GB,Northamptonshire,admin,,
+Grays,37106.45982459426,6707239.196972037,United Kingdom,GB,Thurrock,admin,,
+Ystrad Mynach,-361046.1780330203,6735342.625449641,United Kingdom,GB,Caerphilly,admin,,
+Aberaeron,-473107.8358714127,6845455.502518217,United Kingdom,GB,Ceredigion,admin,,
+Newtown Saint Boswells,-298707.2631887872,7475912.276217094,United Kingdom,GB,"Scottish Borders, The",admin,,
+Enfield,-7421.33649271517,6740077.528521506,United Kingdom,GB,Enfield,admin,,
+Stoke-on-Trent,-243047.51779215038,6982997.920389788,United Kingdom,GB,Stoke-on-Trent,admin,,
+Sutton,-22263.898158654716,6683439.7545168875,United Kingdom,GB,Sutton,admin,,
+Dudley,-231915.56871282303,6891041.723891583,United Kingdom,GB,Dudley,admin,,
+Wrecsam,-333958.4723798207,6992251.927690397,United Kingdom,GB,Wrexham,admin,,
+Aberdeen,-233770.9306658745,7787419.750186925,United Kingdom,GB,Aberdeen City,admin,,
+Bolton,-270877.3904904688,7091636.176440954,United Kingdom,GB,Bolton,admin,,
+Warrington,-289430.6760625113,7054221.330951547,United Kingdom,GB,Warrington,admin,,
+Salford,-252324.21623791702,7072906.704690947,United Kingdom,GB,Salford,admin,,
+Kensington,-22244.639886747478,6711059.412468234,United Kingdom,GB,Kensington and Chelsea,admin,,
+Doncaster,-124306.80182565242,7082265.911742517,United Kingdom,GB,Doncaster,admin,,
+Swindon,-198519.72147484095,6713200.05942485,United Kingdom,GB,Swindon,admin,,
+Pen-y-Bont ar Ogwr,-398214.53149449563,6711262.220375696,United Kingdom,GB,Bridgend,admin,,
+Catford,-1855.3619530514907,6701282.868773621,United Kingdom,GB,Lewisham,admin,,
+Coleraine,-742359.6278378272,7388089.6456397455,United Kingdom,GB,Causeway Coast and Glens,admin,,
+Barnsley,-165123.87423685886,7085388.165495079,United Kingdom,GB,Barnsley,admin,,
+Caerdydd,-356222.37053847546,6710219.083220741,United Kingdom,GB,Cardiff,admin,,
+Poole,-222638.98158654713,6571327.600992724,United Kingdom,GB,Poole,admin,,
+Bracknell,-83489.61809495518,6695330.88756873,United Kingdom,GB,Bracknell Forest,admin,,
+Wakefield,-165123.87423685886,7113543.379420638,United Kingdom,GB,Wakefield,admin,,
+Thornbury,-280556.0636174899,6729714.173250012,United Kingdom,GB,South Gloucestershire,admin,,
+Wokingham,-92766.20522123105,6695330.88756873,United Kingdom,GB,Wokingham,admin,,
+Falkirk,-419303.45242782735,7558415.656081782,United Kingdom,GB,Falkirk,admin,,
+Haddington,-307983.96163455385,7545155.572855046,United Kingdom,GB,East Lothian,admin,,
+Abertawe,-441567.3505864821,6734096.961937552,United Kingdom,GB,Swansea,admin,,
+Beverley,-46383.15827036092,7138654.535319382,United Kingdom,GB,East Riding of Yorkshire,admin,,
+Croydon,-11131.949079327358,6689383.066639422,United Kingdom,GB,Croydon,admin,,
+South Shields,-158228.29969916033,7359494.433286589,United Kingdom,GB,South Tyneside,admin,,
+Morden,-22082.44738866168,6692038.298903219,United Kingdom,GB,Merton,admin,,
+Lochgilphead,-602980.6122367289,7565054.1772697065,United Kingdom,GB,Argyll and Bute,admin,,
+Worcester,-244902.87974520188,6836369.119003472,United Kingdom,GB,Worcestershire,admin,,
+Matlock,-170689.84877652256,7007699.099291904,United Kingdom,GB,Derbyshire,admin,,
+Shrewsbury,-304273.2377284508,6930759.986648347,United Kingdom,GB,Shropshire,admin,,
+Truro,-561421.2614609128,6491715.884406171,United Kingdom,GB,Cornwall,admin,,
+Hereford,-302417.98709489015,6809171.149591517,United Kingdom,GB,Herefordshire,admin,,
+Newport,-332103.1104267692,6725134.526516778,United Kingdom,GB,Newport,admin,,
+Oakham,-81634.25614190368,6921576.786185418,United Kingdom,GB,Rutland,admin,,
+Milton Keynes,-77923.64355529149,6806154.733720908,United Kingdom,GB,Milton Keynes,admin,,
+Dagenham,18553.28557204253,6719165.106882159,United Kingdom,GB,Barking and Dagenham,admin,,
+Conwy,-426724.6776010518,7035579.791403281,United Kingdom,GB,Conwy,admin,,
+Dalkeith,-341379.8088725359,7531918.485370407,United Kingdom,GB,Midlothian,admin,,
+Enniskillen,-850607.8138801144,7236073.3885783,United Kingdom,GB,Fermanagh and Omagh,admin,,
+Hamilton,-448988.57575970644,7512105.189933346,United Kingdom,GB,South Lanarkshire,admin,,
+Hendon,-24119.260111706204,6728120.968144314,United Kingdom,GB,Barnet,admin,,
+Hammersmith,-25974.510745266904,6710219.083220741,United Kingdom,GB,Hammersmith and Fulham,admin,,
+Bromley,5565.974539663679,6692356.435262544,United Kingdom,GB,Bromley,admin,,
+Telford,-278298.72698318394,6915460.36606538,United Kingdom,GB,Telford and Wrekin,admin,,
+Harrow,-35251.20919103356,6725134.526516778,United Kingdom,GB,Harrow,admin,,
+Ealing,-33929.06759888185,6708216.87720732,United Kingdom,GB,Ealing,admin,,
+Slough,-64936.33252291265,6710219.083220741,United Kingdom,GB,Slough,admin,,
+Wolverhampton,-237481.54325248668,6906294.650198962,United Kingdom,GB,Wolverhampton,admin,,
+Dumbarton,-508359.04506244615,7548468.502346693,United Kingdom,GB,West Dunbartonshire,admin,,
+Bangor,-630675.0091147517,7296476.183294671,United Kingdom,GB,Ards and North Down,admin,,
+Wallsend,-173627.45881906623,7360195.072854318,United Kingdom,GB,North Tyneside,admin,,
+Strabane,-831382.937820116,7327473.588398897,United Kingdom,GB,Derry and Strabane,admin,,
+City of Westminster,-12987.311032378848,6710219.083220741,United Kingdom,GB,Westminster,admin,,
+Lincoln,-59370.35798324897,7026275.377587145,United Kingdom,GB,Lincolnshire,admin,,
+Newport,-144715.33803125564,6568397.781293055,United Kingdom,GB,Isle of Wight,admin,,
+Lisburn,-672414.2521876898,7267324.774315927,United Kingdom,GB,Lisburn and Castlereagh,admin,,
+Aylesbury,-89055.59263461886,6767044.136617852,United Kingdom,GB,Buckinghamshire,admin,,
+Wallasey,-341379.8088725359,7063558.522108563,United Kingdom,GB,Wirral,admin,,
+Grimsby,-5565.974539663679,7082265.911742517,United Kingdom,GB,North East Lincolnshire,admin,,
+Kilmarnock,-504648.3211563432,7485766.2287489725,United Kingdom,GB,East Ayrshire,admin,,

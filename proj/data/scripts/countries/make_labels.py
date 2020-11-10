@@ -11,13 +11,13 @@ random.seed(seed)
 # map would require smaller labels relatively to kilometers
 
 #example values
-minx = 25
-maxx = 50
-miny = 15
-maxy = 30
+minx = 40
+maxx = 80
+miny = 25
+maxy = 50
 
-infolder = "countries_utm"
-outfolder = "labels"
+infolder = "countries_wmp"
+outfolder = "labels_wmp"
 header = True
 
 
