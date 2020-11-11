@@ -24,6 +24,8 @@ header = True
 if not os.path.exists(outfolder):
     os.mkdir(outfolder)
 
+all_labels = []
+
 for file in os.listdir(infolder):
     labels = []
     with open(os.path.join(infolder, file), "r", newline='') as csvfile:
@@ -37,6 +39,11 @@ for file in os.listdir(infolder):
             w = str(random.randint(minx, maxx))
             h = str(random.randint(miny, maxy))
             labels.append(" ".join([x, y, w, h, text, "0", x, y+"\n"]))
+            all_labels.append(" ".join([x, y, w, h, text, "0", x, y+"\n"]))
     with open(os.path.join(outfolder, file[:len(file)-len(".csv")]), 'w') as labelfile:
         labelfile.write(str(len(labels)) + "\n")
         labelfile.writelines(labels)
+
+with open(os.path.join(outfolder, "world"), 'w') as labelfile:
+    labelfile.write(str(len(all_labels)) + "\n")
+    labelfile.writelines(all_labels)
