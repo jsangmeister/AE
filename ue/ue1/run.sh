@@ -5,6 +5,7 @@ python3 generate_parameters.py | while read line ; do
 
     cmd="./mergesort$q"
 
+    date
     output=$(eval $cmd ${args[@]})
     err=$?
     if [ $err -ne 0 ]; then
