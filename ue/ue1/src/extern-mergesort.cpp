@@ -4,6 +4,12 @@
 
 void sort_chunks(Q_t* data, uint64_t n, uint64_t m) {
     uint64_t chunksize = m / 2;
+
+    // Special case, if M/2 is larger than N -> Everything fits in memory,
+    // so the loop will only have one itreation sorting everything.
+    if (chunksize > n) {
+        chunksize = n;
+    }
     for (uint64_t start = 0; start < n; start += chunksize) {
         // std::sort(data + start, data + start + chunksize);
         mergesort(data + start, chunksize);
