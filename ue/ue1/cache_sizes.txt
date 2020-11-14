@@ -1,0 +1,11 @@
+joshua:
+L1d cache: 128 KiB
+L1i cache: 128 KiB
+L2 cache:  1 MiB
+L3 cache:  6 MiB
+
+levin+finn:
+L1d cache: 64 KiB
+L1i cache: 64 KiB
+L2 cache:  512 KiB
+L3 cache:  3 MiB
