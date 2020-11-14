@@ -5,17 +5,17 @@ from dataclasses import dataclass
 import itertools
 
 # stolen from matplotlib.ticker.LogFormatterExponent
-class Log2Formatter(matplotlib.ticker.LogFormatter):
+class LogFormatter(matplotlib.ticker.LogFormatter):
     def _num_to_string(self, x, vmin, vmax):
-        fx = math.log(x) / math.log(2)
+        fx = math.log(x) / math.log(self._base)
         if abs(fx) > 10000:
             s = '%1.0g' % fx
         elif abs(fx) < 1:
             s = '%1.0g' % fx
         else:
-            fd = math.log(vmax - vmin) / math.log(2)
+            fd = math.log(vmax - vmin) / math.log(self._base)
             s = self._pprint_val(fx, fd)
-        return "$2^{" + s + "}$"
+        return "$" + str(int(self._base)) + "^{" + s + "}$"
 
 _k = 1024
 _m = _k*_k
@@ -51,6 +51,7 @@ def filter(data, out_key, filter):
         arr.append(getattr(row, out_key))
     return arr
 
+
 data_finn = load("finn")
 data_joshua = load("joshua")
 data_levin = load("levin")
@@ -80,7 +81,7 @@ for q, n, m, b in itertools.product(Q + [None], N + [None], M + [None], B + [Non
     plt.ylabel("Laufzeit in ms")
     ax.get_xaxis().set_major_locator(matplotlib.ticker.LogLocator(base=2))
     ax.get_xaxis().set_minor_locator(matplotlib.ticker.NullLocator())
-    ax.get_xaxis().set_major_formatter(Log2Formatter(base=2))
+    ax.get_xaxis().set_major_formatter(LogFormatter(base=2))
     if q is None:
         ax.set_xticks(Q)
     elif n is None:

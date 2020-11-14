@@ -6,6 +6,14 @@
 # generel cpp
 *.o
 
+# Latex
+*.log
+*.aux
+*.nav
+*.out
+*.snm
+*.toc
+
 # project
 proj/labeler
 
