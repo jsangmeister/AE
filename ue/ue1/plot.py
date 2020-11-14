@@ -1,5 +1,20 @@
 import matplotlib.pyplot as plt
+import matplotlib
 from collections import defaultdict
+import math
+
+# stolen from matplotlib.ticker.LogFormatterExponent
+class Log2Formatter(matplotlib.ticker.LogFormatter):
+    def _num_to_string(self, x, vmin, vmax):
+        fx = math.log(x) / math.log(2)
+        if abs(fx) > 10000:
+            s = '%1.0g' % fx
+        elif abs(fx) < 1:
+            s = '%1.0g' % fx
+        else:
+            fd = math.log(vmax - vmin) / math.log(2)
+            s = self._pprint_val(fx, fd)
+        return "$2^{" + s + "}$"
 
 _k = 1024
 _m = _k*_k
@@ -24,12 +39,13 @@ load("finn", data_time, data_n)
 load("joshua", data_time, data_n)
 load("levin", data_time, data_n)
 
-print(data_n["finn"][8][128*_k][8*_k])
-print(data_time["finn"][8][128*_k][8*_k])
+ax = plt.subplot(1, 1, 1)
+ax.plot(data_n["finn"][8][128*_k][8*_k], data_time["finn"][8][128*_k][8*_k])
+ax.plot(data_n["joshua"][8][128*_k][8*_k], data_time["joshua"][8][128*_k][8*_k])
+ax.plot(data_n["levin"][8][128*_k][8*_k], data_time["levin"][8][128*_k][8*_k])
+ax.grid()
+ax.legend(["finn", "joshua", "levin"])
+ax.get_xaxis().set_major_formatter(Log2Formatter(base=2))
+ax.set_xticks(N)
 
-plt.plot(data_n["finn"][8][128*_k][8*_k], data_time["finn"][8][128*_k][8*_k])
-plt.plot(data_n["joshua"][8][128*_k][8*_k], data_time["joshua"][8][128*_k][8*_k])
-plt.plot(data_n["levin"][8][128*_k][8*_k], data_time["levin"][8][128*_k][8*_k])
-plt.grid()
-plt.legend(["finn", "joshua", "levin"])
 plt.show()
