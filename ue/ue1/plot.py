@@ -56,40 +56,73 @@ data_finn = load("finn")
 data_joshua = load("joshua")
 data_levin = load("levin")
 
+# plot one
+_filter = {"q": 64, "b": B[0]}
 
-for q, n, m, b in itertools.product(Q + [None], N + [None], M + [None], B + [None]):
-    _filter = {"n": n, "q": q, "m": m, "b": b}
-    if list(_filter.values()).count(None) != 1:
-        continue
-    if m and b and (m/b) < 4:
-        continue
+data = data_finn
+for row in data:
+    row.time /= row.n
 
-    param = list(_filter.keys())[list(_filter.values()).index(None)]
+x = filter(data, "n", {"m": M[0], **_filter})
+ax = plt.subplot(1, 1, 1)
 
-    x = filter(data_finn, param, _filter)
-    ax = plt.subplot(1, 1, 1)
+for m in M:
+    _data = filter(data, "time", {"m": m, **_filter})
+    ax.plot(x, _data)
+    ax.scatter(x, _data)
+ax.grid()
 
-    for data in (data_levin, data_joshua, data_finn):
-        _data = filter(data, "time", _filter)
-        ax.plot(x, _data)
-        ax.scatter(x, _data)
-    ax.grid()
+ax.legend([f"$m=2^{{{int(math.log(m, 2))}}}$" for m in M])
+plt.xlabel("Anzahl Elemente")
+plt.ylabel("Laufzeit in ms")
+plt.xscale("log")
+ax.get_xaxis().set_major_locator(matplotlib.ticker.LogLocator(base=2))
+ax.get_xaxis().set_minor_locator(matplotlib.ticker.NullLocator())
+ax.get_xaxis().set_major_formatter(LogFormatter(base=2))
+ax.set_xticks(N)
+# plt.yscale("log")
+# ax.get_yaxis().set_major_locator(matplotlib.ticker.LogLocator(base=2))
+# ax.get_yaxis().set_minor_locator(matplotlib.ticker.NullLocator())
+# ax.get_yaxis().set_major_formatter(LogFormatter(base=2))
+# ax.set_yticks(N)
+plt.title(", ".join(f"${k}=2^{{{int(math.log(v, 2))}}}$" for k, v in _filter.items() if v is not None))
+plt.show()
 
-    ax.legend(["Levin", "Joshua", "Finn"])
-    plt.xscale("log")
-    plt.xlabel([p for p in ALL_PARAMS if _filter.get(p) is None][0].upper() + " in bytes")
-    plt.ylabel("Laufzeit in ms")
-    ax.get_xaxis().set_major_locator(matplotlib.ticker.LogLocator(base=2))
-    ax.get_xaxis().set_minor_locator(matplotlib.ticker.NullLocator())
-    ax.get_xaxis().set_major_formatter(LogFormatter(base=2))
-    if q is None:
-        ax.set_xticks(Q)
-    elif n is None:
-        ax.set_xticks(N)
-    elif m is None:
-        ax.set_xticks(M)
-    elif b is None:
-        ax.set_xticks(B)
-    plt.title(", ".join(f"${k}=2^{{{int(math.log(v, 2))}}}$" for k, v in _filter.items() if v is not None))
-    plt.savefig(f"img/{param}__" + "_".join(f"{k}_{v}" for k, v in _filter.items() if v is not None) + ".pdf")
-    plt.close()
+
+# # plot all
+# for q, n, m, b in itertools.product(Q + [None], N + [None], M + [None], B + [None]):
+#     _filter = {"n": n, "q": q, "m": m, "b": b}
+#     if list(_filter.values()).count(None) != 1:
+#         continue
+#     if m and b and (m/b) < 4:
+#         continue
+
+#     param = list(_filter.keys())[list(_filter.values()).index(None)]
+
+#     x = filter(data_finn, param, _filter)
+#     ax = plt.subplot(1, 1, 1)
+
+#     for data in (data_levin, data_joshua, data_finn):
+#         _data = filter(data, "time", _filter)
+#         ax.plot(x, _data)
+#         ax.scatter(x, _data)
+#     ax.grid()
+
+#     ax.legend(["Levin", "Joshua", "Finn"])
+#     plt.xscale("log")
+#     plt.xlabel([p for p in ALL_PARAMS if _filter.get(p) is None][0].upper() + " in bytes")
+#     plt.ylabel("Laufzeit in ms")
+#     ax.get_xaxis().set_major_locator(matplotlib.ticker.LogLocator(base=2))
+#     ax.get_xaxis().set_minor_locator(matplotlib.ticker.NullLocator())
+#     ax.get_xaxis().set_major_formatter(LogFormatter(base=2))
+#     if q is None:
+#         ax.set_xticks(Q)
+#     elif n is None:
+#         ax.set_xticks(N)
+#     elif m is None:
+#         ax.set_xticks(M)
+#     elif b is None:
+#         ax.set_xticks(B)
+#     plt.title(", ".join(f"${k}=2^{{{int(math.log(v, 2))}}}$" for k, v in _filter.items() if v is not None))
+#     plt.savefig(f"img/{param}__" + "_".join(f"{k}_{v}" for k, v in _filter.items() if v is not None) + ".pdf")
+#     plt.close()

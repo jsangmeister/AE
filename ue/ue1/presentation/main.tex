@@ -116,28 +116,53 @@ Ein ähnlicher Effekt zeigt sich bei $n=2^{23}$ für uns alle
 \end{frame}
 
 \begin{frame}{N}
-Wachsende Anzahl Elemente führt zu linearem Wachstum\\
-TODO an Joshua: Mit linearer X-Achse plotten.
+Wachsende Anzahl Elemente führt zu linearem Wachstum
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.65\textwidth]{n__q_64_m_8388608_b_524288.pdf}
+    \includegraphics[width=0.65\textwidth]{Figure_3.pdf}
     \label{fig:f2}
 \end{figure}
 \end{frame}
 
 \begin{frame}{N}
-TODO an Joshua: Suche dir eine fixe Person, fixes b (eher klein) und plotte alle n gegen zeit für alle m's
-
-TODO an Joshua: Selbe fixe Person, fixes m (eher groß) und plotte alle n gegen zeit für alle b's
+	\centering
+	\vspace{-3px}
+	(Daten von Finn)
+	\vspace{2px}
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\includegraphics[width=\textwidth]{Figure_4.pdf}
+			Bei größerem M ist Laufzeit niedriger, unabhängig von N und B
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\includegraphics[width=\textwidth]{Figure_5.pdf}
+			Bei fixem M hat B quasi keinen Einfluss auf die Laufzeit
+		\end{column}
+	\end{columns}
 \end{frame}
 
 \begin{frame}{N}
-TODO an Joshua: Laufzeit pro Element für beide Szenarien oben.
+	\centering
+	\vspace{-3px}
+	(Daten von Finn)
+	\vspace{2px}
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\includegraphics[width=\textwidth]{Figure_4_per_element.pdf}
+			Laufzeit pro Element steigt minimal mit größerem N, aber nicht nennenswert\\
+			Größeres M führt auch zu geringerer Laufzeit pro Element
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\includegraphics[width=\textwidth]{Figure_5_per_element.pdf}
+			Laufzeit pro Element steigt mit größerem N bei fixem M\\
+			B ist quasi unerheblich, nur $B=2^{19}$ ist `zu groß`
+		\end{column}
+	\end{columns}
 \end{frame}
 
 \begin{frame}{Fazit}
 \begin{itemize}
-    \item Für wachsendes n steigt die Laufzeit fast linear, der starke Logarithmus in der I/O-Komplexität
+    \item Für wachsendes n steigt die Laufzeit fast linear, der starke Logarithmus in der I/O-Komplexität zeigt sich
 \end{itemize}
 \end{frame}
 
