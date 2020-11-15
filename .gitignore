@@ -13,6 +13,7 @@
 *.out
 *.snm
 *.toc
+*.synctex.gz
 
 # project
 proj/labeler
