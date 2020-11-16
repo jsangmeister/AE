@@ -20,41 +20,82 @@ struct QueueEntry {
     Q_t value; 
     uint64_t index;
 
+    QueueEntry() 
+        : value(0), index(0)
+    { } 
+
     QueueEntry(Q_t value, uint64_t index) 
         : value(value), index(index)
     { } 
 };
 
-struct CompareQueueEntries { 
-    bool operator()(QueueEntry const& p1, QueueEntry const& p2) {
-        return p1.value > p2.value; 
-    } 
-};
+// repairs the heap a between l and r
+void sift(QueueEntry* a, uint64_t l, uint64_t r) {
+    QueueEntry x = a[l];
+    uint64_t i = l;
+    uint64_t j = 2*i + 1;
+    if ((j < r) && (a[j + 1].value < a[j].value)) {
+        j++;
+    }
+    while ((j <= r) && (a[j].value < x.value)) {
+        a[i] = a[j];
+        i = j;
+        j = 2*i + 1;
+        if ((j < r) && (a[j + 1].value < a[j].value)) {
+            j++;
+        }
+    }
+    a[i] = x;
+}
 
 void k_merge(Q_t* from, Q_t* into, uint64_t start, uint64_t k, uint64_t run_size) {
-    std::priority_queue<QueueEntry, std::vector<QueueEntry>, CompareQueueEntries> pq; 
+    QueueEntry* pq = new QueueEntry[k];
+    uint64_t elements_in_pq = k;
 
     // Fill the pq with every first value of each run
     for (uint64_t l = 0; l < k; l++) {
         uint64_t index = start + l*run_size;
         // std::cout << "push entry " << (unsigned long long)from[index] << " at " << index << std::endl;
-        pq.push(QueueEntry(from[index], index));
+        pq[l] = QueueEntry(from[index], index);
     }
+
+    // Build heap
+    for (int64_t l = (k - 2) / 2; l >= 0; l--) {
+        sift(pq, l, k - 1);
+    }
+    /*for (uint64_t l = 0; l < elements_in_pq; l++) {
+        std::cout << (unsigned long long)pq[l].value << std::endl;
+    }*/
 
     uint64_t end = start + k * run_size;
     // std::cout << "from " << start << " to " << end << std::endl;
     for (uint64_t i = start; i < end; i++) {
         // find the value for into[i]: the min of the pq.
-        QueueEntry entry = pq.top();
-        pq.pop();
-        into[i] = entry.value;
+        uint64_t index = pq[0].index;
+        into[i] = pq[0].value;
 
-        // std::cout << i << " top element " << (unsigned long long)entry.value << " at " << entry.index << std::endl;
+        // std::cout << i << " top element " << (unsigned long long)pq[0].value << " at " << index << std::endl;
 
-        if ((entry.index + 1) % run_size != 0) {
-            pq.push(QueueEntry(from[entry.index + 1], entry.index + 1));
-            // std::cout << "push " << (unsigned long long)from[entry.index + 1] << " at " << entry.index + 1 << std::endl;
+        if ((index + 1) % run_size != 0) {
+            // pq.push(QueueEntry(from[entry.index + 1], entry.index + 1));
+            pq[0].value = from[index + 1];
+            pq[0].index = index + 1;
+            // std::cout << "push " << (unsigned long long)from[index + 1] << " at " << index + 1 << std::endl;
+        } else {
+            pq[0].value = pq[elements_in_pq - 1].value;
+            pq[0].index = pq[elements_in_pq - 1].index;
+            // copy last element into first position
+            elements_in_pq--;
         }
+
+        // repair
+        if (elements_in_pq > 0) {
+            sift(pq, 0, elements_in_pq - 1);
+        }
+
+        /*for (uint64_t l = 0; l < elements_in_pq; l++) {
+            std::cout << (unsigned long long)pq[l].value << std::endl;
+        }*/
     }
 }
 

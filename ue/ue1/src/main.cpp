@@ -29,8 +29,8 @@ int main(int argc, char** argv) {
     Q_t* data = generate_data(N);
 
     auto start = std::chrono::high_resolution_clock::now();
-    //extern_mergesort(data, N, M / sizeof(Q_t), B / sizeof(Q_t));
-    mergesort(data, N);
+    extern_mergesort(data, N, M / sizeof(Q_t), B / sizeof(Q_t));
+    //mergesort(data, N);
     auto end = std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
 
