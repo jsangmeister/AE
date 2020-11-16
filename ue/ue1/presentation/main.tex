@@ -77,7 +77,7 @@ Sehr große Blöcke (128k und 512k) erhöhen Laufzeit. Warum?
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Memory}
+\begin{frame}{Interne Speichergröße}
 Bei mehr internem Speicher wie erwartet schneller
 \begin{figure}[H]
     \centering
@@ -86,7 +86,7 @@ Bei mehr internem Speicher wie erwartet schneller
 \end{figure}
 \end{frame}
 
-\begin{frame}{Q}
+\begin{frame}{Elementgröße}
 Größere Elemente bedeutet für großes n weniger Elemente pro Block und im Speicher, d.h. die effektive Block- und Speichergröße sinkt.
 \vspace{-10pt}
 \begin{figure}[H]
@@ -96,8 +96,8 @@ Größere Elemente bedeutet für großes n weniger Elemente pro Block und im Spe
 \end{figure}
 \end{frame}
 
-\begin{frame}{Q}
-Joshua hat bei $n=2^{22}$, $Q=8$ und $Q=16$ durchweg erhöhte Laufzeiten. Die Ursache ist nicht klar.
+\begin{frame}{Elementgröße}
+Joshua hat bei $Q=8$ und $Q=16$ durchweg erhöhte Laufzeiten. Die Ursache ist nicht klar.
 \vspace{-10pt}
 \begin{figure}[H]
     \centering
@@ -106,7 +106,7 @@ Joshua hat bei $n=2^{22}$, $Q=8$ und $Q=16$ durchweg erhöhte Laufzeiten. Die Ur
 \end{figure}
 \end{frame}
 
-\begin{frame}{Q}
+\begin{frame}{Elementgröße}
 Ein ähnlicher Effekt zeigt sich bei $n=2^{23}$ für uns alle
 \begin{figure}[H]
     \centering
@@ -115,7 +115,7 @@ Ein ähnlicher Effekt zeigt sich bei $n=2^{23}$ für uns alle
 \end{figure}
 \end{frame}
 
-\begin{frame}{N}
+\begin{frame}{Anzahl zu sortierender Elemente}
 Wachsende Anzahl Elemente führt zu linearem Wachstum
 \begin{figure}[H]
     \centering
@@ -124,7 +124,7 @@ Wachsende Anzahl Elemente führt zu linearem Wachstum
 \end{figure}
 \end{frame}
 
-\begin{frame}{N}
+\begin{frame}{Anzahl zu sortierender Elemente}
 	\centering
 	\vspace{-3px}
 	(Daten von Finn)
@@ -141,7 +141,7 @@ Wachsende Anzahl Elemente führt zu linearem Wachstum
 	\end{columns}
 \end{frame}
 
-\begin{frame}{N}
+\begin{frame}{Anzahl zu sortierender Elemente}
 	\centering
 	\vspace{-3px}
 	(Daten von Finn)
@@ -163,6 +163,8 @@ Wachsende Anzahl Elemente führt zu linearem Wachstum
 \begin{frame}{Fazit}
 \begin{itemize}
     \item Für wachsendes n steigt die Laufzeit fast linear, der starke Logarithmus in der I/O-Komplexität zeigt sich
+    \item Es sind keine deutlichen Auswirkungen der Caches sichtbar
+    \item Anscheinend gibt es hardwareabhängige effekte bei verschiedenen Elementgrößen
 \end{itemize}
 \end{frame}
 
