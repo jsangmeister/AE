@@ -55,24 +55,21 @@ def filter(data, out_key, filter):
 data_finn = load("finn")
 data_joshua = load("joshua")
 data_levin = load("levin")
+data_default = load("normal_mergesort")
 
 # plot one
-_filter = {"q": 64, "b": B[0]}
+_filter = {"q": 64, "m": 8*_m, "b": 8*_k}
 
-data = data_finn
-for row in data:
-    row.time /= row.n
-
-x = filter(data, "n", {"m": M[0], **_filter})
+x = filter(data_finn, "n", _filter)
 ax = plt.subplot(1, 1, 1)
 
-for m in M:
-    _data = filter(data, "time", {"m": m, **_filter})
+for data in (data_joshua, data_default):
+    _data = filter(data, "time", _filter)
     ax.plot(x, _data)
     ax.scatter(x, _data)
 ax.grid()
 
-ax.legend([f"$m=2^{{{int(math.log(m, 2))}}}$" for m in M])
+# ax.legend([f"$m=2^{{{int(math.log(m, 2))}}}$" for m in M])
 plt.xlabel("Anzahl Elemente")
 plt.ylabel("Laufzeit in ms")
 plt.xscale("log")
