@@ -11,7 +11,13 @@
 \usepackage{amssymb}
 \usepackage{amsthm}
 \usepackage{xfrac}
-\usepackage{verbatim}
+\usepackage{listings}
+\lstset{
+	basicstyle=\ttfamily,
+	showstringspaces=false,
+	tabsize=4,
+	upquote=true,
+}
 
 \title{LOUDS++}
 % \subtitle{}
@@ -30,7 +36,7 @@
 \begin{frame}{Überblick}
     \begin{itemize}
         \item LOUDS: Level-Order Unary Degree Sequence
-        \item \emph{succincte} Datenstruktur: $2n + o(n)$ Bits Speicherbedarf
+        \item \emph{succinct data structure}: $2n + o(n)$ Bits Speicherbedarf
         \item Geordneter Baum
         \item Unterstützt folgende Operationen in $\mathcal{O}(1)$:
         \begin{itemize}
@@ -41,6 +47,7 @@
             \item childrank(x): Rang von x unter seinen Geschwistern
             \item child(x, i): i-tes Kind von x
         \end{itemize}
+    	\item Quelle: "Engineering the LOUDS Succinct Tree Representation" von O'Neil Delpratt, Naila Rahman, and Rajeev Raman (\url{https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.4250&rep=rep1&type=pdf})
     \end{itemize}
 \end{frame}
 
@@ -121,21 +128,21 @@
 	\end{columns}
 \end{frame}
 
-\begin{frame}{Double-Numbering}
+\begin{frame}[fragile]{Double-Numbering}
     \begin{itemize}
         \item $y=\texttt{select}_0(x)\implies \texttt{rank}_0(y)=x\wedge \texttt{rank}_1(y)=y-x$
         \item analog für $\texttt{select}_1$
         \item Punkte können somit als Paar $\{x, y\}$ gespeichert werden
-        \item Aufrufe der Form \texttt{rank(select(\dots))} können durch einfache \texttt{select}s ersetzt werden
+        \item Aufrufe der Form \texttt{rank(select($\dots$))} können durch einfache \texttt{select}s ersetzt werden
         \item Beispiel für \texttt{parent}:
     \end{itemize}
-    %\begin{verbatim}
-    %parent(\{x, y\}):\\
-    %    rzerox = y - x\\
-    %    newy = select_1(rzerox)\\
-    %    newx = newy - rzerox\\
-    %    return \{newx, newy\}
-    %\end{verbatim}
+	\begin{lstlisting}
+	parent({x, y}):
+		rzerox = y - x
+		newy = select_1(rzerox)
+		newx = newy - rzerox
+		return {newx, newy}
+	\end{lstlisting}
 \end{frame}
 
 \begin{frame}{Partitioned Representation}
@@ -153,10 +160,10 @@
 \begin{frame}{Ergebnisse}
     \begin{columns}
         \begin{column}{0.5\textwidth}
-            \includegraphics[width=\textwidth]{graphics/BFO.png}
+            \includegraphics[width=1.08\textwidth]{graphics/BFO.png}
         \end{column}
         \begin{column}{0.5\textwidth}
-            \includegraphics[width=\textwidth]{graphics/DFO.png}
+            \includegraphics[width=1.03\textwidth]{graphics/DFO.png}
         \end{column}
     \end{columns}
 \end{frame}
