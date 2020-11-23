@@ -3,9 +3,12 @@
 #include <chrono>
 
 #include "Parser.hpp"
-#include "Solver.hpp"
+#include "solver/solver/SimpleSolver.hpp"
 
 using namespace labeler;
+
+void solve(Parser parser);
+void eval(Parser parser);
 
 int main(int argc, char** argv)
 {
@@ -54,50 +57,59 @@ int main(int argc, char** argv)
     Parser parser = Parser(file_to_parse);
     std::cout << "Parsing successful." << std::endl;
 
-    if(!eval_arg.empty())
-    {   
-        // This of course could be moved into simple_eval or into the Parser constructor
-        for(std::size_t i=0; i<parser.elements.size(); ++i) {
-            auto l = &(parser.elements[i]);
-            if (l->has_solution && !aligned(l))
-            {
-                throw std::runtime_error("ERROR: Invalid entry on line " + std::to_string(i+1)
-                + ", label not correctly aligned");
-            }
-        }
-
-        int val = simple_eval(&parser.elements, true);
-        
-        if (val < -1)
-        {
-            std::cout << "Solution is not valid, " << -val << "overlappings found.";
-        }
-        else if (val == -1)
-        {
-            std::cout << "Solution is not valid, 1 overlapping found.";
-        }
-        else if (val == 0)
-        {
-            std::cout << "Solution is valid, but only because no labels are set." << std::endl;
-        }
-        else if (val == 1)
-        {
-            std::cout << "Solution is valid with 1 label set." << std::endl;
-        }
-        else
-        {
-            std::cout << "Solution is valid with " << val << " labels set." << std::endl;
-        }
-        return 0;
+    if(!eval_arg.empty()) {
+        eval(parser);
+    } else {
+        solve(parser);
+        parser.write(out_arg);
     }
+    return 0;   
+}
+
+void solve(Parser parser) {
+    SimpleSolver solver = SimpleSolver();
 
     auto start = std::chrono::high_resolution_clock::now();
-    int labels_set = simple_solution(&parser.elements);
+    int labels_set = solver.simple_solution(&parser.elements);
     auto end = std::chrono::high_resolution_clock::now();
+
     auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
-
     std::cout << "Solution with " << labels_set << " labels found. (" << duration << "ms)" << std::endl;
+}
 
-    parser.write(out_arg);
+void eval(Parser parser) {
+    SimpleSolver ev = SimpleSolver();
 
+    // This of course could be moved into simple_eval or into the Parser constructor
+    for(std::size_t i=0; i<parser.elements.size(); ++i) {
+        auto l = &(parser.elements[i]);
+        if (l->has_solution && !parser.aligned(l))
+        {
+            throw std::runtime_error("ERROR: Invalid entry on line " + std::to_string(i+1)
+            + ", label not correctly aligned");
+        }
+    }
+
+    int val = ev.simple_eval(&parser.elements, true);
+
+    if (val < -1)
+    {
+        std::cout << "Solution is not valid, " << -val << "overlappings found.";
+    }
+    else if (val == -1)
+    {
+        std::cout << "Solution is not valid, 1 overlapping found.";
+    }
+    else if (val == 0)
+    {
+        std::cout << "Solution is valid, but only because no labels are set." << std::endl;
+    }
+    else if (val == 1)
+    {
+        std::cout << "Solution is valid with 1 label set." << std::endl;
+    }
+    else
+    {
+        std::cout << "Solution is valid with " << val << " labels set." << std::endl;
+    }
 }

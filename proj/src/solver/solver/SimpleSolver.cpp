@@ -1,10 +1,11 @@
-#include "Solver.hpp"
 #include <iostream>
+
+#include "SimpleSolver.hpp"
 
 namespace labeler
 {
 
-int simple_eval(std::vector<LabelElement>* elements, bool print_col)
+int SimpleSolver::simple_eval(std::vector<LabelElement>* elements, bool print_col)
 {
     int labels_set = 0;
     int collisions = 0;
@@ -14,7 +15,7 @@ int simple_eval(std::vector<LabelElement>* elements, bool print_col)
         ++labels_set;
         for(auto j=i+1; j!=(*elements).end(); ++j)
         {
-            if (j->has_solution && collision(&*i, &*j)) {
+            if (j->has_solution && this->collision(&*i, &*j)) {
                 --collisions;
                 if(print_col) std::cout << "Collision between " << i->label << " and " 
                 << j->label << std::endl;
@@ -24,7 +25,7 @@ int simple_eval(std::vector<LabelElement>* elements, bool print_col)
     return collisions !=0 ? collisions :labels_set;
 }
 
-int simple_solution(std::vector<LabelElement>* elements)
+int SimpleSolver::simple_solution(std::vector<LabelElement>* elements)
 {
     for(auto i=(*elements).begin(); i!=(*elements).end(); ++i)
     {
@@ -41,7 +42,7 @@ int simple_solution(std::vector<LabelElement>* elements)
         if (!i->has_solution) continue;
         for(auto j=i+1; j!=(*elements).end(); ++j)
         {
-            if (j->has_solution && collision(&*i, &*j)) {
+            if (j->has_solution && this->collision(&*i, &*j)) {
                 j->has_solution = false;
                 --labels_set;
             }

@@ -5,6 +5,7 @@
 
 # generel cpp
 *.o
+*.d
 
 # Latex
 *.log

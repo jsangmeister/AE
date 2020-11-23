@@ -4,13 +4,19 @@ CXXFLAGS=-Wall -std=c++2a
 
 SRCS=$(shell find . -name "*.cpp")
 OBJS=$(subst .cpp,.o,$(SRCS))
+DEPS=$(SRCS:.cpp=.d)
+
+.PHONY: all clean
 
 all: $(appname)
 
 $(appname): $(OBJS)
 	$(CXX) $(CXXFLAGS) $(LDFLAGS) -o $(appname) $(OBJS) $(LDLIBS)
 
-$(appname).o: src/Main.cpp src/Parser.hpp
+%.o: %.cpp
+	$(CXX) -c -MMD -o $@ $<
 
 clean:
-	rm -f $(appname).o $(appname) src/*.o
+	rm -f $(appname) $(OBJS) $(DEPS)
+
+-include $(DEPS)
