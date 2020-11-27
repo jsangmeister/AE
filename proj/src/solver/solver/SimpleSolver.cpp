@@ -32,8 +32,6 @@ int SimpleSolver::simple_solution(std::vector<LabelElement>* elements)
         i->has_solution=true;
         i->label_x1 = i->x;
         i->label_y1 = i->y + i->height;
-        i->label_x2 = i->x + i->width;
-        i->label_y2 = i->y;
     }
     auto labels_set = (*elements).size();
 

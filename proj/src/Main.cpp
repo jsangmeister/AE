@@ -4,10 +4,12 @@
 
 #include "Parser.hpp"
 #include "solver/solver/SimpleSolver.hpp"
+#include "solver/solver/SimulAn.hpp"
 
 using namespace labeler;
 
 void solve(Parser parser);
+void solveSimulAn(Parser& parser);
 void eval(Parser parser);
 
 int main(int argc, char** argv)
@@ -60,6 +62,7 @@ int main(int argc, char** argv)
     if(!eval_arg.empty()) {
         eval(parser);
     } else {
+        //solveSimulAn(parser);
         solve(parser);
         parser.write(out_arg);
     }
@@ -75,6 +78,15 @@ void solve(Parser parser) {
 
     auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
     std::cout << "Solution with " << labels_set << " labels found. (" << duration << "ms)" << std::endl;
+}
+
+void solveSimulAn(Parser& parser)
+{
+    auto solver = SimulAnSolver();
+    auto start = std::chrono::high_resolution_clock::now();
+    solver.solve(&parser.elements);
+    auto end = std::chrono::high_resolution_clock::now();
+    std::cout << std::endl;
 }
 
 void eval(Parser parser) {

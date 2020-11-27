@@ -22,7 +22,7 @@ public:
 
     //checks, if the label aligns with its node
     inline bool aligned(LabelElement* l) {
-        return !((l->x!=l->label_x1 && l->x!=l->label_x2) || (l->y!=l->label_y1 && l->y!=l->label_y2));
+        return !((l->x!=l->label_x1 && l->x!=l->label_x1+l->width) || (l->y!=l->label_y1 && l->y!=l->label_y1-l->height));
     }
 };
 
