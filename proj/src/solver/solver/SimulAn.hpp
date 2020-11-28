@@ -23,8 +23,18 @@ struct LabelConflict
 class SimulAnSolver: public Base
 {
     public:
-        int solve(std::vector<LabelElement>* elements);
+
+        /**
+         *  Standard Solver, also sets init_active to the number of initially active label 
+         *  and max_active to the highest number reached during runtime
+         */
+        int solve(std::vector<LabelElement>* elements, std::vector<double> args, 
+            int& init_active, int& max_active);
         int simple_eval(std::vector<LabelElement>* elements, bool print_col);
+    private:
+        void intToPos(LabelElement& el, int pos);
+        void permVector(std::vector<int>* vec);
+        void addToStack(std::vector<std::pair<int, int>>* stack, LabelElement* el, int i);
 };
 
 }

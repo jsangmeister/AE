@@ -27,7 +27,8 @@ int SimulAnSolver::simple_eval(std::vector<LabelElement>* elements, bool print_c
     return collisions !=0 ? collisions :labels_set;
 }
 
-void permVector(std::vector<int>* vec)
+
+void SimulAnSolver::permVector(std::vector<int>* vec)
 {
     for(int i=vec->size()-1; i>=1; i--)
     {
@@ -38,7 +39,7 @@ void permVector(std::vector<int>* vec)
     }
 }
 
-void addToStack(std::vector<std::pair<int, int>>* stack, LabelElement* el, int i)
+void SimulAnSolver::addToStack(std::vector<std::pair<int, int>>* stack, LabelElement* el, int i)
 {
     if (!el->has_solution)
     {
@@ -59,7 +60,21 @@ void addToStack(std::vector<std::pair<int, int>>* stack, LabelElement* el, int i
 }
 
 
-int SimulAnSolver::solve(std::vector<LabelElement>* elements)
+void SimulAnSolver::intToPos(LabelElement& el, int pos)
+{
+    if(pos == -1)
+    {
+        el.has_solution = false;
+        return;
+    }
+    el.has_solution = true;
+    el.label_x1 = el.x - (pos/2) * el.width;
+    el.label_y1 = el.y + (pos%2) * el.height;
+}
+
+
+int SimulAnSolver::solve(std::vector<LabelElement>* elements, std::vector<double> args, 
+        int& init_active, int& max_active)
 {   
     srand(time(NULL));
     //Prepare the conflict array
@@ -76,6 +91,7 @@ int SimulAnSolver::solve(std::vector<LabelElement>* elements)
     //We test every possible pair of labels for conflict and save possible conflicts for each pair
     for(int i=0; i<elements->size()-1; i++)
     {   
+        //std::cout << "Conflict " << i << " of " << elements->size() << std::endl;
         tmp_li.width = (*elements)[i].width;
         tmp_li.height = (*elements)[i].height;
         tmp_li.x = (*elements)[i].x;
@@ -89,12 +105,10 @@ int SimulAnSolver::solve(std::vector<LabelElement>* elements)
             tmp_lj.y = (*elements)[j].y;
             for (int pos_li=0; pos_li<4; pos_li++)
             {
-                tmp_li.label_x1 = tmp_li.x - (pos_li/2) * tmp_li.width;
-                tmp_li.label_y1 = tmp_li.y + (pos_li%2) *tmp_li.height;
+                intToPos(tmp_li, pos_li);
                 for (int pos_lj=0; pos_lj<4; pos_lj++)
                 {
-                    tmp_lj.label_x1 = tmp_lj.x - (pos_lj/2) * tmp_lj.width;
-                    tmp_lj.label_y1 = tmp_lj.y + (pos_lj%2) * tmp_lj.height;
+                    intToPos(tmp_lj, pos_lj);
                     if(collision(&tmp_li, &tmp_lj))
                     {
                         conflicts[i].push_back(j);
@@ -107,30 +121,19 @@ int SimulAnSolver::solve(std::vector<LabelElement>* elements)
             }
         }
     }
-    /*
-    for (int i=0; i<(*elements).size(); i++)
-    {
-        std::cout << i+1 << "   " << (*elements)[i].label << std::endl;
-        for (auto e=conflicts[i].begin(); e!=conflicts[i].end(); ++e)
-        {
-            std::cout << (*e) + 1 << "  ";
-        }
-        std::cout << std::endl;
-    }*/
 
     int active_labels = 0;
     //initialize random start
     for(int i=0; i<elements->size(); i++)
     {
-        (*elements)[i].has_solution=true;
+        //std::cout << "Init " << i << " of " << elements->size() << std::endl;
         std::vector<int> positions{0, 1, 2, 3};
         permVector(&positions);
         int cols = 0;
         for (auto p: positions)
         {
             bool pos_ok = true;
-            (*elements)[i].label_x1 = (*elements)[i].x - (p/2) * (*elements)[i].width;
-            (*elements)[i].label_y1 = (*elements)[i].y + (p%2) *(*elements)[i].height;
+            intToPos((*elements)[i], p);
             for (auto other_lab: conflicts[i])
             {
                 if (collision(&(*elements)[i], &(*elements)[other_lab]))
@@ -151,35 +154,31 @@ int SimulAnSolver::solve(std::vector<LabelElement>* elements)
            (*elements)[i].has_solution=false; 
         }
     }
-    std::cout << active_labels << std::endl;
+    //std::cout << active_labels << std::endl;
+    init_active = active_labels;
+    max_active = active_labels;
 
     //Start simulated annealing:
-    double temperature = 0.91;//0.91; //Leads to P~=0.66 by dif 1
-    const double cold = 0.05;//0.05; //with a decrease of 10%, this amounts to 30 loop
-    const int max_tries = floor(sqrt((double)elements->size())); //change to floor(sqrt(n))
+    double temperature = 1.0;
+    double cold = 0.05;
+    int max_tries = floor(sqrt((double)elements->size()));
+    if (!args.empty())
+    {
+        temperature = args[0];
+        max_tries = args[1];
+    }
     const int max_changes = max_tries/2;
     while (temperature>cold)
     {
         int already_changed=0;
         for (int i=0; i<max_tries; i++)
         {
+            //std::cout << "T=" << temperature << ", Try " << i << " of " << max_tries << std::endl;
             int last_active = active_labels;
-            /*
-            std::cout << "active before try: " << active_labels << std::endl;
-            int count = 0;
-            for (auto c: *elements)
-            {
-                if (c.has_solution)
-                count++;
-            }
-            std::cout << "Really active before try: " << count << std::endl;
-            */
             // Array-Stack to later undo if needed
             std::vector<std::pair<int, int>> undo_stack;
             //Choose random label
             int l = rand() % elements->size();
-            //std::cout << "Chosen: " << l << std::endl;
-            //std::cout << "Added to Stack " << l << " was " << (*elements)[l].has_solution << std::endl;
             addToStack(&undo_stack, &(*elements)[l], l);
             if (!(*elements)[l].has_solution)
             {
@@ -202,13 +201,11 @@ int SimulAnSolver::solve(std::vector<LabelElement>* elements)
             //Test all labels possibly directly affected
             for (auto check_label: conflicts[l])
             {
-                //std::cout << l << " causes check in " << check_label << std::endl;
                 //If the other label existed and no collision appeared, we can go on
                 if ((*elements)[check_label].has_solution && !collision(&(*elements)[l], &(*elements)[check_label]))
                 {
                     continue;
                 }
-                //std::cout << "Added to Stack " << check_label << " was " << (*elements)[check_label].has_solution << std::endl;
                 addToStack(&undo_stack, &(*elements)[check_label], check_label);
 
                 //Try to find new place
@@ -216,15 +213,13 @@ int SimulAnSolver::solve(std::vector<LabelElement>* elements)
                 {
                     active_labels++;
                 }
-                (*elements)[check_label].has_solution = true;
                 std::vector<int> positions{0, 1, 2, 3};
                 permVector(&positions);
                 int cols = 0;
                 for (auto p: positions)
                 {
                     bool pos_ok = true;
-                    (*elements)[check_label].label_x1 = (*elements)[check_label].x - (p/2) * (*elements)[check_label].width;
-                    (*elements)[check_label].label_y1 = (*elements)[check_label].y + (p%2) *(*elements)[check_label].height;
+                    intToPos((*elements)[check_label], p);
                     for (auto other_lab: conflicts[check_label])
                     {
                         if (collision(&(*elements)[check_label], &(*elements)[other_lab]))
@@ -245,65 +240,27 @@ int SimulAnSolver::solve(std::vector<LabelElement>* elements)
                     active_labels--;
                 }
             }
-            //simple_eval(elements, true);
             // Decide if to keep the new solution
             int dE = active_labels - last_active;
-            double P = 1.0 - std::exp(-dE/temperature);
-
-            //std::cout << P << std::endl;
-            if ((rand()) / static_cast <float> (RAND_MAX)<=P)
+            double P = 1.0 - std::exp(dE/temperature);
+            if (dE>0 || (rand()) / static_cast <float> (RAND_MAX)<=(1-P))
             {
                 already_changed++;
+                if (active_labels>max_active)
+                {
+                    max_active = active_labels;
+                }
             }
             else
             {
-
-                /*std::cout << "active before stackclean: " << active_labels << std::endl;
-                int count = 0;
-                for (auto c: *elements)
-                {
-                    if (c.has_solution)
-                    count++;
-                }
-                std::cout << "Really active before stackclean: " << count << std::endl;
-                std::cout << "Stacksize and active before cleaning " << undo_stack.size() << "   " << active_labels << std::endl;*/
                 while (!undo_stack.empty())
                 {
                     auto back = undo_stack.back();
-                    //std::cout << "Popped " << back.first << ", is " << back.second << std::endl;
-                    switch (back.second)
-                    {
-                    case -1:
-                        (*elements)[back.first].has_solution = false;
-                        break;
-                    case 1:
-                        (*elements)[back.first].has_solution = true;
-                        (*elements)[back.first].label_x1 = (*elements)[back.first].x;
-                        (*elements)[back.first].label_y1 = (*elements)[back.first].y + (*elements)[back.first].height;
-                        break;
-                    case 3:
-                        (*elements)[back.first].has_solution = true;
-                        (*elements)[back.first].label_x1 = (*elements)[back.first].x - (*elements)[back.first].width;
-                        (*elements)[back.first].label_y1 = (*elements)[back.first].y + (*elements)[back.first].height;
-                        break;
-                    case 2:
-                        (*elements)[back.first].has_solution = true;
-                        (*elements)[back.first].label_x1 = (*elements)[back.first].x - (*elements)[back.first].width;
-                        (*elements)[back.first].label_y1 = (*elements)[back.first].y;
-                        break;
-                    case 0:
-                        (*elements)[back.first].has_solution = true;
-                        (*elements)[back.first].label_x1 = (*elements)[back.first].x;
-                        (*elements)[back.first].label_y1 = (*elements)[back.first].y;
-                        break;
-                    default:
-                        break;
-                    }
+                    intToPos((*elements)[back.first], back.second);
                     undo_stack.pop_back();
                 }
                 active_labels = last_active;
             }
-            //std::cout << active_labels << std::endl;
             if (already_changed >= max_changes)
             {
                 break;
@@ -312,9 +269,6 @@ int SimulAnSolver::solve(std::vector<LabelElement>* elements)
 
         temperature = temperature * 0.9;
     }
-
-    //simple_eval(elements, true);
-    std::cout << active_labels << std::endl;
     return active_labels;
 }
 
