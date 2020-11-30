@@ -30,7 +30,7 @@
 }
 
 \begin{document}
-	
+
 \maketitle
 
 \begin{frame}{Überblick}
@@ -132,14 +132,22 @@
     \begin{itemize}
         \item $y=\texttt{select}_0(x)\implies \texttt{rank}_0(y)=x\wedge \texttt{rank}_1(y)=y-x$
         \item analog für $\texttt{select}_1$
+        \pause
+        \item Beispiel: \texttt{0011011100}
+            \begin{itemize}
+                \item $\texttt{select}_0(4)=9$
+                \item $\rightarrow \texttt{rank}_0(9)=4$
+                \item $\rightarrow \texttt{rank}_1(9)=9-4=5$
+            \end{itemize}
+        \pause
         \item Punkte können somit als Paar $\{x, y\}$ gespeichert werden
         \item Aufrufe der Form \texttt{rank(select($\dots$))} können durch einfache \texttt{select}s ersetzt werden
         \item Beispiel für \texttt{parent}:
     \end{itemize}
-	\begin{lstlisting}
+	\begin{lstlisting}[escapechar=|]
 	parent({x, y}):
 		rzerox = y - x
-		newy = select_1(rzerox)
+		newy = select|$_1$|(rzerox)
 		newx = newy - rzerox
 		return {newx, newy}
 	\end{lstlisting}
