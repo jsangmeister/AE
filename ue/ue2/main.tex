@@ -95,7 +95,7 @@
             \item $i+1$-te 0: Ende der Kodierung des $i$-ten Knotens
             \item Mit $\texttt{select}_0$ und $\texttt{rank}_0$ kann analog zum Ones-based numbering eine Zahl zugeordnet werden
         \end{itemize}
-    \end{itemize}
+    \end{itemize} 
 \end{frame}
 
 \begin{frame}{Beispiel: Operation $\texttt{parent}(x)$}
@@ -159,7 +159,7 @@
     \end{center}
     \begin{itemize}
         \item $R_0$: Nullfolgen (mit Längen $\ell_1,\ell_2\ldots\ell_z$) kombinieren zu $R_0=0^{\ell_1-1}10^{\ell_2-1}1\ldots0^{\ell_z-1}1$
-        \item  $R_1$: Einsfolgen (mit Längen $\ell_1,\ell_2\ldots\ell_z$) kombinieren zu $R_1=1^{\ell_1-1}01^{\ell_2-1}0\ldots1^{\ell_z-1}0$
+        \item  $R_1$: Einsfolgen (mit Längen $\ell_1,\ell_2\ldots\ell_z$) kombinieren zu $R_1=0^{\ell_1-1}10^{\ell_2-1}1\ldots0^{\ell_z-1}1$
         \item Alle \texttt{select} Operationen auf LBS durchführbar durch \texttt{select}$_1$ und \texttt{rank}$_1$ auf $R_0$ oder $R_1$
         \item LOUDS++ nutzt $R_0$ und $R_1$
     \end{itemize}
