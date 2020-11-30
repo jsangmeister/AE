@@ -27,6 +27,8 @@ class SimulAnSolver: public Base
         /**
          *  Standard Solver, also sets init_active to the number of initially active label 
          *  and max_active to the highest number reached during runtime
+         * @param args  if vector of size 3, args[0] is starting temperature, args[2] max_tries in one 
+         *              temperature and if args[2]==0 labels are all initialized off instead of random
          */
         int solve(std::vector<LabelElement>* elements, std::vector<double> args, 
             int& init_active, int& max_active);

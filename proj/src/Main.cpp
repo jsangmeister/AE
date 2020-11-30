@@ -88,7 +88,7 @@ int main(int argc, char** argv)
             else
             {
                 parseConfString(confVec, conf_arg);
-                if (confVec.size() != 2)
+                if (confVec.size() != 3)
                 {
                     std::cout << "conf_string not valid for sa: " << conf_arg << std::endl;
                     return 0;

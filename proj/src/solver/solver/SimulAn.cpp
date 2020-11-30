@@ -123,37 +123,54 @@ int SimulAnSolver::solve(std::vector<LabelElement>* elements, std::vector<double
     }
 
     int active_labels = 0;
-    //initialize random start
-    for(int i=0; i<elements->size(); i++)
+
+    bool randomize = true;
+    if(args.size() == 3 && args[2] == 0)
     {
-        //std::cout << "Init " << i << " of " << elements->size() << std::endl;
-        std::vector<int> positions{0, 1, 2, 3};
-        permVector(&positions);
-        int cols = 0;
-        for (auto p: positions)
+        randomize = false;
+    }
+    if (randomize)
+    {
+        //initialize random start
+        for(int i=0; i<elements->size(); i++)
         {
-            bool pos_ok = true;
-            intToPos((*elements)[i], p);
-            for (auto other_lab: conflicts[i])
+            //std::cout << "Init " << i << " of " << elements->size() << std::endl;
+            std::vector<int> positions{0, 1, 2, 3};
+            permVector(&positions);
+            int cols = 0;
+            for (auto p: positions)
             {
-                if (collision(&(*elements)[i], &(*elements)[other_lab]))
+                bool pos_ok = true;
+                intToPos((*elements)[i], p);
+                for (auto other_lab: conflicts[i])
                 {
-                    pos_ok = false;
-                    cols++;
+                    if (collision(&(*elements)[i], &(*elements)[other_lab]))
+                    {
+                        pos_ok = false;
+                        cols++;
+                        break;
+                    }
+                }
+                if (pos_ok)
+                {
+                    active_labels++;
                     break;
                 }
             }
-            if (pos_ok)
+            if (cols == 4)
             {
-                active_labels++;
-                break;
+            (*elements)[i].has_solution=false; 
             }
         }
-        if (cols == 4)
+    }
+    else
+    {
+        for (auto e : (*elements))
         {
-           (*elements)[i].has_solution=false; 
+            e.has_solution == false;
         }
     }
+    
     //std::cout << active_labels << std::endl;
     init_active = active_labels;
     max_active = active_labels;
@@ -162,7 +179,7 @@ int SimulAnSolver::solve(std::vector<LabelElement>* elements, std::vector<double
     double temperature = 1.0;
     double cold = 0.05;
     int max_tries = floor(sqrt((double)elements->size()));
-    if (!args.empty())
+    if (args.size() == 3)
     {
         temperature = args[0];
         max_tries = args[1];

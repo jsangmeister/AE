@@ -14,37 +14,38 @@ for data in data_list:
     entries = 0
     with open(data_path+data, 'r') as rfile:
         entries = int(rfile.readline().strip())
-    for temperature in [0.75, 0.9, 1.05, 1.2]:
-        maxTries=math.log2(entries)
-        runargs[2] = data_path+data
-        runargs[8] = str(temperature) + " " + str(maxTries)
-        p = subprocess.run(args=runargs, stdout=subprocess.PIPE, text=True)
-        out = data + ", " + str(entries) + ", " + str(temperature) 
-        out += ", log(n), " + str(p.stdout)
-        print(out, end="")
-        with open("runs.csv", 'a') as outfile:
-            outfile.write(out)
-        time.sleep(1) #reset random number generator in solver
-
-        for d in [1, 2, 3]:
-            maxTries=d*math.sqrt(entries)
-            runargs[2] = data_path + data
-            runargs[8] = str(temperature) + " " + str(maxTries)
+    for randStart in [0.0, 1.0]:
+        for temperature in [1.0, 2.0, 4.0, 8.0]:
+            maxTries=math.log2(entries)
+            runargs[2] = data_path+data
+            runargs[8] = str(temperature) + " " + str(maxTries) + " " + str(randStart)
             p = subprocess.run(args=runargs, stdout=subprocess.PIPE, text=True)
             out = data + ", " + str(entries) + ", " + str(temperature) 
-            out += ", " + str(d) + "*sqrt(n), " + str(p.stdout)
+            out += ", log(n), " + str(p.stdout)
             print(out, end="")
             with open("runs.csv", 'a') as outfile:
                 outfile.write(out)
-            time.sleep(1)
+            time.sleep(1) #reset random number generator in solver
 
-        maxTries=math.log2(entries)*math.sqrt(entries)
-        runargs[2] = data_path+data
-        runargs[8] = str(temperature) + " " + str(maxTries)
-        p = subprocess.run(args=runargs, stdout=subprocess.PIPE, text=True)
-        out = data + ", " + str(entries) + ", " + str(temperature) 
-        out += ", log(n)*sqrt(n), " + str(p.stdout)
-        print(out, end="")
-        with open("runs.csv", 'a') as outfile:
-            outfile.write(out)
-        time.sleep(1) #reset random number generator in solver
+            for d in [1, 3]:
+                maxTries=d*math.sqrt(entries)
+                runargs[2] = data_path + data
+                runargs[8] = str(temperature) + " " + str(maxTries) + " " + str(randStart)
+                p = subprocess.run(args=runargs, stdout=subprocess.PIPE, text=True)
+                out = data + ", " + str(entries) + ", " + str(temperature) 
+                out += ", " + str(d) + "*sqrt(n), " + str(p.stdout)
+                print(out, end="")
+                with open("runs.csv", 'a') as outfile:
+                    outfile.write(out)
+                time.sleep(1)
+
+            maxTries=math.log2(entries)*math.sqrt(entries)
+            runargs[2] = data_path+data
+            runargs[8] = str(temperature) + " " + str(maxTries) + " " + str(randStart)
+            p = subprocess.run(args=runargs, stdout=subprocess.PIPE, text=True)
+            out = data + ", " + str(entries) + ", " + str(temperature) 
+            out += ", log(n)*sqrt(n), " + str(p.stdout)
+            print(out, end="")
+            with open("runs.csv", 'a') as outfile:
+                outfile.write(out)
+            time.sleep(1) #reset random number generator in solver
