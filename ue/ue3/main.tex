@@ -1,0 +1,84 @@
+\documentclass[ngerman,aspectratio=169,10pt]{beamer}
+
+\usetheme[progressbar=frametitle]{metropolis}
+\usepackage{appendixnumberbeamer}
+
+\graphicspath{{./graphics/}}
+
+\usepackage{booktabs}
+\usepackage{xspace}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{xfrac}
+\usepackage{listings}
+\lstset{
+	basicstyle=\ttfamily,
+	showstringspaces=false,
+	tabsize=4,
+	upquote=true,
+}
+
+\title{TSP Varianten}
+% \subtitle{}
+\date{14. Dezember 2020}
+\author{Finn Stutzenstein, Levin Nemesch, Joshua Sangmeister}
+\institute{Algorithm Engineering - Übung 3}
+\titlegraphic{
+    \hfill\includegraphics[height=1.5cm]{unilogo.pdf}\\
+    \hspace*{8.3cm} \textsc{AG Theoretische Informatik}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}
+	\begin{itemize}
+		\item TSP
+		\item multiples TSP
+		\item asymmetrisches TSP
+		\item prizecollecting TSP
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{TSP}
+	\textbf{Gegeben}: $G=(V,E)$ ungerichtet, $w_e\geq0$ Kantengewichte\\
+	\textbf{Gesucht}: Rundtour $E'\subseteq E$, sodass $\sum_{e\in E'}w_e$ minimal ist
+	
+	\begin{align*}
+	\min && \sum_{e\in E}x_ew_e&&\\
+	\text{s.t.} && \sum_{e\in \delta(v)}x_e &=2 &\forall v\in V\\
+	&& \sum_{e\in \delta(W)}x_e &\geq2 &\forall \emptyset\neq W\subset V\\
+	&& x_e &\in\{0,1\} &\forall e\in E
+	\end{align*}
+\end{frame}
+
+\begin{frame}{Multiples TSP (Relaxation vom VRP)}
+	\textbf{Gegeben}: $G=(V,E)$, $w_e\geq0$ Kantengewichte, Depot $d\in V$, $m$ Verkäufer\\
+	\textbf{Gesucht}: $m$ Touren, die alle $d$ beinhalten mit minimalen Gesamtwegekosten. Dabei muss jeder Knoten (außer $d$) in genau einer Tour sein.
+\end{frame}
+
+\begin{frame}{Asymmetrisches TSP}
+	\textbf{Gegeben}: $G=(V,A)$ gerichtet, $w_e\geq0$ Kantengewichte (i.A. $w_{uv}\neq w_{vu}$)\\
+	\textbf{Gesucht}: Gerichtete Rundtour $A'\subseteq A$, sodass $\sum_{a\in A'}w_a$ minimal ist
+\end{frame}
+
+\begin{frame}{Prizecollecting TSP}
+	\textbf{Gegeben}: $G=(V,E)$
+\end{frame}
+
+\begin{frame}{Das kann als vorlage zum erstellen von LPs genutzt werden}
+   \begin{align}
+   \min    && \left|\sum_{M\in\mathcal{M}^b}c^b(M)y_M^b-\sum_{M\in\mathcal{M}^r}c^r(M)y_M^r\right| \tag{Z}\label{eq:z}\\
+   \text{s.t.} && \sum_{M\in\mathcal{M}^b}y_M^b &=1&& \tag{C1}\label{eq:c1}\\
+   && \sum_{M\in\mathcal{M}^r}y_M^r &=1&& \tag{C2}\label{eq:c2}\\
+   && \sum_{M\in\mathcal{M}^b:e\in M}y_M^b+\sum_{M\in\mathcal{M}^r:e\in M}y_M^r &\leq1 &&\forall e\in E_b\cap E_r \tag{C3}\label{eq:c3}\\
+   && \sum_{e\in\delta(S)}\left(\sum_{M\in\mathcal{M}^b:e\in M}y_M^b+\sum_{M\in\mathcal{M}^r:e\in M}y_M^r\right) &\geq 2 &&\forall S\subset V, |S| \geq 3 \tag{C4}\label{eq:c4}\\[0.5cm]
+   && y_M^b &\in\{0,1\} &&\forall M\in\mathcal{M}^b \tag{C5}\label{eq:c5}\\
+   && y_M^r &\in\{0,1\} &&\forall M\in\mathcal{M}^r \tag{C6}\label{eq:c6}
+   \end{align}
+\end{frame}
+
+
+\end{document}
