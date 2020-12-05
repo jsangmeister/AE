@@ -13,10 +13,10 @@ namespace labeler
 class Solver : virtual public Base
 {
 public:
-    // Generates a very simple Solution by just setting every label to the right top
-    // of it's point, then deactivates every colliding label. The lower element in the 
-    // vector always prevails. Might generate very bad (but always valid) solutions.
-    virtual int simple_solution(std::vector<LabelElement>* elements) = 0;
+    // Solves the instance for the given elements and returns a vector of ints.
+    // first index is the amount of set labels, the other positions are free to use for the algorithms.
+    // args can be used to pass additional arguments to the solver.
+    virtual std::vector<long unsigned int> solve(std::vector<LabelElement>* elements, std::vector<double> args) = 0;
 };
 
 }

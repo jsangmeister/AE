@@ -7,17 +7,17 @@
 namespace labeler
 {
 
-int SimulAnSolver::simple_eval(std::vector<LabelElement>* elements, bool print_col)
+int SimulAnSolver::eval(std::vector<LabelElement>* elements, bool print_col)
 {
     int labels_set = 0;
     int collisions = 0;
-    for(auto i=(*elements).begin(); i!=(*elements).end(); ++i)
+    for(auto i=elements->begin(); i!=elements->end(); ++i)
     {
         if (!i->has_solution) continue;
         ++labels_set;
-        for(auto j=i+1; j!=(*elements).end(); ++j)
+        for(auto j=i+1; j!=elements->end(); ++j)
         {
-            if (j->has_solution && this->collision(&*i, &*j)) {
+            if (j->has_solution && this->collision(*i, *j)) {
                 --collisions;
                 if(print_col) std::cout << "Collision between " << i->label << " and " 
                 << j->label << std::endl;
@@ -47,11 +47,11 @@ void SimulAnSolver::addToStack(std::vector<std::pair<int, int>>* stack, LabelEle
     }
     else{
         int pos = 0;
-        if (el->x != el->label_x1)
+        if (el->x != el->label_x)
         {
             pos+=2;
         }
-        if (el->y != el->label_y1)
+        if (el->y != el->label_y)
         {
             pos+=1;
         }
@@ -68,14 +68,17 @@ void SimulAnSolver::intToPos(LabelElement& el, int pos)
         return;
     }
     el.has_solution = true;
-    el.label_x1 = el.x - (pos/2) * el.width;
-    el.label_y1 = el.y + (pos%2) * el.height;
+    el.label_x = el.x - (pos/2) * el.width;
+    el.label_y = el.y + (pos%2) * el.height;
 }
 
 
-int SimulAnSolver::solve(std::vector<LabelElement>* elements, std::vector<double> args, 
-        int& init_active, int& max_active)
+std::vector<long unsigned int> SimulAnSolver::solve(std::vector<LabelElement>* elements, std::vector<double> args)
 {   
+    if (args.size() > 0 && args.size() != 3)
+    {
+        throw std::runtime_error("args not valid for sa");
+    }
     srand(time(NULL));
     //Prepare the conflict array
     std::vector<std::vector<int>> conflicts;
@@ -92,24 +95,24 @@ int SimulAnSolver::solve(std::vector<LabelElement>* elements, std::vector<double
     for(int i=0; i<elements->size()-1; i++)
     {   
         //std::cout << "Conflict " << i << " of " << elements->size() << std::endl;
-        tmp_li.width = (*elements)[i].width;
-        tmp_li.height = (*elements)[i].height;
-        tmp_li.x = (*elements)[i].x;
-        tmp_li.y = (*elements)[i].y;
-        for (int j=i+1; j<(*elements).size(); j++)
+        tmp_li.width = elements->at(i).width;
+        tmp_li.height = elements->at(i).height;
+        tmp_li.x = elements->at(i).x;
+        tmp_li.y = elements->at(i).y;
+        for (int j=i+1; j<elements->size(); j++)
         {
             bool conf_found = false;
-            tmp_lj.width = (*elements)[j].width;
-            tmp_lj.height = (*elements)[j].height;
-            tmp_lj.x = (*elements)[j].x;
-            tmp_lj.y = (*elements)[j].y;
+            tmp_lj.width = elements->at(j).width;
+            tmp_lj.height = elements->at(j).height;
+            tmp_lj.x = elements->at(j).x;
+            tmp_lj.y = elements->at(j).y;
             for (int pos_li=0; pos_li<4; pos_li++)
             {
                 intToPos(tmp_li, pos_li);
                 for (int pos_lj=0; pos_lj<4; pos_lj++)
                 {
                     intToPos(tmp_lj, pos_lj);
-                    if(collision(&tmp_li, &tmp_lj))
+                    if(this->collision(tmp_li, tmp_lj))
                     {
                         conflicts[i].push_back(j);
                         conflicts[j].push_back(i);
@@ -122,7 +125,7 @@ int SimulAnSolver::solve(std::vector<LabelElement>* elements, std::vector<double
         }
     }
 
-    int active_labels = 0;
+    long unsigned int active_labels = 0;
 
     bool randomize = true;
     if(args.size() == 3 && args[2] == 0)
@@ -144,7 +147,7 @@ int SimulAnSolver::solve(std::vector<LabelElement>* elements, std::vector<double
                 intToPos((*elements)[i], p);
                 for (auto other_lab: conflicts[i])
                 {
-                    if (collision(&(*elements)[i], &(*elements)[other_lab]))
+                    if (collision((*elements)[i], (*elements)[other_lab]))
                     {
                         pos_ok = false;
                         cols++;
@@ -167,13 +170,13 @@ int SimulAnSolver::solve(std::vector<LabelElement>* elements, std::vector<double
     {
         for (auto e : (*elements))
         {
-            e.has_solution == false;
+            e.has_solution = false;
         }
     }
     
     //std::cout << active_labels << std::endl;
-    init_active = active_labels;
-    max_active = active_labels;
+    long unsigned int init_active = active_labels;
+    long unsigned int max_active = active_labels;
 
     //Start simulated annealing:
     double temperature = 1.0;
@@ -208,10 +211,10 @@ int SimulAnSolver::solve(std::vector<LabelElement>* elements, std::vector<double
                 int new_pos = rand() % 4;
                 int newx = (*elements)[l].x - (new_pos/2) * (*elements)[l].width;
                 int newy = (*elements)[l].y + (new_pos%2) * (*elements)[l].height;
-                if (newx != (*elements)[l].label_x1 || newy != (*elements)[l].label_y1)
+                if (newx != (*elements)[l].label_x || newy != (*elements)[l].label_y)
                 {
-                    (*elements)[l].label_x1 = newx;
-                    (*elements)[l].label_y1 = newy;
+                    (*elements)[l].label_x = newx;
+                    (*elements)[l].label_y = newy;
                     break;
                 }
             }
@@ -219,7 +222,7 @@ int SimulAnSolver::solve(std::vector<LabelElement>* elements, std::vector<double
             for (auto check_label: conflicts[l])
             {
                 //If the other label existed and no collision appeared, we can go on
-                if ((*elements)[check_label].has_solution && !collision(&(*elements)[l], &(*elements)[check_label]))
+                if ((*elements)[check_label].has_solution && !collision((*elements)[l], (*elements)[check_label]))
                 {
                     continue;
                 }
@@ -239,7 +242,7 @@ int SimulAnSolver::solve(std::vector<LabelElement>* elements, std::vector<double
                     intToPos((*elements)[check_label], p);
                     for (auto other_lab: conflicts[check_label])
                     {
-                        if (collision(&(*elements)[check_label], &(*elements)[other_lab]))
+                        if (collision((*elements)[check_label], (*elements)[other_lab]))
                         {
                             pos_ok = false;
                             cols++;
@@ -286,7 +289,7 @@ int SimulAnSolver::solve(std::vector<LabelElement>* elements, std::vector<double
 
         temperature = temperature * 0.9;
     }
-    return active_labels;
+    return std::vector<long unsigned int>{ active_labels, init_active, max_active };
 }
 
 }

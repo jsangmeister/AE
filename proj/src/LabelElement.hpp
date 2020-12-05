@@ -1,7 +1,8 @@
 #ifndef SRC_LABEL_ELEMENT_HPP_
 #define SRC_LABEL_ELEMENT_HPP_
 
-#include<string>
+#include <string>
+#include <sstream>
 
 namespace labeler
 {
@@ -15,16 +16,17 @@ struct LabelElement
     int height;
     std::string label;
     bool has_solution;
-    int label_x1;
-    int label_y1;
-    /* x2 and y2 are the coordinates of the bottom right corner.
-    *   Yes, we can calculate them from x,y, width and length, but do
-    *   we really want to every time? Yes, we want
-    */
-    //int label_x2;
-    //int label_y2;
+    // top left corner
+    int label_x;
+    int label_y;
 
-    std::string toString();
+    inline std::string toString() {
+        auto w = " ";
+        std::stringstream out;
+        out << x << w << y << w << width << w << height << w << label << w
+        << has_solution << w << label_x << w << label_y;
+        return out.str();
+    };
 };
 
 enum LAB_POS

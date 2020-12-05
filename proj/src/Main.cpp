@@ -6,13 +6,14 @@
 #include "Parser.hpp"
 #include "solver/solver/SimpleSolver.hpp"
 #include "solver/solver/SimulAn.hpp"
+#include "solver/solver/RulesSolver.hpp"
+#include "solver/Solver.hpp"
 
 using namespace labeler;
 
-void solve(Parser parser);
-void solveSimulAn(Parser& parser, std::vector<double> confVec);
+void solve(Parser parser, Solver* solver, std::vector<double> args);
 void eval(Parser parser);
-void parseConfString(std::vector<double>& vec, std::string confString);
+std::vector<double> parseConfString(std::string confString);
 
 
 int main(int argc, char** argv)
@@ -52,6 +53,7 @@ int main(int argc, char** argv)
                 printf("getopt returned invalid character code 0%o\n", c);
         }
     }
+    std::cout << conf_arg << std::endl;
 
     if (
         (in_arg.empty() && out_arg.empty() && eval_arg.empty()) ||
@@ -76,59 +78,37 @@ int main(int argc, char** argv)
     if(!eval_arg.empty()) {
         eval(parser);
     } else {
-        if(sol_arg.empty())
-            solve(parser);
-        else if (sol_arg.compare("sa") == 0)
-        {
-            std::vector<double> confVec;
-            if (conf_arg.empty())
-            {
-                solveSimulAn(parser, confVec);
-            }
-            else
-            {
-                parseConfString(confVec, conf_arg);
-                if (confVec.size() != 3)
-                {
-                    std::cout << "conf_string not valid for sa: " << conf_arg << std::endl;
-                    return 0;
-                }
-                solveSimulAn(parser, confVec);
-            }
+        auto args = parseConfString(conf_arg);
+        Solver* solver;
+        if (sol_arg == "sa") {
+            solver = new SimulAnSolver();
+        } else if (sol_arg == "rules") {
+            solver = new RulesSolver();
+        } else if (sol_arg == "simple") {
+            solver = new SimpleSolver();
+        } else {
+            throw std::runtime_error("Invalid solver: " + sol_arg);
         }
-        else
-        {
-            std::cout << sol_arg << " is not a solver" << std::endl;
-            return 0;
-        }
+        solve(parser, solver, args);
         parser.write(out_arg);
     }
     return 0;   
 }
 
-void solve(Parser parser) {
-    SimpleSolver solver = SimpleSolver();
-
+void solve(Parser parser, Solver* solver, std::vector<double> args) {
     auto start = std::chrono::high_resolution_clock::now();
-    int labels_set = solver.simple_solution(&parser.elements);
+    std::vector<long unsigned int> result = solver->solve(&parser.elements, args);
     auto end = std::chrono::high_resolution_clock::now();
 
     auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
-    std::cout << "Solution with " << labels_set << " labels found. (" << duration << "ms)" << std::endl;
-}
-
-void solveSimulAn(Parser& parser, std::vector<double> args)
-{
-    int init_acvtive, max_active;
-    auto solver = SimulAnSolver();
-    auto start = std::chrono::high_resolution_clock::now();
-    int labels_set = solver.solve(&parser.elements, args, init_acvtive, max_active);
-    auto end = std::chrono::high_resolution_clock::now();
-
-    auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
-    //std::cout << "Solution with " << labels_set << " labels found. (" << duration << "ms)" << std::endl;
-    std::cout << labels_set << ", " << duration << ", " << init_acvtive << ", " << max_active 
-    << "" << std::endl; 
+    std::cout << "Solution with " << result[0] << " labels found (" << duration << "ms)." << std::endl;
+    if (result.size() > 1) {
+        std::cout << "Output:";
+        for (int i = 1; i < result.size(); i++) {
+            std::cout << result[i];
+        }
+        std::cout << std::endl;
+    }
 }
 
 void eval(Parser parser) {
@@ -144,7 +124,7 @@ void eval(Parser parser) {
         }
     }
 
-    int val = ev.simple_eval(&parser.elements, true);
+    int val = ev.eval(&parser.elements, true);
 
     if (val < -1)
     {
@@ -168,12 +148,14 @@ void eval(Parser parser) {
     }
 }
 
-void parseConfString(std::vector<double>& vec, std::string confString)
+std::vector<double> parseConfString(std::string confString)
 {
+    std::vector<double> vec;
     std::stringstream strm(confString);
     double val;
     while(strm >> val)
     {
         vec.push_back(val);
     }
+    return vec;
 }
