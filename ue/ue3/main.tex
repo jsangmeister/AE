@@ -34,50 +34,128 @@
 \maketitle
 
 \begin{frame}
+	Ideensammlung. Da kann man mal reinschauen: https://www.springer.com/de/book/9781402006647
 	\begin{itemize}
-		\item TSP
-		\item multiples TSP
-		\item asymmetrisches TSP
-		\item prizecollecting TSP
+		\item bottleneck tsp
+		\item Messanger problem
+		\item Clustered TSP
+		\item time dependend tsp
+		\item TSP with time windows
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{TSP}
+\begin{frame}{TSP aus der Vorlesung}
 	\textbf{Gegeben}: $G=(V,E)$ ungerichtet, $w_e\geq0$ Kantengewichte\\
 	\textbf{Gesucht}: Rundtour $E'\subseteq E$, sodass $\sum_{e\in E'}w_e$ minimal ist
 	
 	\begin{align*}
-	\min && \sum_{e\in E}x_ew_e&&\\
+	\min && \sum_{e\in E}w_ex_e&&\\
 	\text{s.t.} && \sum_{e\in \delta(v)}x_e &=2 &\forall v\in V\\
 	&& \sum_{e\in \delta(W)}x_e &\geq2 &\forall \emptyset\neq W\subset V\\
 	&& x_e &\in\{0,1\} &\forall e\in E
 	\end{align*}
 \end{frame}
 
-\begin{frame}{Multiples TSP (Relaxation vom VRP)}
-	\textbf{Gegeben}: $G=(V,E)$, $w_e\geq0$ Kantengewichte, Depot $d\in V$, $m$ Verkäufer\\
-	\textbf{Gesucht}: $m$ Touren, die alle $d$ beinhalten mit minimalen Gesamtwegekosten. Dabei muss jeder Knoten (außer $d$) in genau einer Tour sein.
+\begin{frame}{Asymmetrisches TSP (ATSP)\footnote{Dantzig G., Fulkerson D., Johnson S.: Solutions of a large-scale traveling-salesman problem. (1954) \emph{Operation Research} 2(4):393–410}}
+	% https://link.springer.com/article/10.1007/s13676-012-0010-0
+	\textbf{Gegeben}: $G=(V,A)$ gerichtet, $w_{ij}\geq0$ Kantengewichte (i.A. $w_{uv}\neq w_{vu}$, keine Selfloops: $w_{ii}=+\infty$)\\
+	\textbf{Gesucht}: Gerichtete Rundtour $A'\subseteq A$, sodass $\sum_{(i,j)\in A'}w_{ij}$ minimal ist
+	
+	\textbf{ILP}:
+	\begin{itemize}
+		\item Dantzig–Fulkerson–Johnson Formulierung
+		\item $x_{ij}=1\quad\Leftrightarrow\quad$Kante $(i,j)$ in der Lösung
+	\end{itemize}
+\end{frame}
+\begin{frame}{Asymmetrisches TSP (ATSP)}
+	
+	\begin{align*}
+	\min && \sum_{i\in V}\sum_{j\in V}w_{ij}x_{ij}&&\\
+	\text{s.t.} && \sum_{i\in V}x_{ij} &=1 &\forall j\in V\\
+	&& \sum_{j\in V}x_{ij} &=1 &\forall i\in V\\
+	&& \sum_{i\in W}\sum_{j\in W}x_{ij} &\leq|W|-1 &\forall \emptyset\neq W\subset V\\
+	&& x_{ij} &\in\{0,1\} &\forall i,j\in V
+	\end{align*}
 \end{frame}
 
-\begin{frame}{Asymmetrisches TSP}
-	\textbf{Gegeben}: $G=(V,A)$ gerichtet, $w_e\geq0$ Kantengewichte (i.A. $w_{uv}\neq w_{vu}$)\\
-	\textbf{Gesucht}: Gerichtete Rundtour $A'\subseteq A$, sodass $\sum_{a\in A'}w_a$ minimal ist
+\begin{frame}{Multiples TSP (MTSP)\footnote{Bektas, T.: The multiple traveling salesman problem: an overview of formulations and solution procedures. \emph{Omega}, 34(3) (2006), pp. 209–219.}}
+	% https://profs.info.uaic.ro/~mtsplib/Standard%20SD-MTSP.pdf
+	\textbf{Gegeben}: $G=(V,A)$, $w_{ij}\geq0$ Kantengewichte, Depot $d\in V$, $m$ Verkäufer\\
+	\textbf{Gesucht}: $m$ Touren mit jeweils mindestens 3 Knoten, die alle $d$ beinhalten. Die Gesamtwegkosten müssen minimal sein. Jeder Knoten (außer $d$) muss in genau einer Tour sein.\\
+	\emph{Anmerkung}: Single Depot-Variante; Ein Depot pro Verkäufer möglich (Multi Depot-Variante)\\
+
+	\textbf{ILP}:
+	\begin{itemize}
+		\item $x_{ij}=1\quad\Leftrightarrow\quad$Kante $(i,j)$ in der Lösung
+		\item $u_i$: Anzahl der besuchten Knoten vom Depot zu $i$ für jeden Verkäufer (also Position von $i$ in der Tour)
+		\item $V'=V\setminus\{1\}$, Knoten 1 ist das Depot
+	\end{itemize}
+\end{frame}
+\begin{frame}{Multiples TSP (MTSP)}
+	\begin{align*}
+	\min && \sum_{i\in V}\sum_{j\in V}w_{ij}x_{ij}&&\\
+	\text{s.t.} && \sum_{j\in V'}x_{1j}=\sum_{i\in V'}x_{i1}&=m&\\
+	&& \sum_{i\in V'}x_{ij} &=1 &\forall j\in V'\\
+	&& \sum_{j\in V'}x_{ij} &=1 &\forall i\in V'\\
+	&& x_{1i}+x_{i1} &\leq1 &\forall i\in V'\\
+	&& u_i-u_j+(n-m)x_{ij} &\leq n-m-1 &\forall i\neq j\in V'\\
+	&& x_{ij} &\in\{0,1\} &\forall i,j\in V
+	\end{align*}
+\end{frame}
+
+\begin{frame}{Prizecollecting TSP\footnote{Vansteenwegen P., Gunawan A.: Orienteering Problems. \emph{EURO Advanced Tutorials on Operational Research} (2019)}}
+	% https://link.springer.com/book/10.1007/978-3-030-29746-6
+	\textbf{Gegeben}: $G=(V,E)$ ungerichtet, $w_e\geq0$ Kantengewichte, $p_i$ Knotenprofite, $P_{min}$ zu erreichenden Minimalprofit, $d\in V$ Depot\\
+	\textbf{Gesucht}: Rundtour $E'\subseteq E$ über Auswahl an Knoten $V'\subseteq V$, sodass $\sum_{e\in E'}w_e$ minimal ist und $\sum_{v\in V'}p_v\geq P_{min}$ gilt
+	
+	\textbf{ILP}:
+	\begin{itemize}
+		\item Ordnungsvariablen $x_{ij}=1\quad\Leftrightarrow\quad$Nach Knoten $i$ folgt Knoten $j$ ($i\rightarrow j$)
+		\item $u_i$: Position von Knoten $i$ in der Tour
+		\item $V'=V\setminus\{1\}$, Knoten 1 ist das Depot
+	\end{itemize}
 \end{frame}
 
 \begin{frame}{Prizecollecting TSP}
-	\textbf{Gegeben}: $G=(V,E)$
+	\begin{align*}
+	\min && \sum_{i\in V}\sum_{j\in V}w_{ij}x_{ij}&&\\
+	\text{s.t.} && \sum_{j\in V'}x_{1j}=\sum_{i\in V'}x_{i1}&=1&\\
+	&& \sum_{i\in V}x_{ik} = \sum_{j\in V}x_{kj}&\leq1 &\forall k\in V'\\
+	&& \sum_{i\in V}\sum_{j\in V}p_ix_{ij} &\geq P_{min} &\\
+	&& u_i-u_j+1&\leq(n-1)(1-x_{ij})&\forall i,j\in V'\\
+	&& x_{ij} &\in\{0,1\} &\forall i,j\in V	
+	&& u_i &\in\{2,\ldots,n\} &\forall i\in V
+	\end{align*}
+	
+
 \end{frame}
 
-\begin{frame}{Das kann als vorlage zum erstellen von LPs genutzt werden}
-   \begin{align}
-   \min    && \left|\sum_{M\in\mathcal{M}^b}c^b(M)y_M^b-\sum_{M\in\mathcal{M}^r}c^r(M)y_M^r\right| \tag{Z}\label{eq:z}\\
-   \text{s.t.} && \sum_{M\in\mathcal{M}^b}y_M^b &=1&& \tag{C1}\label{eq:c1}\\
-   && \sum_{M\in\mathcal{M}^r}y_M^r &=1&& \tag{C2}\label{eq:c2}\\
-   && \sum_{M\in\mathcal{M}^b:e\in M}y_M^b+\sum_{M\in\mathcal{M}^r:e\in M}y_M^r &\leq1 &&\forall e\in E_b\cap E_r \tag{C3}\label{eq:c3}\\
-   && \sum_{e\in\delta(S)}\left(\sum_{M\in\mathcal{M}^b:e\in M}y_M^b+\sum_{M\in\mathcal{M}^r:e\in M}y_M^r\right) &\geq 2 &&\forall S\subset V, |S| \geq 3 \tag{C4}\label{eq:c4}\\[0.5cm]
-   && y_M^b &\in\{0,1\} &&\forall M\in\mathcal{M}^b \tag{C5}\label{eq:c5}\\
-   && y_M^r &\in\{0,1\} &&\forall M\in\mathcal{M}^r \tag{C6}\label{eq:c6}
-   \end{align}
+\begin{frame}{Equitable TSP\footnote{J. Kinable, B. Smeulders, E. Delcour und F. C. Spieksma. Exact algorithms for the equitable traveling salesman problem. \emph{European Journal of Operational Research} 261.2 (2017), S. 475 –485.}}
+	\textbf{Gegeben}: $G=(V,E)$ ungerichtet, $w_e\geq0$ Kantengewichte, $n$ gerade.\\
+	\textbf{Gesucht}: Zwei perfekte Matchings $M_1,M_2\subset E$, sodass
+	\begin{enumerate}
+		\item die Vereinigung beider Matchings einen Hamiltonkreis in $G$ bilden und
+		\item $|c(M_1)-c(M_2)|$ mit $c(M)=\sum_{e\in M}w_e$ minimal ist.
+	\end{enumerate}
+
+	\textbf{ILP}:
+	\begin{itemize}
+		\item $\mathcal{M}$: Menge aller perfekten Matchings von $G$
+		\item $y_M^1=1~(y_M^2=1)\quad\Leftrightarrow\quad$: Matching $M\in\mathcal{M}$ wird als erstes (zweites) Matching gewählt
+	\end{itemize}
+
+	
+\end{frame}
+\begin{frame}{Equitable TSP}
+   \begin{align*}
+   \min    && \left|\sum_{M\in\mathcal{M}}c(M)y_M^1-\sum_{M\in\mathcal{M}}c(M)y_M^2\right|\\
+   \text{s.t.} && \sum_{M\in\mathcal{M}}y_M^1 &=1&&\\
+   && \sum_{M\in\mathcal{M}}y_M^2 &=1&&\\
+   && \sum_{M\in\mathcal{M}:e\in M}y_M^1+\sum_{M\in\mathcal{M}:e\in M}y_M^2 &\leq1 &&\forall e\in E\\
+   && \sum_{e\in\delta(W)}\left(\sum_{M\in\mathcal{M}:e\in M}y_M^1+\sum_{M\in\mathcal{M}:e\in M}y_M^2\right) &\geq 2 &&\forall W\subset V, |S| \geq 3\\
+   && y_M^1 &\in\{0,1\} &&\forall M\in\mathcal{M}\\
+   && y_M^2 &\in\{0,1\} &&\forall M\in\mathcal{M}
+   \end{align*}
 \end{frame}
 
 
