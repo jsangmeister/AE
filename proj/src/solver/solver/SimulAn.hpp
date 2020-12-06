@@ -2,25 +2,15 @@
  * Uses Simulated Annealing as heuristic
  **/
 
-#include"../Base.hpp"
-#include<vector>
+#include "../Solver.hpp"
+#include "../Evaluator.hpp"
+
+#include <vector>
 
 namespace labeler {
 
 
-struct ElementWrapper
-{
-    LAB_POS lp;
-    LabelElement* labEl;
-};
-
-struct LabelConflict
-{
-    std::vector<int> conflicts[4]; 
-};
-
-
-class SimulAnSolver: public Base
+class SimulAnSolver : public Solver, Evaluator
 {
     public:
 
@@ -30,9 +20,8 @@ class SimulAnSolver: public Base
          * @param args  if vector of size 3, args[0] is starting temperature, args[2] max_tries in one 
          *              temperature and if args[2]==0 labels are all initialized off instead of random
          */
-        int solve(std::vector<LabelElement>* elements, std::vector<double> args, 
-            int& init_active, int& max_active);
-        int simple_eval(std::vector<LabelElement>* elements, bool print_col);
+        std::vector<long unsigned int> solve(std::vector<LabelElement>* elements, std::vector<double> args);
+        int eval(std::vector<LabelElement>* elements, bool print_col);
     private:
         void intToPos(LabelElement& el, int pos);
         void permVector(std::vector<int>* vec);

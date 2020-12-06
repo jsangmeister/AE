@@ -14,7 +14,7 @@ $(appname): $(OBJS)
 	$(CXX) $(CXXFLAGS) $(LDFLAGS) -o $(appname) $(OBJS) $(LDLIBS)
 
 %.o: %.cpp
-	$(CXX) -c -MMD -o $@ $<
+	$(CXX) $(CXXFLAGS) $(LDFLAGS) -c -MMD -o $@ $<
 
 clean:
 	rm -f $(appname) $(OBJS) $(DEPS)

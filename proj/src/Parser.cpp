@@ -1,7 +1,6 @@
 #include "Parser.hpp"
 
 #include <iostream>
-#include <sstream>
 #include <string>
 #include <fstream>
 
@@ -55,15 +54,6 @@ void Parser::write(std::string file)
         os << "\n" << e.toString();
     }
     os.close();
-}
-
-//Maybe just overload <<?
-std::string LabelElement::toString(){
-    auto w = " ";
-    std::stringstream out;
-    out << x << w << y << w << width << w << height << w << label << w
-    << has_solution << w << label_x1 << w << label_y1;
-    return out.str();
 }
 
 }
