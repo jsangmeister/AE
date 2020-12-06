@@ -11,8 +11,8 @@
 
 using namespace labeler;
 
-void solve(Parser parser, Solver* solver, std::vector<double> args);
-void eval(Parser parser);
+void solve(Parser* parser, Solver* solver, std::vector<double> args);
+void eval(Parser* parser);
 std::vector<double> parseConfString(std::string confString);
 
 
@@ -72,8 +72,7 @@ int main(int argc, char** argv)
         std::exit(0);
     }
 
-    Parser parser = Parser(file_to_parse);
-    //std::cout << "Parsing successful." << std::endl;
+    Parser* parser = new Parser(file_to_parse);
 
     if(!eval_arg.empty()) {
         eval(parser);
@@ -90,14 +89,14 @@ int main(int argc, char** argv)
             throw std::runtime_error("Invalid solver: " + sol_arg);
         }
         solve(parser, solver, args);
-        parser.write(out_arg);
+        parser->write(out_arg);
     }
     return 0;   
 }
 
-void solve(Parser parser, Solver* solver, std::vector<double> args) {
+void solve(Parser* parser, Solver* solver, std::vector<double> args) {
     auto start = std::chrono::high_resolution_clock::now();
-    std::vector<long unsigned int> result = solver->solve(&parser.elements, args);
+    std::vector<long unsigned int> result = solver->solve(&parser->elements, args);
     auto end = std::chrono::high_resolution_clock::now();
 
     auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
@@ -111,20 +110,20 @@ void solve(Parser parser, Solver* solver, std::vector<double> args) {
     }
 }
 
-void eval(Parser parser) {
+void eval(Parser* parser) {
     SimpleSolver ev = SimpleSolver();
 
     // This of course could be moved into simple_eval or into the Parser constructor
-    for(std::size_t i=0; i<parser.elements.size(); ++i) {
-        auto l = &(parser.elements[i]);
-        if (l->has_solution && !parser.aligned(l))
+    for(std::size_t i=0; i<parser->elements.size(); ++i) {
+        auto l = &(parser->elements[i]);
+        if (l->has_solution && !parser->aligned(l))
         {
             throw std::runtime_error("ERROR: Invalid entry on line " + std::to_string(i+1)
             + ", label not correctly aligned");
         }
     }
 
-    int val = ev.eval(&parser.elements, true);
+    int val = ev.eval(&parser->elements, true);
 
     if (val < -1)
     {

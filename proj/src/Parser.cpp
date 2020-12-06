@@ -51,7 +51,6 @@ void Parser::write(std::string file)
     os << elements.size();
     for(auto e : elements)
     {
-        std::cout << e.toString() << std::endl;
         os << "\n" << e.toString();
     }
     os.close();
