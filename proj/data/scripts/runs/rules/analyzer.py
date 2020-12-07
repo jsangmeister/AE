@@ -95,8 +95,28 @@ if False:
     plt.close()
 
 
-# rules vs. san (time)
+# rules abs time
 if True:
+    x = []
+    y = []
+    for run in countrie_rules_data:
+        sa_entry = countries_sa_best_runs_dict[run[0]]
+        x.append(sa_entry[1])
+        y.append(run[2])
+    plt.scatter(x, y)
+    #plt.xlim(0, 320)
+    plt.xlabel("Number of Nodes")
+    plt.xscale("log")
+    plt.yscale("log")
+    #plt.ylabel(r'$\frac{\text{sol}_\text{san}}{\text{sol}_\text{ref}}$')
+    plt.ylabel(r'$time_\mathrm{rules}$ in ms', fontsize = 12)
+    plt.title("Cities Instances")
+    plt.savefig("figures/rules_time_abs")
+    plt.close()
+
+
+# rules vs. san (time)
+if False:
     x = []
     y = []
     for run in countrie_rules_data:
@@ -115,9 +135,39 @@ if True:
     #plt.xlim(0, 320)
     plt.xlabel("Number of Nodes")
     plt.xscale("log")
-    # plt.yscale("log")
+    plt.ylim(bottom=0.1)
+    plt.yscale("log")
     #plt.ylabel(r'$\frac{\text{sol}_\text{san}}{\text{sol}_\text{ref}}$')
     plt.ylabel(r'$\frac{time_\mathrm{rules}}{time_\mathrm{san}}$', fontsize = 16)
     plt.title("Cities Instances")
-    plt.savefig("figures/time_rules_vs_san")
+    plt.savefig("figures/time_rules_vs_san_1")
+    plt.close()
+
+
+# rules vs. san (time)
+if False:
+    x = []
+    y = []
+    for run in countrie_rules_data:
+        sa_entry = countries_sa_best_runs_dict[run[0]]
+        x.append(sa_entry[1])
+        if run[2] == 0:
+            if sa_entry[5] == 0:
+                y.append(1)
+            else:
+                del x[-1]
+        else:
+            y.append(sa_entry[5]/run[2])
+    plt.axhline(y=1, color='r', linestyle='-')
+    plt.scatter(x, y)
+
+    #plt.xlim(0, 320)
+    plt.xlabel("Number of Nodes")
+    plt.xscale("log")
+    # plt.ylim(bottom=0.1)
+    # plt.yscale("log")
+    #plt.ylabel(r'$\frac{\text{sol}_\text{san}}{\text{sol}_\text{ref}}$')
+    plt.ylabel(r'$\frac{time_\mathrm{san}}{time_\mathrm{rules}}$', fontsize = 16)
+    plt.title("Cities Instances")
+    plt.savefig("figures/time_rules_vs_san_2")
     plt.close()
