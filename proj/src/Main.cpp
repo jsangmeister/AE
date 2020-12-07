@@ -6,6 +6,7 @@
 #include "Parser.hpp"
 #include "solver/solver/SimpleSolver.hpp"
 #include "solver/solver/SimulAn.hpp"
+#include "solver/solver/ReferenceHeuristic.hpp"
 #include "solver/solver/RulesSolver.hpp"
 #include "solver/Solver.hpp"
 
@@ -85,6 +86,8 @@ int main(int argc, char** argv)
             solver = new RulesSolver();
         } else if (sol_arg == "simple") {
             solver = new SimpleSolver();
+        } else if (sol_arg == "ref") {
+            solver = new ReferenceHeuristic();
         } else {
             throw std::runtime_error("Invalid solver: " + sol_arg);
         }

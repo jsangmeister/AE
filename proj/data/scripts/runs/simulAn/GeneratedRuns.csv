@@ -1,29 +1,4 @@
-file, n, labels sol, time
-generated_n1000000_d0_01, 1000000, 163, 3617
-generated_n1000000_d0_1, 1000000, 12327, 163612
-generated_n1000000_d0_3, 1000000, 42207, 650285
-generated_n1000000_d0_5, 1000000, 74871, 1332503
-generated_n1000000_d1, 1000000, 156432, 3603269
-generated_n100000_d0_01, 100000, 2925, 5089
-generated_n100000_d0_1, 100000, 30961, 49219
-generated_n100000_d0_3, 100000, 80248, 133302
-generated_n100000_d0_5, 100000, 67594, 138384
-generated_n100000_d1, 100000, 48259, 121515
-generated_n10000_d0_01, 10000, 4620, 904
-generated_n10000_d0_1, 10000, 9441, 1101
-generated_n10000_d0_3, 10000, 7967, 1331
-generated_n10000_d0_5, 10000, 6806, 1364
-generated_n10000_d1, 10000, 4923, 1235
-generated_n1000_d0_01, 1000, 995, 13
-generated_n1000_d0_1, 1000, 948, 15
-generated_n1000_d0_3, 1000, 799, 18
-generated_n1000_d0_5, 1000, 734, 19
-generated_n1000_d1, 1000, 498, 15
-generated_n100_d0_01, 100, 99, 0
-generated_n100_d0_1, 100, 96, 0
-generated_n100_d0_3, 100, 81, 0
-generated_n100_d0_5, 100, 72, 0
-generated_n100_d1, 100, 56, 0
+file, n, temperature, max tries, labels sol, time, lables init, labels max during
 generated_n100_d1, 100, 1.0, log(n)*sqrt(n), 74, 20, 57, 74
 generated_n100_d0_5, 100, 1.0, log(n)*sqrt(n), 87, 12, 66, 87
 generated_n100_d0_3, 100, 1.0, log(n)*sqrt(n), 96, 4, 83, 96
