@@ -1,6 +1,7 @@
 #!/bin/bash
 
 rm -f results.txt
+# TODO: adjust paths
 for filename in data/instances/valid/countries/*; do
     echo $filename
     # cnt=$(head -n 1 $filename)
