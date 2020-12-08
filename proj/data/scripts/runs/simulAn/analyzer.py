@@ -59,7 +59,7 @@ with open(target, 'r') as file:
 generated_ref_data = generated_ref_data[::-1]
 
 
-if False:
+if True:
     maxrun = None
     maxval = 0
     x = []
@@ -73,9 +73,9 @@ if False:
     print(maxrun)
     plt.scatter(x, y)
 
-    #plt.xscale("log")
+    plt.xscale("log")
     #plt.yscale("log")
-    plt.xlim(0, 320)
+    #plt.xlim(0, 320)
     plt.xlabel("Number of Nodes")
     #plt.ylabel(r'$\frac{\text{sol}_\text{san}}{\text{sol}_\text{ref}}$')
     plt.ylabel(r'$\frac{sol_\mathrm{san}}{sol_\mathrm{ref}}$', fontsize = 16)
@@ -84,7 +84,7 @@ if False:
     plt.close()
 
 
-if False:
+if True:
     maxrun = None
     maxval = 0
     x = {1.0:[], 0.5:[], 0.3:[], 0.1:[], 0.01:[]}
@@ -112,7 +112,7 @@ if False:
     plt.savefig("figures/generated_labs")
     plt.close()
 
-if False:
+if True:
     maxrun = None
     maxval = 0
     x = []
@@ -136,7 +136,7 @@ if False:
     plt.close()
 
 
-if False:
+if True:
     x = {1.0:[], 0.5:[], 0.3:[], 0.1:[], 0.01:[]}
     y = {1.0:[], 0.5:[], 0.3:[], 0.1:[], 0.01:[]}
     for i in range(len(generated_sa_data)):
@@ -165,7 +165,7 @@ if False:
     plt.close()
 
 
-if False:
+if True:
     x = []
     y = []
     for i in range(len(countrie_sa_data)):
