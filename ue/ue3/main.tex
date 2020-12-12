@@ -159,8 +159,7 @@
 	&& \sum_{i\in V}x_{ik} = \sum_{j\in V}x_{kj}&\leq1 &\forall k\in V'\\
 	&& \sum_{i\in V}\sum_{j\in V}p_ix_{ij} &\geq P_{min} &\\
 	&& u_i-u_j+1&\leq(n-1)(1-x_{ij})&\forall i,j\in V'\\
-	&& x_{ij} &\in\{0,1\} &\forall i,j\in V	
-	&& u_i &\in\{2,\ldots,n\} &\forall i\in V
+	&& x_{ij} &\in\{0,1\} &\forall i,j\in V
 	\end{align*}
 \end{frame}
 
@@ -173,7 +172,7 @@
 		\item Constraints wie normales TSP, Zielfunktion mehrkriteriell\\ (Streng genommen kein ILP)
 	\end{itemize}
 	\begin{align*}
-		{\min}_\preceq && \sum_{e\in E}w_ex_e\in\mathbb{N}^d&&\\
+		{\min}_\preceq && \sum_{e\in E}w_ex_e&&\in\mathbb{N}^d\\
 		\text{s.t.} && \sum_{e\in \delta(v)}x_e &=2 &\forall v\in V\\
 		&& \sum_{e\in \delta(W)}x_e &\geq2 &\forall \emptyset\neq W\subset V\\
 		&& x_e &\in\{0,1\} &\forall e\in E
