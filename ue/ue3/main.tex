@@ -33,17 +33,6 @@
 
 \maketitle
 
-\begin{frame}
-	Ideensammlung. Da kann man mal reinschauen: https://www.springer.com/de/book/9781402006647
-	\begin{itemize}
-		\item bottleneck tsp
-		\item Messanger problem
-		\item Clustered TSP
-		\item time dependend tsp
-		\item TSP with time windows
-	\end{itemize}
-\end{frame}
-
 \begin{frame}{TSP aus der Vorlesung}
 	\textbf{Gegeben}: $G=(V,E)$ ungerichtet, $w_e\geq0$ Kantengewichte\\
 	\textbf{Gesucht}: Rundtour $E'\subseteq E$, sodass $\sum_{e\in E'}w_e$ minimal ist
@@ -78,7 +67,54 @@
 	\end{align*}
 \end{frame}
 
-\begin{frame}{Multiples TSP (MTSP)\footnote{Bektas, T.: The multiple traveling salesman problem: an overview of formulations and solution procedures. \emph{Omega}, 34(3) (2006), pp. 209–219.}}
+
+\begin{frame}{Bottleneck TSP\footnote{R. S. Garfinkel und K. C. Gilbert. The Bottleneck Traveling Salesman Problem: Algorithms and Probabilistic Analysis. \emph{Journal of the ACM (JACM)} 25.3 (1978), S. 435–448.}}
+	\textbf{Gegeben}: $G=(V,E)$ ungerichtet, $w_e\geq0$ Kantengewichte\\
+	\textbf{Gesucht}: Rundtour $E'\subseteq E$, sodass $\max\limits_{e\in E'}(w_e)$ minimal ist
+	
+	\textbf{ILP}:
+	\begin{itemize}
+		\item $y\in\mathbb{Z}$ zum Messen der teuersten Kante: $y\geq w_e x_e \forall e\in E$
+	\end{itemize}
+\end{frame}
+\begin{frame}{Bottleneck TSP}
+	\begin{align*}
+	\min && y &&\\
+	\text{s.t.} && \sum_{e\in \delta(v)}x_e &=2 &\forall v\in V\\
+	&& \sum_{e\in \delta(W)}x_e &\geq2 &\forall \emptyset\neq W\subset V\\
+	&& y - w_e x_e &\geq0 &\forall e \in E\\
+	&& x_e &\in\{0,1\} &\forall e\in E\\
+	&& y &\in\mathbb{Z} &
+	\end{align*}
+\end{frame}
+
+\begin{frame}{Equitable TSP\footnote{J. Kinable, B. Smeulders, E. Delcour und F. C. Spieksma. Exact algorithms for the equitable traveling salesman problem. \emph{European Journal of Operational Research} 261.2 (2017), S. 475 –485.}}
+	\textbf{Gegeben}: $G=(V,E)$ ungerichtet, $w_e\geq0$ Kantengewichte, $n$ gerade.\\
+	\textbf{Gesucht}: Zwei perfekte Matchings $M_1,M_2\subset E$, sodass
+	\begin{enumerate}
+		\item die Vereinigung beider Matchings einen Hamiltonkreis in $G$ bilden und
+		\item $|c(M_1)-c(M_2)|$ mit $c(M)=\sum_{e\in M}w_e$ minimal ist.
+	\end{enumerate}
+	
+	\textbf{ILP}:
+	\begin{itemize}
+		\item $\mathcal{M}$: Menge aller perfekten Matchings von $G$
+		\item $y_M^1=1~(y_M^2=1)\quad\Leftrightarrow\quad$: Matching $M\in\mathcal{M}$ wird als erstes (zweites) Matching gewählt
+	\end{itemize}
+\end{frame}
+\begin{frame}{Equitable TSP}
+	\begin{align*}
+	\min    && \left|\sum_{M\in\mathcal{M}}c(M)y_M^1-\sum_{M\in\mathcal{M}}c(M)y_M^2\right|\\
+	\text{s.t.} && \sum_{M\in\mathcal{M}}y_M^1 &=1&&\\
+	&& \sum_{M\in\mathcal{M}}y_M^2 &=1&&\\
+	&& \sum_{M\in\mathcal{M}:e\in M}y_M^1+\sum_{M\in\mathcal{M}:e\in M}y_M^2 &\leq1 &&\forall e\in E\\
+	&& \sum_{e\in\delta(W)}\left(\sum_{M\in\mathcal{M}:e\in M}y_M^1+\sum_{M\in\mathcal{M}:e\in M}y_M^2\right) &\geq 2 &&\forall W\subset V, |S| \geq 3\\
+	&& y_M^1 &\in\{0,1\} &&\forall M\in\mathcal{M}\\
+	&& y_M^2 &\in\{0,1\} &&\forall M\in\mathcal{M}
+	\end{align*}
+\end{frame}
+
+\begin{frame}{Multiples TSP\footnote{Bektas, T.: The multiple traveling salesman problem: an overview of formulations and solution procedures. \emph{Omega}, 34(3) (2006), pp. 209–219.}}
 	% https://profs.info.uaic.ro/~mtsplib/Standard%20SD-MTSP.pdf
 	\textbf{Gegeben}: $G=(V,A)$, $w_{ij}\geq0$ Kantengewichte, Depot $d\in V$, $m$ Verkäufer\\
 	\textbf{Gesucht}: $m$ Touren mit jeweils mindestens 3 Knoten, die alle $d$ beinhalten. Die Gesamtwegkosten müssen minimal sein. Jeder Knoten (außer $d$) muss in genau einer Tour sein.\\
@@ -91,7 +127,7 @@
 		\item $V'=V\setminus\{1\}$, Knoten 1 ist das Depot
 	\end{itemize}
 \end{frame}
-\begin{frame}{Multiples TSP (MTSP)}
+\begin{frame}{Multiples TSP}
 	\begin{align*}
 	\min && \sum_{i\in V}\sum_{j\in V}w_{ij}x_{ij}&&\\
 	\text{s.t.} && \sum_{j\in V'}x_{1j}=\sum_{i\in V'}x_{i1}&=m&\\
@@ -126,61 +162,10 @@
 	&& x_{ij} &\in\{0,1\} &\forall i,j\in V	
 	&& u_i &\in\{2,\ldots,n\} &\forall i\in V
 	\end{align*}
-	
-
-\end{frame}
-
-\begin{frame}{Equitable TSP\footnote{J. Kinable, B. Smeulders, E. Delcour und F. C. Spieksma. Exact algorithms for the equitable traveling salesman problem. \emph{European Journal of Operational Research} 261.2 (2017), S. 475 –485.}}
-	\textbf{Gegeben}: $G=(V,E)$ ungerichtet, $w_e\geq0$ Kantengewichte, $n$ gerade.\\
-	\textbf{Gesucht}: Zwei perfekte Matchings $M_1,M_2\subset E$, sodass
-	\begin{enumerate}
-		\item die Vereinigung beider Matchings einen Hamiltonkreis in $G$ bilden und
-		\item $|c(M_1)-c(M_2)|$ mit $c(M)=\sum_{e\in M}w_e$ minimal ist.
-	\end{enumerate}
-
-	\textbf{ILP}:
-	\begin{itemize}
-		\item $\mathcal{M}$: Menge aller perfekten Matchings von $G$
-		\item $y_M^1=1~(y_M^2=1)\quad\Leftrightarrow\quad$: Matching $M\in\mathcal{M}$ wird als erstes (zweites) Matching gewählt
-	\end{itemize}
-
-	
-\end{frame}
-\begin{frame}{Equitable TSP}
-   \begin{align*}
-   \min    && \left|\sum_{M\in\mathcal{M}}c(M)y_M^1-\sum_{M\in\mathcal{M}}c(M)y_M^2\right|\\
-   \text{s.t.} && \sum_{M\in\mathcal{M}}y_M^1 &=1&&\\
-   && \sum_{M\in\mathcal{M}}y_M^2 &=1&&\\
-   && \sum_{M\in\mathcal{M}:e\in M}y_M^1+\sum_{M\in\mathcal{M}:e\in M}y_M^2 &\leq1 &&\forall e\in E\\
-   && \sum_{e\in\delta(W)}\left(\sum_{M\in\mathcal{M}:e\in M}y_M^1+\sum_{M\in\mathcal{M}:e\in M}y_M^2\right) &\geq 2 &&\forall W\subset V, |S| \geq 3\\
-   && y_M^1 &\in\{0,1\} &&\forall M\in\mathcal{M}\\
-   && y_M^2 &\in\{0,1\} &&\forall M\in\mathcal{M}
-   \end{align*}
-\end{frame}
-
-\begin{frame}{Bottleneck TSP\footnote{R. S. Garfinkel und K. C. Gilbert. The Bottleneck Traveling Salesman Problem: Algorithms and Probabilistic Analysis. \emph{Journal of the ACM (JACM)} 25.3 (1978), S. 435–448.}}
-	\textbf{Gegeben}: $G=(V,E)$ ungerichtet, $w_e\geq0$ Kantengewichte\\
-	\textbf{Gesucht}: Rundtour $E'\subseteq E$, sodass $\max\limits_{e\in E'}(w_e)$ minimal ist
-
-	\textbf{ILP}:
-	\begin{itemize}
-		\item $y\in\mathbb{Z}$ zum Messen der teuersten Kante: $y\geq w_e x_e \forall e\in E$
-	\end{itemize}
-\end{frame}
-
-\begin{frame}{Bottleneck TSP}
-	\begin{align*}
-	\min && y &&\\
-	\text{s.t.} && \sum_{e\in \delta(v)}x_e &=2 &\forall v\in V\\
-	&& \sum_{e\in \delta(W)}x_e &\geq2 &\forall \emptyset\neq W\subset V\\
-	&& y - w_e x_e &\geq0 &\forall e \in E\\
-	&& x_e &\in\{0,1\} &\forall e\in E\\
-	&& y &\in\mathbb{Z} &
-	\end{align*}
 \end{frame}
 
 \begin{frame}{Multi-Objective TSP\footnote{T. Lust und J. Teghem. The Multiobjective Traveling Salesman Problem: A Survey and a New Approach. \emph{Advances in Multi-Objective Nature Inspired Computing} (2010), S. 119–141.}}
-	\textbf{Gegeben}: $G=(V,E)$ ungerichtet, $d<0$, $w_e\in{\mathbb{N}^d}$ Kantengewichte\\
+	\textbf{Gegeben}: $G=(V,E)$ ungerichtet, $d\geq1$, $w_e\in{\mathbb{N}^d}$ Kantengewichte\\
 	\textbf{Gesucht}: Rundtouren $E_\text{nd}=\{E'\subseteq E\}$, sodass $\sum_{e\in E'}w_e,E'\in E_\text{nd}$ nicht-dominiert ist
 
 	\textbf{ILP}:
@@ -188,12 +173,11 @@
 		\item Constraints wie normales TSP, Zielfunktion mehrkriteriell\\ (Streng genommen kein ILP)
 	\end{itemize}
 	\begin{align*}
-		{\min}_\preceq && \sum_{e\in E}w_ex_e&&\\
+		{\min}_\preceq && \sum_{e\in E}w_ex_e\in\mathbb{N}^d&&\\
 		\text{s.t.} && \sum_{e\in \delta(v)}x_e &=2 &\forall v\in V\\
 		&& \sum_{e\in \delta(W)}x_e &\geq2 &\forall \emptyset\neq W\subset V\\
 		&& x_e &\in\{0,1\} &\forall e\in E
 	\end{align*}
-
 \end{frame}
 
 \end{document}
