@@ -71,6 +71,8 @@ if True:
             maxval = run[4]/run[6]
             maxrun = run
     print(maxrun)
+    print(np.mean(y))
+    exit()
     plt.scatter(x, y)
 
     plt.xscale("log")

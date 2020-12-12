@@ -158,5 +158,42 @@
    \end{align*}
 \end{frame}
 
+\begin{frame}{Bottleneck TSP\footnote{R. S. Garfinkel und K. C. Gilbert. The Bottleneck Traveling Salesman Problem: Algorithms and Probabilistic Analysis. \emph{Journal of the ACM (JACM)} 25.3 (1978), S. 435–448.}}
+	\textbf{Gegeben}: $G=(V,E)$ ungerichtet, $w_e\geq0$ Kantengewichte\\
+	\textbf{Gesucht}: Rundtour $E'\subseteq E$, sodass $\max\limits_{e\in E'}(w_e)$ minimal ist
+
+	\textbf{ILP}:
+	\begin{itemize}
+		\item $y\in\mathbb{Z}$ zum Messen der teuersten Kante: $y\geq w_e x_e \forall e\in E$
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Bottleneck TSP}
+	\begin{align*}
+	\min && y &&\\
+	\text{s.t.} && \sum_{e\in \delta(v)}x_e &=2 &\forall v\in V\\
+	&& \sum_{e\in \delta(W)}x_e &\geq2 &\forall \emptyset\neq W\subset V\\
+	&& y - w_e x_e &\geq0 &\forall e \in E\\
+	&& x_e &\in\{0,1\} &\forall e\in E\\
+	&& y &\in\mathbb{Z} &
+	\end{align*}
+\end{frame}
+
+\begin{frame}{Multi-Objective TSP\footnote{T. Lust und J. Teghem. The Multiobjective Traveling Salesman Problem: A Survey and a New Approach. \emph{Advances in Multi-Objective Nature Inspired Computing} (2010), S. 119–141.}}
+	\textbf{Gegeben}: $G=(V,E)$ ungerichtet, $d<0$, $w_e\in{\mathbb{N}^d}$ Kantengewichte\\
+	\textbf{Gesucht}: Rundtouren $E_\text{nd}=\{E'\subseteq E\}$, sodass $\sum_{e\in E'}w_e,E'\in E_\text{nd}$ nicht-dominiert ist
+
+	\textbf{ILP}:
+	\begin{itemize}
+		\item Constraints wie normales TSP, Zielfunktion mehrkriteriell\\ (Streng genommen kein ILP)
+	\end{itemize}
+	\begin{align*}
+		{\min}_\preceq && \sum_{e\in E}w_ex_e&&\\
+		\text{s.t.} && \sum_{e\in \delta(v)}x_e &=2 &\forall v\in V\\
+		&& \sum_{e\in \delta(W)}x_e &\geq2 &\forall \emptyset\neq W\subset V\\
+		&& x_e &\in\{0,1\} &\forall e\in E
+	\end{align*}
+
+\end{frame}
 
 \end{document}
