@@ -54,7 +54,6 @@ int main(int argc, char** argv)
                 printf("getopt returned invalid character code 0%o\n", c);
         }
     }
-    std::cout << conf_arg << std::endl;
 
     if (
         (in_arg.empty() && out_arg.empty() && eval_arg.empty()) ||
@@ -80,7 +79,10 @@ int main(int argc, char** argv)
     } else {
         auto args = parseConfString(conf_arg);
         Solver* solver;
-        if (sol_arg == "sa") {
+        if (sol_arg.empty())
+        {
+            solver = new SimpleSolver();
+        } else if (sol_arg == "sa") {
             solver = new SimulAnSolver();
         } else if (sol_arg == "rules") {
             solver = new RulesSolver();
@@ -103,6 +105,8 @@ void solve(Parser* parser, Solver* solver, std::vector<double> args) {
     auto end = std::chrono::high_resolution_clock::now();
 
     auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
+    std::cout << result[0] << '\t' << duration << std::endl;
+    /* Debug Output:
     std::cout << "Solution with " << result[0] << " labels found (" << duration << "ms)." << std::endl;
     if (result.size() > 1) {
         std::cout << "Output:";
@@ -111,6 +115,7 @@ void solve(Parser* parser, Solver* solver, std::vector<double> args) {
         }
         std::cout << std::endl;
     }
+    */
 }
 
 void eval(Parser* parser) {
@@ -130,23 +135,15 @@ void eval(Parser* parser) {
 
     if (val < -1)
     {
-        std::cout << "Solution is not valid, " << -val << "overlappings found.";
+        std::cout << "Error: Solution is not valid, " << -val << "overlappings found.";
     }
     else if (val == -1)
     {
-        std::cout << "Solution is not valid, 1 overlapping found.";
-    }
-    else if (val == 0)
-    {
-        std::cout << "Solution is valid, but only because no labels are set." << std::endl;
-    }
-    else if (val == 1)
-    {
-        std::cout << "Solution is valid with 1 label set." << std::endl;
+        std::cout << "Error: Solution is not valid, 1 overlapping found.";
     }
     else
     {
-        std::cout << "Solution is valid with " << val << " labels set." << std::endl;
+        std::cout << val << std::endl;
     }
 }
 
