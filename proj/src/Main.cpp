@@ -9,6 +9,7 @@
 #include "solver/solver/ReferenceHeuristic.hpp"
 #include "solver/solver/RulesSolver.hpp"
 #include "solver/Solver.hpp"
+#include "solver/solver/GurobiSolver.hpp"
 
 using namespace labeler;
 
@@ -90,6 +91,8 @@ int main(int argc, char** argv)
             solver = new SimpleSolver();
         } else if (sol_arg == "ref") {
             solver = new ReferenceHeuristic();
+        } else if (sol_arg == "ilp") {
+            solver = new GurobiSolver();
         } else {
             throw std::runtime_error("Invalid solver: " + sol_arg);
         }
