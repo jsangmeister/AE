@@ -7,8 +7,19 @@
 
 #include <vector>
 
-namespace labeler {
+namespace labeler
+{
 
+class LabelerCallback : public GRBCallback
+{
+    public:
+        LabelerCallback(GRBVar* vars, int num_vars) : m_vars(vars), m_num_vars(num_vars) {};
+    protected:
+        void callback();
+    private:
+        GRBVar* m_vars;
+        std::size_t m_num_vars;
+};
 
 class GurobiSolver : public Solver, Evaluator
 {

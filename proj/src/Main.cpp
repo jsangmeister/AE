@@ -80,18 +80,15 @@ int main(int argc, char** argv)
     } else {
         auto args = parseConfString(conf_arg);
         Solver* solver;
-        if (sol_arg.empty())
-        {
+        if (sol_arg.empty() || sol_arg == "simple") {
             solver = new SimpleSolver();
         } else if (sol_arg == "sa") {
             solver = new SimulAnSolver();
         } else if (sol_arg == "rules") {
             solver = new RulesSolver();
-        } else if (sol_arg == "simple") {
-            solver = new SimpleSolver();
         } else if (sol_arg == "ref") {
             solver = new ReferenceHeuristic();
-        } else if (sol_arg == "ilp") {
+        } else if (sol_arg == "ilp" || sol_arg == "gurobi") {
             solver = new GurobiSolver();
         } else {
             throw std::runtime_error("Invalid solver: " + sol_arg);

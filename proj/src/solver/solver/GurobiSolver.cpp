@@ -3,6 +3,24 @@
 namespace labeler
 {
 
+void LabelerCallback::callback()
+{
+    // call heuristic on every newly created node
+    if (where == GRB_CB_MIPNODE) {
+        std::cout << "**** New node ****" << std::endl;
+        std::cout << (getIntInfo(GRB_CB_MIPNODE_STATUS) == GRB_OPTIMAL) << std::endl;
+        // I guess it's not necessary to execute the heuristic on non-optimal nodes
+        // - at least it is like that in the examples...
+        if (getIntInfo(GRB_CB_MIPNODE_STATUS) == GRB_OPTIMAL) {
+            double* x = getNodeRel(m_vars, m_num_vars);
+            std::cout << *x << std::endl;
+            // TODO: execute heuristic
+            setSolution(m_vars, x, m_num_vars);
+            delete[] x;
+        }
+    }
+}
+
 void GurobiSolver::intToPos(LabelElement& el, int pos)
 {
     if(pos == -1)
@@ -46,12 +64,13 @@ std::vector<long unsigned int> GurobiSolver::solve(std::vector<LabelElement>* el
     GRBModel model = GRBModel(env);
 
     //Build Variables
-    GRBVar* variables = model.addVars(elements->size() * 4, GRB_BINARY);
+    std::size_t num_vars = elements->size() * 4;
+    GRBVar* variables = model.addVars(num_vars, GRB_BINARY);
 
     //Build objective function
     GRBLinExpr obj = 0;
     double coefficient = 1.0;
-    for (std::size_t i=0; i<elements->size() * 4; i++)
+    for (std::size_t i=0; i<num_vars; i++)
     {
         obj.addTerms(&coefficient, variables+i, 1);
     }
@@ -88,6 +107,10 @@ std::vector<long unsigned int> GurobiSolver::solve(std::vector<LabelElement>* el
         }
         elements->at(i).has_solution=false;
     }
+
+    // set callback
+    LabelerCallback cb(variables, num_vars);
+    model.setCallback(&cb);
 
     model.optimize();
 
