@@ -1,4 +1,5 @@
 #include "GurobiSolver.hpp"
+#include <algorithm>
 
 namespace labeler
 {
@@ -7,14 +8,60 @@ void LabelerCallback::callback()
 {
     // call heuristic on every newly created node
     if (where == GRB_CB_MIPNODE) {
-        std::cout << "**** New node ****" << std::endl;
-        std::cout << (getIntInfo(GRB_CB_MIPNODE_STATUS) == GRB_OPTIMAL) << std::endl;
+        //std::cout << "**** New node ****" << std::endl;
+        //std::cout << (getIntInfo(GRB_CB_MIPNODE_STATUS) == GRB_OPTIMAL) << std::endl;
         // I guess it's not necessary to execute the heuristic on non-optimal nodes
         // - at least it is like that in the examples...
+        //
+        // Not exactly, the reason is that getNodeRel only has a valid relaxation if GRB_OPTIMAL
         if (getIntInfo(GRB_CB_MIPNODE_STATUS) == GRB_OPTIMAL) {
             double* x = getNodeRel(m_vars, m_num_vars);
-            std::cout << *x << std::endl;
-            // TODO: execute heuristic
+            // We iterate over x in steps of size 4, therefore, we always look at the 4 variables
+            // corresponding to one point in the labeling problem
+            for (size_t i=0; i<m_num_vars; i+=4)
+            {
+                // We sort the indices of the 4 variables according to their relaxated solution in descending order
+                std::vector<size_t> index_sorted{0, 1, 2, 3};
+                std::sort(index_sorted.begin(), index_sorted.end(),
+                    [&](size_t i1, size_t i2){ return x[i+i1] > x[i+i2];});
+                size_t best_index = -1;
+                //Now we find the variable with the highest solution that is not blocked by a preceeding variable
+                for (auto s_i : index_sorted)
+                {
+                    bool matches = true;
+                    // ignore values below threshold
+                    if (x[i+s_i]<=ignore_below)
+                    {
+                        continue;
+                    }
+                    for (auto conflict_index : m_conflicts[i/4][s_i])
+                    {
+                        if (x[conflict_index] == 1.0)
+                        {
+                            matches = false;
+                            break;
+                        }
+                    }
+                    if(matches)
+                    {
+                        best_index = s_i;
+                        break;
+                    }
+                }
+                // Set the variable at the best index to 1, the others to 0
+                // If best variable is still -1, all variables are set to 0
+                for (size_t j=0; j<4; j++)
+                {
+                    if (j==best_index)
+                    {
+                        x[i+j]=1.0;
+                    }
+                    else
+                    {
+                        x[i+j]=0.0;
+                    }
+                }
+            }
             setSolution(m_vars, x, m_num_vars);
             delete[] x;
         }
@@ -56,6 +103,14 @@ int GurobiSolver::eval(std::vector<LabelElement>* elements, bool print_col)
 
 std::vector<long unsigned int> GurobiSolver::solve(std::vector<LabelElement>* elements, std::vector<double> args)
 {
+
+    bool use_conflict_graph_heuristic = false;
+    ConflictGraph conflicts;
+    if (args.size() > 0 && args[0] > 0) 
+    {
+        use_conflict_graph_heuristic = true;
+        conflicts = ConflictGraph(elements->size(), std::vector<std::vector<size_t>>(4));
+    }
 
     GRBEnv env = GRBEnv(true);
     //env.set("LogFile", "labeler_gurobi.log");
@@ -101,6 +156,15 @@ std::vector<long unsigned int> GurobiSolver::solve(std::vector<LabelElement>* el
                     {
                         auto loopConflictConstr = model.addConstr(variables[i*4+pos_e] + variables[j*4+pos_f] <= 1);
                         conflictConstr.push_back(loopConflictConstr);
+                        if (use_conflict_graph_heuristic)
+                        {
+                            //This doesn not(!) build a complete conflict graph. Each node does only
+                            // know with which precursor element it collides! 
+                            conflicts[j][pos_f].push_back(i*4+pos_e);
+                            
+                            // The snippet below would complete the conflict graph building
+                            //conflicts[i][pos_e].push_back(j*4+pos_f);
+                        }
                     }
                 }
             }
@@ -109,10 +173,22 @@ std::vector<long unsigned int> GurobiSolver::solve(std::vector<LabelElement>* el
     }
 
     // set callback
-    LabelerCallback cb(variables, num_vars);
-    model.setCallback(&cb);
-
-    model.optimize();
+    if (use_conflict_graph_heuristic)
+    {
+        double ignore_below = 0.5;
+        if (args.size() > 1)
+        {
+            ignore_below = args[1];
+        }
+        LabelerCallback cb(variables, num_vars, conflicts, ignore_below);
+        model.setCallback(&cb);
+        model.optimize();
+    }
+    else
+    {
+        model.optimize();
+    }
+    
 
     std::size_t active_label = 0;
     for (std::size_t i=0; i<elements->size(); i++)
