@@ -8,12 +8,7 @@ void LabelerCallback::callback()
 {
     // call heuristic on every newly created node
     if (where == GRB_CB_MIPNODE) {
-        //std::cout << "**** New node ****" << std::endl;
-        //std::cout << (getIntInfo(GRB_CB_MIPNODE_STATUS) == GRB_OPTIMAL) << std::endl;
-        // I guess it's not necessary to execute the heuristic on non-optimal nodes
-        // - at least it is like that in the examples...
-        //
-        // Not exactly, the reason is that getNodeRel only has a valid relaxation if GRB_OPTIMAL
+        // std::cout << "**** New node ****" << std::endl;
         if (getIntInfo(GRB_CB_MIPNODE_STATUS) == GRB_OPTIMAL) {
             double* x = getNodeRel(m_vars, m_num_vars);
             // We iterate over x in steps of size 4, therefore, we always look at the 4 variables
@@ -103,11 +98,20 @@ int GurobiSolver::eval(std::vector<LabelElement>* elements, bool print_col)
 
 std::vector<long unsigned int> GurobiSolver::solve(std::vector<LabelElement>* elements, std::vector<double> args)
 {
+    // args[...] meaning:
+    // 0:  whether or not to use the heuristic callback (default: 0)
+    // 1:  threshold to not set the label in the heuristic callback (default: 0.5)
+    // 2:  ConcurrentMIP (default: 1)
+    // 3:  MIPFocus (default: 0)
+    // 4:  Method (default: -1)
+    // 5:  Cuts (default: -1)
+    // 6:  Presolve (default: -1)
 
     bool use_conflict_graph_heuristic = false;
     ConflictGraph conflicts;
     if (args.size() > 0 && args[0] > 0) 
     {
+        // std::cout << "Using heuristic callback" << std::endl;
         use_conflict_graph_heuristic = true;
         conflicts = ConflictGraph(elements->size(), std::vector<std::vector<size_t>>(4));
     }
@@ -115,6 +119,29 @@ std::vector<long unsigned int> GurobiSolver::solve(std::vector<LabelElement>* el
     GRBEnv env = GRBEnv(true);
     //env.set("LogFile", "labeler_gurobi.log");
     env.set(GRB_IntParam_OutputFlag, 0);
+
+    // parameter tuning
+    if (args.size() > 2) {
+        // std::cout << "ConcurrentMIP=" << args[2] << std::endl;
+        env.set("ConcurrentMIP", std::to_string(args[2]));
+    }
+    if (args.size() > 3) {
+        // std::cout << "MIPFocus=" << args[3] << std::endl;
+        env.set("MIPFocus", std::to_string(args[3]));
+    }
+    if (args.size() > 4) {
+        // std::cout << "Method=" << args[4] << std::endl;
+        env.set("Method", std::to_string(args[4]));
+    }
+    if (args.size() > 5) {
+        // std::cout << "Cuts=" << args[5] << std::endl;
+        env.set("Cuts", std::to_string(args[5]));
+    }
+    if (args.size() > 6) {
+        // std::cout << "Presolve=" << args[6] << std::endl;
+        env.set("Presolve", std::to_string(args[6]));
+    }
+
     env.start();
     GRBModel model = GRBModel(env);
 
