@@ -49,9 +49,24 @@
 	\end{align*}
 \end{frame}
 
-\begin{frame}{Callback-Heuristik}
-    \centering
-    TODO Levin
+\begin{frame}[fragile]{Callback-Heuristik}
+    Relaxierte Lösung des ILP gegeben, dazu treshold $t$:
+    \begin{verbatim}
+    for each point in order:
+        sort Cp descending
+        for c in Cp:
+            if c > t and no conflict with any predecessor:
+                c = 1
+                set all in Cp\{c} = 0
+                break
+    \end{verbatim}
+    \onslide<2>{
+    Treshold $t$?
+    \begin{itemize}
+        \item Hoch: Punkt kann auch gar nicht gelabelt werden, wenn $C_p$ sehr "unentschlossen" 
+        \item Niedrig: Punkt wird nach Möglichkeit gelabelt, $C_p$ wird als Ranking nach Erfolgswk. gedeutet
+    \end{itemize}
+    }
 \end{frame}
 
 \begin{frame}{Güte der SA-Heuristik}
@@ -72,6 +87,39 @@
 \begin{frame}{Laufzeit verschiedener Parameter}
     \centering
     \includegraphics[width=270px]{time_ilp_parameters}
+\end{frame}
+
+\begin{frame}{ILP als Heuristik}
+    Setze timeout, übernehme dann bisherige beste Lösung des Solvers:
+    \begin{itemize}
+        \item Für einige mittelgroße Instanzen bessere Lösungen als SA-Heuristic
+        \item Große Instanze weiterhin problematisch
+        \item Black-Box-Magie, unklare Gütegarantien
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Ausblick}
+    Verstärkende Ungleichungen:\\[10pt]
+    \begin{figure}
+        \includegraphics[width=180px]{verstaerkend1}
+    \end{figure}
+    Relaxierte (Teil-)Lösung ist gültig
+\end{frame}
+
+\begin{frame}{Ausblick}
+    Verstärkende Ungleichungen:\\[10pt]
+    \begin{figure}
+        \includegraphics[width=180px]{verstaerkend2}
+    \end{figure}
+    Neue Ungleichung für Punkt auf blauer Fläche, beschränke dort Summe aller Label auf 1
+\end{frame}
+
+\begin{frame}{Ausblick}
+    Verstärkende Ungleichungen:\\[10pt]
+    \begin{figure}
+        \includegraphics[width=180px]{verstaerkend3}
+    \end{figure}
+    Rettet uns aber nicht vor anderen Relaxierungen
 \end{frame}
 
 \end{document}
