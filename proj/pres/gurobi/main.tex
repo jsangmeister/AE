@@ -63,7 +63,7 @@
     \onslide<2>{
     Treshold $t$?
     \begin{itemize}
-        \item Hoch: Punkt kann auch gar nicht gelabelt werden, wenn $C_p$ sehr "unentschlossen" 
+        \item Hoch: Punkt kann auch gar nicht gelabelt werden, wenn $C_p$ sehr "unentschlossen"
         \item Niedrig: Punkt wird nach Möglichkeit gelabelt, $C_p$ wird als Ranking nach Erfolgswk. gedeutet
     \end{itemize}
     }
@@ -86,7 +86,22 @@
 
 \begin{frame}{Laufzeit verschiedener Parameter}
     \centering
-    \includegraphics[width=270px]{time_ilp_parameters}
+    \begin{columns}
+        \begin{column}{0.6\linewidth}
+            \vspace{10px}
+            \includegraphics[width=270px]{time_ilp_parameters}
+        \end{column}
+        \begin{column}{0.2\linewidth}
+            Parameter:
+            \begin{itemize}
+                \item Concurrent
+                \item Focus
+                \item Method
+                \item Cuts
+                \item Presolve
+            \end{itemize}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 \begin{frame}{ILP als Heuristik}
