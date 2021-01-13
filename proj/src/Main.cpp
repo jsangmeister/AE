@@ -105,7 +105,7 @@ void solve(Parser* parser, Solver* solver, std::vector<double> args) {
     auto end = std::chrono::high_resolution_clock::now();
 
     auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
-    std::cout << result[0] << '\t' << duration << std::endl;
+    std::cout << result[0] << '\t' << duration/1000.0 << std::endl;
     /* Debug Output:
     std::cout << "Solution with " << result[0] << " labels found (" << duration << "ms)." << std::endl;
     if (result.size() > 1) {
