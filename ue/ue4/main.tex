@@ -21,7 +21,7 @@
 \author{Finn Stutzenstein, Levin Nemesch, Joshua Sangmeister}
 \institute{Algorithm Engineering - Übung 4}
 \titlegraphic{
-    \hfill\includegraphics[height=1.5cm]{unilogo.pdf}\\
+    \hfill\includegraphics[height=1.5cm]{unilogo.pdf}\\[-0.2cm]
     \hspace*{8.3cm} \textsc{AG Theoretische Informatik}
 }
 
@@ -32,7 +32,7 @@
 \begin{frame}{Definitionen}
     \begin{itemize}
         \item $V' := V \cup \{r\}$
-        \item $A = \{(v, w), (w, v) \mid \{v, w\} \in E\}$
+        \item $A := \{(v, w), (w, v) \mid \{v, w\} \in E\}$
         \item $A_r := \{(r, v) \mid v \in V\}$
         \item $A' := A \cup A_r$
         \item gerichteter Graph $G'=(V', A')$
@@ -51,7 +51,7 @@
     	        y_u & v=u\\
     	        0 & \text{sonst}
     	\end{cases} &\forall& u, v\in V\\
-    	&& 0 \leq f^u_{(v,w)} &\leq z_{(v,w)} &\forall& (v, w) \in A, u \in V\\
+    	&& 0 \leq f^u_{(v,w)} &\leq z_{(v,w)} &\forall& (v, w) \in A', u \in V\\
     	&& z_a, y_v &\in \{0, 1\} &\forall& a \in A, v \in V
 	\end{align*}
 \end{frame}
@@ -66,14 +66,14 @@
             \item Wählt nur eine der Kanten von $r$
         \end{itemize}
         \item Wählt $k$ Kanten aus $A$ und $k+1$ Knoten aus $V$ $\Rightarrow$ Keine Kreise möglich
-        \item Flussbedingungen: Zusammenhang und valide Auswahl an Kanten (Wenn $(u, v)$ oder $(v, u)$ gewählt wird, werden auch $u$ und $v$ gewählt).
+        \item Flussbedingungen stellen Graphzusammenhang her.
     \end{itemize}
 \end{frame}
 
 \begin{frame}{Flussbedingungen}
     \begin{itemize}
         \item Existiert ein Fluss an einer Kante, muss die Kante gewählt werden
-        \item Sei $v$ gewählt ($y_v=1$), dann existiert ein Pfad von $r$ nach $v$, auf dem alle Knoten gewählt sind. Flussbedingung für $v$:
+        \item Sei $v$ gewählt ($y_v=1$), dann existiert ein Pfad von $r$ nach $v$ mit dem Fluss 1. Flussbedingung für $v$:
         \[\sum_{w\in N(v)} f^v_{(w,v)} - \sum_{w\in N(v)} f^v_{(v,w)}=1\]
         \[\Rightarrow\exists w\in N(v):f^v_{(w,v)}=1\]
         \[\Rightarrow \sum_{x\in N(w)} f^v_{(x,w)} - \sum_{x\in N(w)} f^v_{(w,x)}=0\]
@@ -83,12 +83,12 @@
     \end{itemize}
 \end{frame}
 
-\begin{frame}{$\exists$-Teil:}
+\begin{frame}{MCF echt stärker als UCut: $\exists$-Teil}
     \centering
     \includegraphics[width=300px]{invalid.jpg}
 \end{frame}
 
-\begin{frame}{$\forall$-Teil:}
+\begin{frame}{MCF echt stärker als UCut: $\forall$-Teil}
     Projektion einer zulässigen MCF Lösung $(z'_{(v,w)}, y'_v,f'^u_{(v,w)})$ auf eine UCut Lösung $(x'_e, y'_v)$:
     \[x_{\{v,w\}}=z'_{(v,w)}+z'_{(w,v)}\]
     (Lasse $f'$ fallen) Ist UCut Lösung zulässig?
