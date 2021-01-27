@@ -2,29 +2,11 @@
 #define SRC_RULES_SOLVER_HPP_
 
 #include "../Solver.hpp"
-#include <set>
+#include "LabelCandidate.hpp"
 #include <map>
 
 namespace labeler
 {
-
-struct LabelCandidate {
-    LabelElement* element;
-    // possible positions:
-    // 0   1
-    //   x
-    // 2   3
-    short position;
-    std::set<LabelCandidate*> conflicts;
-
-    inline std::string toString() const {
-        return this->element->label + "_" + std::to_string(this->position);
-    }
-
-    inline bool operator==(const LabelCandidate& other) const {
-        return this->element == other.element && this->position == other.position;
-    }
-};
 
 class RulesSolver : public Solver
 {

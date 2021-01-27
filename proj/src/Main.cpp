@@ -11,6 +11,7 @@
 #include "solver/Solver.hpp"
 #include "solver/solver/GurobiSolver.hpp"
 #include "solver/solver/GurobiSolverAlt.hpp"
+#include "solver/solver/GurobiSolverExt.hpp"
 #include "solver/solver/CliqueSolver.hpp"
 
 using namespace labeler;
@@ -96,6 +97,8 @@ int main(int argc, char** argv)
             solver = new GurobiSolverAlt();
         } else if (sol_arg == "clique") {
             solver = new CliqueSolver();
+        } else if (sol_arg == "ext") {
+            solver = new GurobiSolverExt();
         } else {
             throw std::runtime_error("Invalid solver: " + sol_arg);
         }

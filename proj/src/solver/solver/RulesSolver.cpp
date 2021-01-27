@@ -60,6 +60,21 @@ std::vector<long unsigned int> RulesSolver::solve(std::vector<LabelElement>* ele
             }
         }
     }
+    int zeros = 0;
+    for (auto &map_entry : this->candidates_map) {
+        std::cout << map_entry.first->label << std::endl;
+        bool has_zero = false;
+        for (auto &candidate : map_entry.second) {
+            std::cout << candidate->toString() << ": " << candidate->conflicts.size() << std::endl;
+            if (candidate->conflicts.size() == 0) {
+                has_zero = true;
+            }
+        }
+        if (has_zero) {
+            zeros++;
+        }
+    }
+    std::cout << zeros << "/" << this->candidates_map.size() << std::endl;
     // this->print_map();
 
     // Phase 1: apply rules to all elements
@@ -71,6 +86,7 @@ std::vector<long unsigned int> RulesSolver::solve(std::vector<LabelElement>* ele
     }
     // std::cout << "Phase 1" << std::endl;
     this->applyRules(&set);
+    return std::vector<long unsigned int>{0};
 
     // Phase 2: remove troublemaker and apply rules exhaustively
     // std::cout << std::endl << std::endl << "Phase 2" << std::endl;
@@ -142,7 +158,7 @@ void RulesSolver::applyRules(std::set<LabelElement*>* elements)
             // Rule L1
             // we can directly set candidates without conflicts
             if (candidate->conflicts.size() == 0) {
-                // std::cout << "L1" << std::endl;
+                std::cout << "L1" << std::endl;
                 this->setAsSolution(candidate);
                 // this->print_map();
                 this->eliminateOtherCandidates(candidate);
@@ -158,7 +174,7 @@ void RulesSolver::applyRules(std::set<LabelElement*>* elements)
                         if (q_j->conflicts.size() == 1) {
                             auto p_l = *q_j->conflicts.begin();
                             if (p_l != candidate && p_l->element == element) {
-                                // std::cout << "L2" << std::endl;
+                                std::cout << "L2" << std::endl;
                                 this->setAsSolution(candidate);
                                 this->setAsSolution(q_j);
                                 this->addNeighbourhood(elements, candidate);
@@ -189,7 +205,7 @@ void RulesSolver::applyRules(std::set<LabelElement*>* elements)
                     }
                 }
                 if (is_clique) {
-                    // std::cout << "L3" << std::endl;
+                    std::cout << "L3" << std::endl;
                     this->setAsSolution(candidate);
                     this->addNeighbourhood(elements, candidate);
                     std::set<LabelCandidate*> copy;

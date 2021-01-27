@@ -1,7 +1,8 @@
 #include "CliqueSolver.hpp"
 #include <algorithm>
 #include <cstring>
-#include "mcqd/mcqd.h"
+
+// #include "mcqd/mcqd.h"
 
 namespace labeler
 {
@@ -86,10 +87,10 @@ std::vector<long unsigned int> CliqueSolver::solve(std::vector<LabelElement>* el
     }
 
     //start mcqd clique algorithm
-    Maxclique md(conn, num_vars, 0.025);
+    // Maxclique md(conn, num_vars, 0.025);
     int *qmax;
     int qsize;
-    md.mcqdyn(qmax, qsize);
+    // md.mcqdyn(qmax, qsize);
 
 
     for (int i=0; i<qsize; i++)
