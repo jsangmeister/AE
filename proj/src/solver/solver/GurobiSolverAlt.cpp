@@ -1,0 +1,190 @@
+#include "GurobiSolverAlt.hpp"
+#include <algorithm>
+
+namespace labeler
+{
+
+void GurobiSolverAlt::intToPos(LabelElement& el, int pos)
+{
+    if(pos == -1)
+    {
+        el.has_solution = false;
+        return;
+    }
+    el.has_solution = true;
+    el.label_x = el.x - (pos/2) * el.width;
+    el.label_y = el.y + (pos%2) * el.height;
+}
+
+
+int GurobiSolverAlt::eval(std::vector<LabelElement>* elements, bool print_col)
+{
+    int labels_set = 0;
+    int collisions = 0;
+    for(auto i=elements->begin(); i!=elements->end(); ++i)
+    {
+        if (!i->has_solution) continue;
+        ++labels_set;
+        for(auto j=i+1; j!=elements->end(); ++j)
+        {
+            if (j->has_solution && this->collision(*i, *j)) {
+                --collisions;
+                if(print_col) std::cout << "Collision between " << i->label << " and " 
+                << j->label << std::endl;
+            }        
+        }
+    }
+    return collisions !=0 ? collisions :labels_set;
+}
+
+std::vector<long unsigned int> GurobiSolverAlt::solve(std::vector<LabelElement>* elements, std::vector<double> args)
+{
+    // args[...] meaning:
+    // 0:  whether or not to use the heuristic callback (default: 0)
+    // 1:  threshold to not set the label in the heuristic callback (default: 0.5)
+    // 2:  ConcurrentMIP (default: 1)
+    // 3:  MIPFocus (default: 0)
+    // 4:  Method (default: -1)
+    // 5:  Cuts (default: -1)
+    // 6:  Presolve (default: -1)
+
+    bool use_conflict_graph_heuristic = false;
+    ConflictGraph conflicts;
+    if (args.size() > 0 && args[0] > 0) 
+    {
+        // std::cout << "Using heuristic callback" << std::endl;
+        use_conflict_graph_heuristic = true;
+        conflicts = ConflictGraph(elements->size(), std::vector<std::vector<size_t>>(4));
+    }
+
+    GRBEnv env = GRBEnv(true);
+    //env.set("LogFile", "labeler_gurobi.log");
+    env.set(GRB_IntParam_OutputFlag, 0);
+
+    // parameter tuning
+    if (args.size() > 2) {
+        // std::cout << "ConcurrentMIP=" << args[2] << std::endl;
+        env.set("ConcurrentMIP", std::to_string(args[2]));
+    }
+    if (args.size() > 3) {
+        // std::cout << "MIPFocus=" << args[3] << std::endl;
+        env.set("MIPFocus", std::to_string(args[3]));
+    }
+    if (args.size() > 4) {
+        // std::cout << "Method=" << args[4] << std::endl;
+        env.set("Method", std::to_string(args[4]));
+    }
+    if (args.size() > 5) {
+        // std::cout << "Cuts=" << args[5] << std::endl;
+        env.set("Cuts", std::to_string(args[5]));
+    }
+    if (args.size() > 6) {
+        // std::cout << "Presolve=" << args[6] << std::endl;
+        env.set("Presolve", std::to_string(args[6]));
+    }
+
+    env.start();
+    GRBModel model = GRBModel(env);
+
+    //Build Variables
+    std::size_t num_vars = elements->size() * 4;
+    GRBVar* variables = model.addVars(num_vars, GRB_BINARY);
+
+    //Build objective function
+    GRBLinExpr obj = 0;
+    double coefficient = 1.0;
+    for (std::size_t i=0; i<num_vars; i++)
+    {
+        obj.addTerms(&coefficient, variables+i, 1);
+    }
+    model.setObjective(obj, GRB_MAXIMIZE);
+
+
+    //Build Constraints
+    std::vector<GRBConstr> labelConstr;
+    std::vector<GRBConstr> conflictConstr;
+
+    std::size_t range4[] = {0, 1, 2, 3}; 
+    for (std::size_t i = 0; i<elements->size(); i++)
+    {
+        GRBConstr loopLabelConstr = model.addConstr(variables[i*4] + variables[i*4+1] + variables[i*4+2] + variables[i*4+3] <= 1);
+        labelConstr.push_back(loopLabelConstr);
+
+        LabelElement e = elements->at(i);
+        for (int pos_e: range4)
+        {
+            intToPos(e, pos_e);
+            size_t constrCounter = 0;
+            bool newConstr = false;
+            GRBLinExpr loopConflictLinExp = 0;
+            for (std::size_t j = i+1; j<elements->size(); j++)
+            {
+                LabelElement f = elements->at(j);
+                for (int pos_f: range4)
+                {
+                    intToPos(f, pos_f);
+                    if(collision(e,f))
+                    {
+                        ++constrCounter;
+                        newConstr = true;
+                        loopConflictLinExp += variables[j*4+pos_f];
+                        //auto loopConflictConstr = model.addConstr(variables[i*4+pos_e] + variables[j*4+pos_f] <= 1);
+                        //conflictConstr.push_back(loopConflictConstr);
+
+                        if (use_conflict_graph_heuristic)
+                        {
+                            //This doesn not(!) build a complete conflict graph. Each node does only
+                            // know with which precursor element it collides! 
+                            conflicts[j][pos_f].push_back(i*4+pos_e);
+                            
+                            // The snippet below would complete the conflict graph building
+                            //conflicts[i][pos_e].push_back(j*4+pos_f);
+                        }
+                    }
+                }
+            }
+            if (newConstr)
+            {
+                auto loopConflictConstr = model.addConstr(loopConflictLinExp <= constrCounter - (constrCounter * variables[i*4+pos_e]) );
+                conflictConstr.push_back(loopConflictConstr);
+            }
+        }
+        elements->at(i).has_solution=false;
+    }
+
+    // set callback
+    if (use_conflict_graph_heuristic)
+    {
+        double ignore_below = 0.5;
+        if (args.size() > 1)
+        {
+            ignore_below = args[1];
+        }
+        LabelerCallback cb(variables, num_vars, conflicts, ignore_below);
+        model.setCallback(&cb);
+        model.optimize();
+    }
+    else
+    {
+        model.optimize();
+    }
+    
+
+    std::size_t active_label = 0;
+    for (std::size_t i=0; i<elements->size(); i++)
+    {
+        for (auto j: range4)
+        {
+            if(variables[i*4+j].get(GRB_DoubleAttr_X)>0.9)
+            {
+                active_label++;
+                intToPos(elements->at(i), j);
+                break;
+            }
+        }
+    }
+
+    return std::vector<long unsigned int>{active_label};
+}
+
+}

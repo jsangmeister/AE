@@ -10,6 +10,8 @@
 #include "solver/solver/RulesSolver.hpp"
 #include "solver/Solver.hpp"
 #include "solver/solver/GurobiSolver.hpp"
+#include "solver/solver/GurobiSolverAlt.hpp"
+#include "solver/solver/CliqueSolver.hpp"
 
 using namespace labeler;
 
@@ -90,6 +92,10 @@ int main(int argc, char** argv)
             solver = new ReferenceHeuristic();
         } else if (sol_arg.empty() || sol_arg == "ilp" || sol_arg == "gurobi") {
             solver = new GurobiSolver();
+        } else if (sol_arg == "ilpAlt") {
+            solver = new GurobiSolverAlt();
+        } else if (sol_arg == "clique") {
+            solver = new CliqueSolver();
         } else {
             throw std::runtime_error("Invalid solver: " + sol_arg);
         }
