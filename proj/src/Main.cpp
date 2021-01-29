@@ -13,6 +13,7 @@
 #include "solver/solver/GurobiSolverAlt.hpp"
 #include "solver/solver/GurobiSolverExt.hpp"
 #include "solver/solver/CliqueSolver.hpp"
+#include "solver/solver/GurobiSolverPoint.hpp"
 
 using namespace labeler;
 
@@ -95,6 +96,8 @@ int main(int argc, char** argv)
             solver = new GurobiSolver();
         } else if (sol_arg == "ilpAlt") {
             solver = new GurobiSolverAlt();
+        } else if (sol_arg == "ilpPt") {
+            solver = new GurobiSolverPoint();
         } else if (sol_arg == "clique") {
             solver = new CliqueSolver();
         } else if (sol_arg == "ext") {
