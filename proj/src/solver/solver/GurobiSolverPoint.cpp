@@ -199,7 +199,7 @@ std::vector<long unsigned int> GurobiSolverPoint::solve(std::vector<LabelElement
         }
     }
 
-    std::cout << model.get(GRB_IntAttr_Status) << "\t";
+    // std::cout << model.get(GRB_IntAttr_Status) << "\t";
 
     return std::vector<long unsigned int>{active_label};
 }

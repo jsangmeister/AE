@@ -62,6 +62,44 @@ with open(target, 'r') as file:
         countries_parameters_data[line[0]].append([int(x.strip()) for x in line[1:]])
 
 
+target = "results_ilppt.csv"
+countries_ilppt_data = []
+with open(target, 'r') as file:
+    file.readline()
+    for line in csv.reader(file):
+        row = []
+        row.append(line[0])
+        row.extend([int(x.strip()) for x in line[1:]])
+        countries_ilppt_data.append(row)
+
+
+# ilp vs ilpPt (time)
+if True:
+    x = []
+    y = []
+    for i, run in enumerate(countries_ilppt_data):
+        sa_entry = countries_sa_best_runs_dict[run[0]]
+        ilprun = countries_ilp_data[i]
+        x.append(sa_entry[1])
+        if run[2] == 0:
+            if ilprun[2] == 0:
+                y.append(1)
+            else:
+                del x[-1]
+        else:
+            y.append(run[2]/ilprun[2])
+    plt.axhline(y=1, color='r', linestyle='-')
+    plt.scatter(x, y)
+
+    # plt.xscale("log")
+    # plt.yscale("log")
+    plt.xlabel("Number of Nodes")
+    plt.ylabel(r'$\frac{time_\mathrm{ilpPt}}{time_\mathrm{ilp}}$', fontsize = 16)
+    plt.title("Cities Instances")
+    plt.savefig("figures/time_ilppt_vs_ilp")
+    plt.close()
+
+
 # ilp vs sa
 if False:
     x = []
@@ -109,7 +147,7 @@ if False:
 
 
 # gurobi parameters
-if True:
+if False:
     x = []
     y = []
     xh = []
