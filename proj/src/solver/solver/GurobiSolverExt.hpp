@@ -18,6 +18,9 @@ class CutCallback : public GRBCallback
         CutCallback(GRBVar* vars, int num_vars, std::vector<std::vector<size_t>> conflicts)
         : m_vars(vars), m_num_vars(num_vars),  m_conflicts(conflicts), m_indices(conflicts.size()) {
             std::iota(std::begin(m_indices), std::end(m_indices), 0);
+            std::sort(this->m_indices.begin(), this->m_indices.end(), [&](long unsigned int k, long unsigned int l) {
+                return this->m_conflicts[k].size() > this->m_conflicts[l].size();
+            });
         };
     protected:
         void callback();
@@ -26,6 +29,7 @@ class CutCallback : public GRBCallback
         std::size_t m_num_vars;
         std::vector<std::vector<size_t>> m_conflicts;
         std::vector<long unsigned int> m_indices;
+        std::vector<std::pair<GRBTempConstr, std::vector<size_t>>> m_constr;
 };
 
 class GurobiSolverExt : public Solver
