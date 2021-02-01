@@ -19,8 +19,9 @@
 \newcommand{\red}[1]{\textcolor{red}{#1}}
 \newcommand{\grey}[1]{\textcolor{gray}{#1}}
 
-\title{A Block-Sorting Lossless Data Compression Algorithm}
-% \subtitle{}
+
+\title{\vspace*{1.5em}A Block-Sorting Lossless Data Compression Algorithm}
+\subtitle{\vspace*{-1.5em}}
 % \date{16. November 2020}
 \author{Finn Stutzenstein, Levin Nemesch, Joshua Sangmeister}
 \institute{Algorithm Engineering - Übung 5}
@@ -35,19 +36,19 @@
 
 \begin{frame}{Kompression}
 \begin{itemize}
-    \item Idee: Möglichst kurze Kodierung einer Information (z.B. Text)
+    \item Ziel: Möglichst kurze Kodierung einer Information (z.B. Text)
     \item Bsp. \emph{Run-length encoding}: aaaabbbcaaa $\longrightarrow$ 4a3bc3a
-    \item Problem: Finde gutes Encoding. Viele Ideen:
+    \item Problem: Finde gutes Kodierung. Viele Ansätze:
     \begin{itemize}
         \item 17\% e $\leftrightarrow$ 0,02\% q, ...
-        \item Ein Buchstabe wird besonders Häufig von einem anderen gefolgt
+        \item Ein Buchstabe wird besonders häufig von einem anderen gefolgt
     \end{itemize}
-    \item Hier: Ordne String entsprechend neu an, sodass ähnliche Buchstaben zusammen stehen. Ermöglicht einfachere Kodierungen.
+    \item Hier: Ordne Text entsprechend neu an, sodass ähnliche Buchstaben zusammen stehen. Ermöglicht einfachere Kodierungen.
 \end{itemize}
 \end{frame}
 
 \begin{frame}{Verfahren}
-    Gegeben: Eingabealphabet $\Sigma$, String $S\in \Sigma^*$ der Länge $N$
+    Gegeben: Eingabealphabet $\Sigma$, Text $S\in \Sigma^*$, $N=|S|$
     \begin{enumerate}
         \item Transformation: $S\rightarrow(L, I)$, $L$ ist Permutation von $S$, $I\in\{0,\ldots,N-1\}$.
         \item Kompression von $(L, I)$ (Kein spezifisches Verfahren erforderlich)
@@ -98,8 +99,6 @@
 	            \item in $M$ dann viele Zeilen mit '$he\ldots t$' hintereinander
 	            \item somit lange '$t$'-Folgen in $L$
 	        \end{itemize}
-	        
-	        $\longrightarrow$ $L$ effizient zu komprimieren
 	    \end{column}
 	    \begin{column}{0.46\textwidth}
 	        \includegraphics[width=200px]{graphics/table.jpg}
